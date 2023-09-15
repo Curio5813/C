@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <math.h>
+
+float a, b, q1, q2, q3, c;
+
+int main(){
+	printf("Digite um valor para a e b: ");
+	scanf("%f%f", &a, &b);
+
+	q1 = (a * a);
+	q2 = (b * b);
+	q3 = (q1 + q2);
+	c = q3;
+
+
+	printf("%f", c);
+
+	return 0;
+
+}
+
