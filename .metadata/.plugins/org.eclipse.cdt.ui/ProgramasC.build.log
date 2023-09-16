@@ -1,6 +1,19 @@
-15:01:13 **** Incremental Build of configuration Debug for project ProgramasC ****
+03:04:57 **** Incremental Build of configuration Debug for project ProgramasC ****
 make all 
-make: Nada a ser feito para 'all'.
+Building file: ../problem297.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"problem297.d" -MT"problem297.o" -o "problem297.o" "../problem297.c"
+../problem297.c: In function ‘collatz_in_the_range’:
+../problem297.c:31:1: warning: control reaches end of non-void function [-Wreturn-type]
+   31 | }
+      | ^
+Finished building: ../problem297.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./problem297.o   -lm
+Finished building target: ProgramasC
+ 
 
-15:01:14 Build Finished. 0 errors, 0 warnings. (took 1s.179ms)
+03:04:58 Build Finished. 0 errors, 1 warnings. (took 1s.250ms)
 
