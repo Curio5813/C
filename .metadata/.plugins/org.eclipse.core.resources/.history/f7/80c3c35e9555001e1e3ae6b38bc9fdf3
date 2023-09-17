@@ -1,0 +1,69 @@
+#include <stdio.h>
+
+int v[9], maior = 0, menor = 99999, n = 0;
+
+int ordenar_pra_frente(){
+
+	for(int i = 0; i < 9; i++){
+		printf("Digite o %dº número: ", i + 1);
+		scanf("%d", &v[i]);
+
+	}for(int i = 0; i < 9; i++){
+		if(v[i] >= v[i + 1]){
+			while(v[i] >= v[i + 1]){
+				maior = v[i];
+				menor = v[i + 1];
+				v[i + 1] = maior;
+				v[i] = menor;
+				i += 1;
+				if(i >= 9){
+					break;
+				}
+			}
+		}n += 1;
+		if(n >= 362880){
+			break;
+		}i = -1;
+	}n = 0;
+
+	return v;
+}
+
+
+int ordenar_pra_tras(v){
+
+	for(int k = 0; k < 9; k++){
+		printf("%d ", k);
+		if(v[k] <= v[k - 1]){
+			while(v[k] <= v[k - 1]){
+				maior = v[k - 1];
+				menor = v[k];
+				v[k - 1] = menor;
+				v[k] = maior;
+				k -= 1;
+				if(k <= 0){
+					break;
+				}
+			}
+		}n += 1;
+		if(n >= 9){
+			break;
+		}k = -1;
+
+	}printf("\n");
+	for(int i = 0; i < 9; i++){
+		printf("%d ", v[i]);
+	}
+
+}
+
+
+int main(){
+
+	ordenar_pra_frente();
+
+	ordenar_pra_tras();
+
+	return 0;
+
+}
