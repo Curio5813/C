@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ProgramasCFonte/beecrowd/teste02.c&apos; to &apos;carrega_ou_nao_carrega.c&apos;" description="Rename resource &apos;teste02.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="beecrowd/teste02.c" name="carrega_ou_nao_carrega.c" stamp="1695060260459" updateReferences="true"/>
+</session>

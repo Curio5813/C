@@ -540,3 +540,395 @@ Invoking: GCC C Linker
 gcc -lm  -o "ProgramasC" ./teste02.o   -lm
 Finished building target: ProgramasC
  
+18:11:34 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../teste02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"teste02.d" -MT"teste02.o" -o "teste02.o" "../teste02.c"
+Finished building: ../teste02.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./teste02.o   -lm
+Finished building target: ProgramasC
+ 
+18:11:43 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+18:11:59 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+18:17:15 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../teste02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"teste02.d" -MT"teste02.o" -o "teste02.o" "../teste02.c"
+Finished building: ../teste02.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./teste02.o   -lm
+Finished building target: ProgramasC
+ 
+18:22:54 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../teste02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"teste02.d" -MT"teste02.o" -o "teste02.o" "../teste02.c"
+Finished building: ../teste02.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./teste02.o   -lm
+Finished building target: ProgramasC
+ 
+18:23:01 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+18:25:44 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../teste02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"teste02.d" -MT"teste02.o" -o "teste02.o" "../teste02.c"
+Finished building: ../teste02.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./teste02.o   -lm
+Finished building target: ProgramasC
+ 
+18:25:52 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+18:26:17 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+18:26:47 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+18:28:13 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../teste02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"teste02.d" -MT"teste02.o" -o "teste02.o" "../teste02.c"
+Finished building: ../teste02.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./teste02.o   -lm
+Finished building target: ProgramasC
+ 
+18:28:52 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+18:30:58 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../teste02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"teste02.d" -MT"teste02.o" -o "teste02.o" "../teste02.c"
+../teste02.c: In function ‘main’:
+../teste02.c:25:20: warning: this ‘else’ clause does not guard... [-Wmisleading-indentation]
+   25 |                    else
+      |                    ^~~~
+../teste02.c:27:28: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘else’
+   27 |                            num2 /= 2;
+      |                            ^~~~
+Finished building: ../teste02.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./teste02.o   -lm
+Finished building target: ProgramasC
+ 
+18:31:51 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../teste02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"teste02.d" -MT"teste02.o" -o "teste02.o" "../teste02.c"
+../teste02.c: In function ‘main’:
+../teste02.c:25:20: warning: this ‘else’ clause does not guard... [-Wmisleading-indentation]
+   25 |                    else
+      |                    ^~~~
+../teste02.c:27:28: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘else’
+   27 |                            num2 /= 2;
+      |                            ^~~~
+Finished building: ../teste02.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./teste02.o   -lm
+Finished building target: ProgramasC
+ 
+18:32:14 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../teste02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"teste02.d" -MT"teste02.o" -o "teste02.o" "../teste02.c"
+../teste02.c: In function ‘main’:
+../teste02.c:25:20: warning: this ‘else’ clause does not guard... [-Wmisleading-indentation]
+   25 |                    else
+      |                    ^~~~
+../teste02.c:27:28: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘else’
+   27 |                            num2 /= 2;
+      |                            ^~~~
+Finished building: ../teste02.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./teste02.o   -lm
+Finished building target: ProgramasC
+ 
+18:33:58 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../teste02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"teste02.d" -MT"teste02.o" -o "teste02.o" "../teste02.c"
+Finished building: ../teste02.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./teste02.o   -lm
+Finished building target: ProgramasC
+ 
+18:37:10 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../teste02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"teste02.d" -MT"teste02.o" -o "teste02.o" "../teste02.c"
+Finished building: ../teste02.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./teste02.o   -lm
+Finished building target: ProgramasC
+ 
+18:41:18 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../teste02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"teste02.d" -MT"teste02.o" -o "teste02.o" "../teste02.c"
+../teste02.c: In function ‘main’:
+../teste02.c:51:1: error: expected declaration or statement at end of input
+   51 | }
+      | ^
+make: *** [subdir.mk:20: teste02.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:42:05 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../teste02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"teste02.d" -MT"teste02.o" -o "teste02.o" "../teste02.c"
+Finished building: ../teste02.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./teste02.o   -lm
+Finished building target: ProgramasC
+ 
+18:42:18 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+18:42:59 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../teste02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"teste02.d" -MT"teste02.o" -o "teste02.o" "../teste02.c"
+Finished building: ../teste02.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./teste02.o   -lm
+Finished building target: ProgramasC
+ 
+18:43:59 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../teste02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"teste02.d" -MT"teste02.o" -o "teste02.o" "../teste02.c"
+Finished building: ../teste02.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./teste02.o   -lm
+Finished building target: ProgramasC
+ 
+18:44:23 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../teste02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"teste02.d" -MT"teste02.o" -o "teste02.o" "../teste02.c"
+Finished building: ../teste02.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./teste02.o   -lm
+Finished building target: ProgramasC
+ 
+18:45:21 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+18:51:48 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../teste02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"teste02.d" -MT"teste02.o" -o "teste02.o" "../teste02.c"
+../teste02.c: In function ‘main’:
+../teste02.c:54:1: error: expected declaration or statement at end of input
+   54 | }
+      | ^
+make: *** [subdir.mk:20: teste02.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:53:36 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../teste02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"teste02.d" -MT"teste02.o" -o "teste02.o" "../teste02.c"
+Finished building: ../teste02.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./teste02.o   -lm
+Finished building target: ProgramasC
+ 
+18:54:10 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../teste02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"teste02.d" -MT"teste02.o" -o "teste02.o" "../teste02.c"
+../teste02.c: In function ‘main’:
+../teste02.c:55:1: error: expected declaration or statement at end of input
+   55 | }
+      | ^
+../teste02.c:55:1: error: expected declaration or statement at end of input
+make: *** [subdir.mk:20: teste02.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:54:19 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../teste02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"teste02.d" -MT"teste02.o" -o "teste02.o" "../teste02.c"
+../teste02.c: In function ‘main’:
+../teste02.c:53:1: error: expected declaration or statement at end of input
+   53 | }
+      | ^
+../teste02.c:53:1: error: expected declaration or statement at end of input
+../teste02.c:53:1: error: expected declaration or statement at end of input
+make: *** [subdir.mk:20: teste02.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:54:33 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../teste02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"teste02.d" -MT"teste02.o" -o "teste02.o" "../teste02.c"
+../teste02.c: In function ‘main’:
+../teste02.c:55:1: error: expected declaration or statement at end of input
+   55 | }
+      | ^
+make: *** [subdir.mk:20: teste02.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:56:05 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../teste02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"teste02.d" -MT"teste02.o" -o "teste02.o" "../teste02.c"
+../teste02.c: In function ‘main’:
+../teste02.c:17:25: warning: this ‘else’ clause does not guard... [-Wmisleading-indentation]
+   17 |                         else
+      |                         ^~~~
+../teste02.c:19:33: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘else’
+   19 |                                 num1 /= 2;
+      |                                 ^~~~
+../teste02.c:25:25: warning: this ‘else’ clause does not guard... [-Wmisleading-indentation]
+   25 |                         else
+      |                         ^~~~
+../teste02.c:27:33: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘else’
+   27 |                                 num2 /= 2;
+      |                                 ^~~~
+../teste02.c:53:1: error: expected declaration or statement at end of input
+   53 | }
+      | ^
+make: *** [subdir.mk:20: teste02.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:56:37 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../teste02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"teste02.d" -MT"teste02.o" -o "teste02.o" "../teste02.c"
+../teste02.c: In function ‘main’:
+../teste02.c:53:1: error: expected declaration or statement at end of input
+   53 | }
+      | ^
+make: *** [subdir.mk:20: teste02.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:56:54 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../teste02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"teste02.d" -MT"teste02.o" -o "teste02.o" "../teste02.c"
+Finished building: ../teste02.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./teste02.o   -lm
+Finished building target: ProgramasC
+ 
+18:57:31 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../teste02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"teste02.d" -MT"teste02.o" -o "teste02.o" "../teste02.c"
+Finished building: ../teste02.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./teste02.o   -lm
+Finished building target: ProgramasC
+ 
+18:59:21 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../teste02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"teste02.d" -MT"teste02.o" -o "teste02.o" "../teste02.c"
+Finished building: ../teste02.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./teste02.o   -lm
+Finished building target: ProgramasC
+ 
+19:00:28 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../teste02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"teste02.d" -MT"teste02.o" -o "teste02.o" "../teste02.c"
+Finished building: ../teste02.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./teste02.o   -lm
+Finished building target: ProgramasC
+ 
+19:02:10 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../teste02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"teste02.d" -MT"teste02.o" -o "teste02.o" "../teste02.c"
+Finished building: ../teste02.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./teste02.o   -lm
+Finished building target: ProgramasC
+ 
+19:04:55 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../carrega_ou_nao_carrega.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"carrega_ou_nao_carrega.d" -MT"carrega_ou_nao_carrega.o" -o "carrega_ou_nao_carrega.o" "../carrega_ou_nao_carrega.c"
+Finished building: ../carrega_ou_nao_carrega.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./carrega_ou_nao_carrega.o   -lm
+Finished building target: ProgramasC
+ 
