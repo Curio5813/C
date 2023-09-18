@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+   int num;
+   int bin[8]; // <---------------
+   int i;
+   char num1[32];
+
+   printf("Digite o número decimal para ser convertido: ");
+   scanf("%d", &num);
+
+   for (i = 7; i >= 0; i--)
+   {
+      if (num % 2 == 0)
+         bin[i] = 0;
+      else
+         bin[i] = 1;
+      num /= 2;
+   }
+
+   for (i = 0; i < 8; i++)
+       printf("%d", bin[i]);
+
+   printf("\n");
+
+   return 0;
+}

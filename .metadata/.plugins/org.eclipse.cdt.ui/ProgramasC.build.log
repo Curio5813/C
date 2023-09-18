@@ -1,6 +1,19 @@
-21:18:27 **** Incremental Build of configuration Debug for project ProgramasC ****
+16:30:49 **** Incremental Build of configuration Debug for project ProgramasC ****
 make all 
-make: Nada a ser feito para 'all'.
+Building file: ../teste02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"teste02.d" -MT"teste02.o" -o "teste02.o" "../teste02.c"
+../teste02.c: In function ‘main’:
+../teste02.c:7:28: warning: unused variable ‘bin3’ [-Wunused-variable]
+    7 |    int bin1[32], bin2[32], bin3[32]; // <---------------
+      |                            ^~~~
+Finished building: ../teste02.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./teste02.o   -lm
+Finished building target: ProgramasC
+ 
 
-21:18:29 Build Finished. 0 errors, 0 warnings. (took 1s.214ms)
+16:30:50 Build Finished. 0 errors, 1 warnings. (took 1s.181ms)
 

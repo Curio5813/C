@@ -1,36 +1,41 @@
 #include <stdio.h>
+#include <stdlib.h>
 
-int v[9], maior = 0, menor = 99999;
+int main()
+{
+   int num1, num2;
+   int bin1[32], bin2[32], bin3[32];
+   int i;
 
-long long int n = 0;
+   printf("Digite dois número inteiros decimal: ");
+   scanf("%d%d", &num1, &num2);
 
-int main(){
+   for (i = 31; i >= 0; i--)
+   {
+      if (num1 % 2 == 0)
+         bin1[i] = 0;
+      else
+         bin1[i] = 1;
+      num1 /= 2;
 
-	for(int i = 0; i < 9; i++){
-		printf("Digite o %dº número: ", i + 1);
-		scanf("%d", &v[i]);
+   }for (i = 31; i >= 0; i--)
+      {
+         if (num2 % 2 == 0)
+            bin2[i] = 0;
+         else
+            bin2[i] = 1;
+         num2 /= 2;
+      }
 
-	}for(int i = 0; i < 9; i++){
-		if(v[i] >= v[i + 1]){
-			while(v[i] >= v[i + 1]){
-				maior = v[i];
-				menor = v[i + 1];
-				v[i + 1] = maior;
-				v[i] = menor;
-				i += 1;
-				if(i >= 9){
-					break;
-				}
-			}
-		}n += 1;
-		if(n >= 999999){
-			break;
-		}i = -1;
+   for (i = 0; i < 32; i++)
+       printf("%d", bin1[i]);
 
-	}for(int i = 0; i < 9; i++){
-		printf("%d ", v[i]);
-	}
+   printf("\n");
 
-	return 0;
+   for (i = 0; i < 32; i++)
+          printf("%d", bin2[i]);
 
+      printf("\n");
+
+   return 0;
 }

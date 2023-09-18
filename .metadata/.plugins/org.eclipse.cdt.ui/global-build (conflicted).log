@@ -1,0 +1,290 @@
+15:43:03 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio13.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio13.d" -MT"exercicio13.o" -o "exercicio13.o" "../exercicio13.c"
+../exercicio13.c: In function ‘operacoes_aritmetica’:
+../exercicio13.c:28:62: error: expected ‘)’ before ‘soma’
+   28 |                 printf("A soma de %d por %d é %d", num1, num2 soma);
+      |                       ~                                      ^~~~~
+      |                                                              )
+../exercicio13.c:28:48: warning: format ‘%d’ expects a matching ‘int’ argument [-Wformat=]
+   28 |                 printf("A soma de %d por %d é %d", num1, num2 soma);
+      |                                               ~^
+      |                                                |
+      |                                                int
+../exercicio13.c: At top level:
+../exercicio13.c:47:1: error: expected identifier or ‘(’ before ‘}’ token
+   47 | }
+      | ^
+../exercicio13.c: In function ‘main’:
+../exercicio13.c:52:9: warning: implicit declaration of function ‘operacao_aritmetica’; did you mean ‘operacoes_aritmetica’? [-Wimplicit-function-declaration]
+   52 |         operacao_aritmetica();
+      |         ^~~~~~~~~~~~~~~~~~~
+      |         operacoes_aritmetica
+../exercicio13.c: In function ‘operacoes_aritmetica’:
+../exercicio13.c:45:9: warning: control reaches end of non-void function [-Wreturn-type]
+   45 |         }
+      |         ^
+make: *** [subdir.mk:20: exercicio13.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:43:36 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio13.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio13.d" -MT"exercicio13.o" -o "exercicio13.o" "../exercicio13.c"
+../exercicio13.c:47:1: error: expected identifier or ‘(’ before ‘}’ token
+   47 | }
+      | ^
+../exercicio13.c: In function ‘main’:
+../exercicio13.c:52:9: warning: implicit declaration of function ‘operacao_aritmetica’; did you mean ‘operacoes_aritmetica’? [-Wimplicit-function-declaration]
+   52 |         operacao_aritmetica();
+      |         ^~~~~~~~~~~~~~~~~~~
+      |         operacoes_aritmetica
+../exercicio13.c: In function ‘operacoes_aritmetica’:
+../exercicio13.c:45:9: warning: control reaches end of non-void function [-Wreturn-type]
+   45 |         }
+      |         ^
+make: *** [subdir.mk:20: exercicio13.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:44:45 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio13.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio13.d" -MT"exercicio13.o" -o "exercicio13.o" "../exercicio13.c"
+../exercicio13.c:41:10: warning: "/*" within comment [-Wcomment]
+   41 |         }/*else if(op[0] == '/'){
+      |           
+Finished building: ../exercicio13.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio13.o   -lm
+Finished building target: ProgramasC
+ 
+15:45:38 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio13.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio13.d" -MT"exercicio13.o" -o "exercicio13.o" "../exercicio13.c"
+../exercicio13.c: In function ‘operacoes_aritmetica’:
+../exercicio13.c:43:40: warning: format ‘%lf’ expects argument of type ‘double’, but argument 2 has type ‘int’ [-Wformat=]
+   43 |                 printf("A divisão de %lf por %lf é %.2lf", num1, num2, divisao);
+      |                                      ~~^                   ~~~~
+      |                                        |                   |
+      |                                        double              int
+      |                                      %d
+../exercicio13.c:43:48: warning: format ‘%lf’ expects argument of type ‘double’, but argument 3 has type ‘int’ [-Wformat=]
+   43 |                 printf("A divisão de %lf por %lf é %.2lf", num1, num2, divisao);
+      |                                              ~~^                 ~~~~
+      |                                                |                 |
+      |                                                double            int
+      |                                              %d
+../exercicio13.c: In function ‘main’:
+../exercicio13.c:52:9: warning: implicit declaration of function ‘operacao_aritmetica’; did you mean ‘operacoes_aritmetica’? [-Wimplicit-function-declaration]
+   52 |         operacao_aritmetica();
+      |         ^~~~~~~~~~~~~~~~~~~
+      |         operacoes_aritmetica
+../exercicio13.c: In function ‘operacoes_aritmetica’:
+../exercicio13.c:47:1: warning: control reaches end of non-void function [-Wreturn-type]
+   47 | }
+      | ^
+Finished building: ../exercicio13.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio13.o   -lm
+/usr/bin/ld: ./exercicio13.o: na função "main":
+/home/marcos/Computacao/C/ProgramasC/Debug/../exercicio13.c:52: referência não definida para "operacao_aritmetica"
+collect2: error: ld returned 1 exit status
+make: *** [makefile:31: ProgramasC] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:46:00 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio13.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio13.d" -MT"exercicio13.o" -o "exercicio13.o" "../exercicio13.c"
+../exercicio13.c: In function ‘main’:
+../exercicio13.c:52:9: warning: implicit declaration of function ‘operacao_aritmetica’; did you mean ‘operacoes_aritmetica’? [-Wimplicit-function-declaration]
+   52 |         operacao_aritmetica();
+      |         ^~~~~~~~~~~~~~~~~~~
+      |         operacoes_aritmetica
+../exercicio13.c: In function ‘operacoes_aritmetica’:
+../exercicio13.c:47:1: warning: control reaches end of non-void function [-Wreturn-type]
+   47 | }
+      | ^
+Finished building: ../exercicio13.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio13.o   -lm
+/usr/bin/ld: ./exercicio13.o: na função "main":
+/home/marcos/Computacao/C/ProgramasC/Debug/../exercicio13.c:52: referência não definida para "operacao_aritmetica"
+collect2: error: ld returned 1 exit status
+make: *** [makefile:31: ProgramasC] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:46:25 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio13.o   -lm
+/usr/bin/ld: ./exercicio13.o: na função "main":
+/home/marcos/Computacao/C/ProgramasC/Debug/../exercicio13.c:52: referência não definida para "operacao_aritmetica"
+collect2: error: ld returned 1 exit status
+make: *** [makefile:31: ProgramasC] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:46:50 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio13.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio13.d" -MT"exercicio13.o" -o "exercicio13.o" "../exercicio13.c"
+../exercicio13.c: In function ‘operacoes_aritmetica’:
+../exercicio13.c:43:40: warning: format ‘%lf’ expects argument of type ‘double’, but argument 2 has type ‘int’ [-Wformat=]
+   43 |                 printf("A divisão de %lf por %lf é %.2lf", num1, num2, divisao);
+      |                                      ~~^                   ~~~~
+      |                                        |                   |
+      |                                        double              int
+      |                                      %d
+../exercicio13.c:43:48: warning: format ‘%lf’ expects argument of type ‘double’, but argument 3 has type ‘int’ [-Wformat=]
+   43 |                 printf("A divisão de %lf por %lf é %.2lf", num1, num2, divisao);
+      |                                              ~~^                 ~~~~
+      |                                                |                 |
+      |                                                double            int
+      |                                              %d
+../exercicio13.c:47:1: warning: control reaches end of non-void function [-Wreturn-type]
+   47 | }
+      | ^
+Finished building: ../exercicio13.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio13.o   -lm
+Finished building target: ProgramasC
+ 
+15:47:07 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+15:47:19 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+15:47:28 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+15:47:57 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio13.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio13.d" -MT"exercicio13.o" -o "exercicio13.o" "../exercicio13.c"
+../exercicio13.c: In function ‘operacoes_aritmetica’:
+../exercicio13.c:43:42: warning: format ‘%lf’ expects argument of type ‘double’, but argument 2 has type ‘int’ [-Wformat=]
+   43 |                 printf("A divisão de %.0lf por %.0lf é %.2lf", num1, num2, divisao);
+      |                                      ~~~~^                     ~~~~
+      |                                          |                     |
+      |                                          double                int
+      |                                      %.0d
+../exercicio13.c:43:52: warning: format ‘%lf’ expects argument of type ‘double’, but argument 3 has type ‘int’ [-Wformat=]
+   43 |                 printf("A divisão de %.0lf por %.0lf é %.2lf", num1, num2, divisao);
+      |                                                ~~~~^                 ~~~~
+      |                                                    |                 |
+      |                                                    double            int
+      |                                                %.0d
+../exercicio13.c:47:1: warning: control reaches end of non-void function [-Wreturn-type]
+   47 | }
+      | ^
+Finished building: ../exercicio13.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio13.o   -lm
+Finished building target: ProgramasC
+ 
+15:48:23 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio13.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio13.d" -MT"exercicio13.o" -o "exercicio13.o" "../exercicio13.c"
+../exercicio13.c: In function ‘operacoes_aritmetica’:
+../exercicio13.c:43:42: warning: format ‘%lf’ expects argument of type ‘double’, but argument 2 has type ‘int’ [-Wformat=]
+   43 |                 printf("A divisão de %.1lf por %.1lf é %.2lf", num1, num2, divisao);
+      |                                      ~~~~^                     ~~~~
+      |                                          |                     |
+      |                                          double                int
+      |                                      %.1d
+../exercicio13.c:43:52: warning: format ‘%lf’ expects argument of type ‘double’, but argument 3 has type ‘int’ [-Wformat=]
+   43 |                 printf("A divisão de %.1lf por %.1lf é %.2lf", num1, num2, divisao);
+      |                                                ~~~~^                 ~~~~
+      |                                                    |                 |
+      |                                                    double            int
+      |                                                %.1d
+../exercicio13.c:47:1: warning: control reaches end of non-void function [-Wreturn-type]
+   47 | }
+      | ^
+Finished building: ../exercicio13.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio13.o   -lm
+Finished building target: ProgramasC
+ 
+15:49:52 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio13.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio13.d" -MT"exercicio13.o" -o "exercicio13.o" "../exercicio13.c"
+../exercicio13.c: In function ‘operacoes_aritmetica’:
+../exercicio13.c:47:1: warning: control reaches end of non-void function [-Wreturn-type]
+   47 | }
+      | ^
+Finished building: ../exercicio13.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio13.o   -lm
+Finished building target: ProgramasC
+ 
+15:50:51 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio13.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio13.d" -MT"exercicio13.o" -o "exercicio13.o" "../exercicio13.c"
+../exercicio13.c: In function ‘operacoes_aritmetica’:
+../exercicio13.c:47:1: warning: control reaches end of non-void function [-Wreturn-type]
+   47 | }
+      | ^
+Finished building: ../exercicio13.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio13.o   -lm
+Finished building target: ProgramasC
+ 
+15:51:00 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+15:54:18 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../teste02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"teste02.d" -MT"teste02.o" -o "teste02.o" "../teste02.c"
+Finished building: ../teste02.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./teste02.o   -lm
+Finished building target: ProgramasC
+ 
+15:57:56 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../teste02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"teste02.d" -MT"teste02.o" -o "teste02.o" "../teste02.c"
+Finished building: ../teste02.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./teste02.o   -lm
+Finished building target: ProgramasC
+ 
+15:58:06 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
