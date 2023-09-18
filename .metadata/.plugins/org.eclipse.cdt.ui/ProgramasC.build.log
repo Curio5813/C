@@ -1,15 +1,15 @@
-19:04:55 **** Incremental Build of configuration Debug for project ProgramasC ****
+20:24:48 **** Incremental Build of configuration Debug for project ProgramasC ****
 make all 
-Building file: ../carrega_ou_nao_carrega.c
+Building file: ../teste01.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"carrega_ou_nao_carrega.d" -MT"carrega_ou_nao_carrega.o" -o "carrega_ou_nao_carrega.o" "../carrega_ou_nao_carrega.c"
-Finished building: ../carrega_ou_nao_carrega.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"teste01.d" -MT"teste01.o" -o "teste01.o" "../teste01.c"
+Finished building: ../teste01.c
  
 Building target: ProgramasC
 Invoking: GCC C Linker
-gcc -lm  -o "ProgramasC" ./carrega_ou_nao_carrega.o   -lm
+gcc -lm  -o "ProgramasC" ./teste01.o   -lm
 Finished building target: ProgramasC
  
 
-19:04:56 Build Finished. 0 errors, 0 warnings. (took 1s.232ms)
+20:24:50 Build Finished. 0 errors, 0 warnings. (took 1s.416ms)
 
