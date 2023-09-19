@@ -944,3 +944,100 @@ Invoking: GCC C Linker
 gcc -lm  -o "ProgramasC" ./teste01.o   -lm
 Finished building target: ProgramasC
  
+15:28:04 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio14.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio14.d" -MT"exercicio14.o" -o "exercicio14.o" "../exercicio14.c"
+../exercicio14.c: In function ‘consumo’:
+../exercicio14.c:20:25: warning: comparison of constant ‘14’ with boolean expression is always true [-Wbool-compare]
+   20 |         }else if(8 <= c <= 14){
+      |                         ^~
+../exercicio14.c:20:20: warning: comparisons like ‘X<=Y<=Z’ do not have their mathematical meaning [-Wparentheses]
+   20 |         }else if(8 <= c <= 14){
+      |                  ~~^~~~
+../exercicio14.c:28:1: warning: control reaches end of non-void function [-Wreturn-type]
+   28 | }
+      | ^
+Finished building: ../exercicio14.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio14.o   -lm
+Finished building target: ProgramasC
+ 
+15:28:43 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio14.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio14.d" -MT"exercicio14.o" -o "exercicio14.o" "../exercicio14.c"
+../exercicio14.c: In function ‘consumo’:
+../exercicio14.c:20:25: warning: comparison of constant ‘14’ with boolean expression is always true [-Wbool-compare]
+   20 |         }else if(8 <= c <= 14){
+      |                         ^~
+../exercicio14.c:20:20: warning: comparisons like ‘X<=Y<=Z’ do not have their mathematical meaning [-Wparentheses]
+   20 |         }else if(8 <= c <= 14){
+      |                  ~~^~~~
+../exercicio14.c:28:1: warning: control reaches end of non-void function [-Wreturn-type]
+   28 | }
+      | ^
+Finished building: ../exercicio14.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio14.o   -lm
+Finished building target: ProgramasC
+ 
+15:28:53 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+15:29:06 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+15:29:20 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+15:29:30 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+15:29:39 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+15:30:15 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio14.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio14.d" -MT"exercicio14.o" -o "exercicio14.o" "../exercicio14.c"
+../exercicio14.c: In function ‘consumo’:
+../exercicio14.c:20:25: warning: comparison of constant ‘14’ with boolean expression is always true [-Wbool-compare]
+   20 |         }else if(8 <= c <= 14){
+      |                         ^~
+../exercicio14.c:20:20: warning: comparisons like ‘X<=Y<=Z’ do not have their mathematical meaning [-Wparentheses]
+   20 |         }else if(8 <= c <= 14){
+      |                  ~~^~~~
+../exercicio14.c:28:1: warning: control reaches end of non-void function [-Wreturn-type]
+   28 | }
+      | ^
+Finished building: ../exercicio14.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio14.o   -lm
+Finished building target: ProgramasC
+ 
+15:30:39 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio14.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio14.d" -MT"exercicio14.o" -o "exercicio14.o" "../exercicio14.c"
+../exercicio14.c: In function ‘consumo’:
+../exercicio14.c:28:1: warning: control reaches end of non-void function [-Wreturn-type]
+   28 | }
+      | ^
+Finished building: ../exercicio14.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio14.o   -lm
+Finished building target: ProgramasC
+ 
