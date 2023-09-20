@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+
+int qt, linhas;
+
+char str[qt];
+
+
+int DesenhaLinha(){
+
+	printf("Qual a quantidade de linhas deseja desenhar: ");
+	scanf("%d", &str[qt]);
+
+
+
+}
+
+
+int main(){
+
+	DesenhaLinha();
+
+	return 0;
+
+}

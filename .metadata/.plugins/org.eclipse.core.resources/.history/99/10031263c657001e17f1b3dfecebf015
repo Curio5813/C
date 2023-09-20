@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+
+int x, z;
+
+
+int ExponencialNaMao(){
+
+	printf("Digite dois numeros para x e z: ");
+	scanf("%d%d", &x, &z);
+
+	for(int i = 1; i <= z; i++){
+		x *= x;
+
+	}printf("%d", x);
+
+}
+
+
+int main(){
+
+	ExponencialNaMao();
+
+	return 0;
+
+}
