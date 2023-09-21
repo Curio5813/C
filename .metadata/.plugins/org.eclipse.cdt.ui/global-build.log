@@ -1863,3 +1863,3168 @@ make: Nada a ser feito para 'all'.
 16:03:12 **** Incremental Build of configuration Debug for project ProgramasC ****
 make all 
 make: Nada a ser feito para 'all'.
+17:22:12 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:10:15: error: ‘n’ undeclared (first use in this function)
+   10 |         tam = n * 2 + 1;
+      |               ^
+../jogo_das_aranhas.c:10:15: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [subdir.mk:20: jogo_das_aranhas.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+17:23:05 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+17:23:25 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+17:23:53 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+17:25:16 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+17:25:42 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+17:26:16 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+17:27:08 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+17:27:31 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+17:27:40 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+17:28:16 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+17:28:30 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+17:29:00 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+17:34:31 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:38:1: error: expected declaration or statement at end of input
+   38 | }
+      | ^
+make: *** [subdir.mk:20: jogo_das_aranhas.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+17:34:52 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+17:35:12 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+17:35:36 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+17:35:58 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+17:38:15 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+17:38:31 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+17:38:47 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+17:58:05 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:29:48: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   29 |                                 aranhas[k - 1] = NULL;
+      |                                                ^
+../jogo_das_aranhas.c:43:34: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   43 |                         printf("%d", k);
+      |                                 ~^   ~
+      |                                  |   |
+      |                                  int long long int
+      |                                 %lld
+../jogo_das_aranhas.c:48:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   48 |                                 aranhas[i] = NULL;
+      |                                            ^
+../jogo_das_aranhas.c:56:1: error: expected declaration or statement at end of input
+   56 | }
+      | ^
+make: *** [subdir.mk:20: jogo_das_aranhas.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+17:58:58 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:29:48: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   29 |                                 aranhas[k - 1] = NULL;
+      |                                                ^
+../jogo_das_aranhas.c:43:34: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   43 |                         printf("%d", k);
+      |                                 ~^   ~
+      |                                  |   |
+      |                                  int long long int
+      |                                 %lld
+../jogo_das_aranhas.c:48:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   48 |                                 aranhas[i] = NULL;
+      |                                            ^
+../jogo_das_aranhas.c:56:1: error: expected declaration or statement at end of input
+   56 | }
+      | ^
+make: *** [subdir.mk:20: jogo_das_aranhas.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:00:00 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:29:48: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   29 |                                 aranhas[k - 1] = NULL;
+      |                                                ^
+../jogo_das_aranhas.c:43:34: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   43 |                         printf("%d", k);
+      |                                 ~^   ~
+      |                                  |   |
+      |                                  int long long int
+      |                                 %lld
+../jogo_das_aranhas.c:48:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   48 |                                 aranhas[i] = NULL;
+      |                                            ^
+../jogo_das_aranhas.c:56:1: error: expected declaration or statement at end of input
+   56 | }
+      | ^
+make: *** [subdir.mk:20: jogo_das_aranhas.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:00:38 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:42:34: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   42 |                         printf("%d", k);
+      |                                 ~^   ~
+      |                                  |   |
+      |                                  int long long int
+      |                                 %lld
+../jogo_das_aranhas.c:47:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   47 |                                 aranhas[i] = NULL;
+      |                                            ^
+../jogo_das_aranhas.c:55:1: error: expected declaration or statement at end of input
+   55 | }
+      | ^
+make: *** [subdir.mk:20: jogo_das_aranhas.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:01:10 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:29:48: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   29 |                                 aranhas[k - 1] = NULL;
+      |                                                ^
+../jogo_das_aranhas.c:43:34: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   43 |                         printf("%d", k);
+      |                                 ~^   ~
+      |                                  |   |
+      |                                  int long long int
+      |                                 %lld
+../jogo_das_aranhas.c:48:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   48 |                                 aranhas[i] = NULL;
+      |                                            ^
+../jogo_das_aranhas.c:56:1: error: expected declaration or statement at end of input
+   56 | }
+      | ^
+make: *** [subdir.mk:20: jogo_das_aranhas.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:01:19 **** Clean-only build of configuration Debug for project ProgramasC ****
+make clean 
+rm -rf ./jogo_das_aranhas.o ./jogo_das_aranhas.d  ProgramasC
+ 
+18:01:20 **** Clean-only build of configuration Debug for project ProgramasCFonte ****
+make clean 
+rm -rf ./beecrowd/attack_on_gasparini.o ./beecrowd/chuva_caindo.o ./beecrowd/entrada_e_saida_de_numeros_reais.o ./beecrowd/fibonot.o ./beecrowd/salario_com_bonus.o ./beecrowd/tamanho_da_placa.o  ./GeekUniversity/secao09/ajuda.o ./GeekUniversity/secao09/exercicio01.o ./GeekUniversity/secao09/exercicio02.o ./GeekUniversity/secao09/exercicio03.o ./GeekUniversity/secao09/exercicio04.o ./GeekUniversity/secao09/exercicio05.o ./GeekUniversity/secao09/exercicio06.o ./GeekUniversity/secao09/exercicio07.o ./GeekUniversity/secao09/programa17.o ./GeekUniversity/secao09/programa18.o ./GeekUniversity/secao09/programa19.o ./GeekUniversity/secao09/programa20.o  ./GeekUniversity/secao08/03-usando-numeros-binarios.o ./GeekUniversity/secao08/programa16.o  ./GeekUniversity/secao07/vetores/exercicio01.o ./GeekUniversity/secao07/vetores/exercicio02.o ./GeekUniversity/secao07/vetores/exercicio03.o ./GeekUniversity/secao07/vetores/exercicio04.o ./GeekUniversity/secao07/vetores/exercicio05.o ./GeekUniversity/secao07/vetores/exercicio06.o ./GeekUniversity/secao07/vetores/exercicio07.o ./GeekUniversity/secao07/vetores/exercicio08.o ./GeekUniversity/secao07/vetores/exercicio09.o ./GeekUniversity/secao07/vetores/exercicio10.o ./GeekUniversity/secao07/vetores/exercicio11.o ./GeekUniversity/secao07/vetores/exercicio12.o ./GeekUniversity/secao07/vetores/exercicio13.o ./GeekUniversity/secao07/vetores/exercicio14.o ./GeekUniversity/secao07/vetores/exercicio15.o ./GeekUniversity/secao07/vetores/exercicio16.o ./GeekUniversity/secao07/vetores/exercicio17.o ./GeekUniversity/secao07/vetores/exercicio18.o ./GeekUniversity/secao07/vetores/exercicio19.o ./GeekUniversity/secao07/vetores/exercicio20.o ./GeekUniversity/secao07/vetores/exercicio21.o ./GeekUniversity/secao07/vetores/exercicio22.o ./GeekUniversity/secao07/vetores/exercicio23.o ./GeekUniversity/secao07/vetores/exercicio24.o ./GeekUniversity/secao07/vetores/exercicio25.o ./GeekUniversity/secao07/vetores/exercicio26.o ./GeekUniversity/secao07/vetores/exercicio27.o ./GeekUniversity/secao07/vetores/exercicio28.o ./GeekUniversity/secao07/vetores/exercicio29.o ./GeekUniversity/secao07/vetores/exercicio30.o ./GeekUniversity/secao07/vetores/exercicio31.o ./GeekUniversity/secao07/vetores/exercicio32.o ./GeekUniversity/secao07/vetores/exercicio33.o ./GeekUniversity/secao07/vetores/exercicio34.o ./GeekUniversity/secao07/vetores/exercicio35.o ./GeekUniversity/secao07/vetores/exercicio36.o ./GeekUniversity/secao07/vetores/exercicio37.o ./GeekUniversity/secao07/vetores/exercicio38.o ./GeekUniversity/secao07/vetores/exercicio39.o  ./GeekUniversity/secao07/matrizes/exercicio01.o ./GeekUniversity/secao07/matrizes/exercicio02.o ./GeekUniversity/secao07/matrizes/exercicio03.o ./GeekUniversity/secao07/matrizes/exercicio04.o ./GeekUniversity/secao07/matrizes/exercicio05.o ./GeekUniversity/secao07/matrizes/exercicio06.o ./GeekUniversity/secao07/matrizes/exercicio07.o ./GeekUniversity/secao07/matrizes/exercicio08.o ./GeekUniversity/secao07/matrizes/exercicio09.o ./GeekUniversity/secao07/matrizes/exercicio10.o ./GeekUniversity/secao07/matrizes/exercicio11.o ./GeekUniversity/secao07/matrizes/exercicio12.o ./GeekUniversity/secao07/matrizes/exercicio13.o ./GeekUniversity/secao07/matrizes/exercicio14.o ./GeekUniversity/secao07/matrizes/exercicio15.o ./GeekUniversity/secao07/matrizes/exercicio16.o ./GeekUniversity/secao07/matrizes/exercicio17.o ./GeekUniversity/secao07/matrizes/exercicio18.o ./GeekUniversity/secao07/matrizes/exercicio19.o ./GeekUniversity/secao07/matrizes/exercicio20.o ./GeekUniversity/secao07/matrizes/exercicio21.o ./GeekUniversity/secao07/matrizes/exercicio22.o ./GeekUniversity/secao07/matrizes/exercicio23.o  ./GeekUniversity/secao07/programa13.o ./GeekUniversity/secao07/programa14.o ./GeekUniversity/secao07/programa15.o  ./GeekUniversity/secao06/programa07.o ./GeekUniversity/secao06/programa08.o ./GeekUniversity/secao06/programa09.o ./GeekUniversity/secao06/programa10.o ./GeekUniversity/secao06/programa11.o  ./GeekUniversity/secao05/exercicio01.o ./GeekUniversity/secao05/exercicio02.o ./GeekUniversity/secao05/exercicio03.o ./GeekUniversity/secao05/exercicio04.o ./GeekUniversity/secao05/exercicio05.o ./GeekUniversity/secao05/exercicio06.o ./GeekUniversity/secao05/exercicio07.o ./GeekUniversity/secao05/exercicio08.o ./GeekUniversity/secao05/exercicio09.o ./GeekUniversity/secao05/exercicio10.o ./GeekUniversity/secao05/exercicio11.o ./GeekUniversity/secao05/exercicio12.o ./GeekUniversity/secao05/exercicio13.o ./GeekUniversity/secao05/exercicio14.o ./GeekUniversity/secao05/exercicio15.o ./GeekUniversity/secao05/exercicio16.o ./GeekUniversity/secao05/exercicio17.o ./GeekUniversity/secao05/exercicio18.o ./GeekUniversity/secao05/exercicio19.o ./GeekUniversity/secao05/exercicio20.o ./GeekUniversity/secao05/exercicio21.o ./GeekUniversity/secao05/exercicio22.o ./GeekUniversity/secao05/exercicio23.o ./GeekUniversity/secao05/exercicio24.o ./GeekUniversity/secao05/exercicio25.o ./GeekUniversity/secao05/exercicio26.o ./GeekUniversity/secao05/exercicio27.o ./GeekUniversity/secao05/exercicio28.o ./GeekUniversity/secao05/exercicio29.o ./GeekUniversity/secao05/exercicio30.o ./GeekUniversity/secao05/exercicio31.o ./GeekUniversity/secao05/exercicio32.o ./GeekUniversity/secao05/exercicio33.o ./GeekUniversity/secao05/exercicio34.o ./GeekUniversity/secao05/exercicio35.o ./GeekUniversity/secao05/exercicio36.o ./GeekUniversity/secao05/exercicio37.o ./GeekUniversity/secao05/exercicio38.o ./GeekUniversity/secao05/exercicio39.o ./GeekUniversity/secao05/exercicio40.o ./GeekUniversity/secao05/exercicio41.o ./GeekUniversity/secao05/exercicio42.o ./GeekUniversity/secao05/exercicio43.o ./GeekUniversity/secao05/exercicio44.o ./GeekUniversity/secao05/exercicio45.o ./GeekUniversity/secao05/exercicio46.o ./GeekUniversity/secao05/exercicio47.o ./GeekUniversity/secao05/exercicio48.o ./GeekUniversity/secao05/exercicio49.o ./GeekUniversity/secao05/exercicio50.o ./GeekUniversity/secao05/exercicio51.o ./GeekUniversity/secao05/exercicio52.o ./GeekUniversity/secao05/exercicio53.o ./GeekUniversity/secao05/exercicio54.o ./GeekUniversity/secao05/exercicio55.o ./GeekUniversity/secao05/exercicio56.o ./GeekUniversity/secao05/exercicio57.o ./GeekUniversity/secao05/exercicio58.o ./GeekUniversity/secao05/exercicio59.o ./GeekUniversity/secao05/exercicio60.o ./GeekUniversity/secao05/exercicio61.o  ./GeekUniversity/secao04/exercicio01.o ./GeekUniversity/secao04/exercicio02.o ./GeekUniversity/secao04/exercicio03.o ./GeekUniversity/secao04/exercicio04.o ./GeekUniversity/secao04/exercicio05.o ./GeekUniversity/secao04/exercicio06.o ./GeekUniversity/secao04/exercicio07.o ./GeekUniversity/secao04/exercicio08.o ./GeekUniversity/secao04/exercicio09.o ./GeekUniversity/secao04/exercicio10.o ./GeekUniversity/secao04/exercicio11.o ./GeekUniversity/secao04/exercicio12.o ./GeekUniversity/secao04/exercicio13.o ./GeekUniversity/secao04/exercicio14.o ./GeekUniversity/secao04/exercicio15.o ./GeekUniversity/secao04/exercicio16.o ./GeekUniversity/secao04/exercicio17.o ./GeekUniversity/secao04/exercicio18.o ./GeekUniversity/secao04/exercicio19.o ./GeekUniversity/secao04/exercicio20.o ./GeekUniversity/secao04/exercicio21.o ./GeekUniversity/secao04/exercicio22.o ./GeekUniversity/secao04/exercicio23.o ./GeekUniversity/secao04/exercicio24.o ./GeekUniversity/secao04/exercicio25.o ./GeekUniversity/secao04/exercicio26.o ./GeekUniversity/secao04/exercicio27.o ./GeekUniversity/secao04/exercicio28.o ./GeekUniversity/secao04/exercicio29.o ./GeekUniversity/secao04/exercicio30.o ./GeekUniversity/secao04/exercicio31.o ./GeekUniversity/secao04/exercicio32.o ./GeekUniversity/secao04/exercicio33.o ./GeekUniversity/secao04/exercicio34.o ./GeekUniversity/secao04/exercicio35.o ./GeekUniversity/secao04/exercicio36.o ./GeekUniversity/secao04/exercicio37.o ./GeekUniversity/secao04/exercicio39.o ./GeekUniversity/secao04/exercicio40.o ./GeekUniversity/secao04/exercicio41.o  ./GeekUniversity/secao03/exercicio01.o ./GeekUniversity/secao03/exercicio02.o ./GeekUniversity/secao03/exercicio03.o ./GeekUniversity/secao03/exercicio04.o ./GeekUniversity/secao03/exercicio05.o ./GeekUniversity/secao03/exercicio06.o ./GeekUniversity/secao03/exercicio07.o ./GeekUniversity/secao03/exercicio08.o ./GeekUniversity/secao03/exercicio09.o ./GeekUniversity/secao03/exercicio10.o ./GeekUniversity/secao03/exercicio11.o ./GeekUniversity/secao03/exercicio12.o ./GeekUniversity/secao03/exercicio13.o ./GeekUniversity/secao03/exercicio14.o ./GeekUniversity/secao03/exercicio15.o ./GeekUniversity/secao03/exercicio16.o ./GeekUniversity/secao03/exercicio17.o ./GeekUniversity/secao03/exercicio18.o ./GeekUniversity/secao03/exercicio19.o ./GeekUniversity/secao03/exercicio20.o ./GeekUniversity/secao03/exercicio21.o ./GeekUniversity/secao03/exercicio22.o ./GeekUniversity/secao03/exercicio23.o ./GeekUniversity/secao03/exercicio24.o ./GeekUniversity/secao03/exercicio25.o ./GeekUniversity/secao03/exercicio26.o ./GeekUniversity/secao03/exercicio27.o ./GeekUniversity/secao03/exercicio28.o ./GeekUniversity/secao03/exercicio29.o ./GeekUniversity/secao03/exercicio30.o ./GeekUniversity/secao03/exercicio31.o ./GeekUniversity/secao03/exercicio32.o ./GeekUniversity/secao03/exercicio33.o ./GeekUniversity/secao03/exercicio34.o ./GeekUniversity/secao03/exercicio35.o ./GeekUniversity/secao03/exercicio36.o ./GeekUniversity/secao03/exercicio37.o ./GeekUniversity/secao03/exercicio38.o ./GeekUniversity/secao03/exercicio39.o ./GeekUniversity/secao03/exercicio40.o ./GeekUniversity/secao03/exercicio41.o ./GeekUniversity/secao03/exercicio42.o ./GeekUniversity/secao03/exercicio43.o ./GeekUniversity/secao03/exercicio44.o ./GeekUniversity/secao03/exercicio45.o ./GeekUniversity/secao03/exercicio46.o ./GeekUniversity/secao03/exercicio47.o ./GeekUniversity/secao03/exercicio48.o ./GeekUniversity/secao03/exercicio49.o ./GeekUniversity/secao03/exercicio50.o ./GeekUniversity/secao03/exercicio51.o ./GeekUniversity/secao03/exercicio52.o ./GeekUniversity/secao03/exercicio53.o  ./CodeAbbey/problem297.o  ./teste01.o ./beecrowd/attack_on_gasparini.d ./beecrowd/chuva_caindo.d ./beecrowd/entrada_e_saida_de_numeros_reais.d ./beecrowd/fibonot.d ./beecrowd/salario_com_bonus.d ./beecrowd/tamanho_da_placa.d  ./GeekUniversity/secao09/ajuda.d ./GeekUniversity/secao09/exercicio01.d ./GeekUniversity/secao09/exercicio02.d ./GeekUniversity/secao09/exercicio03.d ./GeekUniversity/secao09/exercicio04.d ./GeekUniversity/secao09/exercicio05.d ./GeekUniversity/secao09/exercicio06.d ./GeekUniversity/secao09/exercicio07.d ./GeekUniversity/secao09/programa17.d ./GeekUniversity/secao09/programa18.d ./GeekUniversity/secao09/programa19.d ./GeekUniversity/secao09/programa20.d  ./GeekUniversity/secao08/03-usando-numeros-binarios.d ./GeekUniversity/secao08/programa16.d  ./GeekUniversity/secao07/vetores/exercicio01.d ./GeekUniversity/secao07/vetores/exercicio02.d ./GeekUniversity/secao07/vetores/exercicio03.d ./GeekUniversity/secao07/vetores/exercicio04.d ./GeekUniversity/secao07/vetores/exercicio05.d ./GeekUniversity/secao07/vetores/exercicio06.d ./GeekUniversity/secao07/vetores/exercicio07.d ./GeekUniversity/secao07/vetores/exercicio08.d ./GeekUniversity/secao07/vetores/exercicio09.d ./GeekUniversity/secao07/vetores/exercicio10.d ./GeekUniversity/secao07/vetores/exercicio11.d ./GeekUniversity/secao07/vetores/exercicio12.d ./GeekUniversity/secao07/vetores/exercicio13.d ./GeekUniversity/secao07/vetores/exercicio14.d ./GeekUniversity/secao07/vetores/exercicio15.d ./GeekUniversity/secao07/vetores/exercicio16.d ./GeekUniversity/secao07/vetores/exercicio17.d ./GeekUniversity/secao07/vetores/exercicio18.d ./GeekUniversity/secao07/vetores/exercicio19.d ./GeekUniversity/secao07/vetores/exercicio20.d ./GeekUniversity/secao07/vetores/exercicio21.d ./GeekUniversity/secao07/vetores/exercicio22.d ./GeekUniversity/secao07/vetores/exercicio23.d ./GeekUniversity/secao07/vetores/exercicio24.d ./GeekUniversity/secao07/vetores/exercicio25.d ./GeekUniversity/secao07/vetores/exercicio26.d ./GeekUniversity/secao07/vetores/exercicio27.d ./GeekUniversity/secao07/vetores/exercicio28.d ./GeekUniversity/secao07/vetores/exercicio29.d ./GeekUniversity/secao07/vetores/exercicio30.d ./GeekUniversity/secao07/vetores/exercicio31.d ./GeekUniversity/secao07/vetores/exercicio32.d ./GeekUniversity/secao07/vetores/exercicio33.d ./GeekUniversity/secao07/vetores/exercicio34.d ./GeekUniversity/secao07/vetores/exercicio35.d ./GeekUniversity/secao07/vetores/exercicio36.d ./GeekUniversity/secao07/vetores/exercicio37.d ./GeekUniversity/secao07/vetores/exercicio38.d ./GeekUniversity/secao07/vetores/exercicio39.d  ./GeekUniversity/secao07/matrizes/exercicio01.d ./GeekUniversity/secao07/matrizes/exercicio02.d ./GeekUniversity/secao07/matrizes/exercicio03.d ./GeekUniversity/secao07/matrizes/exercicio04.d ./GeekUniversity/secao07/matrizes/exercicio05.d ./GeekUniversity/secao07/matrizes/exercicio06.d ./GeekUniversity/secao07/matrizes/exercicio07.d ./GeekUniversity/secao07/matrizes/exercicio08.d ./GeekUniversity/secao07/matrizes/exercicio09.d ./GeekUniversity/secao07/matrizes/exercicio10.d ./GeekUniversity/secao07/matrizes/exercicio11.d ./GeekUniversity/secao07/matrizes/exercicio12.d ./GeekUniversity/secao07/matrizes/exercicio13.d ./GeekUniversity/secao07/matrizes/exercicio14.d ./GeekUniversity/secao07/matrizes/exercicio15.d ./GeekUniversity/secao07/matrizes/exercicio16.d ./GeekUniversity/secao07/matrizes/exercicio17.d ./GeekUniversity/secao07/matrizes/exercicio18.d ./GeekUniversity/secao07/matrizes/exercicio19.d ./GeekUniversity/secao07/matrizes/exercicio20.d ./GeekUniversity/secao07/matrizes/exercicio21.d ./GeekUniversity/secao07/matrizes/exercicio22.d ./GeekUniversity/secao07/matrizes/exercicio23.d  ./GeekUniversity/secao07/programa13.d ./GeekUniversity/secao07/programa14.d ./GeekUniversity/secao07/programa15.d  ./GeekUniversity/secao06/programa07.d ./GeekUniversity/secao06/programa08.d ./GeekUniversity/secao06/programa09.d ./GeekUniversity/secao06/programa10.d ./GeekUniversity/secao06/programa11.d  ./GeekUniversity/secao05/exercicio01.d ./GeekUniversity/secao05/exercicio02.d ./GeekUniversity/secao05/exercicio03.d ./GeekUniversity/secao05/exercicio04.d ./GeekUniversity/secao05/exercicio05.d ./GeekUniversity/secao05/exercicio06.d ./GeekUniversity/secao05/exercicio07.d ./GeekUniversity/secao05/exercicio08.d ./GeekUniversity/secao05/exercicio09.d ./GeekUniversity/secao05/exercicio10.d ./GeekUniversity/secao05/exercicio11.d ./GeekUniversity/secao05/exercicio12.d ./GeekUniversity/secao05/exercicio13.d ./GeekUniversity/secao05/exercicio14.d ./GeekUniversity/secao05/exercicio15.d ./GeekUniversity/secao05/exercicio16.d ./GeekUniversity/secao05/exercicio17.d ./GeekUniversity/secao05/exercicio18.d ./GeekUniversity/secao05/exercicio19.d ./GeekUniversity/secao05/exercicio20.d ./GeekUniversity/secao05/exercicio21.d ./GeekUniversity/secao05/exercicio22.d ./GeekUniversity/secao05/exercicio23.d ./GeekUniversity/secao05/exercicio24.d ./GeekUniversity/secao05/exercicio25.d ./GeekUniversity/secao05/exercicio26.d ./GeekUniversity/secao05/exercicio27.d ./GeekUniversity/secao05/exercicio28.d ./GeekUniversity/secao05/exercicio29.d ./GeekUniversity/secao05/exercicio30.d ./GeekUniversity/secao05/exercicio31.d ./GeekUniversity/secao05/exercicio32.d ./GeekUniversity/secao05/exercicio33.d ./GeekUniversity/secao05/exercicio34.d ./GeekUniversity/secao05/exercicio35.d ./GeekUniversity/secao05/exercicio36.d ./GeekUniversity/secao05/exercicio37.d ./GeekUniversity/secao05/exercicio38.d ./GeekUniversity/secao05/exercicio39.d ./GeekUniversity/secao05/exercicio40.d ./GeekUniversity/secao05/exercicio41.d ./GeekUniversity/secao05/exercicio42.d ./GeekUniversity/secao05/exercicio43.d ./GeekUniversity/secao05/exercicio44.d ./GeekUniversity/secao05/exercicio45.d ./GeekUniversity/secao05/exercicio46.d ./GeekUniversity/secao05/exercicio47.d ./GeekUniversity/secao05/exercicio48.d ./GeekUniversity/secao05/exercicio49.d ./GeekUniversity/secao05/exercicio50.d ./GeekUniversity/secao05/exercicio51.d ./GeekUniversity/secao05/exercicio52.d ./GeekUniversity/secao05/exercicio53.d ./GeekUniversity/secao05/exercicio54.d ./GeekUniversity/secao05/exercicio55.d ./GeekUniversity/secao05/exercicio56.d ./GeekUniversity/secao05/exercicio57.d ./GeekUniversity/secao05/exercicio58.d ./GeekUniversity/secao05/exercicio59.d ./GeekUniversity/secao05/exercicio60.d ./GeekUniversity/secao05/exercicio61.d  ./GeekUniversity/secao04/exercicio01.d ./GeekUniversity/secao04/exercicio02.d ./GeekUniversity/secao04/exercicio03.d ./GeekUniversity/secao04/exercicio04.d ./GeekUniversity/secao04/exercicio05.d ./GeekUniversity/secao04/exercicio06.d ./GeekUniversity/secao04/exercicio07.d ./GeekUniversity/secao04/exercicio08.d ./GeekUniversity/secao04/exercicio09.d ./GeekUniversity/secao04/exercicio10.d ./GeekUniversity/secao04/exercicio11.d ./GeekUniversity/secao04/exercicio12.d ./GeekUniversity/secao04/exercicio13.d ./GeekUniversity/secao04/exercicio14.d ./GeekUniversity/secao04/exercicio15.d ./GeekUniversity/secao04/exercicio16.d ./GeekUniversity/secao04/exercicio17.d ./GeekUniversity/secao04/exercicio18.d ./GeekUniversity/secao04/exercicio19.d ./GeekUniversity/secao04/exercicio20.d ./GeekUniversity/secao04/exercicio21.d ./GeekUniversity/secao04/exercicio22.d ./GeekUniversity/secao04/exercicio23.d ./GeekUniversity/secao04/exercicio24.d ./GeekUniversity/secao04/exercicio25.d ./GeekUniversity/secao04/exercicio26.d ./GeekUniversity/secao04/exercicio27.d ./GeekUniversity/secao04/exercicio28.d ./GeekUniversity/secao04/exercicio29.d ./GeekUniversity/secao04/exercicio30.d ./GeekUniversity/secao04/exercicio31.d ./GeekUniversity/secao04/exercicio32.d ./GeekUniversity/secao04/exercicio33.d ./GeekUniversity/secao04/exercicio34.d ./GeekUniversity/secao04/exercicio35.d ./GeekUniversity/secao04/exercicio36.d ./GeekUniversity/secao04/exercicio37.d ./GeekUniversity/secao04/exercicio39.d ./GeekUniversity/secao04/exercicio40.d ./GeekUniversity/secao04/exercicio41.d  ./GeekUniversity/secao03/exercicio01.d ./GeekUniversity/secao03/exercicio02.d ./GeekUniversity/secao03/exercicio03.d ./GeekUniversity/secao03/exercicio04.d ./GeekUniversity/secao03/exercicio05.d ./GeekUniversity/secao03/exercicio06.d ./GeekUniversity/secao03/exercicio07.d ./GeekUniversity/secao03/exercicio08.d ./GeekUniversity/secao03/exercicio09.d ./GeekUniversity/secao03/exercicio10.d ./GeekUniversity/secao03/exercicio11.d ./GeekUniversity/secao03/exercicio12.d ./GeekUniversity/secao03/exercicio13.d ./GeekUniversity/secao03/exercicio14.d ./GeekUniversity/secao03/exercicio15.d ./GeekUniversity/secao03/exercicio16.d ./GeekUniversity/secao03/exercicio17.d ./GeekUniversity/secao03/exercicio18.d ./GeekUniversity/secao03/exercicio19.d ./GeekUniversity/secao03/exercicio20.d ./GeekUniversity/secao03/exercicio21.d ./GeekUniversity/secao03/exercicio22.d ./GeekUniversity/secao03/exercicio23.d ./GeekUniversity/secao03/exercicio24.d ./GeekUniversity/secao03/exercicio25.d ./GeekUniversity/secao03/exercicio26.d ./GeekUniversity/secao03/exercicio27.d ./GeekUniversity/secao03/exercicio28.d ./GeekUniversity/secao03/exercicio29.d ./GeekUniversity/secao03/exercicio30.d ./GeekUniversity/secao03/exercicio31.d ./GeekUniversity/secao03/exercicio32.d ./GeekUniversity/secao03/exercicio33.d ./GeekUniversity/secao03/exercicio34.d ./GeekUniversity/secao03/exercicio35.d ./GeekUniversity/secao03/exercicio36.d ./GeekUniversity/secao03/exercicio37.d ./GeekUniversity/secao03/exercicio38.d ./GeekUniversity/secao03/exercicio39.d ./GeekUniversity/secao03/exercicio40.d ./GeekUniversity/secao03/exercicio41.d ./GeekUniversity/secao03/exercicio42.d ./GeekUniversity/secao03/exercicio43.d ./GeekUniversity/secao03/exercicio44.d ./GeekUniversity/secao03/exercicio45.d ./GeekUniversity/secao03/exercicio46.d ./GeekUniversity/secao03/exercicio47.d ./GeekUniversity/secao03/exercicio48.d ./GeekUniversity/secao03/exercicio49.d ./GeekUniversity/secao03/exercicio50.d ./GeekUniversity/secao03/exercicio51.d ./GeekUniversity/secao03/exercicio52.d ./GeekUniversity/secao03/exercicio53.d  ./CodeAbbey/problem297.d  ./teste01.d  ProgramasCFonte
+ 
+18:01:43 **** Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:29:48: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   29 |                                 aranhas[k - 1] = NULL;
+      |                                                ^
+../jogo_das_aranhas.c:43:34: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   43 |                         printf("%d", k);
+      |                                 ~^   ~
+      |                                  |   |
+      |                                  int long long int
+      |                                 %lld
+../jogo_das_aranhas.c:48:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   48 |                                 aranhas[i] = NULL;
+      |                                            ^
+../jogo_das_aranhas.c:56:1: error: expected declaration or statement at end of input
+   56 | }
+      | ^
+make: *** [subdir.mk:20: jogo_das_aranhas.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:02:14 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:29:48: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   29 |                                 aranhas[k - 1] = NULL;
+      |                                                ^
+../jogo_das_aranhas.c:43:34: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   43 |                         printf("%d", k);
+      |                                 ~^   ~
+      |                                  |   |
+      |                                  int long long int
+      |                                 %lld
+../jogo_das_aranhas.c:48:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   48 |                                 aranhas[i] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+18:02:44 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+18:03:37 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:26:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   26 |                 printf("%d", k);
+      |                         ~^   ~
+      |                          |   |
+      |                          int long long int
+      |                         %lld
+../jogo_das_aranhas.c:30:48: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   30 |                                 aranhas[k - 1] = NULL;
+      |                                                ^
+../jogo_das_aranhas.c:44:34: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   44 |                         printf("%d", k);
+      |                                 ~^   ~
+      |                                  |   |
+      |                                  int long long int
+      |                                 %lld
+../jogo_das_aranhas.c:49:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   49 |                                 aranhas[i] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+18:06:02 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+18:07:42 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:29:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   29 |                 printf("%d", k);
+      |                         ~^   ~
+      |                          |   |
+      |                          int long long int
+      |                         %lld
+../jogo_das_aranhas.c:33:48: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   33 |                                 aranhas[k - 1] = NULL;
+      |                                                ^
+../jogo_das_aranhas.c:47:34: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   47 |                         printf("%d", k);
+      |                                 ~^   ~
+      |                                  |   |
+      |                                  int long long int
+      |                                 %lld
+../jogo_das_aranhas.c:52:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   52 |                                 aranhas[i] = NULL;
+      |                                            ^
+../jogo_das_aranhas.c:58:11: error: expected expression before ‘/’ token
+   58 |         }*/
+      |           ^
+make: *** [subdir.mk:20: jogo_das_aranhas.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:08:04 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:29:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   29 |                 printf("%d", k);
+      |                         ~^   ~
+      |                          |   |
+      |                          int long long int
+      |                         %lld
+../jogo_das_aranhas.c:33:48: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   33 |                                 aranhas[k - 1] = NULL;
+      |                                                ^
+../jogo_das_aranhas.c:47:34: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   47 |                         printf("%d", k);
+      |                                 ~^   ~
+      |                                  |   |
+      |                                  int long long int
+      |                                 %lld
+../jogo_das_aranhas.c:52:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   52 |                                 aranhas[i] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+18:08:56 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:30:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   30 |                 printf("%d", k);
+      |                         ~^   ~
+      |                          |   |
+      |                          int long long int
+      |                         %lld
+../jogo_das_aranhas.c:34:48: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   34 |                                 aranhas[k - 1] = NULL;
+      |                                                ^
+../jogo_das_aranhas.c:48:34: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   48 |                         printf("%d", k);
+      |                                 ~^   ~
+      |                                  |   |
+      |                                  int long long int
+      |                                 %lld
+../jogo_das_aranhas.c:53:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   53 |                                 aranhas[i] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+18:09:30 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c:61:9: error: expected identifier or ‘(’ before ‘return’
+   61 |         return 0;
+      |         ^~~~~~
+../jogo_das_aranhas.c:63:1: error: expected identifier or ‘(’ before ‘}’ token
+   63 | }
+      | ^
+make: *** [subdir.mk:20: jogo_das_aranhas.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:09:44 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c:59:9: error: expected identifier or ‘(’ before ‘}’ token
+   59 |         }
+      |         ^
+../jogo_das_aranhas.c:61:9: error: expected identifier or ‘(’ before ‘return’
+   61 |         return 0;
+      |         ^~~~~~
+../jogo_das_aranhas.c:63:1: error: expected identifier or ‘(’ before ‘}’ token
+   63 | }
+      | ^
+make: *** [subdir.mk:20: jogo_das_aranhas.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:10:04 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c:61:9: error: expected identifier or ‘(’ before ‘return’
+   61 |         return 0;
+      |         ^~~~~~
+../jogo_das_aranhas.c:63:1: error: expected identifier or ‘(’ before ‘}’ token
+   63 | }
+      | ^
+make: *** [subdir.mk:20: jogo_das_aranhas.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:10:30 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+18:10:45 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+18:11:27 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:30:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   30 |                 printf("%d", k);
+      |                         ~^   ~
+      |                          |   |
+      |                          int long long int
+      |                         %lld
+../jogo_das_aranhas.c:34:48: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   34 |                                 aranhas[k - 1] = NULL;
+      |                                                ^
+../jogo_das_aranhas.c:48:34: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   48 |                         printf("%d", k);
+      |                                 ~^   ~
+      |                                  |   |
+      |                                  int long long int
+      |                                 %lld
+../jogo_das_aranhas.c:53:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   53 |                                 aranhas[i] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+18:12:36 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:30:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   30 |                 printf("%d", k);
+      |                         ~^   ~
+      |                          |   |
+      |                          int long long int
+      |                         %lld
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+18:12:49 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:30:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   30 |                 printf("%d\n", k);
+      |                         ~^     ~
+      |                          |     |
+      |                          int   long long int
+      |                         %lld
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+18:13:50 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+18:13:59 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:30:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   30 |                 printf("%d\n", k);
+      |                         ~^     ~
+      |                          |     |
+      |                          int   long long int
+      |                         %lld
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+18:14:45 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:30:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   30 |                 printf("%d\n", k);
+      |                         ~^     ~
+      |                          |     |
+      |                          int   long long int
+      |                         %lld
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+18:14:59 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:30:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   30 |                 printf("%d\n", k);
+      |                         ~^     ~
+      |                          |     |
+      |                          int   long long int
+      |                         %lld
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+18:15:47 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:31:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   31 |                 printf("%d n", k);
+      |                         ~^     ~
+      |                          |     |
+      |                          int   long long int
+      |                         %lld
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+18:15:57 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:31:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   31 |                 printf("%d ", k);
+      |                         ~^    ~
+      |                          |    |
+      |                          int  long long int
+      |                         %lld
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+18:17:15 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:30:18: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+   30 |         printf("%d", sizeof(marrons));
+      |                 ~^   ~~~~~~~~~~~~~~~
+      |                  |   |
+      |                  int long unsigned int
+      |                 %ld
+../jogo_das_aranhas.c:33:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   33 |                 printf("%d ", k);
+      |                         ~^    ~
+      |                          |    |
+      |                          int  long long int
+      |                         %lld
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+18:19:31 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:34:48: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   34 |                                 aranhas[k - 1] = NULL;
+      |                                                ^
+../jogo_das_aranhas.c:48:34: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   48 |                         printf("%d", k);
+      |                                 ~^   ~
+      |                                  |   |
+      |                                  int long long int
+      |                                 %lld
+../jogo_das_aranhas.c:53:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   53 |                                 aranhas[i] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+11:08:32 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../teste01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"teste01.d" -MT"teste01.o" -o "teste01.o" "../teste01.c"
+Finished building: ../teste01.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./teste01.o   -lm
+Finished building target: ProgramasC
+ 
+11:08:34 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+11:09:20 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../teste01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"teste01.d" -MT"teste01.o" -o "teste01.o" "../teste01.c"
+../teste01.c: In function ‘main’:
+../teste01.c:12:15: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   12 |         }v[5] = NULL;
+      |               ^
+Finished building: ../teste01.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./teste01.o   -lm
+Finished building target: ProgramasC
+ 
+11:09:32 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../teste01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"teste01.d" -MT"teste01.o" -o "teste01.o" "../teste01.c"
+../teste01.c: In function ‘main’:
+../teste01.c:12:15: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   12 |         }v[4] = NULL;
+      |               ^
+Finished building: ../teste01.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./teste01.o   -lm
+Finished building target: ProgramasC
+ 
+11:10:40 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../teste01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"teste01.d" -MT"teste01.o" -o "teste01.o" "../teste01.c"
+../teste01.c: In function ‘main’:
+../teste01.c:12:15: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   12 |         }v[4] = NULL;
+      |               ^
+Finished building: ../teste01.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./teste01.o   -lm
+Finished building target: ProgramasC
+ 
+11:11:22 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../teste01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"teste01.d" -MT"teste01.o" -o "teste01.o" "../teste01.c"
+../teste01.c: In function ‘main’:
+../teste01.c:13:14: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   13 |         v[5] = NULL;
+      |              ^
+Finished building: ../teste01.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./teste01.o   -lm
+Finished building target: ProgramasC
+ 
+11:35:43 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:10:22: error: ‘n’ undeclared (first use in this function)
+   10 |         scanf("%d", &n);
+      |                      ^
+../jogo_das_aranhas.c:10:22: note: each undeclared identifier is reported only once for each function it appears in
+../jogo_das_aranhas.c:35:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   35 |                                 aranhas[k] = NULL;
+      |                                            ^
+../jogo_das_aranhas.c:46:33: error: ‘bol’ undeclared (first use in this function)
+   46 |                                 bol = 1;
+      |                                 ^~~
+../jogo_das_aranhas.c:53:27: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   53 |                 }printf("%d", j);
+      |                          ~^   ~
+      |                           |   |
+      |                           int long long int
+      |                          %lld
+make: *** [subdir.mk:20: jogo_das_aranhas.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+11:40:33 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:35:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   35 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+11:45:42 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:46:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   46 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+11:47:27 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:46:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   46 |                                 aranhas[k] = NULL;
+      |                                            ^
+../jogo_das_aranhas.c:65:34: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   65 |                         printf("%d", j);
+      |                                 ~^   ~
+      |                                  |   |
+      |                                  int long long int
+      |                                 %lld
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+11:48:58 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:46:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   46 |                                 aranhas[k] = NULL;
+      |                                            ^
+../jogo_das_aranhas.c:66:34: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   66 |                         printf("%d", j);
+      |                                 ~^   ~
+      |                                  |   |
+      |                                  int long long int
+      |                                 %lld
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+11:50:12 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:46:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   46 |                                 aranhas[k] = NULL;
+      |                                            ^
+../jogo_das_aranhas.c:70:34: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   70 |                         printf("%d", j);
+      |                                 ~^   ~
+      |                                  |   |
+      |                                  int long long int
+      |                                 %lld
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+11:51:44 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:47:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   47 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+11:51:52 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:47:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   47 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+11:53:27 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:46:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   46 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+11:55:57 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:46:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   46 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+11:56:51 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:46:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   46 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+11:58:41 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:38:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   38 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+11:58:47 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+11:59:10 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:38:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   38 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+11:59:30 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:38:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   38 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+11:59:52 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:38:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   38 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+12:00:07 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:38:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   38 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+12:02:02 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:38:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   38 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+12:02:18 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:38:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   38 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+12:02:34 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:38:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   38 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+12:02:52 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:38:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   38 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+12:03:03 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:38:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   38 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+12:04:04 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:38:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   38 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+12:04:29 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+12:06:24 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:38:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   38 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+12:07:27 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:38:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   38 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+12:08:09 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:38:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   38 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+12:08:22 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+12:08:30 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+12:09:27 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:38:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   38 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+12:09:47 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+12:10:16 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:38:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   38 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+12:10:46 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:38:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   38 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+12:11:46 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:34:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   34 |                 printf("%d ", k)
+      |                         ~^    ~
+      |                          |    |
+      |                          int  long long int
+      |                         %lld
+../jogo_das_aranhas.c:34:33: error: expected ‘;’ before ‘j’
+   34 |                 printf("%d ", k)
+      |                                 ^
+      |                                 ;
+   35 |                 j = k;
+      |                 ~                
+../jogo_das_aranhas.c:39:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   39 |                                 aranhas[k] = NULL;
+      |                                            ^
+make: *** [subdir.mk:20: jogo_das_aranhas.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+12:11:54 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:34:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   34 |                 printf("%d ", k);
+      |                         ~^    ~
+      |                          |    |
+      |                          int  long long int
+      |                         %lld
+../jogo_das_aranhas.c:39:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   39 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+12:12:51 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:34:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   34 |                 printf("%d\n", k);
+      |                         ~^     ~
+      |                          |     |
+      |                          int   long long int
+      |                         %lld
+../jogo_das_aranhas.c:39:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   39 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+12:13:31 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:34:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   34 |                 printf("%d\n", k);
+      |                         ~^     ~
+      |                          |     |
+      |                          int   long long int
+      |                         %lld
+../jogo_das_aranhas.c:39:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   39 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+12:14:15 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:34:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   34 |                 printf("%d\n", k);
+      |                         ~^     ~
+      |                          |     |
+      |                          int   long long int
+      |                         %lld
+../jogo_das_aranhas.c:39:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   39 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+12:14:52 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+12:16:06 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:34:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   34 |                 printf("%d\n", k);
+      |                         ~^     ~
+      |                          |     |
+      |                          int   long long int
+      |                         %lld
+../jogo_das_aranhas.c:39:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   39 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+12:17:03 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+12:17:21 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+12:17:27 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+12:20:35 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:34:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   34 |                 printf("%d\n", k);
+      |                         ~^     ~
+      |                          |     |
+      |                          int   long long int
+      |                         %lld
+../jogo_das_aranhas.c:39:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   39 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+12:20:57 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:34:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   34 |                 printf("%d\n", k);
+      |                         ~^     ~
+      |                          |     |
+      |                          int   long long int
+      |                         %lld
+../jogo_das_aranhas.c:39:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   39 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+12:21:24 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:34:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   34 |                 printf("%d\n", k);
+      |                         ~^     ~
+      |                          |     |
+      |                          int   long long int
+      |                         %lld
+../jogo_das_aranhas.c:39:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   39 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+12:21:50 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+12:23:25 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:34:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   34 |                 printf("%d\n", k);
+      |                         ~^     ~
+      |                          |     |
+      |                          int   long long int
+      |                         %lld
+../jogo_das_aranhas.c:39:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   39 |                                 aranhas[k] = NULL;
+      |                                            ^
+../jogo_das_aranhas.c:66:38: error: expected ‘;’ before ‘}’ token
+   66 |                                 break
+      |                                      ^
+      |                                      ;
+   67 | 
+   68 |                         }a = 0;
+      |                         ~             
+make: *** [subdir.mk:20: jogo_das_aranhas.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+12:23:32 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:34:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   34 |                 printf("%d\n", k);
+      |                         ~^     ~
+      |                          |     |
+      |                          int   long long int
+      |                         %lld
+../jogo_das_aranhas.c:39:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   39 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+12:23:44 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+12:24:54 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:34:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   34 |                 printf("%d\n", k);
+      |                         ~^     ~
+      |                          |     |
+      |                          int   long long int
+      |                         %lld
+../jogo_das_aranhas.c:39:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   39 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+12:26:21 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:34:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   34 |                 printf("%d\n", k);
+      |                         ~^     ~
+      |                          |     |
+      |                          int   long long int
+      |                         %lld
+../jogo_das_aranhas.c:39:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   39 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+12:28:33 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:34:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   34 |                 printf("%d\n", k);
+      |                         ~^     ~
+      |                          |     |
+      |                          int   long long int
+      |                         %lld
+../jogo_das_aranhas.c:39:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   39 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+12:29:08 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+12:30:27 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:34:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   34 |                 printf("%d\n", k);
+      |                         ~^     ~
+      |                          |     |
+      |                          int   long long int
+      |                         %lld
+../jogo_das_aranhas.c:39:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   39 |                                 aranhas[k] = NULL;
+      |                                            ^
+../jogo_das_aranhas.c: At top level:
+../jogo_das_aranhas.c:75:9: error: expected identifier or ‘(’ before ‘return’
+   75 |         return 0;
+      |         ^~~~~~
+../jogo_das_aranhas.c:77:1: error: expected identifier or ‘(’ before ‘}’ token
+   77 | }
+      | ^
+make: *** [subdir.mk:20: jogo_das_aranhas.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+12:30:44 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:34:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   34 |                 printf("%d\n", k);
+      |                         ~^     ~
+      |                          |     |
+      |                          int   long long int
+      |                         %lld
+../jogo_das_aranhas.c:39:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   39 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+12:31:33 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:34:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   34 |                 printf("%d\n", k);
+      |                         ~^     ~
+      |                          |     |
+      |                          int   long long int
+      |                         %lld
+../jogo_das_aranhas.c:39:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   39 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+12:32:14 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:34:31: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   34 |                 printf("Ok - %d\n", k);
+      |                              ~^     ~
+      |                               |     |
+      |                               int   long long int
+      |                              %lld
+../jogo_das_aranhas.c:39:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   39 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+12:33:10 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:39:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   39 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+12:36:40 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:34:31: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   34 |                 printf("Ok - %d\n", k);
+      |                              ~^     ~
+      |                               |     |
+      |                               int   long long int
+      |                              %lld
+../jogo_das_aranhas.c:39:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   39 |                                 aranhas[j] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+12:37:07 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:34:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   34 |                 printf("%d\n", k);
+      |                         ~^     ~
+      |                          |     |
+      |                          int   long long int
+      |                         %lld
+../jogo_das_aranhas.c:39:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   39 |                                 aranhas[j] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+12:39:07 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:34:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   34 |                 printf("%d\n", k);
+      |                         ~^     ~
+      |                          |     |
+      |                          int   long long int
+      |                         %lld
+../jogo_das_aranhas.c:39:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   39 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+12:39:21 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:34:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   34 |                 printf("%d\n", k);
+      |                         ~^     ~
+      |                          |     |
+      |                          int   long long int
+      |                         %lld
+../jogo_das_aranhas.c:39:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   39 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+12:40:02 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:34:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   34 |                 printf("%d\n", k);
+      |                         ~^     ~
+      |                          |     |
+      |                          int   long long int
+      |                         %lld
+../jogo_das_aranhas.c:39:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   39 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+12:40:34 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:34:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   34 |                 printf("%d\n", k);
+      |                         ~^     ~
+      |                          |     |
+      |                          int   long long int
+      |                         %lld
+../jogo_das_aranhas.c:39:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   39 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+13:20:31 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:34:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   34 |                 printf("%d\n", k);
+      |                         ~^     ~
+      |                          |     |
+      |                          int   long long int
+      |                         %lld
+../jogo_das_aranhas.c:39:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   39 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+13:21:35 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:34:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   34 |                 printf("%d\n", k);
+      |                         ~^     ~
+      |                          |     |
+      |                          int   long long int
+      |                         %lld
+../jogo_das_aranhas.c:39:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   39 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+13:27:03 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:34:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   34 |                 printf("%d\n", k);
+      |                         ~^     ~
+      |                          |     |
+      |                          int   long long int
+      |                         %lld
+../jogo_das_aranhas.c:39:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   39 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+13:27:11 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+13:33:16 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:35:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   35 |                 printf("%d\n", k);
+      |                         ~^     ~
+      |                          |     |
+      |                          int   long long int
+      |                         %lld
+../jogo_das_aranhas.c:40:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   40 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+13:34:40 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:39:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   39 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+13:35:35 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:39:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   39 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+13:36:10 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:35:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   35 |                 printf("%d\n", k);
+      |                         ~^     ~
+      |                          |     |
+      |                          int   long long int
+      |                         %lld
+../jogo_das_aranhas.c:40:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   40 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+13:37:10 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:34:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   34 |                 printf("%d\n", k);
+      |                         ~^     ~
+      |                          |     |
+      |                          int   long long int
+      |                         %lld
+../jogo_das_aranhas.c:39:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   39 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+13:37:47 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:34:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   34 |                 printf("%d\n", k);
+      |                         ~^     ~
+      |                          |     |
+      |                          int   long long int
+      |                         %lld
+../jogo_das_aranhas.c:39:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   39 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+13:38:32 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:34:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   34 |                 printf("%d\n", k);
+      |                         ~^     ~
+      |                          |     |
+      |                          int   long long int
+      |                         %lld
+../jogo_das_aranhas.c:39:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   39 |                                 aranhas[k] = NULL;
+      |                                            ^
+../jogo_das_aranhas.c:68:32: warning: too many arguments for format [-Wformat-extra-args]
+   68 |                         printf("Ok!", cont);
+      |                                ^~~~~
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+13:39:46 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:34:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   34 |                 printf("%d\n", k);
+      |                         ~^     ~
+      |                          |     |
+      |                          int   long long int
+      |                         %lld
+../jogo_das_aranhas.c:39:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   39 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+13:40:24 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+13:42:39 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:34:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   34 |                 printf("%d\n", k);
+      |                         ~^     ~
+      |                          |     |
+      |                          int   long long int
+      |                         %lld
+../jogo_das_aranhas.c:39:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   39 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+13:43:41 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+13:44:12 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:38:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   38 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+13:44:22 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+13:45:51 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:38:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   38 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+13:46:21 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:35:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   35 |                 printf("%d", j);
+      |                         ~^   ~
+      |                          |   |
+      |                          int long long int
+      |                         %lld
+../jogo_das_aranhas.c:39:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   39 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+13:47:08 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:35:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   35 |                 printf("%d ", j);
+      |                         ~^    ~
+      |                          |    |
+      |                          int  long long int
+      |                         %lld
+../jogo_das_aranhas.c:39:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   39 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+13:47:27 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+13:48:00 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:35:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   35 |                 printf("%d ", j);
+      |                         ~^    ~
+      |                          |    |
+      |                          int  long long int
+      |                         %lld
+../jogo_das_aranhas.c:39:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   39 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+13:48:23 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:35:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   35 |                 printf("%d\n", j);
+      |                         ~^     ~
+      |                          |     |
+      |                          int   long long int
+      |                         %lld
+../jogo_das_aranhas.c:39:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   39 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+13:51:35 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:35:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   35 |                 printf("%d ", j);
+      |                         ~^    ~
+      |                          |    |
+      |                          int  long long int
+      |                         %lld
+../jogo_das_aranhas.c:39:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   39 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+13:52:14 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+13:52:38 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:35:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   35 |                 printf("%d ", j);
+      |                         ~^    ~
+      |                          |    |
+      |                          int  long long int
+      |                         %lld
+../jogo_das_aranhas.c:39:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   39 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+13:52:51 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:35:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   35 |                 printf("%d ", j);
+      |                         ~^    ~
+      |                          |    |
+      |                          int  long long int
+      |                         %lld
+../jogo_das_aranhas.c:39:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   39 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+13:53:09 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+13:58:20 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:42:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   42 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+14:03:00 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:42:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   42 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+14:03:17 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:42:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   42 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+14:11:13 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+14:12:21 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:42:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   42 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+14:12:53 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:42:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   42 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+14:20:23 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../jogo_das_aranhas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jogo_das_aranhas.d" -MT"jogo_das_aranhas.o" -o "jogo_das_aranhas.o" "../jogo_das_aranhas.c"
+../jogo_das_aranhas.c: In function ‘main’:
+../jogo_das_aranhas.c:44:44: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   44 |                                 aranhas[k] = NULL;
+      |                                            ^
+Finished building: ../jogo_das_aranhas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./jogo_das_aranhas.o   -lm
+Finished building target: ProgramasC
+ 
+14:21:05 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+14:52:43 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio19.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio19.d" -MT"exercicio19.o" -o "exercicio19.o" "../exercicio19.c"
+../exercicio19.c: In function ‘MaiorFatorPrimo’:
+../exercicio19.c:22:1: warning: control reaches end of non-void function [-Wreturn-type]
+   22 | }
+      | ^
+Finished building: ../exercicio19.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio19.o   -lm
+Finished building target: ProgramasC
+ 
+14:53:01 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+14:53:12 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+14:57:49 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio20.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio20.d" -MT"exercicio20.o" -o "exercicio20.o" "../exercicio20.c"
+../exercicio20.c: In function ‘fatorial’:
+../exercicio20.c:9:17: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+    9 |         scanf("%d", n);
+      |                ~^   ~
+      |                 |   |
+      |                 |   int
+      |                 int *
+../exercicio20.c:17:1: warning: control reaches end of non-void function [-Wreturn-type]
+   17 | }
+      | ^
+Finished building: ../exercicio20.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio20.o   -lm
+Finished building target: ProgramasC
+ 
+14:58:05 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+14:58:27 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio20.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio20.d" -MT"exercicio20.o" -o "exercicio20.o" "../exercicio20.c"
+../exercicio20.c: In function ‘fatorial’:
+../exercicio20.c:17:1: warning: control reaches end of non-void function [-Wreturn-type]
+   17 | }
+      | ^
+Finished building: ../exercicio20.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio20.o   -lm
+Finished building target: ProgramasC
+ 
+14:58:47 **** Clean-only build of configuration Debug for project ProgramasC ****
+make clean 
+rm -rf ./exercicio20.o ./exercicio20.d  ProgramasC
+ 
+14:58:50 **** Clean-only build of configuration Debug for project ProgramasCFonte ****
+make clean 
+rm -rf ./beecrowd/attack_on_gasparini.o ./beecrowd/chuva_caindo.o ./beecrowd/entrada_e_saida_de_numeros_reais.o ./beecrowd/fibonot.o ./beecrowd/salario_com_bonus.o ./beecrowd/tamanho_da_placa.o  ./GeekUniversity/secao09/ajuda.o ./GeekUniversity/secao09/exercicio01.o ./GeekUniversity/secao09/exercicio02.o ./GeekUniversity/secao09/exercicio03.o ./GeekUniversity/secao09/exercicio04.o ./GeekUniversity/secao09/exercicio05.o ./GeekUniversity/secao09/exercicio06.o ./GeekUniversity/secao09/exercicio07.o ./GeekUniversity/secao09/programa17.o ./GeekUniversity/secao09/programa18.o ./GeekUniversity/secao09/programa19.o ./GeekUniversity/secao09/programa20.o  ./GeekUniversity/secao08/03-usando-numeros-binarios.o ./GeekUniversity/secao08/programa16.o  ./GeekUniversity/secao07/vetores/exercicio01.o ./GeekUniversity/secao07/vetores/exercicio02.o ./GeekUniversity/secao07/vetores/exercicio03.o ./GeekUniversity/secao07/vetores/exercicio04.o ./GeekUniversity/secao07/vetores/exercicio05.o ./GeekUniversity/secao07/vetores/exercicio06.o ./GeekUniversity/secao07/vetores/exercicio07.o ./GeekUniversity/secao07/vetores/exercicio08.o ./GeekUniversity/secao07/vetores/exercicio09.o ./GeekUniversity/secao07/vetores/exercicio10.o ./GeekUniversity/secao07/vetores/exercicio11.o ./GeekUniversity/secao07/vetores/exercicio12.o ./GeekUniversity/secao07/vetores/exercicio13.o ./GeekUniversity/secao07/vetores/exercicio14.o ./GeekUniversity/secao07/vetores/exercicio15.o ./GeekUniversity/secao07/vetores/exercicio16.o ./GeekUniversity/secao07/vetores/exercicio17.o ./GeekUniversity/secao07/vetores/exercicio18.o ./GeekUniversity/secao07/vetores/exercicio19.o ./GeekUniversity/secao07/vetores/exercicio20.o ./GeekUniversity/secao07/vetores/exercicio21.o ./GeekUniversity/secao07/vetores/exercicio22.o ./GeekUniversity/secao07/vetores/exercicio23.o ./GeekUniversity/secao07/vetores/exercicio24.o ./GeekUniversity/secao07/vetores/exercicio25.o ./GeekUniversity/secao07/vetores/exercicio26.o ./GeekUniversity/secao07/vetores/exercicio27.o ./GeekUniversity/secao07/vetores/exercicio28.o ./GeekUniversity/secao07/vetores/exercicio29.o ./GeekUniversity/secao07/vetores/exercicio30.o ./GeekUniversity/secao07/vetores/exercicio31.o ./GeekUniversity/secao07/vetores/exercicio32.o ./GeekUniversity/secao07/vetores/exercicio33.o ./GeekUniversity/secao07/vetores/exercicio34.o ./GeekUniversity/secao07/vetores/exercicio35.o ./GeekUniversity/secao07/vetores/exercicio36.o ./GeekUniversity/secao07/vetores/exercicio37.o ./GeekUniversity/secao07/vetores/exercicio38.o ./GeekUniversity/secao07/vetores/exercicio39.o  ./GeekUniversity/secao07/matrizes/exercicio01.o ./GeekUniversity/secao07/matrizes/exercicio02.o ./GeekUniversity/secao07/matrizes/exercicio03.o ./GeekUniversity/secao07/matrizes/exercicio04.o ./GeekUniversity/secao07/matrizes/exercicio05.o ./GeekUniversity/secao07/matrizes/exercicio06.o ./GeekUniversity/secao07/matrizes/exercicio07.o ./GeekUniversity/secao07/matrizes/exercicio08.o ./GeekUniversity/secao07/matrizes/exercicio09.o ./GeekUniversity/secao07/matrizes/exercicio10.o ./GeekUniversity/secao07/matrizes/exercicio11.o ./GeekUniversity/secao07/matrizes/exercicio12.o ./GeekUniversity/secao07/matrizes/exercicio13.o ./GeekUniversity/secao07/matrizes/exercicio14.o ./GeekUniversity/secao07/matrizes/exercicio15.o ./GeekUniversity/secao07/matrizes/exercicio16.o ./GeekUniversity/secao07/matrizes/exercicio17.o ./GeekUniversity/secao07/matrizes/exercicio18.o ./GeekUniversity/secao07/matrizes/exercicio19.o ./GeekUniversity/secao07/matrizes/exercicio20.o ./GeekUniversity/secao07/matrizes/exercicio21.o ./GeekUniversity/secao07/matrizes/exercicio22.o ./GeekUniversity/secao07/matrizes/exercicio23.o  ./GeekUniversity/secao07/programa13.o ./GeekUniversity/secao07/programa14.o ./GeekUniversity/secao07/programa15.o  ./GeekUniversity/secao06/programa07.o ./GeekUniversity/secao06/programa08.o ./GeekUniversity/secao06/programa09.o ./GeekUniversity/secao06/programa10.o ./GeekUniversity/secao06/programa11.o  ./GeekUniversity/secao05/exercicio01.o ./GeekUniversity/secao05/exercicio02.o ./GeekUniversity/secao05/exercicio03.o ./GeekUniversity/secao05/exercicio04.o ./GeekUniversity/secao05/exercicio05.o ./GeekUniversity/secao05/exercicio06.o ./GeekUniversity/secao05/exercicio07.o ./GeekUniversity/secao05/exercicio08.o ./GeekUniversity/secao05/exercicio09.o ./GeekUniversity/secao05/exercicio10.o ./GeekUniversity/secao05/exercicio11.o ./GeekUniversity/secao05/exercicio12.o ./GeekUniversity/secao05/exercicio13.o ./GeekUniversity/secao05/exercicio14.o ./GeekUniversity/secao05/exercicio15.o ./GeekUniversity/secao05/exercicio16.o ./GeekUniversity/secao05/exercicio17.o ./GeekUniversity/secao05/exercicio18.o ./GeekUniversity/secao05/exercicio19.o ./GeekUniversity/secao05/exercicio20.o ./GeekUniversity/secao05/exercicio21.o ./GeekUniversity/secao05/exercicio22.o ./GeekUniversity/secao05/exercicio23.o ./GeekUniversity/secao05/exercicio24.o ./GeekUniversity/secao05/exercicio25.o ./GeekUniversity/secao05/exercicio26.o ./GeekUniversity/secao05/exercicio27.o ./GeekUniversity/secao05/exercicio28.o ./GeekUniversity/secao05/exercicio29.o ./GeekUniversity/secao05/exercicio30.o ./GeekUniversity/secao05/exercicio31.o ./GeekUniversity/secao05/exercicio32.o ./GeekUniversity/secao05/exercicio33.o ./GeekUniversity/secao05/exercicio34.o ./GeekUniversity/secao05/exercicio35.o ./GeekUniversity/secao05/exercicio36.o ./GeekUniversity/secao05/exercicio37.o ./GeekUniversity/secao05/exercicio38.o ./GeekUniversity/secao05/exercicio39.o ./GeekUniversity/secao05/exercicio40.o ./GeekUniversity/secao05/exercicio41.o ./GeekUniversity/secao05/exercicio42.o ./GeekUniversity/secao05/exercicio43.o ./GeekUniversity/secao05/exercicio44.o ./GeekUniversity/secao05/exercicio45.o ./GeekUniversity/secao05/exercicio46.o ./GeekUniversity/secao05/exercicio47.o ./GeekUniversity/secao05/exercicio48.o ./GeekUniversity/secao05/exercicio49.o ./GeekUniversity/secao05/exercicio50.o ./GeekUniversity/secao05/exercicio51.o ./GeekUniversity/secao05/exercicio52.o ./GeekUniversity/secao05/exercicio53.o ./GeekUniversity/secao05/exercicio54.o ./GeekUniversity/secao05/exercicio55.o ./GeekUniversity/secao05/exercicio56.o ./GeekUniversity/secao05/exercicio57.o ./GeekUniversity/secao05/exercicio58.o ./GeekUniversity/secao05/exercicio59.o ./GeekUniversity/secao05/exercicio60.o ./GeekUniversity/secao05/exercicio61.o  ./GeekUniversity/secao04/exercicio01.o ./GeekUniversity/secao04/exercicio02.o ./GeekUniversity/secao04/exercicio03.o ./GeekUniversity/secao04/exercicio04.o ./GeekUniversity/secao04/exercicio05.o ./GeekUniversity/secao04/exercicio06.o ./GeekUniversity/secao04/exercicio07.o ./GeekUniversity/secao04/exercicio08.o ./GeekUniversity/secao04/exercicio09.o ./GeekUniversity/secao04/exercicio10.o ./GeekUniversity/secao04/exercicio11.o ./GeekUniversity/secao04/exercicio12.o ./GeekUniversity/secao04/exercicio13.o ./GeekUniversity/secao04/exercicio14.o ./GeekUniversity/secao04/exercicio15.o ./GeekUniversity/secao04/exercicio16.o ./GeekUniversity/secao04/exercicio17.o ./GeekUniversity/secao04/exercicio18.o ./GeekUniversity/secao04/exercicio19.o ./GeekUniversity/secao04/exercicio20.o ./GeekUniversity/secao04/exercicio21.o ./GeekUniversity/secao04/exercicio22.o ./GeekUniversity/secao04/exercicio23.o ./GeekUniversity/secao04/exercicio24.o ./GeekUniversity/secao04/exercicio25.o ./GeekUniversity/secao04/exercicio26.o ./GeekUniversity/secao04/exercicio27.o ./GeekUniversity/secao04/exercicio28.o ./GeekUniversity/secao04/exercicio29.o ./GeekUniversity/secao04/exercicio30.o ./GeekUniversity/secao04/exercicio31.o ./GeekUniversity/secao04/exercicio32.o ./GeekUniversity/secao04/exercicio33.o ./GeekUniversity/secao04/exercicio34.o ./GeekUniversity/secao04/exercicio35.o ./GeekUniversity/secao04/exercicio36.o ./GeekUniversity/secao04/exercicio37.o ./GeekUniversity/secao04/exercicio39.o ./GeekUniversity/secao04/exercicio40.o ./GeekUniversity/secao04/exercicio41.o  ./GeekUniversity/secao03/exercicio01.o ./GeekUniversity/secao03/exercicio02.o ./GeekUniversity/secao03/exercicio03.o ./GeekUniversity/secao03/exercicio04.o ./GeekUniversity/secao03/exercicio05.o ./GeekUniversity/secao03/exercicio06.o ./GeekUniversity/secao03/exercicio07.o ./GeekUniversity/secao03/exercicio08.o ./GeekUniversity/secao03/exercicio09.o ./GeekUniversity/secao03/exercicio10.o ./GeekUniversity/secao03/exercicio11.o ./GeekUniversity/secao03/exercicio12.o ./GeekUniversity/secao03/exercicio13.o ./GeekUniversity/secao03/exercicio14.o ./GeekUniversity/secao03/exercicio15.o ./GeekUniversity/secao03/exercicio16.o ./GeekUniversity/secao03/exercicio17.o ./GeekUniversity/secao03/exercicio18.o ./GeekUniversity/secao03/exercicio19.o ./GeekUniversity/secao03/exercicio20.o ./GeekUniversity/secao03/exercicio21.o ./GeekUniversity/secao03/exercicio22.o ./GeekUniversity/secao03/exercicio23.o ./GeekUniversity/secao03/exercicio24.o ./GeekUniversity/secao03/exercicio25.o ./GeekUniversity/secao03/exercicio26.o ./GeekUniversity/secao03/exercicio27.o ./GeekUniversity/secao03/exercicio28.o ./GeekUniversity/secao03/exercicio29.o ./GeekUniversity/secao03/exercicio30.o ./GeekUniversity/secao03/exercicio31.o ./GeekUniversity/secao03/exercicio32.o ./GeekUniversity/secao03/exercicio33.o ./GeekUniversity/secao03/exercicio34.o ./GeekUniversity/secao03/exercicio35.o ./GeekUniversity/secao03/exercicio36.o ./GeekUniversity/secao03/exercicio37.o ./GeekUniversity/secao03/exercicio38.o ./GeekUniversity/secao03/exercicio39.o ./GeekUniversity/secao03/exercicio40.o ./GeekUniversity/secao03/exercicio41.o ./GeekUniversity/secao03/exercicio42.o ./GeekUniversity/secao03/exercicio43.o ./GeekUniversity/secao03/exercicio44.o ./GeekUniversity/secao03/exercicio45.o ./GeekUniversity/secao03/exercicio46.o ./GeekUniversity/secao03/exercicio47.o ./GeekUniversity/secao03/exercicio48.o ./GeekUniversity/secao03/exercicio49.o ./GeekUniversity/secao03/exercicio50.o ./GeekUniversity/secao03/exercicio51.o ./GeekUniversity/secao03/exercicio52.o ./GeekUniversity/secao03/exercicio53.o  ./CodeAbbey/problem297.o  ./teste01.o ./beecrowd/attack_on_gasparini.d ./beecrowd/chuva_caindo.d ./beecrowd/entrada_e_saida_de_numeros_reais.d ./beecrowd/fibonot.d ./beecrowd/salario_com_bonus.d ./beecrowd/tamanho_da_placa.d  ./GeekUniversity/secao09/ajuda.d ./GeekUniversity/secao09/exercicio01.d ./GeekUniversity/secao09/exercicio02.d ./GeekUniversity/secao09/exercicio03.d ./GeekUniversity/secao09/exercicio04.d ./GeekUniversity/secao09/exercicio05.d ./GeekUniversity/secao09/exercicio06.d ./GeekUniversity/secao09/exercicio07.d ./GeekUniversity/secao09/programa17.d ./GeekUniversity/secao09/programa18.d ./GeekUniversity/secao09/programa19.d ./GeekUniversity/secao09/programa20.d  ./GeekUniversity/secao08/03-usando-numeros-binarios.d ./GeekUniversity/secao08/programa16.d  ./GeekUniversity/secao07/vetores/exercicio01.d ./GeekUniversity/secao07/vetores/exercicio02.d ./GeekUniversity/secao07/vetores/exercicio03.d ./GeekUniversity/secao07/vetores/exercicio04.d ./GeekUniversity/secao07/vetores/exercicio05.d ./GeekUniversity/secao07/vetores/exercicio06.d ./GeekUniversity/secao07/vetores/exercicio07.d ./GeekUniversity/secao07/vetores/exercicio08.d ./GeekUniversity/secao07/vetores/exercicio09.d ./GeekUniversity/secao07/vetores/exercicio10.d ./GeekUniversity/secao07/vetores/exercicio11.d ./GeekUniversity/secao07/vetores/exercicio12.d ./GeekUniversity/secao07/vetores/exercicio13.d ./GeekUniversity/secao07/vetores/exercicio14.d ./GeekUniversity/secao07/vetores/exercicio15.d ./GeekUniversity/secao07/vetores/exercicio16.d ./GeekUniversity/secao07/vetores/exercicio17.d ./GeekUniversity/secao07/vetores/exercicio18.d ./GeekUniversity/secao07/vetores/exercicio19.d ./GeekUniversity/secao07/vetores/exercicio20.d ./GeekUniversity/secao07/vetores/exercicio21.d ./GeekUniversity/secao07/vetores/exercicio22.d ./GeekUniversity/secao07/vetores/exercicio23.d ./GeekUniversity/secao07/vetores/exercicio24.d ./GeekUniversity/secao07/vetores/exercicio25.d ./GeekUniversity/secao07/vetores/exercicio26.d ./GeekUniversity/secao07/vetores/exercicio27.d ./GeekUniversity/secao07/vetores/exercicio28.d ./GeekUniversity/secao07/vetores/exercicio29.d ./GeekUniversity/secao07/vetores/exercicio30.d ./GeekUniversity/secao07/vetores/exercicio31.d ./GeekUniversity/secao07/vetores/exercicio32.d ./GeekUniversity/secao07/vetores/exercicio33.d ./GeekUniversity/secao07/vetores/exercicio34.d ./GeekUniversity/secao07/vetores/exercicio35.d ./GeekUniversity/secao07/vetores/exercicio36.d ./GeekUniversity/secao07/vetores/exercicio37.d ./GeekUniversity/secao07/vetores/exercicio38.d ./GeekUniversity/secao07/vetores/exercicio39.d  ./GeekUniversity/secao07/matrizes/exercicio01.d ./GeekUniversity/secao07/matrizes/exercicio02.d ./GeekUniversity/secao07/matrizes/exercicio03.d ./GeekUniversity/secao07/matrizes/exercicio04.d ./GeekUniversity/secao07/matrizes/exercicio05.d ./GeekUniversity/secao07/matrizes/exercicio06.d ./GeekUniversity/secao07/matrizes/exercicio07.d ./GeekUniversity/secao07/matrizes/exercicio08.d ./GeekUniversity/secao07/matrizes/exercicio09.d ./GeekUniversity/secao07/matrizes/exercicio10.d ./GeekUniversity/secao07/matrizes/exercicio11.d ./GeekUniversity/secao07/matrizes/exercicio12.d ./GeekUniversity/secao07/matrizes/exercicio13.d ./GeekUniversity/secao07/matrizes/exercicio14.d ./GeekUniversity/secao07/matrizes/exercicio15.d ./GeekUniversity/secao07/matrizes/exercicio16.d ./GeekUniversity/secao07/matrizes/exercicio17.d ./GeekUniversity/secao07/matrizes/exercicio18.d ./GeekUniversity/secao07/matrizes/exercicio19.d ./GeekUniversity/secao07/matrizes/exercicio20.d ./GeekUniversity/secao07/matrizes/exercicio21.d ./GeekUniversity/secao07/matrizes/exercicio22.d ./GeekUniversity/secao07/matrizes/exercicio23.d  ./GeekUniversity/secao07/programa13.d ./GeekUniversity/secao07/programa14.d ./GeekUniversity/secao07/programa15.d  ./GeekUniversity/secao06/programa07.d ./GeekUniversity/secao06/programa08.d ./GeekUniversity/secao06/programa09.d ./GeekUniversity/secao06/programa10.d ./GeekUniversity/secao06/programa11.d  ./GeekUniversity/secao05/exercicio01.d ./GeekUniversity/secao05/exercicio02.d ./GeekUniversity/secao05/exercicio03.d ./GeekUniversity/secao05/exercicio04.d ./GeekUniversity/secao05/exercicio05.d ./GeekUniversity/secao05/exercicio06.d ./GeekUniversity/secao05/exercicio07.d ./GeekUniversity/secao05/exercicio08.d ./GeekUniversity/secao05/exercicio09.d ./GeekUniversity/secao05/exercicio10.d ./GeekUniversity/secao05/exercicio11.d ./GeekUniversity/secao05/exercicio12.d ./GeekUniversity/secao05/exercicio13.d ./GeekUniversity/secao05/exercicio14.d ./GeekUniversity/secao05/exercicio15.d ./GeekUniversity/secao05/exercicio16.d ./GeekUniversity/secao05/exercicio17.d ./GeekUniversity/secao05/exercicio18.d ./GeekUniversity/secao05/exercicio19.d ./GeekUniversity/secao05/exercicio20.d ./GeekUniversity/secao05/exercicio21.d ./GeekUniversity/secao05/exercicio22.d ./GeekUniversity/secao05/exercicio23.d ./GeekUniversity/secao05/exercicio24.d ./GeekUniversity/secao05/exercicio25.d ./GeekUniversity/secao05/exercicio26.d ./GeekUniversity/secao05/exercicio27.d ./GeekUniversity/secao05/exercicio28.d ./GeekUniversity/secao05/exercicio29.d ./GeekUniversity/secao05/exercicio30.d ./GeekUniversity/secao05/exercicio31.d ./GeekUniversity/secao05/exercicio32.d ./GeekUniversity/secao05/exercicio33.d ./GeekUniversity/secao05/exercicio34.d ./GeekUniversity/secao05/exercicio35.d ./GeekUniversity/secao05/exercicio36.d ./GeekUniversity/secao05/exercicio37.d ./GeekUniversity/secao05/exercicio38.d ./GeekUniversity/secao05/exercicio39.d ./GeekUniversity/secao05/exercicio40.d ./GeekUniversity/secao05/exercicio41.d ./GeekUniversity/secao05/exercicio42.d ./GeekUniversity/secao05/exercicio43.d ./GeekUniversity/secao05/exercicio44.d ./GeekUniversity/secao05/exercicio45.d ./GeekUniversity/secao05/exercicio46.d ./GeekUniversity/secao05/exercicio47.d ./GeekUniversity/secao05/exercicio48.d ./GeekUniversity/secao05/exercicio49.d ./GeekUniversity/secao05/exercicio50.d ./GeekUniversity/secao05/exercicio51.d ./GeekUniversity/secao05/exercicio52.d ./GeekUniversity/secao05/exercicio53.d ./GeekUniversity/secao05/exercicio54.d ./GeekUniversity/secao05/exercicio55.d ./GeekUniversity/secao05/exercicio56.d ./GeekUniversity/secao05/exercicio57.d ./GeekUniversity/secao05/exercicio58.d ./GeekUniversity/secao05/exercicio59.d ./GeekUniversity/secao05/exercicio60.d ./GeekUniversity/secao05/exercicio61.d  ./GeekUniversity/secao04/exercicio01.d ./GeekUniversity/secao04/exercicio02.d ./GeekUniversity/secao04/exercicio03.d ./GeekUniversity/secao04/exercicio04.d ./GeekUniversity/secao04/exercicio05.d ./GeekUniversity/secao04/exercicio06.d ./GeekUniversity/secao04/exercicio07.d ./GeekUniversity/secao04/exercicio08.d ./GeekUniversity/secao04/exercicio09.d ./GeekUniversity/secao04/exercicio10.d ./GeekUniversity/secao04/exercicio11.d ./GeekUniversity/secao04/exercicio12.d ./GeekUniversity/secao04/exercicio13.d ./GeekUniversity/secao04/exercicio14.d ./GeekUniversity/secao04/exercicio15.d ./GeekUniversity/secao04/exercicio16.d ./GeekUniversity/secao04/exercicio17.d ./GeekUniversity/secao04/exercicio18.d ./GeekUniversity/secao04/exercicio19.d ./GeekUniversity/secao04/exercicio20.d ./GeekUniversity/secao04/exercicio21.d ./GeekUniversity/secao04/exercicio22.d ./GeekUniversity/secao04/exercicio23.d ./GeekUniversity/secao04/exercicio24.d ./GeekUniversity/secao04/exercicio25.d ./GeekUniversity/secao04/exercicio26.d ./GeekUniversity/secao04/exercicio27.d ./GeekUniversity/secao04/exercicio28.d ./GeekUniversity/secao04/exercicio29.d ./GeekUniversity/secao04/exercicio30.d ./GeekUniversity/secao04/exercicio31.d ./GeekUniversity/secao04/exercicio32.d ./GeekUniversity/secao04/exercicio33.d ./GeekUniversity/secao04/exercicio34.d ./GeekUniversity/secao04/exercicio35.d ./GeekUniversity/secao04/exercicio36.d ./GeekUniversity/secao04/exercicio37.d ./GeekUniversity/secao04/exercicio39.d ./GeekUniversity/secao04/exercicio40.d ./GeekUniversity/secao04/exercicio41.d  ./GeekUniversity/secao03/exercicio01.d ./GeekUniversity/secao03/exercicio02.d ./GeekUniversity/secao03/exercicio03.d ./GeekUniversity/secao03/exercicio04.d ./GeekUniversity/secao03/exercicio05.d ./GeekUniversity/secao03/exercicio06.d ./GeekUniversity/secao03/exercicio07.d ./GeekUniversity/secao03/exercicio08.d ./GeekUniversity/secao03/exercicio09.d ./GeekUniversity/secao03/exercicio10.d ./GeekUniversity/secao03/exercicio11.d ./GeekUniversity/secao03/exercicio12.d ./GeekUniversity/secao03/exercicio13.d ./GeekUniversity/secao03/exercicio14.d ./GeekUniversity/secao03/exercicio15.d ./GeekUniversity/secao03/exercicio16.d ./GeekUniversity/secao03/exercicio17.d ./GeekUniversity/secao03/exercicio18.d ./GeekUniversity/secao03/exercicio19.d ./GeekUniversity/secao03/exercicio20.d ./GeekUniversity/secao03/exercicio21.d ./GeekUniversity/secao03/exercicio22.d ./GeekUniversity/secao03/exercicio23.d ./GeekUniversity/secao03/exercicio24.d ./GeekUniversity/secao03/exercicio25.d ./GeekUniversity/secao03/exercicio26.d ./GeekUniversity/secao03/exercicio27.d ./GeekUniversity/secao03/exercicio28.d ./GeekUniversity/secao03/exercicio29.d ./GeekUniversity/secao03/exercicio30.d ./GeekUniversity/secao03/exercicio31.d ./GeekUniversity/secao03/exercicio32.d ./GeekUniversity/secao03/exercicio33.d ./GeekUniversity/secao03/exercicio34.d ./GeekUniversity/secao03/exercicio35.d ./GeekUniversity/secao03/exercicio36.d ./GeekUniversity/secao03/exercicio37.d ./GeekUniversity/secao03/exercicio38.d ./GeekUniversity/secao03/exercicio39.d ./GeekUniversity/secao03/exercicio40.d ./GeekUniversity/secao03/exercicio41.d ./GeekUniversity/secao03/exercicio42.d ./GeekUniversity/secao03/exercicio43.d ./GeekUniversity/secao03/exercicio44.d ./GeekUniversity/secao03/exercicio45.d ./GeekUniversity/secao03/exercicio46.d ./GeekUniversity/secao03/exercicio47.d ./GeekUniversity/secao03/exercicio48.d ./GeekUniversity/secao03/exercicio49.d ./GeekUniversity/secao03/exercicio50.d ./GeekUniversity/secao03/exercicio51.d ./GeekUniversity/secao03/exercicio52.d ./GeekUniversity/secao03/exercicio53.d  ./CodeAbbey/problem297.d  ./teste01.d  ProgramasCFonte
+ 
+14:58:56 **** Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio20.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio20.d" -MT"exercicio20.o" -o "exercicio20.o" "../exercicio20.c"
+../exercicio20.c: In function ‘fatorial’:
+../exercicio20.c:17:1: warning: control reaches end of non-void function [-Wreturn-type]
+   17 | }
+      | ^
+Finished building: ../exercicio20.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio20.o   -lm
+Finished building target: ProgramasC
+ 
+14:59:05 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+14:59:16 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+14:59:27 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+15:08:24 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio21.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio21.d" -MT"exercicio21.o" -o "exercicio21.o" "../exercicio21.c"
+../exercicio21.c: In function ‘main’:
+../exercicio21.c:30:9: warning: implicit declaration of function ‘NumerosPrimos’; did you mean ‘NumeroPrimos’? [-Wimplicit-function-declaration]
+   30 |         NumerosPrimos();
+      |         ^~~~~~~~~~~~~
+      |         NumeroPrimos
+../exercicio21.c: In function ‘NumeroPrimos’:
+../exercicio21.c:25:1: warning: control reaches end of non-void function [-Wreturn-type]
+   25 | }
+      | ^
+Finished building: ../exercicio21.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio21.o   -lm
+/usr/bin/ld: ./exercicio21.o: na função "main":
+/home/marcos/Computacao/C/ProgramasC/Debug/../exercicio21.c:30: referência não definida para "NumerosPrimos"
+collect2: error: ld returned 1 exit status
+make: *** [makefile:31: ProgramasC] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:08:59 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio21.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio21.d" -MT"exercicio21.o" -o "exercicio21.o" "../exercicio21.c"
+../exercicio21.c: In function ‘NumerosPrimos’:
+../exercicio21.c:25:1: warning: control reaches end of non-void function [-Wreturn-type]
+   25 | }
+      | ^
+Finished building: ../exercicio21.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio21.o   -lm
+Finished building target: ProgramasC
+ 
+15:09:39 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio21.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio21.d" -MT"exercicio21.o" -o "exercicio21.o" "../exercicio21.c"
+../exercicio21.c: In function ‘NumerosPrimos’:
+../exercicio21.c:25:1: warning: control reaches end of non-void function [-Wreturn-type]
+   25 | }
+      | ^
+Finished building: ../exercicio21.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio21.o   -lm
+Finished building target: ProgramasC
+ 
+15:10:31 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio21.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio21.d" -MT"exercicio21.o" -o "exercicio21.o" "../exercicio21.c"
+../exercicio21.c: In function ‘NumerosPrimos’:
+../exercicio21.c:26:1: warning: control reaches end of non-void function [-Wreturn-type]
+   26 | }
+      | ^
+Finished building: ../exercicio21.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio21.o   -lm
+Finished building target: ProgramasC
+ 
+15:14:38 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio21.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio21.d" -MT"exercicio21.o" -o "exercicio21.o" "../exercicio21.c"
+../exercicio21.c: In function ‘NumerosPrimos’:
+../exercicio21.c:30:1: warning: control reaches end of non-void function [-Wreturn-type]
+   30 | }
+      | ^
+Finished building: ../exercicio21.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio21.o   -lm
+Finished building target: ProgramasC
+ 
+15:17:29 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio21.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio21.d" -MT"exercicio21.o" -o "exercicio21.o" "../exercicio21.c"
+../exercicio21.c: In function ‘NumerosPrimos’:
+../exercicio21.c:28:1: warning: control reaches end of non-void function [-Wreturn-type]
+   28 | }
+      | ^
+Finished building: ../exercicio21.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio21.o   -lm
+Finished building target: ProgramasC
+ 
+15:18:13 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+15:19:26 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio21.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio21.d" -MT"exercicio21.o" -o "exercicio21.o" "../exercicio21.c"
+../exercicio21.c: In function ‘NumerosPrimos’:
+../exercicio21.c:28:1: warning: control reaches end of non-void function [-Wreturn-type]
+   28 | }
+      | ^
+Finished building: ../exercicio21.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio21.o   -lm
+Finished building target: ProgramasC
+ 
+15:20:46 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio21.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio21.d" -MT"exercicio21.o" -o "exercicio21.o" "../exercicio21.c"
+../exercicio21.c: In function ‘NumerosPrimos’:
+../exercicio21.c:32:1: warning: control reaches end of non-void function [-Wreturn-type]
+   32 | }
+      | ^
+Finished building: ../exercicio21.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio21.o   -lm
+Finished building target: ProgramasC
+ 
+15:20:59 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+15:21:37 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+15:22:26 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio21.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio21.d" -MT"exercicio21.o" -o "exercicio21.o" "../exercicio21.c"
+../exercicio21.c: In function ‘NumerosPrimos’:
+../exercicio21.c:31:1: warning: control reaches end of non-void function [-Wreturn-type]
+   31 | }
+      | ^
+Finished building: ../exercicio21.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio21.o   -lm
+Finished building target: ProgramasC
+ 
+15:22:51 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio21.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio21.d" -MT"exercicio21.o" -o "exercicio21.o" "../exercicio21.c"
+../exercicio21.c: In function ‘NumerosPrimos’:
+../exercicio21.c:31:1: warning: control reaches end of non-void function [-Wreturn-type]
+   31 | }
+      | ^
+Finished building: ../exercicio21.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio21.o   -lm
+Finished building target: ProgramasC
+ 
+15:28:04 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio22.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio22.d" -MT"exercicio22.o" -o "exercicio22.o" "../exercicio22.c"
+../exercicio22.c: In function ‘interrogacao’:
+../exercicio22.c:17:1: warning: control reaches end of non-void function [-Wreturn-type]
+   17 | }
+      | ^
+Finished building: ../exercicio22.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio22.o   -lm
+Finished building target: ProgramasC
+ 
+15:30:36 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio22.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio22.d" -MT"exercicio22.o" -o "exercicio22.o" "../exercicio22.c"
+../exercicio22.c: In function ‘interrogacao’:
+../exercicio22.c:14:26: warning: assignment to ‘char’ from ‘char *’ makes integer from pointer without a cast [-Wint-conversion]
+   14 |                 inter[i] += "!";
+      |                          ^~
+../exercicio22.c:15:26: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘int’ [-Wformat=]
+   15 |                 printf("%s\n", inter[i]);
+      |                         ~^     ~~~~~~~~
+      |                          |          |
+      |                          char *     int
+      |                         %d
+../exercicio22.c:19:1: warning: control reaches end of non-void function [-Wreturn-type]
+   19 | }
+      | ^
+Finished building: ../exercicio22.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio22.o   -lm
+Finished building target: ProgramasC
+ 
+15:34:46 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio22.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio22.d" -MT"exercicio22.o" -o "exercicio22.o" "../exercicio22.c"
+../exercicio22.c: In function ‘interrogacao’:
+../exercicio22.c:19:1: warning: control reaches end of non-void function [-Wreturn-type]
+   19 | }
+      | ^
+Finished building: ../exercicio22.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio22.o   -lm
+Finished building target: ProgramasC
+ 
+15:36:38 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio22.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio22.d" -MT"exercicio22.o" -o "exercicio22.o" "../exercicio22.c"
+../exercicio22.c: In function ‘interrogacao’:
+../exercicio22.c:14:23: error: assignment to expression with array type
+   14 |                 inter += '!';
+      |                       ^~
+../exercicio22.c:19:1: warning: control reaches end of non-void function [-Wreturn-type]
+   19 | }
+      | ^
+make: *** [subdir.mk:20: exercicio22.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:37:34 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio22.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio22.d" -MT"exercicio22.o" -o "exercicio22.o" "../exercicio22.c"
+../exercicio22.c: In function ‘interrogacao’:
+../exercicio22.c:19:1: warning: control reaches end of non-void function [-Wreturn-type]
+   19 | }
+      | ^
+Finished building: ../exercicio22.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio22.o   -lm
+Finished building target: ProgramasC
+ 
+15:38:13 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio22.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio22.d" -MT"exercicio22.o" -o "exercicio22.o" "../exercicio22.c"
+../exercicio22.c: In function ‘interrogacao’:
+../exercicio22.c:15:26: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘int’ [-Wformat=]
+   15 |                 printf("%s", inter[i]);
+      |                         ~^   ~~~~~~~~
+      |                          |        |
+      |                          char *   int
+      |                         %d
+../exercicio22.c:19:1: warning: control reaches end of non-void function [-Wreturn-type]
+   19 | }
+      | ^
+Finished building: ../exercicio22.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio22.o   -lm
+Finished building target: ProgramasC
+ 
+15:38:34 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio22.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio22.d" -MT"exercicio22.o" -o "exercicio22.o" "../exercicio22.c"
+../exercicio22.c: In function ‘interrogacao’:
+../exercicio22.c:19:1: warning: control reaches end of non-void function [-Wreturn-type]
+   19 | }
+      | ^
+Finished building: ../exercicio22.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio22.o   -lm
+Finished building target: ProgramasC
+ 
+15:42:15 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio22.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio22.d" -MT"exercicio22.o" -o "exercicio22.o" "../exercicio22.c"
+../exercicio22.c: In function ‘interrogacao’:
+../exercicio22.c:24:1: warning: control reaches end of non-void function [-Wreturn-type]
+   24 | }
+      | ^
+Finished building: ../exercicio22.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio22.o   -lm
+Finished building target: ProgramasC
+ 
+15:42:44 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio22.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio22.d" -MT"exercicio22.o" -o "exercicio22.o" "../exercicio22.c"
+../exercicio22.c: In function ‘interrogacao’:
+../exercicio22.c:16:34: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘int’ [-Wformat=]
+   16 |                         printf("%s", inter[i]);
+      |                                 ~^   ~~~~~~~~
+      |                                  |        |
+      |                                  char *   int
+      |                                 %d
+../exercicio22.c:24:1: warning: control reaches end of non-void function [-Wreturn-type]
+   24 | }
+      | ^
+Finished building: ../exercicio22.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio22.o   -lm
+Finished building target: ProgramasC
+ 
+15:43:53 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio22.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio22.d" -MT"exercicio22.o" -o "exercicio22.o" "../exercicio22.c"
+../exercicio22.c: In function ‘interrogacao’:
+../exercicio22.c:23:1: warning: control reaches end of non-void function [-Wreturn-type]
+   23 | }
+      | ^
+Finished building: ../exercicio22.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio22.o   -lm
+Finished building target: ProgramasC
+ 
+15:44:27 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio22.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio22.d" -MT"exercicio22.o" -o "exercicio22.o" "../exercicio22.c"
+../exercicio22.c: In function ‘interrogacao’:
+../exercicio22.c:24:1: warning: control reaches end of non-void function [-Wreturn-type]
+   24 | }
+      | ^
+Finished building: ../exercicio22.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio22.o   -lm
+Finished building target: ProgramasC
+ 
+16:02:01 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio23.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio23.d" -MT"exercicio23.o" -o "exercicio23.o" "../exercicio23.c"
+../exercicio23.c: In function ‘TrianguloEstrela’:
+../exercicio23.c:10:17: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+   10 |         scanf("%d", n);
+      |                ~^   ~
+      |                 |   |
+      |                 |   int
+      |                 int *
+../exercicio23.c:39:1: warning: control reaches end of non-void function [-Wreturn-type]
+   39 | }
+      | ^
+Finished building: ../exercicio23.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio23.o   -lm
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: na função "_start":
+(.text+0x1b): referência não definida para "main"
+collect2: error: ld returned 1 exit status
+make: *** [makefile:31: ProgramasC] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:02:42 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio23.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio23.d" -MT"exercicio23.o" -o "exercicio23.o" "../exercicio23.c"
+../exercicio23.c: In function ‘TrianguloEstrela’:
+../exercicio23.c:10:17: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+   10 |         scanf("%d", n);
+      |                ~^   ~
+      |                 |   |
+      |                 |   int
+      |                 int *
+../exercicio23.c:39:1: warning: control reaches end of non-void function [-Wreturn-type]
+   39 | }
+      | ^
+Finished building: ../exercicio23.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio23.o   -lm
+Finished building target: ProgramasC
+ 
+16:03:00 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio23.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio23.d" -MT"exercicio23.o" -o "exercicio23.o" "../exercicio23.c"
+../exercicio23.c: In function ‘TrianguloEstrela’:
+../exercicio23.c:39:1: warning: control reaches end of non-void function [-Wreturn-type]
+   39 | }
+      | ^
+Finished building: ../exercicio23.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio23.o   -lm
+Finished building target: ProgramasC
+ 
+16:03:53 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio23.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio23.d" -MT"exercicio23.o" -o "exercicio23.o" "../exercicio23.c"
+../exercicio23.c: In function ‘TrianguloEstrela’:
+../exercicio23.c:39:1: warning: control reaches end of non-void function [-Wreturn-type]
+   39 | }
+      | ^
+Finished building: ../exercicio23.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio23.o   -lm
+Finished building target: ProgramasC
+ 
+16:05:21 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio23.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio23.d" -MT"exercicio23.o" -o "exercicio23.o" "../exercicio23.c"
+../exercicio23.c: In function ‘TrianguloEstrela’:
+../exercicio23.c:39:1: warning: control reaches end of non-void function [-Wreturn-type]
+   39 | }
+      | ^
+Finished building: ../exercicio23.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio23.o   -lm
+Finished building target: ProgramasC
+ 
+16:06:16 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+16:06:47 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio23.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio23.d" -MT"exercicio23.o" -o "exercicio23.o" "../exercicio23.c"
+../exercicio23.c: In function ‘TrianguloEstrela’:
+../exercicio23.c:39:1: warning: control reaches end of non-void function [-Wreturn-type]
+   39 | }
+      | ^
+Finished building: ../exercicio23.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio23.o   -lm
+Finished building target: ProgramasC
+ 
+16:07:10 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio23.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio23.d" -MT"exercicio23.o" -o "exercicio23.o" "../exercicio23.c"
+../exercicio23.c: In function ‘TrianguloEstrela’:
+../exercicio23.c:39:1: warning: control reaches end of non-void function [-Wreturn-type]
+   39 | }
+      | ^
+Finished building: ../exercicio23.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio23.o   -lm
+Finished building target: ProgramasC
+ 
+16:07:31 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio23.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio23.d" -MT"exercicio23.o" -o "exercicio23.o" "../exercicio23.c"
+../exercicio23.c: In function ‘TrianguloEstrela’:
+../exercicio23.c:39:1: warning: control reaches end of non-void function [-Wreturn-type]
+   39 | }
+      | ^
+Finished building: ../exercicio23.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio23.o   -lm
+Finished building target: ProgramasC
+ 
+16:07:48 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio23.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio23.d" -MT"exercicio23.o" -o "exercicio23.o" "../exercicio23.c"
+../exercicio23.c: In function ‘TrianguloEstrela’:
+../exercicio23.c:39:1: warning: control reaches end of non-void function [-Wreturn-type]
+   39 | }
+      | ^
+Finished building: ../exercicio23.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio23.o   -lm
+Finished building target: ProgramasC
+ 
+16:08:40 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.

@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+
+int n;
+
+char inter[100];
+
+int interrogacao(){
+
+	printf("Digite um número para n: ");
+	scanf("%d", &n);
+
+	for(int i = 0; i < n; i++){
+		inter[i] += '!';
+		printf("%c\n", inter[i]);
+
+	}
+
+}
+
+
+int main(){
+
+	interrogacao();
+
+	return 0;
+
+}
