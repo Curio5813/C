@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+
+int n, soma;
+
+
+int somatario(){
+
+	printf("Digite um número inteiro positivo: ");
+	scanf("%d", &n);
+	printf("\n");
+
+	for(int i = 1; i <= n; i++){
+
+		soma += i;
+
+	}printf("%d", soma);
+
+}

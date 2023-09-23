@@ -5,6 +5,7 @@
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
 ../beecrowd/attack_on_gasparini.c \
+../beecrowd/carrega_ou_nao_carrega.c \
 ../beecrowd/chuva_caindo.c \
 ../beecrowd/entrada_e_saida_de_numeros_reais.c \
 ../beecrowd/fibonot.c \
@@ -13,6 +14,7 @@ C_SRCS += \
 
 OBJS += \
 ./beecrowd/attack_on_gasparini.o \
+./beecrowd/carrega_ou_nao_carrega.o \
 ./beecrowd/chuva_caindo.o \
 ./beecrowd/entrada_e_saida_de_numeros_reais.o \
 ./beecrowd/fibonot.o \
@@ -21,6 +23,7 @@ OBJS += \
 
 C_DEPS += \
 ./beecrowd/attack_on_gasparini.d \
+./beecrowd/carrega_ou_nao_carrega.d \
 ./beecrowd/chuva_caindo.d \
 ./beecrowd/entrada_e_saida_de_numeros_reais.d \
 ./beecrowd/fibonot.d \
