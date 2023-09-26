@@ -47,3 +47,427 @@ Invoking: GCC C Linker
 gcc -lm  -o "ProgramasC" ./o_criptografo_envergonhado.o   -lm
 Finished building target: ProgramasC
  
+22:25:11 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../problem022.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"problem022.d" -MT"problem022.o" -o "problem022.o" "../problem022.c"
+../problem022.c: In function ‘main’:
+../problem022.c:8:13: error: expected identifier or ‘(’ before ‘,’ token
+    8 |         long, long int data[2][3] = {{1, 1, 5}, {3, 5, 4}};
+      |             ^
+../problem022.c:12:25: error: ‘data’ undeclared (first use in this function)
+   12 |                         data[i][k];
+      |                         ^~~~
+../problem022.c:12:25: note: each undeclared identifier is reported only once for each function it appears in
+../problem022.c:6:32: warning: unused variable ‘time’ [-Wunused-variable]
+    6 |         long long int x, y, n, time = 0, i, k;
+      |                                ^~~~
+../problem022.c:6:29: warning: unused variable ‘n’ [-Wunused-variable]
+    6 |         long long int x, y, n, time = 0, i, k;
+      |                             ^
+../problem022.c:6:26: warning: unused variable ‘y’ [-Wunused-variable]
+    6 |         long long int x, y, n, time = 0, i, k;
+      |                          ^
+../problem022.c:6:23: warning: unused variable ‘x’ [-Wunused-variable]
+    6 |         long long int x, y, n, time = 0, i, k;
+      |                       ^
+make: *** [subdir.mk:20: problem022.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:28:08 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../problem022.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"problem022.d" -MT"problem022.o" -o "problem022.o" "../problem022.c"
+../problem022.c: In function ‘main’:
+../problem022.c:8:13: error: expected identifier or ‘(’ before ‘,’ token
+    8 |         long, long int data[2][3];
+      |             ^
+../problem022.c:12:55: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   12 |                         printf("Digite um valor para %dº linha e %dº coluna: ", i + 1, k + 1);
+      |                                                      ~^                         ~~~~~
+      |                                                       |                           |
+      |                                                       int                         long long int
+      |                                                      %lld
+../problem022.c:12:67: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘long long int’ [-Wformat=]
+   12 |                         printf("Digite um valor para %dº linha e %dº coluna: ", i + 1, k + 1);
+      |                                                                  ~^                    ~~~~~
+      |                                                                   |                      |
+      |                                                                   int                    long long int
+      |                                                                  %lld
+../problem022.c:13:39: error: ‘data’ undeclared (first use in this function)
+   13 |                         scanf("%d%d", data[i][k]);
+      |                                       ^~~~
+../problem022.c:13:39: note: each undeclared identifier is reported only once for each function it appears in
+../problem022.c:6:32: warning: unused variable ‘time’ [-Wunused-variable]
+    6 |         long long int x, y, n, time = 0, i, k;
+      |                                ^~~~
+../problem022.c:6:29: warning: unused variable ‘n’ [-Wunused-variable]
+    6 |         long long int x, y, n, time = 0, i, k;
+      |                             ^
+../problem022.c:6:26: warning: unused variable ‘y’ [-Wunused-variable]
+    6 |         long long int x, y, n, time = 0, i, k;
+      |                          ^
+../problem022.c:6:23: warning: unused variable ‘x’ [-Wunused-variable]
+    6 |         long long int x, y, n, time = 0, i, k;
+      |                       ^
+make: *** [subdir.mk:20: problem022.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:29:47 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../problem022.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"problem022.d" -MT"problem022.o" -o "problem022.o" "../problem022.c"
+../problem022.c: In function ‘main’:
+../problem022.c:8:13: error: expected identifier or ‘(’ before ‘,’ token
+    8 |         long, long int data[2][3];
+      |             ^
+../problem022.c:12:55: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   12 |                         printf("Digite um valor para %dº linha e %dº coluna: ", i + 1, k + 1);
+      |                                                      ~^                         ~~~~~
+      |                                                       |                           |
+      |                                                       int                         long long int
+      |                                                      %lld
+../problem022.c:12:67: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘long long int’ [-Wformat=]
+   12 |                         printf("Digite um valor para %dº linha e %dº coluna: ", i + 1, k + 1);
+      |                                                                  ~^                    ~~~~~
+      |                                                                   |                      |
+      |                                                                   int                    long long int
+      |                                                                  %lld
+../problem022.c:13:38: error: ‘data’ undeclared (first use in this function)
+   13 |                         scanf("%d", &data[i][k]);
+      |                                      ^~~~
+../problem022.c:13:38: note: each undeclared identifier is reported only once for each function it appears in
+../problem022.c:6:32: warning: unused variable ‘time’ [-Wunused-variable]
+    6 |         long long int x, y, n, time = 0, i, k;
+      |                                ^~~~
+../problem022.c:6:29: warning: unused variable ‘n’ [-Wunused-variable]
+    6 |         long long int x, y, n, time = 0, i, k;
+      |                             ^
+../problem022.c:6:26: warning: unused variable ‘y’ [-Wunused-variable]
+    6 |         long long int x, y, n, time = 0, i, k;
+      |                          ^
+../problem022.c:6:23: warning: unused variable ‘x’ [-Wunused-variable]
+    6 |         long long int x, y, n, time = 0, i, k;
+      |                       ^
+make: *** [subdir.mk:20: problem022.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:30:14 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../problem022.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"problem022.d" -MT"problem022.o" -o "problem022.o" "../problem022.c"
+../problem022.c: In function ‘main’:
+../problem022.c:8:13: error: expected identifier or ‘(’ before ‘,’ token
+    8 |         long, long int data[2][3];
+      |             ^
+../problem022.c:12:55: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   12 |                         printf("Digite um valor para %dº linha e %dº coluna: ", i + 1, k + 1);
+      |                                                      ~^                         ~~~~~
+      |                                                       |                           |
+      |                                                       int                         long long int
+      |                                                      %lld
+../problem022.c:12:67: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘long long int’ [-Wformat=]
+   12 |                         printf("Digite um valor para %dº linha e %dº coluna: ", i + 1, k + 1);
+      |                                                                  ~^                    ~~~~~
+      |                                                                   |                      |
+      |                                                                   int                    long long int
+      |                                                                  %lld
+../problem022.c:13:40: error: ‘data’ undeclared (first use in this function)
+   13 |                         scanf("%lld", &data[i][k]);
+      |                                        ^~~~
+../problem022.c:13:40: note: each undeclared identifier is reported only once for each function it appears in
+../problem022.c:6:32: warning: unused variable ‘time’ [-Wunused-variable]
+    6 |         long long int x, y, n, time = 0, i, k;
+      |                                ^~~~
+../problem022.c:6:29: warning: unused variable ‘n’ [-Wunused-variable]
+    6 |         long long int x, y, n, time = 0, i, k;
+      |                             ^
+../problem022.c:6:26: warning: unused variable ‘y’ [-Wunused-variable]
+    6 |         long long int x, y, n, time = 0, i, k;
+      |                          ^
+../problem022.c:6:23: warning: unused variable ‘x’ [-Wunused-variable]
+    6 |         long long int x, y, n, time = 0, i, k;
+      |                       ^
+make: *** [subdir.mk:20: problem022.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:31:03 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../problem022.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"problem022.d" -MT"problem022.o" -o "problem022.o" "../problem022.c"
+../problem022.c: In function ‘main’:
+../problem022.c:12:55: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   12 |                         printf("Digite um valor para %dº linha e %dº coluna: ", i + 1, k + 1);
+      |                                                      ~^                         ~~~~~
+      |                                                       |                           |
+      |                                                       int                         long long int
+      |                                                      %lld
+../problem022.c:12:67: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘long long int’ [-Wformat=]
+   12 |                         printf("Digite um valor para %dº linha e %dº coluna: ", i + 1, k + 1);
+      |                                                                  ~^                    ~~~~~
+      |                                                                   |                      |
+      |                                                                   int                    long long int
+      |                                                                  %lld
+../problem022.c:6:32: warning: unused variable ‘time’ [-Wunused-variable]
+    6 |         long long int x, y, n, time = 0, i, k;
+      |                                ^~~~
+../problem022.c:6:29: warning: unused variable ‘n’ [-Wunused-variable]
+    6 |         long long int x, y, n, time = 0, i, k;
+      |                             ^
+../problem022.c:6:26: warning: unused variable ‘y’ [-Wunused-variable]
+    6 |         long long int x, y, n, time = 0, i, k;
+      |                          ^
+../problem022.c:6:23: warning: unused variable ‘x’ [-Wunused-variable]
+    6 |         long long int x, y, n, time = 0, i, k;
+      |                       ^
+Finished building: ../problem022.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./problem022.o   -lm
+Finished building target: ProgramasC
+ 
+22:36:04 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../problem022.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"problem022.d" -MT"problem022.o" -o "problem022.o" "../problem022.c"
+../problem022.c: In function ‘main’:
+../problem022.c:6:29: warning: unused variable ‘n’ [-Wunused-variable]
+    6 |         long long int x, y, n, time = 0, i, k;
+      |                             ^
+../problem022.c:6:26: warning: unused variable ‘y’ [-Wunused-variable]
+    6 |         long long int x, y, n, time = 0, i, k;
+      |                          ^
+../problem022.c:6:23: warning: unused variable ‘x’ [-Wunused-variable]
+    6 |         long long int x, y, n, time = 0, i, k;
+      |                       ^
+Finished building: ../problem022.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./problem022.o   -lm
+Finished building target: ProgramasC
+ 
+22:52:48 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../problem022.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"problem022.d" -MT"problem022.o" -o "problem022.o" "../problem022.c"
+../problem022.c: In function ‘main’:
+../problem022.c:17:48: warning: too many arguments for format [-Wformat-extra-args]
+   17 |                                         printf("lld ", cont);
+      |                                                ^~~~~~
+../problem022.c:24:48: warning: too many arguments for format [-Wformat-extra-args]
+   24 |                                         printf("lld ", cont);
+      |                                                ^~~~~~
+../problem022.c:6:41: warning: unused variable ‘j’ [-Wunused-variable]
+    6 |         long long int cont, soma, i, k, j;
+      |                                         ^
+../problem022.c:6:38: warning: unused variable ‘k’ [-Wunused-variable]
+    6 |         long long int cont, soma, i, k, j;
+      |                                      ^
+Finished building: ../problem022.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./problem022.o   -lm
+Finished building target: ProgramasC
+ 
+22:54:44 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+22:58:07 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../problem022.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"problem022.d" -MT"problem022.o" -o "problem022.o" "../problem022.c"
+../problem022.c: In function ‘main’:
+../problem022.c:6:31: warning: unused variable ‘j’ [-Wunused-variable]
+    6 |         int cont, soma, i, k, j;
+      |                               ^
+../problem022.c:6:28: warning: unused variable ‘k’ [-Wunused-variable]
+    6 |         int cont, soma, i, k, j;
+      |                            ^
+Finished building: ../problem022.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./problem022.o   -lm
+Finished building target: ProgramasC
+ 
+23:02:01 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../problem022.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"problem022.d" -MT"problem022.o" -o "problem022.o" "../problem022.c"
+../problem022.c: In function ‘main’:
+../problem022.c:17:50: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   17 |                                         printf("%d ", cont);
+      |                                                 ~^    ~~~~
+      |                                                  |    |
+      |                                                  int  long long int
+      |                                                 %lld
+../problem022.c:24:50: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   24 |                                         printf("%d ", cont);
+      |                                                 ~^    ~~~~
+      |                                                  |    |
+      |                                                  int  long long int
+      |                                                 %lld
+../problem022.c:6:41: warning: unused variable ‘j’ [-Wunused-variable]
+    6 |         long long int cont, soma, i, k, j, n1, n2;
+      |                                         ^
+../problem022.c:6:38: warning: unused variable ‘k’ [-Wunused-variable]
+    6 |         long long int cont, soma, i, k, j, n1, n2;
+      |                                      ^
+Finished building: ../problem022.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./problem022.o   -lm
+Finished building target: ProgramasC
+ 
+23:02:27 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../problem022.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"problem022.d" -MT"problem022.o" -o "problem022.o" "../problem022.c"
+../problem022.c: In function ‘main’:
+../problem022.c:18:50: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   18 |                                         printf("%d ", cont);
+      |                                                 ~^    ~~~~
+      |                                                  |    |
+      |                                                  int  long long int
+      |                                                 %lld
+../problem022.c:26:50: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+   26 |                                         printf("%d ", cont);
+      |                                                 ~^    ~~~~
+      |                                                  |    |
+      |                                                  int  long long int
+      |                                                 %lld
+../problem022.c:6:41: warning: unused variable ‘j’ [-Wunused-variable]
+    6 |         long long int cont, soma, i, k, j, n1, n2;
+      |                                         ^
+../problem022.c:6:38: warning: unused variable ‘k’ [-Wunused-variable]
+    6 |         long long int cont, soma, i, k, j, n1, n2;
+      |                                      ^
+Finished building: ../problem022.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./problem022.o   -lm
+Finished building target: ProgramasC
+ 
+23:02:56 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../problem022.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"problem022.d" -MT"problem022.o" -o "problem022.o" "../problem022.c"
+../problem022.c: In function ‘main’:
+../problem022.c:6:41: warning: unused variable ‘j’ [-Wunused-variable]
+    6 |         long long int cont, soma, i, k, j, n1, n2;
+      |                                         ^
+../problem022.c:6:38: warning: unused variable ‘k’ [-Wunused-variable]
+    6 |         long long int cont, soma, i, k, j, n1, n2;
+      |                                      ^
+Finished building: ../problem022.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./problem022.o   -lm
+Finished building target: ProgramasC
+ 
+23:04:26 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../problem022.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"problem022.d" -MT"problem022.o" -o "problem022.o" "../problem022.c"
+../problem022.c: In function ‘main’:
+../problem022.c:6:41: warning: unused variable ‘j’ [-Wunused-variable]
+    6 |         long long int cont, soma, i, k, j, n1, n2;
+      |                                         ^
+../problem022.c:6:38: warning: unused variable ‘k’ [-Wunused-variable]
+    6 |         long long int cont, soma, i, k, j, n1, n2;
+      |                                      ^
+Finished building: ../problem022.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./problem022.o   -lm
+Finished building target: ProgramasC
+ 
+23:10:23 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../problem022.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"problem022.d" -MT"problem022.o" -o "problem022.o" "../problem022.c"
+../problem022.c: In function ‘main’:
+../problem022.c:6:41: warning: unused variable ‘j’ [-Wunused-variable]
+    6 |         long long int cont, soma, i, k, j, n1, n2;
+      |                                         ^
+../problem022.c:6:38: warning: unused variable ‘k’ [-Wunused-variable]
+    6 |         long long int cont, soma, i, k, j, n1, n2;
+      |                                      ^
+Finished building: ../problem022.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./problem022.o   -lm
+Finished building target: ProgramasC
+ 
+23:21:06 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../problem022.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"problem022.d" -MT"problem022.o" -o "problem022.o" "../problem022.c"
+../problem022.c:6:17: error: initializer element is not constant
+    6 | clock_t begin = clock();
+      |                 ^~~~~
+../problem022.c: In function ‘main’:
+../problem022.c:11:41: warning: unused variable ‘j’ [-Wunused-variable]
+   11 |         long long int cont, soma, i, k, j, n1, n2;
+      |                                         ^
+../problem022.c:11:38: warning: unused variable ‘k’ [-Wunused-variable]
+   11 |         long long int cont, soma, i, k, j, n1, n2;
+      |                                      ^
+make: *** [subdir.mk:20: problem022.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:21:33 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../problem022.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"problem022.d" -MT"problem022.o" -o "problem022.o" "../problem022.c"
+../problem022.c: In function ‘main’:
+../problem022.c:13:41: warning: unused variable ‘j’ [-Wunused-variable]
+   13 |         long long int cont, soma, i, k, j, n1, n2;
+      |                                         ^
+../problem022.c:13:38: warning: unused variable ‘k’ [-Wunused-variable]
+   13 |         long long int cont, soma, i, k, j, n1, n2;
+      |                                      ^
+Finished building: ../problem022.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./problem022.o   -lm
+Finished building target: ProgramasC
+ 
+23:22:25 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../problem022.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"problem022.d" -MT"problem022.o" -o "problem022.o" "../problem022.c"
+../problem022.c: In function ‘main’:
+../problem022.c:13:41: warning: unused variable ‘j’ [-Wunused-variable]
+   13 |         long long int cont, soma, i, k, j, n1, n2;
+      |                                         ^
+../problem022.c:13:38: warning: unused variable ‘k’ [-Wunused-variable]
+   13 |         long long int cont, soma, i, k, j, n1, n2;
+      |                                      ^
+Finished building: ../problem022.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./problem022.o   -lm
+Finished building target: ProgramasC
+ 

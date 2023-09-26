@@ -1,15 +1,22 @@
-19:36:56 **** Incremental Build of configuration Debug for project ProgramasC ****
+23:22:25 **** Incremental Build of configuration Debug for project ProgramasC ****
 make all 
-Building file: ../o_criptografo_envergonhado.c
+Building file: ../problem022.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"o_criptografo_envergonhado.d" -MT"o_criptografo_envergonhado.o" -o "o_criptografo_envergonhado.o" "../o_criptografo_envergonhado.c"
-Finished building: ../o_criptografo_envergonhado.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"problem022.d" -MT"problem022.o" -o "problem022.o" "../problem022.c"
+../problem022.c: In function ‘main’:
+../problem022.c:13:41: warning: unused variable ‘j’ [-Wunused-variable]
+   13 |         long long int cont, soma, i, k, j, n1, n2;
+      |                                         ^
+../problem022.c:13:38: warning: unused variable ‘k’ [-Wunused-variable]
+   13 |         long long int cont, soma, i, k, j, n1, n2;
+      |                                      ^
+Finished building: ../problem022.c
  
 Building target: ProgramasC
 Invoking: GCC C Linker
-gcc -lm  -o "ProgramasC" ./o_criptografo_envergonhado.o   -lm
+gcc -lm  -o "ProgramasC" ./problem022.o   -lm
 Finished building target: ProgramasC
  
 
-19:36:57 Build Finished. 0 errors, 0 warnings. (took 1s.179ms)
+23:22:26 Build Finished. 0 errors, 2 warnings. (took 1s.178ms)
 
