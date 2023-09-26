@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+
+int num;
+float val;
+char carac[1];
+char str[50];
+
+int main(){
+
+	scanf("%d%f%s%[\n]", &num, &val, &carac, str);
+	printf("%d%.6f%s%s\n", num, val, carac, str);
+	printf("%d\t%.6f\t%s\t%s\n", num, val, carac, str);
+	printf("%10d%10.6f%10s%10s\n", num, val, carac, str);
+
+
+	return 0;
+
+}
+

@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+
+int main(){
+
+
+int in;
+float val;
+char carac[1];
+char frase[51];
+
+
+scanf("%d", &in);
+scanf("%f", &val);
+scanf("%c", &carac);
+scanf("%s", &frase);
+
+printf("%d%.6f%c%s\n", in, val, carac, frase);
+printf("%d\t%.6f\t'%c'\t%s\n", in, val, carac, frase);
+printf("%10d%10.6f'%10c%'10s\n", in, val, carac, frase);
+
+return 0;
+
+}

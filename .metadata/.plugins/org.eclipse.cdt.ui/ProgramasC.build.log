@@ -1,6 +1,15 @@
-16:01:32 **** Incremental Build of configuration Debug for project ProgramasC ****
+19:36:56 **** Incremental Build of configuration Debug for project ProgramasC ****
 make all 
-make: Nada a ser feito para 'all'.
+Building file: ../o_criptografo_envergonhado.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"o_criptografo_envergonhado.d" -MT"o_criptografo_envergonhado.o" -o "o_criptografo_envergonhado.o" "../o_criptografo_envergonhado.c"
+Finished building: ../o_criptografo_envergonhado.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./o_criptografo_envergonhado.o   -lm
+Finished building target: ProgramasC
+ 
 
-16:01:33 Build Finished. 0 errors, 0 warnings. (took 1s.80ms)
+19:36:57 Build Finished. 0 errors, 0 warnings. (took 1s.179ms)
 

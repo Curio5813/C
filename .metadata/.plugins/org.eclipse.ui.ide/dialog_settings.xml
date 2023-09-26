@@ -7,11 +7,11 @@
 		</list>
 	</section>
 	<section name="CleanDialogSettings">
-		<item key="TOGGLE_SELECTED" value="false"/>
+		<item key="TOGGLE_SELECTED" value="true"/>
 		<item key="DIALOG_WIDTH" value="563"/>
 		<item key="DIALOG_HEIGHT" value="364"/>
 		<item key="DIALOG_FONT_NAME" value="1|Ubuntu|11.0|0|GTK|1|"/>
-		<item key="BUILD_NOW" value="true"/>
+		<item key="BUILD_NOW" value="false"/>
 		<item key="BUILD_ALL" value="false"/>
 	</section>
 </section>

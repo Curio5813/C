@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+
+int main(){
+
+
+int in;
+float val;
+char carac;
+char frase[51];
+
+
+scanf("%d", &in);
+scanf("%f", &val);
+scanf("%s", &carac);
+scanf("%s", &frase);
+
+printf("%d%", in);
+
+return 0;
+
+}

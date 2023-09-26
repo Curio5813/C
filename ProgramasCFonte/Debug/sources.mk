@@ -24,5 +24,4 @@ GeekUniversity/secao07/vetores \
 GeekUniversity/secao08 \
 GeekUniversity/secao09 \
 beecrowd \
-. \
 

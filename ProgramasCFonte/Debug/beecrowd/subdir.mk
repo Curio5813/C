@@ -8,8 +8,10 @@ C_SRCS += \
 ../beecrowd/carrega_ou_nao_carrega.c \
 ../beecrowd/chuva_caindo.c \
 ../beecrowd/entrada_e_saida_de_numeros_reais.c \
+../beecrowd/entrada_e_saida_de_varios_tipos.c \
 ../beecrowd/fibonot.c \
 ../beecrowd/jogo_das_aranhas.c \
+../beecrowd/o_criptografo_envergonhado.c \
 ../beecrowd/salario_com_bonus.c \
 ../beecrowd/tamanho_da_placa.c 
 
@@ -18,8 +20,10 @@ OBJS += \
 ./beecrowd/carrega_ou_nao_carrega.o \
 ./beecrowd/chuva_caindo.o \
 ./beecrowd/entrada_e_saida_de_numeros_reais.o \
+./beecrowd/entrada_e_saida_de_varios_tipos.o \
 ./beecrowd/fibonot.o \
 ./beecrowd/jogo_das_aranhas.o \
+./beecrowd/o_criptografo_envergonhado.o \
 ./beecrowd/salario_com_bonus.o \
 ./beecrowd/tamanho_da_placa.o 
 
@@ -28,8 +32,10 @@ C_DEPS += \
 ./beecrowd/carrega_ou_nao_carrega.d \
 ./beecrowd/chuva_caindo.d \
 ./beecrowd/entrada_e_saida_de_numeros_reais.d \
+./beecrowd/entrada_e_saida_de_varios_tipos.d \
 ./beecrowd/fibonot.d \
 ./beecrowd/jogo_das_aranhas.d \
+./beecrowd/o_criptografo_envergonhado.d \
 ./beecrowd/salario_com_bonus.d \
 ./beecrowd/tamanho_da_placa.d 
 
