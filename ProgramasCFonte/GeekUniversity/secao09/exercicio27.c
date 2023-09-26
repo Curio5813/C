@@ -2,12 +2,12 @@
 #include <math.h>
 
 
-int n, i = 1, fat = 1;
+int k, i = 1, fat;
 
-double x, rad, seno, pi = 3.141593;
+double x, rad, seno = 0, pi = 3.141593, t;
 
 
-int SerieDeTaylor(){
+double SerieDeTaylorSeno(){
 
 	printf("Digite o valor de angulo em graus: ");
 	scanf("%lf", &x);
@@ -15,28 +15,24 @@ int SerieDeTaylor(){
 
 	rad = (x * pi) / 180.0;
 
-	printf("%.5lf", rad);
-	printf("\n");
+	for(k = 0; k < 5; k++){
+		t = 2 * k + 1;
+		fat = 1;
+		i = 1;
+		while(i <= t){
+			fat *= i;
+			i += 1;
+		}seno += (pow(-1, k) * pow(rad, t)) / fat;
 
 
-	while(i <= 5){
-
-		fat *= i;
-		i += 1;
-
-	}printf("%d", fat);
-	printf("\n");
-
-	seno = sin(rad);
-	printf("%.5lf", seno);
-
+	}printf("O seno do angulo de %.1lf° é %.5lf", x, seno);
 
 }
 
 
 int main(){
 
-	SerieDeTaylor();
+	SerieDeTaylorSeno();
 
 	return 0;
 

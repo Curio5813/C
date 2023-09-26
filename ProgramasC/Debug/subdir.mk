@@ -4,13 +4,13 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../jogo_das_aranhas.c 
+../o_criptografo_envergonhado.c 
 
 OBJS += \
-./jogo_das_aranhas.o 
+./o_criptografo_envergonhado.o 
 
 C_DEPS += \
-./jogo_das_aranhas.d 
+./o_criptografo_envergonhado.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

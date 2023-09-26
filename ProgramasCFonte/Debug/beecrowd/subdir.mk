@@ -9,6 +9,7 @@ C_SRCS += \
 ../beecrowd/chuva_caindo.c \
 ../beecrowd/entrada_e_saida_de_numeros_reais.c \
 ../beecrowd/fibonot.c \
+../beecrowd/jogo_das_aranhas.c \
 ../beecrowd/salario_com_bonus.c \
 ../beecrowd/tamanho_da_placa.c 
 
@@ -18,6 +19,7 @@ OBJS += \
 ./beecrowd/chuva_caindo.o \
 ./beecrowd/entrada_e_saida_de_numeros_reais.o \
 ./beecrowd/fibonot.o \
+./beecrowd/jogo_das_aranhas.o \
 ./beecrowd/salario_com_bonus.o \
 ./beecrowd/tamanho_da_placa.o 
 
@@ -27,6 +29,7 @@ C_DEPS += \
 ./beecrowd/chuva_caindo.d \
 ./beecrowd/entrada_e_saida_de_numeros_reais.d \
 ./beecrowd/fibonot.d \
+./beecrowd/jogo_das_aranhas.d \
 ./beecrowd/salario_com_bonus.d \
 ./beecrowd/tamanho_da_placa.d 
 

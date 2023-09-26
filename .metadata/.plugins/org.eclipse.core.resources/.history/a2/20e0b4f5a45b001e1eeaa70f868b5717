@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+
+long double cont = 0, l, i, num, k, n;
+
+
+int  main(){
+
+
+	while(cont < 20){
+
+		scanf("%llf %llf", &k[i], &l);
+
+		for(i = 2; i < 1000000 + 1; i++){
+			if(num % i == 0 && i >= l){
+				printf("GOOD\n");
+				break;
+
+			}else if(num % i == 0 && i < l){
+				printf("BAD %.0llf\n", i);
+				break;
+			}
+
+
+		}cont += 1;
+	}
+
+	return 0;
+
+}

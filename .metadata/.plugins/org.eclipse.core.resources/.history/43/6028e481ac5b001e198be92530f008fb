@@ -1,0 +1,37 @@
+#include <stdio.h>
+#include <math.h>
+
+
+long int n, i = 1, k, fat = 1;
+
+double x, rad, seno, pi = 3.141593, soma = 0;
+
+
+int SerieDeTaylor(){
+
+	printf("Digite o valor de angulo em graus: ");
+	scanf("%lf", &x);
+	printf("\n");
+
+	rad = (x * pi) / 180.0;
+
+	for(k = 0; k < 5; k++){
+		t = 2 * i + 1;
+		while(fat > 1){
+			fat *= t;
+			t -= 1;
+
+		}soma += (pow(-1, i) * pow(rad, t)) / fat;
+
+	}printf("%.5lf", soma);
+
+}
+
+
+int main(){
+
+	SerieDeTaylor();
+
+	return 0;
+
+}
