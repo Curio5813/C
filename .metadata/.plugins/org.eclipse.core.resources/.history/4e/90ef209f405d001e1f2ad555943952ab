@@ -1,0 +1,38 @@
+#include <stdio.h>
+
+
+int i, t, fat = 1;
+
+double rad, x, seno_h = 0, pi = 3.141593;
+
+
+double seno_hiperbolico(){
+
+	printf("Digite o valor do ângulo (em °): ");
+	scanf("%lf", &x);
+	printf("\n");
+
+		rad = (x * pi) / 180;
+
+	for(i = 0; i <= 5; i++){
+		t = 2 * i + 1;
+		while(t > 1){
+			fat *= t;
+			t -= 1;
+		}seno_h += pow(rad, t) / (double)fat;
+
+	}printf("O seno hiperbólico do angulo de %lf° é %lf", x, seno_h);
+
+	return 0;
+
+}
+
+
+int main(){
+
+	seno_hiperbolico();
+
+	return 0;
+
+}
+

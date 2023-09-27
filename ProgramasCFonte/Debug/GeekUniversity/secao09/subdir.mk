@@ -33,6 +33,9 @@ C_SRCS += \
 ../GeekUniversity/secao09/exercicio26.c \
 ../GeekUniversity/secao09/exercicio27.c \
 ../GeekUniversity/secao09/exercicio28.c \
+../GeekUniversity/secao09/exercicio29.c \
+../GeekUniversity/secao09/exercicio30.c \
+../GeekUniversity/secao09/exercicio31.c \
 ../GeekUniversity/secao09/programa17.c \
 ../GeekUniversity/secao09/programa18.c \
 ../GeekUniversity/secao09/programa19.c \
@@ -68,6 +71,9 @@ OBJS += \
 ./GeekUniversity/secao09/exercicio26.o \
 ./GeekUniversity/secao09/exercicio27.o \
 ./GeekUniversity/secao09/exercicio28.o \
+./GeekUniversity/secao09/exercicio29.o \
+./GeekUniversity/secao09/exercicio30.o \
+./GeekUniversity/secao09/exercicio31.o \
 ./GeekUniversity/secao09/programa17.o \
 ./GeekUniversity/secao09/programa18.o \
 ./GeekUniversity/secao09/programa19.o \
@@ -103,6 +109,9 @@ C_DEPS += \
 ./GeekUniversity/secao09/exercicio26.d \
 ./GeekUniversity/secao09/exercicio27.d \
 ./GeekUniversity/secao09/exercicio28.d \
+./GeekUniversity/secao09/exercicio29.d \
+./GeekUniversity/secao09/exercicio30.d \
+./GeekUniversity/secao09/exercicio31.d \
 ./GeekUniversity/secao09/programa17.d \
 ./GeekUniversity/secao09/programa18.d \
 ./GeekUniversity/secao09/programa19.d \

@@ -4,12 +4,15 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
+../CodeAbbey/problem022.c \
 ../CodeAbbey/problem297.c 
 
 OBJS += \
+./CodeAbbey/problem022.o \
 ./CodeAbbey/problem297.o 
 
 C_DEPS += \
+./CodeAbbey/problem022.d \
 ./CodeAbbey/problem297.d 
 
 
