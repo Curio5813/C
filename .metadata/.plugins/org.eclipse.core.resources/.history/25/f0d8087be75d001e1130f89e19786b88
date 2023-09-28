@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+
+long long int a = 0, b = 1, p;
+
+int fibo[2] = {233328, 433156};
+
+int main(){
+
+	for(int i = 0; i < 2; i++){
+		a, b = 0, 1;
+		p = a + b;
+		for(int k = 0; k <= 100000; k++){
+			if(a % fibo[i] == 0){
+				printf("%lld ", k + 1);
+				break;
+
+			}
+
+		}
+	}
+
+	return 0;
+}
