@@ -1,0 +1,39 @@
+#include <stdio.h>
+
+
+void desvio_padrao(){
+
+	int v[5], n, soma = 0;
+
+	double media, devsp, cov;
+
+	printf("Quantos valores terá o vetor? ");
+	scanf("%d", &n);
+	printf("\n");
+
+	for(int i = 0; i < n; i++){
+		printf("Digite o %2dº valor: ", i + 1);
+		scanf("%d", &v[i]);
+		soma += v[i];
+
+	}media = (double)soma / (double)n;
+	printf("A Soma é %ld e a media é %.2ld\n", soma, media);
+
+	for(int i = 0; i < n; i++){
+
+		cov += (1 / (n - 1)) * pow((v[i] - media), 2);
+
+	}devsp = sqrt(cov);
+	printf("\n");
+	printf("O desvio padrão do dados é de %.2lf", devsp);
+
+}
+
+
+int main(){
+
+	desvio_padrao();
+
+	return 0;
+
+}

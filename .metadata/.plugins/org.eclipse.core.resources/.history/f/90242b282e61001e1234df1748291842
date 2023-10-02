@@ -1,0 +1,40 @@
+#include <stdio.h>
+
+
+void pares_e_impares(){
+
+	int x[10], a[10], b[10];
+
+	for(int i = 0; i < 10; i++){
+		printf("Digite o %.2dº numer0 inteiro: ", i + 1);
+		scanf("%d", &x[i]);
+		if(x[i] % 2 == 0){
+			a[i] = x[i];
+			b[i] = NULL;
+
+		}else if(x[i] % 2 != 0){
+			b[i] = x[i];
+			a[i] = NULL;
+
+		}
+
+	}for(int i = 0; i < 10; i++){
+		printf("%d ", a[i]);
+
+	}printf("\n");
+	for(int i = 0; i < 10; i++){
+		printf("%d ", b[i]);
+
+
+	}
+
+}
+
+
+int main(){
+
+	pares_e_impares();
+
+	return 0;
+
+}

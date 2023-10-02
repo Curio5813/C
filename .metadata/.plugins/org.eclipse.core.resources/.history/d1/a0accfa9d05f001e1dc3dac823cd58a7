@@ -1,0 +1,59 @@
+#include <stdio.h>
+
+
+void find_3_numbers(){
+
+	long long int x, y, z, cont = 1, bol = 0, a, b, c, prod, n[4] = {3, 100, 35, 3485};;
+
+	while(cont <= n[0]){
+		for(x = 1; x <= n[cont]; x++){
+
+			}for(y = 1; y <= n[cont]; y++){
+
+				}for(z = 1; z <= n[cont]; z++){
+					if(x != y && x != z && y != z){
+						bol = 1;
+
+					}if(bol == 1){
+
+						a = x * y;
+						b = x * z;
+						c = y * z;
+
+					}if(n[cont] % a == 0 && n[cont] % b == 0 && n[cont] % c == 0){
+						bol = 1;
+
+					}if(bol == 1){
+
+						prod = x * y * z;
+
+					}if(prod % n[cont] == 0){
+						bol = 1;
+
+					}if(bol == 1){
+
+						printf("%lld %lld %lld ", x, y, z);
+						cont += 1;
+
+					}else{
+
+						printf(0);
+						cont += 1;
+					}
+
+				}
+	}
+		}
+
+	}
+
+}
+
+
+int main(){
+
+	find_3_numbers();
+
+	return 0;
+
+}
