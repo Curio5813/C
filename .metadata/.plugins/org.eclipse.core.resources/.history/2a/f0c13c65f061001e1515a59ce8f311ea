@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+
+int main(){
+
+	int n, pacote[1000], tempo[1000];
+
+	while(scanf("%d", &n) != EOF){
+
+		scanf("%d", &pacote[1000]);
+
+		for(int i = 0; i < n; i++){
+			printf("%d ", pacote[i]);
+
+		}
+
+	}
+
+	return 0;
+
+}
