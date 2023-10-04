@@ -17526,3 +17526,410 @@ Invoking: GCC C Linker
 gcc -lm  -o "ProgramasC" ./exercicio51.o   -lm
 Finished building target: ProgramasC
  
+11:08:56 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio52.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio52.d" -MT"exercicio52.o" -o "exercicio52.o" "../exercicio52.c"
+../exercicio52.c: In function ‘matriz_transposta’:
+../exercicio52.c:8:9: error: ‘p’ undeclared (first use in this function)
+    8 |         p
+      |         ^
+../exercicio52.c:8:9: note: each undeclared identifier is reported only once for each function it appears in
+../exercicio52.c:8:10: error: expected ‘;’ before ‘for’
+    8 |         p
+      |          ^
+      |          ;
+    9 | 
+   10 |         for(int i = 0; i < 3; i++){
+      |         ~~~
+../exercicio52.c:24:25: warning: implicit declaration of function ‘prinf’; did you mean ‘printf’? [-Wimplicit-function-declaration]
+   24 |                         prinf("2%d ", a[i][k]);
+      |                         ^~~~~
+      |                         printf
+make: *** [subdir.mk:20: exercicio52.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+11:09:09 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio52.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio52.d" -MT"exercicio52.o" -o "exercicio52.o" "../exercicio52.c"
+../exercicio52.c: In function ‘matriz_transposta’:
+../exercicio52.c:22:25: warning: implicit declaration of function ‘prinf’; did you mean ‘printf’? [-Wimplicit-function-declaration]
+   22 |                         prinf("2%d ", a[i][k]);
+      |                         ^~~~~
+      |                         printf
+Finished building: ../exercicio52.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio52.o   -lm
+/usr/bin/ld: ./exercicio52.o: na função "matriz_transposta":
+/home/marcos/Computacao/C/ProgramasC/Debug/../exercicio52.c:22: referência não definida para "prinf"
+collect2: error: ld returned 1 exit status
+make: *** [makefile:31: ProgramasC] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+11:09:39 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio52.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio52.d" -MT"exercicio52.o" -o "exercicio52.o" "../exercicio52.c"
+Finished building: ../exercicio52.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio52.o   -lm
+Finished building target: ProgramasC
+ 
+11:09:50 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio52.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio52.d" -MT"exercicio52.o" -o "exercicio52.o" "../exercicio52.c"
+Finished building: ../exercicio52.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio52.o   -lm
+Finished building target: ProgramasC
+ 
+11:10:16 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio52.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio52.d" -MT"exercicio52.o" -o "exercicio52.o" "../exercicio52.c"
+Finished building: ../exercicio52.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio52.o   -lm
+Finished building target: ProgramasC
+ 
+11:11:15 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio52.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio52.d" -MT"exercicio52.o" -o "exercicio52.o" "../exercicio52.c"
+Finished building: ../exercicio52.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio52.o   -lm
+Finished building target: ProgramasC
+ 
+11:12:45 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio52.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio52.d" -MT"exercicio52.o" -o "exercicio52.o" "../exercicio52.c"
+Finished building: ../exercicio52.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio52.o   -lm
+Finished building target: ProgramasC
+ 
+11:13:56 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio52.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio52.d" -MT"exercicio52.o" -o "exercicio52.o" "../exercicio52.c"
+Finished building: ../exercicio52.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio52.o   -lm
+Finished building target: ProgramasC
+ 
+11:14:57 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio52.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio52.d" -MT"exercicio52.o" -o "exercicio52.o" "../exercicio52.c"
+Finished building: ../exercicio52.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio52.o   -lm
+Finished building target: ProgramasC
+ 
+11:15:46 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio52.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio52.d" -MT"exercicio52.o" -o "exercicio52.o" "../exercicio52.c"
+Finished building: ../exercicio52.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio52.o   -lm
+Finished building target: ProgramasC
+ 
+11:18:18 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio52.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio52.d" -MT"exercicio52.o" -o "exercicio52.o" "../exercicio52.c"
+Finished building: ../exercicio52.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio52.o   -lm
+Finished building target: ProgramasC
+ 
+11:19:49 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio52.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio52.d" -MT"exercicio52.o" -o "exercicio52.o" "../exercicio52.c"
+../exercicio52.c: In function ‘matriz_transposta’:
+../exercicio52.c:36:5: warning: ‘main’ is normally a non-static function [-Wmain]
+   36 | int main(){
+      |     ^~~~
+../exercicio52.c:42:1: error: expected declaration or statement at end of input
+   42 | }
+      | ^
+At top level:
+../exercicio52.c:36:5: warning: ‘main’ defined but not used [-Wunused-function]
+   36 | int main(){
+      |     ^~~~
+make: *** [subdir.mk:20: exercicio52.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+11:20:16 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio52.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio52.d" -MT"exercicio52.o" -o "exercicio52.o" "../exercicio52.c"
+../exercicio52.c: In function ‘matriz_transposta’:
+../exercicio52.c:36:5: warning: ‘main’ is normally a non-static function [-Wmain]
+   36 | int main(){
+      |     ^~~~
+../exercicio52.c:42:1: error: expected declaration or statement at end of input
+   42 | }
+      | ^
+At top level:
+../exercicio52.c:36:5: warning: ‘main’ defined but not used [-Wunused-function]
+   36 | int main(){
+      |     ^~~~
+make: *** [subdir.mk:20: exercicio52.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+11:21:24 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio52.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio52.d" -MT"exercicio52.o" -o "exercicio52.o" "../exercicio52.c"
+Finished building: ../exercicio52.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio52.o   -lm
+Finished building target: ProgramasC
+ 
+11:22:26 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio52.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio52.d" -MT"exercicio52.o" -o "exercicio52.o" "../exercicio52.c"
+Finished building: ../exercicio52.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio52.o   -lm
+Finished building target: ProgramasC
+ 
+11:29:53 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio53.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio53.d" -MT"exercicio53.o" -o "exercicio53.o" "../exercicio53.c"
+../exercicio53.c: In function ‘matriz_identidade’:
+../exercicio53.c:24:62: error: expected ‘;’ before ‘}’ token
+   24 |                 printf("A matriz A é uma matriz identidade.")
+      |                                                              ^
+      |                                                              ;
+   25 | 
+   26 |         }
+      |         ~                                                     
+make: *** [subdir.mk:20: exercicio53.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+11:32:13 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio53.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio53.d" -MT"exercicio53.o" -o "exercicio53.o" "../exercicio53.c"
+Finished building: ../exercicio53.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio53.o   -lm
+Finished building target: ProgramasC
+ 
+11:32:23 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+11:32:35 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio53.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio53.d" -MT"exercicio53.o" -o "exercicio53.o" "../exercicio53.c"
+Finished building: ../exercicio53.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio53.o   -lm
+Finished building target: ProgramasC
+ 
+11:32:50 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio53.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio53.d" -MT"exercicio53.o" -o "exercicio53.o" "../exercicio53.c"
+Finished building: ../exercicio53.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio53.o   -lm
+Finished building target: ProgramasC
+ 
+11:34:23 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio53.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio53.d" -MT"exercicio53.o" -o "exercicio53.o" "../exercicio53.c"
+Finished building: ../exercicio53.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio53.o   -lm
+Finished building target: ProgramasC
+ 
+11:35:29 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+11:35:45 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+11:37:21 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio53.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio53.d" -MT"exercicio53.o" -o "exercicio53.o" "../exercicio53.c"
+../exercicio53.c: In function ‘matriz_identidade’:
+../exercicio53.c:19:41: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+   19 |                         }else if(i == k && a[i][k] != 1 || i != k && a[i][k] != 0){
+      |                                  ~~~~~~~^~~~~~~~~~~~~~~
+Finished building: ../exercicio53.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio53.o   -lm
+Finished building target: ProgramasC
+ 
+11:37:28 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+11:37:41 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio53.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio53.d" -MT"exercicio53.o" -o "exercicio53.o" "../exercicio53.c"
+../exercicio53.c: In function ‘matriz_identidade’:
+../exercicio53.c:19:41: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+   19 |                         }else if(i == k && a[i][k] != 1 || i != k && a[i][k] != 0){
+      |                                  ~~~~~~~^~~~~~~~~~~~~~~
+Finished building: ../exercicio53.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio53.o   -lm
+Finished building target: ProgramasC
+ 
+11:38:07 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio53.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio53.d" -MT"exercicio53.o" -o "exercicio53.o" "../exercicio53.c"
+../exercicio53.c: In function ‘matriz_identidade’:
+../exercicio53.c:19:41: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+   19 |                         }else if(i == k && a[i][k] != 1 || i != k && a[i][k] != 0){
+      |                                  ~~~~~~~^~~~~~~~~~~~~~~
+Finished building: ../exercicio53.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio53.o   -lm
+Finished building target: ProgramasC
+ 
+11:38:17 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio53.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio53.d" -MT"exercicio53.o" -o "exercicio53.o" "../exercicio53.c"
+../exercicio53.c: In function ‘matriz_identidade’:
+../exercicio53.c:19:41: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+   19 |                         }else if(i == k && a[i][k] != 1 || i != k && a[i][k] != 0){
+      |                                  ~~~~~~~^~~~~~~~~~~~~~~
+Finished building: ../exercicio53.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio53.o   -lm
+Finished building target: ProgramasC
+ 
+11:54:03 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio54.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio54.d" -MT"exercicio54.o" -o "exercicio54.o" "../exercicio54.c"
+../exercicio54.c: In function ‘soma_dos_elementos’:
+../exercicio54.c:12:33: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+   12 |                         scanf("%d", a[i][k]);
+      |                                ~^   ~~~~~~~
+      |                                 |       |
+      |                                 int *   int
+Finished building: ../exercicio54.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio54.o   -lm
+Finished building target: ProgramasC
+ 
+11:54:18 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio54.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio54.d" -MT"exercicio54.o" -o "exercicio54.o" "../exercicio54.c"
+Finished building: ../exercicio54.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio54.o   -lm
+Finished building target: ProgramasC
+ 
+12:38:27 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio55.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio55.d" -MT"exercicio55.o" -o "exercicio55.o" "../exercicio55.c"
+Finished building: ../exercicio55.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio55.o   -lm
+Finished building target: ProgramasC
+ 
+12:38:32 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+12:39:51 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio55.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio55.d" -MT"exercicio55.o" -o "exercicio55.o" "../exercicio55.c"
+Finished building: ../exercicio55.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio55.o   -lm
+Finished building target: ProgramasC
+ 
