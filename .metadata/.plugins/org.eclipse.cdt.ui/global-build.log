@@ -17933,3 +17933,761 @@ Invoking: GCC C Linker
 gcc -lm  -o "ProgramasC" ./exercicio55.o   -lm
 Finished building target: ProgramasC
  
+14:42:25 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio56.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio56.d" -MT"exercicio56.o" -o "exercicio56.o" "../exercicio56.c"
+../exercicio56.c: In function ‘somando_linha’:
+../exercicio56.c:10:56: warning: format ‘%d’ expects a matching ‘int’ argument [-Wformat=]
+   10 |                         printf("Digite um número para %dº linha e %dº coluna: ");
+      |                                                       ~^
+      |                                                        |
+      |                                                        int
+../exercicio56.c:10:68: warning: format ‘%d’ expects a matching ‘int’ argument [-Wformat=]
+   10 |                         printf("Digite um número para %dº linha e %dº coluna: ");
+      |                                                                   ~^
+      |                                                                    |
+      |                                                                    int
+../exercicio56.c:11:41: error: subscripted value is neither array nor pointer nor vector
+   11 |                         scanf("%d", &a[i[k]]);
+      |                                         ^
+make: *** [subdir.mk:20: exercicio56.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:42:49 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio56.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio56.d" -MT"exercicio56.o" -o "exercicio56.o" "../exercicio56.c"
+../exercicio56.c: In function ‘somando_linha’:
+../exercicio56.c:10:56: warning: format ‘%d’ expects a matching ‘int’ argument [-Wformat=]
+   10 |                         printf("Digite um número para %dº linha e %dº coluna: ");
+      |                                                       ~^
+      |                                                        |
+      |                                                        int
+../exercicio56.c:10:68: warning: format ‘%d’ expects a matching ‘int’ argument [-Wformat=]
+   10 |                         printf("Digite um número para %dº linha e %dº coluna: ");
+      |                                                                   ~^
+      |                                                                    |
+      |                                                                    int
+Finished building: ../exercicio56.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio56.o   -lm
+Finished building target: ProgramasC
+ 
+14:42:53 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+14:43:07 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio56.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio56.d" -MT"exercicio56.o" -o "exercicio56.o" "../exercicio56.c"
+Finished building: ../exercicio56.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio56.o   -lm
+Finished building target: ProgramasC
+ 
+14:44:43 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio56.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio56.d" -MT"exercicio56.o" -o "exercicio56.o" "../exercicio56.c"
+Finished building: ../exercicio56.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio56.o   -lm
+Finished building target: ProgramasC
+ 
+14:47:40 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio56.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio56.d" -MT"exercicio56.o" -o "exercicio56.o" "../exercicio56.c"
+Finished building: ../exercicio56.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio56.o   -lm
+Finished building target: ProgramasC
+ 
+14:56:35 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio57.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio57.d" -MT"exercicio57.o" -o "exercicio57.o" "../exercicio57.c"
+../exercicio57.c: In function ‘somando_coluna’:
+../exercicio57.c:13:58: warning: format ‘%d’ expects a matching ‘int’ argument [-Wformat=]
+   13 |                         printf("Digite um número para a %dº linha e %dº coluna: ");
+      |                                                         ~^
+      |                                                          |
+      |                                                          int
+../exercicio57.c:13:70: warning: format ‘%d’ expects a matching ‘int’ argument [-Wformat=]
+   13 |                         printf("Digite um número para a %dº linha e %dº coluna: ");
+      |                                                                     ~^
+      |                                                                      |
+      |                                                                      int
+Finished building: ../exercicio57.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio57.o   -lm
+Finished building target: ProgramasC
+ 
+14:57:24 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio57.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio57.d" -MT"exercicio57.o" -o "exercicio57.o" "../exercicio57.c"
+Finished building: ../exercicio57.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio57.o   -lm
+Finished building target: ProgramasC
+ 
+15:21:12 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio58.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio58.d" -MT"exercicio58.o" -o "exercicio58.o" "../exercicio58.c"
+../exercicio58.c: In function ‘multiplicacao_matrizes’:
+../exercicio58.c:49:5: warning: ‘main’ is normally a non-static function [-Wmain]
+   49 | int main(){
+      |     ^~~~
+../exercicio58.c:55:1: error: expected declaration or statement at end of input
+   55 | }
+      | ^
+At top level:
+../exercicio58.c:49:5: warning: ‘main’ defined but not used [-Wunused-function]
+   49 | int main(){
+      |     ^~~~
+make: *** [subdir.mk:20: exercicio58.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:22:16 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio58.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio58.d" -MT"exercicio58.o" -o "exercicio58.o" "../exercicio58.c"
+Finished building: ../exercicio58.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio58.o   -lm
+Finished building target: ProgramasC
+ 
+15:23:15 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio58.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio58.d" -MT"exercicio58.o" -o "exercicio58.o" "../exercicio58.c"
+Finished building: ../exercicio58.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio58.o   -lm
+Finished building target: ProgramasC
+ 
+15:25:34 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio58.o   -lm
+Finished building target: ProgramasC
+ 
+15:28:46 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio58.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio58.d" -MT"exercicio58.o" -o "exercicio58.o" "../exercicio58.c"
+Finished building: ../exercicio58.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio58.o   -lm
+Finished building target: ProgramasC
+ 
+15:31:52 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio58.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio58.d" -MT"exercicio58.o" -o "exercicio58.o" "../exercicio58.c"
+Finished building: ../exercicio58.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio58.o   -lm
+Finished building target: ProgramasC
+ 
+15:36:42 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio58.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio58.d" -MT"exercicio58.o" -o "exercicio58.o" "../exercicio58.c"
+Finished building: ../exercicio58.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio58.o   -lm
+Finished building target: ProgramasC
+ 
+15:37:10 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+15:38:41 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio58.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio58.d" -MT"exercicio58.o" -o "exercicio58.o" "../exercicio58.c"
+../exercicio58.c: In function ‘multiplicacao_matrizes’:
+../exercicio58.c:35:30: error: expected ‘;’ before ‘}’ token
+   35 |                         break
+      |                              ^
+      |                              ;
+   36 |                 }
+      |                 ~             
+make: *** [subdir.mk:20: exercicio58.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:41:36 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio58.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio58.d" -MT"exercicio58.o" -o "exercicio58.o" "../exercicio58.c"
+Finished building: ../exercicio58.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio58.o   -lm
+Finished building target: ProgramasC
+ 
+15:47:35 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+15:51:09 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio58.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio58.d" -MT"exercicio58.o" -o "exercicio58.o" "../exercicio58.c"
+../exercicio58.c: In function ‘multiplicacao_matrizes’:
+../exercicio58.c:35:48: error: expected ‘;’ before ‘}’ token
+   35 |                         printf("%d\n", c[i][k])
+      |                                                ^
+      |                                                ;
+   36 | 
+   37 |                 }
+      |                 ~                               
+make: *** [subdir.mk:20: exercicio58.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:51:21 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio58.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio58.d" -MT"exercicio58.o" -o "exercicio58.o" "../exercicio58.c"
+Finished building: ../exercicio58.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio58.o   -lm
+Finished building target: ProgramasC
+ 
+15:54:24 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio58.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio58.d" -MT"exercicio58.o" -o "exercicio58.o" "../exercicio58.c"
+Finished building: ../exercicio58.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio58.o   -lm
+Finished building target: ProgramasC
+ 
+16:03:46 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio59.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio59.d" -MT"exercicio59.o" -o "exercicio59.o" "../exercicio59.c"
+Finished building: ../exercicio59.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio59.o   -lm
+Finished building target: ProgramasC
+ 
+16:09:38 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio59.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio59.d" -MT"exercicio59.o" -o "exercicio59.o" "../exercicio59.c"
+../exercicio59.c: In function ‘vetor_uniao’:
+../exercicio59.c:40:5: warning: ‘main’ is normally a non-static function [-Wmain]
+   40 | int main(){
+      |     ^~~~
+../exercicio59.c:46:1: error: expected declaration or statement at end of input
+   46 | }
+      | ^
+At top level:
+../exercicio59.c:40:5: warning: ‘main’ defined but not used [-Wunused-function]
+   40 | int main(){
+      |     ^~~~
+make: *** [subdir.mk:20: exercicio59.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:10:10 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio59.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio59.d" -MT"exercicio59.o" -o "exercicio59.o" "../exercicio59.c"
+Finished building: ../exercicio59.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio59.o   -lm
+Finished building target: ProgramasC
+ 
+16:11:27 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio59.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio59.d" -MT"exercicio59.o" -o "exercicio59.o" "../exercicio59.c"
+Finished building: ../exercicio59.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio59.o   -lm
+Finished building target: ProgramasC
+ 
+16:12:54 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio59.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio59.d" -MT"exercicio59.o" -o "exercicio59.o" "../exercicio59.c"
+../exercicio59.c: In function ‘vetor_uniao’:
+../exercicio59.c:27:30: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   27 |                         u[i] = NULL;
+      |                              ^
+../exercicio59.c:33:25: warning: comparison between pointer and integer
+   33 |                 if(u[i] != NULL){
+      |                         ^~
+Finished building: ../exercicio59.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio59.o   -lm
+Finished building target: ProgramasC
+ 
+16:16:52 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio59.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio59.d" -MT"exercicio59.o" -o "exercicio59.o" "../exercicio59.c"
+../exercicio59.c: In function ‘vetor_uniao’:
+../exercicio59.c:27:30: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   27 |                         u[i] = NULL;
+      |                              ^
+Finished building: ../exercicio59.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio59.o   -lm
+Finished building target: ProgramasC
+ 
+16:19:23 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio59.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio59.d" -MT"exercicio59.o" -o "exercicio59.o" "../exercicio59.c"
+../exercicio59.c: In function ‘vetor_uniao’:
+../exercicio59.c:27:30: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   27 |                         u[i] = NULL;
+      |                              ^
+Finished building: ../exercicio59.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio59.o   -lm
+Finished building target: ProgramasC
+ 
+16:19:42 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+16:24:16 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio59.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio59.d" -MT"exercicio59.o" -o "exercicio59.o" "../exercicio59.c"
+../exercicio59.c: In function ‘vetor_uniao’:
+../exercicio59.c:27:30: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   27 |                         u[i] = NULL;
+      |                              ^
+Finished building: ../exercicio59.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio59.o   -lm
+Finished building target: ProgramasC
+ 
+16:26:46 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio59.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio59.d" -MT"exercicio59.o" -o "exercicio59.o" "../exercicio59.c"
+../exercicio59.c: In function ‘vetor_uniao’:
+../exercicio59.c:25:38: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   25 |                                 u[i] = NULL;
+      |                                      ^
+Finished building: ../exercicio59.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio59.o   -lm
+Finished building target: ProgramasC
+ 
+16:27:41 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+16:29:16 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio59.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio59.d" -MT"exercicio59.o" -o "exercicio59.o" "../exercicio59.c"
+../exercicio59.c: In function ‘vetor_uniao’:
+../exercicio59.c:6:40: warning: unused variable ‘cont’ [-Wunused-variable]
+    6 |         int a[10], b[10], u[10], i, k, cont = 0;
+      |                                        ^~~~
+Finished building: ../exercicio59.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio59.o   -lm
+Finished building target: ProgramasC
+ 
+16:29:55 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio59.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio59.d" -MT"exercicio59.o" -o "exercicio59.o" "../exercicio59.c"
+../exercicio59.c: In function ‘vetor_uniao’:
+../exercicio59.c:6:37: warning: unused variable ‘cont’ [-Wunused-variable]
+    6 |         int a[5], b[5], u[5], i, k, cont = 0;
+      |                                     ^~~~
+Finished building: ../exercicio59.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio59.o   -lm
+Finished building target: ProgramasC
+ 
+17:18:17 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio59.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio59.d" -MT"exercicio59.o" -o "exercicio59.o" "../exercicio59.c"
+../exercicio59.c: In function ‘vetor_uniao’:
+../exercicio59.c:25:38: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   25 |                                 a[i] = NULL;
+      |                                      ^
+../exercicio59.c:6:37: warning: unused variable ‘cont’ [-Wunused-variable]
+    6 |         int a[5], b[5], c[5], i, k, cont = 0;
+      |                                     ^~~~
+Finished building: ../exercicio59.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio59.o   -lm
+Finished building target: ProgramasC
+ 
+17:22:37 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio59.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio59.d" -MT"exercicio59.o" -o "exercicio59.o" "../exercicio59.c"
+../exercicio59.c: In function ‘vetor_uniao’:
+../exercicio59.c:6:38: warning: unused variable ‘cont’ [-Wunused-variable]
+    6 |         int a[5], b[5], c[10], i, k, cont = 0;
+      |                                      ^~~~
+Finished building: ../exercicio59.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio59.o   -lm
+Finished building target: ProgramasC
+ 
+17:28:50 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio59.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio59.d" -MT"exercicio59.o" -o "exercicio59.o" "../exercicio59.c"
+../exercicio59.c: In function ‘vetor_uniao’:
+../exercicio59.c:28:30: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   28 |                         c[n] = NULL;
+      |                              ^
+../exercicio59.c:6:35: warning: unused variable ‘k’ [-Wunused-variable]
+    6 |         int a[5], b[5], c[10], i, k, n = 5;
+      |                                   ^
+Finished building: ../exercicio59.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio59.o   -lm
+Finished building target: ProgramasC
+ 
+17:32:16 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio59.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio59.d" -MT"exercicio59.o" -o "exercicio59.o" "../exercicio59.c"
+Finished building: ../exercicio59.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio59.o   -lm
+Finished building target: ProgramasC
+ 
+17:34:04 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio59.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio59.d" -MT"exercicio59.o" -o "exercicio59.o" "../exercicio59.c"
+../exercicio59.c: In function ‘vetor_uniao’:
+../exercicio59.c:6:35: warning: unused variable ‘k’ [-Wunused-variable]
+    6 |         int a[5], b[5], c[10], i, k, n = 5;
+      |                                   ^
+Finished building: ../exercicio59.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio59.o   -lm
+Finished building target: ProgramasC
+ 
+17:36:35 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio59.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio59.d" -MT"exercicio59.o" -o "exercicio59.o" "../exercicio59.c"
+Finished building: ../exercicio59.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio59.o   -lm
+Finished building target: ProgramasC
+ 
+17:38:25 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio59.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio59.d" -MT"exercicio59.o" -o "exercicio59.o" "../exercicio59.c"
+Finished building: ../exercicio59.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio59.o   -lm
+Finished building target: ProgramasC
+ 
+17:39:12 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio59.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio59.d" -MT"exercicio59.o" -o "exercicio59.o" "../exercicio59.c"
+Finished building: ../exercicio59.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio59.o   -lm
+Finished building target: ProgramasC
+ 
+17:39:57 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+17:41:00 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio59.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio59.d" -MT"exercicio59.o" -o "exercicio59.o" "../exercicio59.c"
+Finished building: ../exercicio59.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio59.o   -lm
+Finished building target: ProgramasC
+ 
+17:42:09 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+17:44:19 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio59.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio59.d" -MT"exercicio59.o" -o "exercicio59.o" "../exercicio59.c"
+Finished building: ../exercicio59.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio59.o   -lm
+Finished building target: ProgramasC
+ 
+17:45:18 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio59.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio59.d" -MT"exercicio59.o" -o "exercicio59.o" "../exercicio59.c"
+Finished building: ../exercicio59.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio59.o   -lm
+Finished building target: ProgramasC
+ 
+17:46:02 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio59.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio59.d" -MT"exercicio59.o" -o "exercicio59.o" "../exercicio59.c"
+Finished building: ../exercicio59.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio59.o   -lm
+Finished building target: ProgramasC
+ 
+17:46:28 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+17:46:56 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio59.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio59.d" -MT"exercicio59.o" -o "exercicio59.o" "../exercicio59.c"
+../exercicio59.c: In function ‘vetor_uniao’:
+../exercicio59.c:29:38: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   29 |                                 c[n] = NULL;
+      |                                      ^
+Finished building: ../exercicio59.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio59.o   -lm
+Finished building target: ProgramasC
+ 
+17:47:47 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio59.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio59.d" -MT"exercicio59.o" -o "exercicio59.o" "../exercicio59.c"
+../exercicio59.c: In function ‘vetor_uniao’:
+../exercicio59.c:29:38: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   29 |                                 c[n] = NULL;
+      |                                      ^
+Finished building: ../exercicio59.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio59.o   -lm
+Finished building target: ProgramasC
+ 
+17:48:35 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio59.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio59.d" -MT"exercicio59.o" -o "exercicio59.o" "../exercicio59.c"
+../exercicio59.c: In function ‘vetor_uniao’:
+../exercicio59.c:29:38: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   29 |                                 c[n] = NULL;
+      |                                      ^
+Finished building: ../exercicio59.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio59.o   -lm
+Finished building target: ProgramasC
+ 
+17:49:26 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+17:50:32 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio59.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio59.d" -MT"exercicio59.o" -o "exercicio59.o" "../exercicio59.c"
+../exercicio59.c: In function ‘vetor_uniao’:
+../exercicio59.c:29:38: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   29 |                                 c[n] = NULL;
+      |                                      ^
+Finished building: ../exercicio59.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio59.o   -lm
+Finished building target: ProgramasC
+ 
+17:50:39 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+17:51:35 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio59.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio59.d" -MT"exercicio59.o" -o "exercicio59.o" "../exercicio59.c"
+Finished building: ../exercicio59.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio59.o   -lm
+Finished building target: ProgramasC
+ 
+17:52:07 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio59.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio59.d" -MT"exercicio59.o" -o "exercicio59.o" "../exercicio59.c"
+Finished building: ../exercicio59.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio59.o   -lm
+Finished building target: ProgramasC
+ 
+17:55:27 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio59.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio59.d" -MT"exercicio59.o" -o "exercicio59.o" "../exercicio59.c"
+Finished building: ../exercicio59.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio59.o   -lm
+Finished building target: ProgramasC
+ 
+18:04:38 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio59.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio59.d" -MT"exercicio59.o" -o "exercicio59.o" "../exercicio59.c"
+../exercicio59.c: In function ‘vetor_uniao’:
+../exercicio59.c:6:35: warning: unused variable ‘k’ [-Wunused-variable]
+    6 |         int a[5], b[5], c[10], i, k, n = 5;
+      |                                   ^
+Finished building: ../exercicio59.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio59.o   -lm
+Finished building target: ProgramasC
+ 
+18:04:51 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+18:05:22 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+18:05:27 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+18:05:30 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.

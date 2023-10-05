@@ -1,15 +1,6 @@
-12:39:51 **** Incremental Build of configuration Debug for project ProgramasC ****
+18:05:30 **** Incremental Build of configuration Debug for project ProgramasC ****
 make all 
-Building file: ../exercicio55.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio55.d" -MT"exercicio55.o" -o "exercicio55.o" "../exercicio55.c"
-Finished building: ../exercicio55.c
- 
-Building target: ProgramasC
-Invoking: GCC C Linker
-gcc -lm  -o "ProgramasC" ./exercicio55.o   -lm
-Finished building target: ProgramasC
- 
+make: Nada a ser feito para 'all'.
 
-12:39:52 Build Finished. 0 errors, 0 warnings. (took 1s.198ms)
+18:05:31 Build Finished. 0 errors, 0 warnings. (took 1s.29ms)
 
