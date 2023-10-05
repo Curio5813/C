@@ -35,8 +35,6 @@ void vetor_uniao(){
 		}
 
 	}printf("\n");
-	printf("A vetor união de A e B é:");
-	printf("\n");
 	for(i = 0; i < 10; i++){
 		if(c[i] != 0){
 			printf("%d ", c[i]);

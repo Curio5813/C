@@ -22,11 +22,11 @@ void vetor_uniao(){
 	}for(i = 0; i < 5; i++){
 		for(k = 0; k < 5; k++){
 			if(b[i] == a[k]){
-				c[n] = (int)0;
+				c[n] = NULL;
 				n += 1;
 				break;
 
-			}else if(b[i] != a[k] && k == 4){
+			}else if(b[i] != a[k] && i == 4){
 				c[n] = b[i];
 				n += 1;
 				break;
@@ -35,8 +35,6 @@ void vetor_uniao(){
 		}
 
 	}printf("\n");
-	printf("A vetor união de A e B é:");
-	printf("\n");
 	for(i = 0; i < 10; i++){
 		if(c[i] != 0){
 			printf("%d ", c[i]);
