@@ -1,0 +1,44 @@
+#include <stdio.h>
+
+
+int main(){
+
+	char palavra[5], anagrama[5];
+
+	int i, k = i, cont = 0, n1 = 0, n2 = 0;
+
+	printf("Digite duas palavras: ");
+	scanf("%s %s", &palavra, &anagrama);
+	printf("\n");
+
+	printf("A palavra foi %s", palavra);
+	printf("\n");
+	printf("A outra palavra foi %s", anagrama);
+	printf("\n");
+
+	for(i = 0; i < 5; i++){
+		while(k < 5){
+			if(anagrama[n1] == palavra[n2]){
+				cont += 1;
+				if(cont >= 5){
+					return printf("É uma anagrama da palavra %s", palavra);
+
+				}break;
+
+			}k += 1;
+			n2 += 1;
+
+		}n2 = 0;
+		n1 += 1;
+		k = 0;
+
+	}if(cont < 5){
+		printf("Não é um anagrama da palavra %s\n", palavra);
+		printf("%d", cont);
+
+	}
+
+	return 0;
+
+}
+

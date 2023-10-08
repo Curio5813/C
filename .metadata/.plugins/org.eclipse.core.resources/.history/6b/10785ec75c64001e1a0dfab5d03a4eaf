@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+
+int main(){
+
+	char nome[5], sub[2];
+
+	printf("Digite uma palavra: ");
+	scanf("%s", nome);
+	printf("Digite uma sub-string: ");
+	scanf("%s", sub);
+	printf("\n");
+
+	printf("A sub-string foi %s\n", sub);
+	printf("A palavra foi %s\n", nome);
+
+	return 0;
+
+}
+
