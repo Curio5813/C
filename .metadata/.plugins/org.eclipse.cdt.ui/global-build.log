@@ -23353,3 +23353,1684 @@ make: Nada a ser feito para 'all'.
 20:14:15 **** Incremental Build of configuration Debug for project ProgramasC ****
 make all 
 make: Nada a ser feito para 'all'.
+07:56:04 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio61.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio61.d" -MT"exercicio61.o" -o "exercicio61.o" "../exercicio61.c"
+../exercicio61.c: In function ‘main’:
+../exercicio61.c:9:16: warning: ‘i’ is used uninitialized [-Wuninitialized]
+    9 |         int i, k = i, cont = 0, n1 = 0, n2 = 0, tam1, tam2;
+      |                ^
+Finished building: ../exercicio61.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio61.o   -lm
+Finished building target: ProgramasC
+ 
+07:56:22 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+07:56:42 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+08:03:40 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio60.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio60.d" -MT"exercicio60.o" -o "exercicio60.o" "../exercicio60.c"
+../exercicio60.c: In function ‘main’:
+../exercicio60.c:12:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   12 |         scanf("%s", &pal);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio60.c:14:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   14 |         scanf("%s", &sub);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio60.c:9:16: warning: ‘i’ is used uninitialized [-Wuninitialized]
+    9 |         int i, k = i, cont = 0, n1 = 0, n2 = 0, tam1, tam2;
+      |                ^
+Finished building: ../exercicio60.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio60.o   -lm
+Finished building target: ProgramasC
+ 
+08:06:10 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio60.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio60.d" -MT"exercicio60.o" -o "exercicio60.o" "../exercicio60.c"
+../exercicio60.c: In function ‘main’:
+../exercicio60.c:12:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   12 |         scanf("%s", &pal);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio60.c:14:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   14 |         scanf("%s", &sub);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio60.c:9:16: warning: ‘i’ is used uninitialized [-Wuninitialized]
+    9 |         int i, k = i, cont = 0, n1 = 0, n2 = 0, tam1, tam2;
+      |                ^
+Finished building: ../exercicio60.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio60.o   -lm
+Finished building target: ProgramasC
+ 
+08:08:58 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio60.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio60.d" -MT"exercicio60.o" -o "exercicio60.o" "../exercicio60.c"
+../exercicio60.c: In function ‘main’:
+../exercicio60.c:12:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   12 |         scanf("%s", &pal);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio60.c:14:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   14 |         scanf("%s", &sub);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio60.c:9:16: warning: ‘i’ is used uninitialized [-Wuninitialized]
+    9 |         int i, k = i, cont = 0, n1 = 0, n2 = 0, tam1, tam2;
+      |                ^
+Finished building: ../exercicio60.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio60.o   -lm
+Finished building target: ProgramasC
+ 
+08:09:17 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+08:11:12 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio60.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio60.d" -MT"exercicio60.o" -o "exercicio60.o" "../exercicio60.c"
+../exercicio60.c: In function ‘main’:
+../exercicio60.c:12:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   12 |         scanf("%s", &pal);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio60.c:14:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   14 |         scanf("%s", &sub);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio60.c:9:16: warning: ‘i’ is used uninitialized [-Wuninitialized]
+    9 |         int i, k = i, cont = 0, n1 = 0, n2 = 0, tam1, tam2;
+      |                ^
+Finished building: ../exercicio60.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio60.o   -lm
+Finished building target: ProgramasC
+ 
+08:13:21 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio60.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio60.d" -MT"exercicio60.o" -o "exercicio60.o" "../exercicio60.c"
+../exercicio60.c: In function ‘main’:
+../exercicio60.c:12:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   12 |         scanf("%s", &pal);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio60.c:14:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   14 |         scanf("%s", &sub);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio60.c:9:16: warning: ‘i’ is used uninitialized [-Wuninitialized]
+    9 |         int i, k = i, cont = 0, n1 = 0, n2 = 0, tam1, tam2;
+      |                ^
+Finished building: ../exercicio60.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio60.o   -lm
+Finished building target: ProgramasC
+ 
+08:13:38 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+08:13:48 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+08:13:58 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+08:14:08 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+08:15:06 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio60.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio60.d" -MT"exercicio60.o" -o "exercicio60.o" "../exercicio60.c"
+../exercicio60.c: In function ‘main’:
+../exercicio60.c:12:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   12 |         scanf("%s", &pal);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio60.c:14:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   14 |         scanf("%s", &sub);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio60.c:9:16: warning: ‘i’ is used uninitialized [-Wuninitialized]
+    9 |         int i, k = i, cont = 0, n1 = 0, n2 = 0, tam1, tam2;
+      |                ^
+Finished building: ../exercicio60.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio60.o   -lm
+Finished building target: ProgramasC
+ 
+08:16:10 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+08:16:24 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+08:17:01 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+08:18:12 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio60.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio60.d" -MT"exercicio60.o" -o "exercicio60.o" "../exercicio60.c"
+../exercicio60.c: In function ‘main’:
+../exercicio60.c:12:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   12 |         scanf("%s", &pal);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio60.c:14:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   14 |         scanf("%s", &sub);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio60.c:9:16: warning: ‘i’ is used uninitialized [-Wuninitialized]
+    9 |         int i, k = i, cont = 0, n1 = 0, n2 = 0, tam1, tam2;
+      |                ^
+Finished building: ../exercicio60.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio60.o   -lm
+Finished building target: ProgramasC
+ 
+08:33:17 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+08:33:58 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio60.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio60.d" -MT"exercicio60.o" -o "exercicio60.o" "../exercicio60.c"
+../exercicio60.c: In function ‘main’:
+../exercicio60.c:12:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   12 |         scanf("%s", &pal);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio60.c:14:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   14 |         scanf("%s", &sub);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio60.c:9:16: warning: ‘i’ is used uninitialized [-Wuninitialized]
+    9 |         int i, k = i, cont = 0, n1 = 0, n2 = 0, tam1, tam2;
+      |                ^
+Finished building: ../exercicio60.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio60.o   -lm
+Finished building target: ProgramasC
+ 
+08:37:48 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+08:39:32 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio60.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio60.d" -MT"exercicio60.o" -o "exercicio60.o" "../exercicio60.c"
+../exercicio60.c: In function ‘main’:
+../exercicio60.c:12:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   12 |         scanf("%s", &pal);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio60.c:14:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   14 |         scanf("%s", &sub);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio60.c:9:16: warning: ‘i’ is used uninitialized [-Wuninitialized]
+    9 |         int i, k = i, cont = 0, n1 = 0, n2 = 0, tam1, tam2;
+      |                ^
+Finished building: ../exercicio60.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio60.o   -lm
+Finished building target: ProgramasC
+ 
+08:39:48 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+08:40:53 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio60.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio60.d" -MT"exercicio60.o" -o "exercicio60.o" "../exercicio60.c"
+../exercicio60.c: In function ‘main’:
+../exercicio60.c:12:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   12 |         scanf("%s", &pal);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio60.c:14:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   14 |         scanf("%s", &sub);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio60.c:9:16: warning: ‘i’ is used uninitialized [-Wuninitialized]
+    9 |         int i, k = i, cont = 0, n1 = 0, n2 = 0, tam1, tam2;
+      |                ^
+Finished building: ../exercicio60.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio60.o   -lm
+Finished building target: ProgramasC
+ 
+08:41:09 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+08:42:14 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio60.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio60.d" -MT"exercicio60.o" -o "exercicio60.o" "../exercicio60.c"
+../exercicio60.c: In function ‘main’:
+../exercicio60.c:12:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   12 |         scanf("%s", &pal);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio60.c:14:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   14 |         scanf("%s", &sub);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio60.c:9:16: warning: ‘i’ is used uninitialized [-Wuninitialized]
+    9 |         int i, k = i, cont = 0, n1 = 0, n2 = 0, tam1, tam2;
+      |                ^
+Finished building: ../exercicio60.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio60.o   -lm
+Finished building target: ProgramasC
+ 
+08:42:24 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+08:44:57 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio60.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio60.d" -MT"exercicio60.o" -o "exercicio60.o" "../exercicio60.c"
+../exercicio60.c: In function ‘main’:
+../exercicio60.c:12:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   12 |         scanf("%s", &pal);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio60.c:14:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   14 |         scanf("%s", &sub);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio60.c:9:16: warning: ‘i’ is used uninitialized [-Wuninitialized]
+    9 |         int i, k = i, cont = 0, n1 = 0, n2 = 0, tam1, tam2;
+      |                ^
+Finished building: ../exercicio60.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio60.o   -lm
+Finished building target: ProgramasC
+ 
+08:46:32 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio60.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio60.d" -MT"exercicio60.o" -o "exercicio60.o" "../exercicio60.c"
+../exercicio60.c: In function ‘main’:
+../exercicio60.c:12:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   12 |         scanf("%s", &pal);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio60.c:14:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   14 |         scanf("%s", &sub);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio60.c:9:16: warning: ‘i’ is used uninitialized [-Wuninitialized]
+    9 |         int i, k = i, cont = 0, n1 = 0, n2 = 0, tam1, tam2;
+      |                ^
+Finished building: ../exercicio60.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio60.o   -lm
+Finished building target: ProgramasC
+ 
+08:46:47 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+08:49:32 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio60.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio60.d" -MT"exercicio60.o" -o "exercicio60.o" "../exercicio60.c"
+../exercicio60.c: In function ‘main’:
+../exercicio60.c:12:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   12 |         scanf("%s", &pal);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio60.c:14:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   14 |         scanf("%s", &sub);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio60.c:9:16: warning: ‘i’ is used uninitialized [-Wuninitialized]
+    9 |         int i, k = i, cont = 0, n1 = 0, n2 = 0, tam1, tam2;
+      |                ^
+Finished building: ../exercicio60.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio60.o   -lm
+Finished building target: ProgramasC
+ 
+08:50:21 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio60.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio60.d" -MT"exercicio60.o" -o "exercicio60.o" "../exercicio60.c"
+../exercicio60.c: In function ‘main’:
+../exercicio60.c:12:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   12 |         scanf("%s", &pal);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio60.c:14:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   14 |         scanf("%s", &sub);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio60.c:9:16: warning: ‘i’ is used uninitialized [-Wuninitialized]
+    9 |         int i, k = i, cont = 0, n1 = 0, n2 = 0, tam1, tam2;
+      |                ^
+Finished building: ../exercicio60.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio60.o   -lm
+Finished building target: ProgramasC
+ 
+08:53:17 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio60.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio60.d" -MT"exercicio60.o" -o "exercicio60.o" "../exercicio60.c"
+../exercicio60.c: In function ‘main’:
+../exercicio60.c:12:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   12 |         scanf("%s", &pal);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio60.c:14:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   14 |         scanf("%s", &sub);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio60.c:9:16: warning: ‘i’ is used uninitialized [-Wuninitialized]
+    9 |         int i, k = i, cont = 0, n1 = 0, n2 = 0, tam1, tam2;
+      |                ^
+Finished building: ../exercicio60.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio60.o   -lm
+Finished building target: ProgramasC
+ 
+08:53:32 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+08:53:45 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+08:53:57 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+08:54:42 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio60.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio60.d" -MT"exercicio60.o" -o "exercicio60.o" "../exercicio60.c"
+../exercicio60.c: In function ‘main’:
+../exercicio60.c:12:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   12 |         scanf("%s", &pal);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio60.c:14:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   14 |         scanf("%s", &sub);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio60.c:9:16: warning: ‘i’ is used uninitialized [-Wuninitialized]
+    9 |         int i, k = i, cont = 0, n1 = 0, n2 = 0, tam1, tam2;
+      |                ^
+Finished building: ../exercicio60.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio60.o   -lm
+Finished building target: ProgramasC
+ 
+08:55:54 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio60.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio60.d" -MT"exercicio60.o" -o "exercicio60.o" "../exercicio60.c"
+../exercicio60.c: In function ‘main’:
+../exercicio60.c:12:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   12 |         scanf("%s", &pal);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio60.c:14:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   14 |         scanf("%s", &sub);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio60.c:9:16: warning: ‘i’ is used uninitialized [-Wuninitialized]
+    9 |         int i, k = i, cont = 0, n1 = 0, n2 = 0, tam1, tam2;
+      |                ^
+Finished building: ../exercicio60.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio60.o   -lm
+Finished building target: ProgramasC
+ 
+08:56:05 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+08:56:14 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+08:56:23 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+08:56:44 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+08:57:34 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio60.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio60.d" -MT"exercicio60.o" -o "exercicio60.o" "../exercicio60.c"
+../exercicio60.c: In function ‘main’:
+../exercicio60.c:12:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   12 |         scanf("%s", &pal);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio60.c:14:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   14 |         scanf("%s", &sub);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio60.c:9:16: warning: ‘i’ is used uninitialized [-Wuninitialized]
+    9 |         int i, k = i, cont = 0, n1 = 0, n2 = 0, tam1, tam2;
+      |                ^
+Finished building: ../exercicio60.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio60.o   -lm
+Finished building target: ProgramasC
+ 
+08:57:54 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+08:57:58 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+08:58:17 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+08:58:53 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+08:59:13 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio60.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio60.d" -MT"exercicio60.o" -o "exercicio60.o" "../exercicio60.c"
+../exercicio60.c: In function ‘main’:
+../exercicio60.c:12:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   12 |         scanf("%s", &pal);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio60.c:14:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   14 |         scanf("%s", &sub);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio60.c:9:16: warning: ‘i’ is used uninitialized [-Wuninitialized]
+    9 |         int i, k = i, cont = 0, n1 = 0, n2 = 0, tam1, tam2;
+      |                ^
+Finished building: ../exercicio60.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio60.o   -lm
+Finished building target: ProgramasC
+ 
+08:59:34 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio60.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio60.d" -MT"exercicio60.o" -o "exercicio60.o" "../exercicio60.c"
+../exercicio60.c: In function ‘main’:
+../exercicio60.c:12:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   12 |         scanf("%s", &pal);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio60.c:14:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   14 |         scanf("%s", &sub);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio60.c:9:16: warning: ‘i’ is used uninitialized [-Wuninitialized]
+    9 |         int i, k = i, cont = 0, n1 = 0, n2 = 0, tam1, tam2;
+      |                ^
+Finished building: ../exercicio60.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio60.o   -lm
+Finished building target: ProgramasC
+ 
+09:05:59 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+09:06:54 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+09:07:05 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+09:08:19 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio61.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio61.d" -MT"exercicio61.o" -o "exercicio61.o" "../exercicio61.c"
+../exercicio61.c: In function ‘main’:
+../exercicio61.c:9:16: warning: ‘i’ is used uninitialized [-Wuninitialized]
+    9 |         int i, k = i, cont = 0, n1 = 0, n2 = 0, tam1, tam2;
+      |                ^
+Finished building: ../exercicio61.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio61.o   -lm
+Finished building target: ProgramasC
+ 
+14:37:29 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio62.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio62.d" -MT"exercicio62.o" -o "exercicio62.o" "../exercicio62.c"
+../exercicio62.c: In function ‘tamanho’:
+../exercicio62.c:13:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   13 |         scanf("%s", &palavra);
+      |                ~^   ~~~~~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+Finished building: ../exercicio62.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio62.o   -lm
+Finished building target: ProgramasC
+ 
+14:50:34 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio63.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio63.d" -MT"exercicio63.o" -o "exercicio63.o" "../exercicio63.c"
+../exercicio63.c: In function ‘comparacao_string’:
+../exercicio63.c:13:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   13 |         scanf("%s", &str1);
+      |                ~^   ~~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio63.c:15:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   15 |         scanf("%s", &str2);
+      |                ~^   ~~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+Finished building: ../exercicio63.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio63.o   -lm
+Finished building target: ProgramasC
+ 
+14:50:54 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+14:51:05 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+14:58:07 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio64.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio64.d" -MT"exercicio64.o" -o "exercicio64.o" "../exercicio64.c"
+../exercicio64.c: In function ‘concatencao_strings’:
+../exercicio64.c:11:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   11 |         scanf("%s", &str1);
+      |                ~^   ~~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio64.c:13:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   13 |         scanf("%s", &str2);
+      |                ~^   ~~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio64.c:16:21: error: invalid operands to binary + (have ‘char *’ and ‘char *’)
+   16 |         str3 = str1 + str2;
+      |                ~~~~ ^
+      |                |    |
+      |                |    char *
+      |                char *
+make: *** [subdir.mk:20: exercicio64.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:01:12 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio64.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio64.d" -MT"exercicio64.o" -o "exercicio64.o" "../exercicio64.c"
+../exercicio64.c: In function ‘concatencao_strings’:
+../exercicio64.c:13:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   13 |         scanf("%s", &str1);
+      |                ~^   ~~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio64.c:15:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   15 |         scanf("%s", &str2);
+      |                ~^   ~~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio64.c:18:26: warning: ‘tam1’ is used uninitialized [-Wuninitialized]
+   18 |         for(int i = 0; i < tam1; i++){
+      |                        ~~^~~~~~
+../exercicio64.c:21:37: warning: ‘tam2’ is used uninitialized [-Wuninitialized]
+   21 |         }for(int i = tam1; i < tam1 + tam2; i++){
+      |                                ~~~~~^~~~~~
+Finished building: ../exercicio64.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio64.o   -lm
+Finished building target: ProgramasC
+ 
+15:02:49 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio64.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio64.d" -MT"exercicio64.o" -o "exercicio64.o" "../exercicio64.c"
+../exercicio64.c: In function ‘concatencao_strings’:
+../exercicio64.c:13:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   13 |         scanf("%s", &str1);
+      |                ~^   ~~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio64.c:15:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   15 |         scanf("%s", &str2);
+      |                ~^   ~~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+Finished building: ../exercicio64.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio64.o   -lm
+Finished building target: ProgramasC
+ 
+15:04:37 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio64.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio64.d" -MT"exercicio64.o" -o "exercicio64.o" "../exercicio64.c"
+../exercicio64.c: In function ‘concatencao_strings’:
+../exercicio64.c:13:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   13 |         scanf("%s", &str1);
+      |                ~^   ~~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio64.c:15:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   15 |         scanf("%s", &str2);
+      |                ~^   ~~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+Finished building: ../exercicio64.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio64.o   -lm
+Finished building target: ProgramasC
+ 
+15:06:28 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio64.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio64.d" -MT"exercicio64.o" -o "exercicio64.o" "../exercicio64.c"
+../exercicio64.c: In function ‘concatencao_strings’:
+../exercicio64.c:13:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   13 |         scanf("%s", &str1);
+      |                ~^   ~~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio64.c:15:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   15 |         scanf("%s", &str2);
+      |                ~^   ~~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio64.c:27:26: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘int’ [-Wformat=]
+   27 |                 printf("%s", str3[i]);
+      |                         ~^   ~~~~~~~
+      |                          |       |
+      |                          char *  int
+      |                         %d
+Finished building: ../exercicio64.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio64.o   -lm
+Finished building target: ProgramasC
+ 
+15:07:16 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio64.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio64.d" -MT"exercicio64.o" -o "exercicio64.o" "../exercicio64.c"
+../exercicio64.c: In function ‘concatencao_strings’:
+../exercicio64.c:13:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   13 |         scanf("%s", &str1);
+      |                ~^   ~~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio64.c:15:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   15 |         scanf("%s", &str2);
+      |                ~^   ~~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+Finished building: ../exercicio64.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio64.o   -lm
+Finished building target: ProgramasC
+ 
+15:07:31 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+15:16:56 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio65.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio65.d" -MT"exercicio65.o" -o "exercicio65.o" "../exercicio65.c"
+../exercicio65.c: In function ‘string_dois’:
+../exercicio65.c:17:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   17 |         scanf("%s", &str1);
+      |                ~^   ~~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio65.c:19:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   19 |         scanf("%s", &str2);
+      |                ~^   ~~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio65.c:10:28: warning: unused variable ‘idx’ [-Wunused-variable]
+   10 |         int n, tam1, tam2, idx = 0;
+      |                            ^~~
+../exercicio65.c:12:16: warning: ‘str1’ is used uninitialized [-Wuninitialized]
+   12 |         tam1 = strlen(str1);
+      |                ^~~~~~~~~~~~
+In file included from ../exercicio65.c:3:
+/usr/include/string.h:407:15: note: by argument 1 of type ‘const char *’ to ‘strlen’ declared here
+  407 | extern size_t strlen (const char *__s)
+      |               ^~~~~~
+../exercicio65.c:8:14: note: ‘str1’ declared here
+    8 |         char str1[50], str2[50];
+      |              ^~~~
+../exercicio65.c:14:14: warning: ‘n’ is used uninitialized [-Wuninitialized]
+   14 |         tam2 = tam1 + n;
+      |         ~~~~~^~~~~~~~~~
+Finished building: ../exercicio65.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio65.o   -lm
+Finished building target: ProgramasC
+ 
+15:18:57 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio65.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio65.d" -MT"exercicio65.o" -o "exercicio65.o" "../exercicio65.c"
+../exercicio65.c: In function ‘string_dois’:
+../exercicio65.c:17:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   17 |         scanf("%s", &str1);
+      |                ~^   ~~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio65.c:19:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   19 |         scanf("%s", &str2);
+      |                ~^   ~~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio65.c:10:28: warning: unused variable ‘idx’ [-Wunused-variable]
+   10 |         int n, tam1, tam2, idx = 0;
+      |                            ^~~
+../exercicio65.c:12:16: warning: ‘str1’ is used uninitialized [-Wuninitialized]
+   12 |         tam1 = strlen(str1);
+      |                ^~~~~~~~~~~~
+In file included from ../exercicio65.c:3:
+/usr/include/string.h:407:15: note: by argument 1 of type ‘const char *’ to ‘strlen’ declared here
+  407 | extern size_t strlen (const char *__s)
+      |               ^~~~~~
+../exercicio65.c:8:14: note: ‘str1’ declared here
+    8 |         char str1[50], str2[50];
+      |              ^~~~
+../exercicio65.c:14:21: warning: ‘n’ is used uninitialized [-Wuninitialized]
+   14 |         tam2 = tam1 + n;
+      |                ~~~~~^~~
+../exercicio65.c:10:13: note: ‘n’ declared here
+   10 |         int n, tam1, tam2, idx = 0;
+      |             ^
+Finished building: ../exercicio65.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio65.o   -lm
+Finished building target: ProgramasC
+ 
+15:21:05 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio65.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio65.d" -MT"exercicio65.o" -o "exercicio65.o" "../exercicio65.c"
+../exercicio65.c: In function ‘string_dois’:
+../exercicio65.c:16:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   16 |         scanf("%s", &str1);
+      |                ~^   ~~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio65.c:18:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   18 |         scanf("%s", &str2);
+      |                ~^   ~~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio65.c:12:16: warning: ‘str1’ is used uninitialized [-Wuninitialized]
+   12 |         tam1 = strlen(str1);
+      |                ^~~~~~~~~~~~
+In file included from ../exercicio65.c:3:
+/usr/include/string.h:407:15: note: by argument 1 of type ‘const char *’ to ‘strlen’ declared here
+  407 | extern size_t strlen (const char *__s)
+      |               ^~~~~~
+../exercicio65.c:8:14: note: ‘str1’ declared here
+    8 |         char str1[50], str2[50];
+      |              ^~~~
+Finished building: ../exercicio65.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio65.o   -lm
+Finished building target: ProgramasC
+ 
+15:24:56 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio65.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio65.d" -MT"exercicio65.o" -o "exercicio65.o" "../exercicio65.c"
+../exercicio65.c: In function ‘string_dois’:
+../exercicio65.c:16:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   16 |         scanf("%s", &str1);
+      |                ~^   ~~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio65.c:18:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   18 |         scanf("%s", &str2);
+      |                ~^   ~~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio65.c:20:17: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+   20 |         scanf("%d", n);
+      |                ~^   ~
+      |                 |   |
+      |                 |   int
+      |                 int *
+../exercicio65.c:12:16: warning: ‘str1’ is used uninitialized [-Wuninitialized]
+   12 |         tam1 = strlen(str1);
+      |                ^~~~~~~~~~~~
+In file included from ../exercicio65.c:3:
+/usr/include/string.h:407:15: note: by argument 1 of type ‘const char *’ to ‘strlen’ declared here
+  407 | extern size_t strlen (const char *__s)
+      |               ^~~~~~
+../exercicio65.c:8:14: note: ‘str1’ declared here
+    8 |         char str1[50], str2[50], str3[100];
+      |              ^~~~
+../exercicio65.c:13:14: warning: ‘n’ is used uninitialized [-Wuninitialized]
+   13 |         tam2 = tam1 + n;
+      |         ~~~~~^~~~~~~~~~
+Finished building: ../exercicio65.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio65.o   -lm
+Finished building target: ProgramasC
+ 
+15:25:56 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio65.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio65.d" -MT"exercicio65.o" -o "exercicio65.o" "../exercicio65.c"
+../exercicio65.c: In function ‘string_dois’:
+../exercicio65.c:16:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   16 |         scanf("%s", &str1);
+      |                ~^   ~~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio65.c:18:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   18 |         scanf("%s", &str2);
+      |                ~^   ~~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio65.c:12:16: warning: ‘str1’ is used uninitialized [-Wuninitialized]
+   12 |         tam1 = strlen(str1);
+      |                ^~~~~~~~~~~~
+In file included from ../exercicio65.c:3:
+/usr/include/string.h:407:15: note: by argument 1 of type ‘const char *’ to ‘strlen’ declared here
+  407 | extern size_t strlen (const char *__s)
+      |               ^~~~~~
+../exercicio65.c:8:14: note: ‘str1’ declared here
+    8 |         char str1[50], str2[50], str3[100];
+      |              ^~~~
+../exercicio65.c:13:21: warning: ‘n’ is used uninitialized [-Wuninitialized]
+   13 |         tam2 = tam1 + n;
+      |                ~~~~~^~~
+../exercicio65.c:10:13: note: ‘n’ declared here
+   10 |         int n, tam1, tam2, idx = 0;
+      |             ^
+Finished building: ../exercicio65.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio65.o   -lm
+Finished building target: ProgramasC
+ 
+15:28:04 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio65.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio65.d" -MT"exercicio65.o" -o "exercicio65.o" "../exercicio65.c"
+../exercicio65.c: In function ‘string_dois’:
+../exercicio65.c:16:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   16 |         scanf("%s", &str1);
+      |                ~^   ~~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio65.c:18:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   18 |         scanf("%s", &str2);
+      |                ~^   ~~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio65.c:12:16: warning: ‘str1’ is used uninitialized [-Wuninitialized]
+   12 |         tam1 = strlen(str1);
+      |                ^~~~~~~~~~~~
+In file included from ../exercicio65.c:3:
+/usr/include/string.h:407:15: note: by argument 1 of type ‘const char *’ to ‘strlen’ declared here
+  407 | extern size_t strlen (const char *__s)
+      |               ^~~~~~
+../exercicio65.c:8:14: note: ‘str1’ declared here
+    8 |         char str1[50], str2[50], str3[100];
+      |              ^~~~
+../exercicio65.c:13:21: warning: ‘n’ is used uninitialized [-Wuninitialized]
+   13 |         tam2 = tam1 + n;
+      |                ~~~~~^~~
+../exercicio65.c:10:13: note: ‘n’ declared here
+   10 |         int n, tam1, tam2, idx = 0;
+      |             ^
+Finished building: ../exercicio65.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio65.o   -lm
+Finished building target: ProgramasC
+ 
+15:29:02 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio65.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio65.d" -MT"exercicio65.o" -o "exercicio65.o" "../exercicio65.c"
+../exercicio65.c: In function ‘string_dois’:
+../exercicio65.c:13:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   13 |         scanf("%s", &str1);
+      |                ~^   ~~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio65.c:15:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   15 |         scanf("%s", &str2);
+      |                ~^   ~~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+Finished building: ../exercicio65.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio65.o   -lm
+Finished building target: ProgramasC
+ 
+15:29:21 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+15:29:39 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+15:35:34 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio65.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio65.d" -MT"exercicio65.o" -o "exercicio65.o" "../exercicio65.c"
+../exercicio65.c: In function ‘string_dois’:
+../exercicio65.c:13:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   13 |         scanf("%s", &str1);
+      |                ~^   ~~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio65.c:15:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   15 |         scanf("%s", &str2);
+      |                ~^   ~~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio65.c:10:28: warning: unused variable ‘idx’ [-Wunused-variable]
+   10 |         int n, tam1, tam2, idx = 0;
+      |                            ^~~
+Finished building: ../exercicio65.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio65.o   -lm
+Finished building target: ProgramasC
+ 
+15:36:10 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio65.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio65.d" -MT"exercicio65.o" -o "exercicio65.o" "../exercicio65.c"
+../exercicio65.c: In function ‘string_dois’:
+../exercicio65.c:13:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   13 |         scanf("%s", &str1);
+      |                ~^   ~~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio65.c:15:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   15 |         scanf("%s", &str2);
+      |                ~^   ~~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+Finished building: ../exercicio65.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio65.o   -lm
+Finished building target: ProgramasC
+ 
+15:36:38 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+15:47:04 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio66.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio66.d" -MT"exercicio66.o" -o "exercicio66.o" "../exercicio66.c"
+../exercicio66.c: In function ‘minuscula_maiuscula’:
+../exercicio66.c:8:26: warning: initialization of ‘char’ from ‘char *’ makes integer from pointer without a cast [-Wint-conversion]
+    8 |         char minuscula = "abcdefghijklmnopqrstuvwxyz", maiuscula = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+      |                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../exercicio66.c:8:68: warning: initialization of ‘char’ from ‘char *’ makes integer from pointer without a cast [-Wint-conversion]
+    8 |         char minuscula = "abcdefghijklmnopqrstuvwxyz", maiuscula = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+      |                                                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../exercicio66.c:15:15: warning: multi-character character constant [-Wmultichar]
+   15 |         scanf('%c', &carct[0]);
+      |               ^~~~
+../exercicio66.c:15:15: warning: passing argument 1 of ‘scanf’ makes pointer from integer without a cast [-Wint-conversion]
+   15 |         scanf('%c', &carct[0]);
+      |               ^~~~
+      |               |
+      |               int
+In file included from ../exercicio66.c:1:
+/usr/include/stdio.h:421:42: note: expected ‘const char * restrict’ but argument is of type ‘int’
+  421 | extern int scanf (const char *__restrict __format, ...) __wur;
+      |                   ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+../exercicio66.c:18:38: error: subscripted value is neither array nor pointer nor vector
+   18 |                 if(carct == minuscula[i]){
+      |                                      ^
+../exercicio66.c:24:32: error: subscripted value is neither array nor pointer nor vector
+   24 |         }printf("%s", maiuscula[idx]);
+      |                                ^
+../exercicio66.c:12:13: warning: variable ‘idx’ set but not used [-Wunused-but-set-variable]
+   12 |         int idx;
+      |             ^~~
+../exercicio66.c:8:56: warning: variable ‘maiuscula’ set but not used [-Wunused-but-set-variable]
+    8 |         char minuscula = "abcdefghijklmnopqrstuvwxyz", maiuscula = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+      |                                                        ^~~~~~~~~
+../exercicio66.c:8:14: warning: variable ‘minuscula’ set but not used [-Wunused-but-set-variable]
+    8 |         char minuscula = "abcdefghijklmnopqrstuvwxyz", maiuscula = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+      |              ^~~~~~~~~
+make: *** [subdir.mk:20: exercicio66.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:47:45 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio66.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio66.d" -MT"exercicio66.o" -o "exercicio66.o" "../exercicio66.c"
+../exercicio66.c: In function ‘minuscula_maiuscula’:
+../exercicio66.c:8:26: warning: initialization of ‘char’ from ‘char *’ makes integer from pointer without a cast [-Wint-conversion]
+    8 |         char minuscula = "abcdefghijklmnopqrstuvwxyz", maiuscula = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+      |                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../exercicio66.c:8:68: warning: initialization of ‘char’ from ‘char *’ makes integer from pointer without a cast [-Wint-conversion]
+    8 |         char minuscula = "abcdefghijklmnopqrstuvwxyz", maiuscula = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+      |                                                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../exercicio66.c:15:15: warning: multi-character character constant [-Wmultichar]
+   15 |         scanf('%c', &carct[0]);
+      |               ^~~~
+../exercicio66.c:15:15: warning: passing argument 1 of ‘scanf’ makes pointer from integer without a cast [-Wint-conversion]
+   15 |         scanf('%c', &carct[0]);
+      |               ^~~~
+      |               |
+      |               int
+In file included from ../exercicio66.c:1:
+/usr/include/stdio.h:421:42: note: expected ‘const char * restrict’ but argument is of type ‘int’
+  421 | extern int scanf (const char *__restrict __format, ...) __wur;
+      |                   ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+../exercicio66.c:18:41: error: subscripted value is neither array nor pointer nor vector
+   18 |                 if(carct[0] == minuscula[i]){
+      |                                         ^
+../exercicio66.c:24:32: error: subscripted value is neither array nor pointer nor vector
+   24 |         }printf("%s", maiuscula[idx]);
+      |                                ^
+../exercicio66.c:12:13: warning: variable ‘idx’ set but not used [-Wunused-but-set-variable]
+   12 |         int idx;
+      |             ^~~
+../exercicio66.c:8:56: warning: variable ‘maiuscula’ set but not used [-Wunused-but-set-variable]
+    8 |         char minuscula = "abcdefghijklmnopqrstuvwxyz", maiuscula = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+      |                                                        ^~~~~~~~~
+../exercicio66.c:8:14: warning: variable ‘minuscula’ set but not used [-Wunused-but-set-variable]
+    8 |         char minuscula = "abcdefghijklmnopqrstuvwxyz", maiuscula = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+      |              ^~~~~~~~~
+make: *** [subdir.mk:20: exercicio66.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:48:28 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio66.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio66.d" -MT"exercicio66.o" -o "exercicio66.o" "../exercicio66.c"
+../exercicio66.c: In function ‘minuscula_maiuscula’:
+../exercicio66.c:8:26: warning: initialization of ‘char’ from ‘char *’ makes integer from pointer without a cast [-Wint-conversion]
+    8 |         char minuscula = "abcdefghijklmnopqrstuvwxyz", maiuscula = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+      |                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../exercicio66.c:8:68: warning: initialization of ‘char’ from ‘char *’ makes integer from pointer without a cast [-Wint-conversion]
+    8 |         char minuscula = "abcdefghijklmnopqrstuvwxyz", maiuscula = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+      |                                                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../exercicio66.c:18:41: error: subscripted value is neither array nor pointer nor vector
+   18 |                 if(carct[0] == minuscula[i]){
+      |                                         ^
+../exercicio66.c:24:32: error: subscripted value is neither array nor pointer nor vector
+   24 |         }printf("%s", maiuscula[idx]);
+      |                                ^
+../exercicio66.c:12:13: warning: variable ‘idx’ set but not used [-Wunused-but-set-variable]
+   12 |         int idx;
+      |             ^~~
+../exercicio66.c:8:56: warning: variable ‘maiuscula’ set but not used [-Wunused-but-set-variable]
+    8 |         char minuscula = "abcdefghijklmnopqrstuvwxyz", maiuscula = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+      |                                                        ^~~~~~~~~
+../exercicio66.c:8:14: warning: variable ‘minuscula’ set but not used [-Wunused-but-set-variable]
+    8 |         char minuscula = "abcdefghijklmnopqrstuvwxyz", maiuscula = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+      |              ^~~~~~~~~
+make: *** [subdir.mk:20: exercicio66.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:49:07 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio66.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio66.d" -MT"exercicio66.o" -o "exercicio66.o" "../exercicio66.c"
+../exercicio66.c: In function ‘minuscula_maiuscula’:
+../exercicio66.c:8:26: warning: initialization of ‘char’ from ‘char *’ makes integer from pointer without a cast [-Wint-conversion]
+    8 |         char minuscula = "abcdefghijklmnopqrstuvwxyz", maiuscula = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+      |                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../exercicio66.c:8:68: warning: initialization of ‘char’ from ‘char *’ makes integer from pointer without a cast [-Wint-conversion]
+    8 |         char minuscula = "abcdefghijklmnopqrstuvwxyz", maiuscula = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+      |                                                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../exercicio66.c:15:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   15 |         scanf("%s", &carct);
+      |                ~^   ~~~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio66.c:18:38: error: subscripted value is neither array nor pointer nor vector
+   18 |                 if(carct == minuscula[i]){
+      |                                      ^
+../exercicio66.c:24:32: error: subscripted value is neither array nor pointer nor vector
+   24 |         }printf("%s", maiuscula[idx]);
+      |                                ^
+../exercicio66.c:12:13: warning: variable ‘idx’ set but not used [-Wunused-but-set-variable]
+   12 |         int idx;
+      |             ^~~
+../exercicio66.c:8:56: warning: variable ‘maiuscula’ set but not used [-Wunused-but-set-variable]
+    8 |         char minuscula = "abcdefghijklmnopqrstuvwxyz", maiuscula = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+      |                                                        ^~~~~~~~~
+../exercicio66.c:8:14: warning: variable ‘minuscula’ set but not used [-Wunused-but-set-variable]
+    8 |         char minuscula = "abcdefghijklmnopqrstuvwxyz", maiuscula = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+      |              ^~~~~~~~~
+make: *** [subdir.mk:20: exercicio66.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:50:09 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio66.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio66.d" -MT"exercicio66.o" -o "exercicio66.o" "../exercicio66.c"
+../exercicio66.c: In function ‘minuscula_maiuscula’:
+../exercicio66.c:15:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   15 |         scanf("%s", &carct);
+      |                ~^   ~~~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio66.c:18:26: warning: comparison between pointer and integer
+   18 |                 if(carct == minuscula[i]){
+      |                          ^~
+../exercicio66.c:24:19: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘int’ [-Wformat=]
+   24 |         }printf("%s", maiuscula[idx]);
+      |                  ~^   ~~~~~~~~~~~~~~
+      |                   |            |
+      |                   char *       int
+      |                  %d
+Finished building: ../exercicio66.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio66.o   -lm
+Finished building target: ProgramasC
+ 
+15:51:16 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio66.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio66.d" -MT"exercicio66.o" -o "exercicio66.o" "../exercicio66.c"
+../exercicio66.c: In function ‘minuscula_maiuscula’:
+../exercicio66.c:24:19: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘int’ [-Wformat=]
+   24 |         }printf("%s", maiuscula[idx]);
+      |                  ~^   ~~~~~~~~~~~~~~
+      |                   |            |
+      |                   char *       int
+      |                  %d
+Finished building: ../exercicio66.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio66.o   -lm
+Finished building target: ProgramasC
+ 
+15:56:44 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio66.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio66.d" -MT"exercicio66.o" -o "exercicio66.o" "../exercicio66.c"
+../exercicio66.c: In function ‘minuscula_maiuscula’:
+../exercicio66.c:11:36: error: excess elements in ‘char’ array initializer
+   11 |         char maiuscula[50] = {"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M",
+      |                                    ^~~
+../exercicio66.c:11:36: note: (near initialization for ‘maiuscula’)
+../exercicio66.c:11:41: error: excess elements in ‘char’ array initializer
+   11 |         char maiuscula[50] = {"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M",
+      |                                         ^~~
+../exercicio66.c:11:41: note: (near initialization for ‘maiuscula’)
+../exercicio66.c:11:46: error: excess elements in ‘char’ array initializer
+   11 |         char maiuscula[50] = {"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M",
+      |                                              ^~~
+../exercicio66.c:11:46: note: (near initialization for ‘maiuscula’)
+../exercicio66.c:11:51: error: excess elements in ‘char’ array initializer
+   11 |         char maiuscula[50] = {"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M",
+      |                                                   ^~~
+../exercicio66.c:11:51: note: (near initialization for ‘maiuscula’)
+../exercicio66.c:11:56: error: excess elements in ‘char’ array initializer
+   11 |         char maiuscula[50] = {"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M",
+      |                                                        ^~~
+../exercicio66.c:11:56: note: (near initialization for ‘maiuscula’)
+../exercicio66.c:11:61: error: excess elements in ‘char’ array initializer
+   11 |         char maiuscula[50] = {"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M",
+      |                                                             ^~~
+../exercicio66.c:11:61: note: (near initialization for ‘maiuscula’)
+../exercicio66.c:11:66: error: excess elements in ‘char’ array initializer
+   11 |         char maiuscula[50] = {"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M",
+      |                                                                  ^~~
+../exercicio66.c:11:66: note: (near initialization for ‘maiuscula’)
+../exercicio66.c:11:71: error: excess elements in ‘char’ array initializer
+   11 |         char maiuscula[50] = {"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M",
+      |                                                                       ^~~
+../exercicio66.c:11:71: note: (near initialization for ‘maiuscula’)
+../exercicio66.c:11:76: error: excess elements in ‘char’ array initializer
+   11 |         char maiuscula[50] = {"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M",
+      |                                                                            ^~~
+../exercicio66.c:11:76: note: (near initialization for ‘maiuscula’)
+../exercicio66.c:11:81: error: excess elements in ‘char’ array initializer
+   11 |         char maiuscula[50] = {"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M",
+      |                                                                                 ^~~
+../exercicio66.c:11:81: note: (near initialization for ‘maiuscula’)
+../exercicio66.c:11:86: error: excess elements in ‘char’ array initializer
+   11 |         char maiuscula[50] = {"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M",
+      |                                                                                      ^~~
+../exercicio66.c:11:86: note: (near initialization for ‘maiuscula’)
+../exercicio66.c:11:91: error: excess elements in ‘char’ array initializer
+   11 |         char maiuscula[50] = {"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M",
+      |                                                                                           ^~~
+../exercicio66.c:11:91: note: (near initialization for ‘maiuscula’)
+../exercicio66.c:12:25: error: excess elements in ‘char’ array initializer
+   12 |                         "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"};
+      |                         ^~~
+../exercicio66.c:12:25: note: (near initialization for ‘maiuscula’)
+../exercicio66.c:12:30: error: excess elements in ‘char’ array initializer
+   12 |                         "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"};
+      |                              ^~~
+../exercicio66.c:12:30: note: (near initialization for ‘maiuscula’)
+../exercicio66.c:12:35: error: excess elements in ‘char’ array initializer
+   12 |                         "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"};
+      |                                   ^~~
+../exercicio66.c:12:35: note: (near initialization for ‘maiuscula’)
+../exercicio66.c:12:40: error: excess elements in ‘char’ array initializer
+   12 |                         "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"};
+      |                                        ^~~
+../exercicio66.c:12:40: note: (near initialization for ‘maiuscula’)
+../exercicio66.c:12:45: error: excess elements in ‘char’ array initializer
+   12 |                         "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"};
+      |                                             ^~~
+../exercicio66.c:12:45: note: (near initialization for ‘maiuscula’)
+../exercicio66.c:12:50: error: excess elements in ‘char’ array initializer
+   12 |                         "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"};
+      |                                                  ^~~
+../exercicio66.c:12:50: note: (near initialization for ‘maiuscula’)
+../exercicio66.c:12:55: error: excess elements in ‘char’ array initializer
+   12 |                         "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"};
+      |                                                       ^~~
+../exercicio66.c:12:55: note: (near initialization for ‘maiuscula’)
+../exercicio66.c:12:60: error: excess elements in ‘char’ array initializer
+   12 |                         "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"};
+      |                                                            ^~~
+../exercicio66.c:12:60: note: (near initialization for ‘maiuscula’)
+../exercicio66.c:12:65: error: excess elements in ‘char’ array initializer
+   12 |                         "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"};
+      |                                                                 ^~~
+../exercicio66.c:12:65: note: (near initialization for ‘maiuscula’)
+../exercicio66.c:12:70: error: excess elements in ‘char’ array initializer
+   12 |                         "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"};
+      |                                                                      ^~~
+../exercicio66.c:12:70: note: (near initialization for ‘maiuscula’)
+../exercicio66.c:12:75: error: excess elements in ‘char’ array initializer
+   12 |                         "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"};
+      |                                                                           ^~~
+../exercicio66.c:12:75: note: (near initialization for ‘maiuscula’)
+../exercicio66.c:12:80: error: excess elements in ‘char’ array initializer
+   12 |                         "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"};
+      |                                                                                ^~~
+../exercicio66.c:12:80: note: (near initialization for ‘maiuscula’)
+../exercicio66.c:12:85: error: excess elements in ‘char’ array initializer
+   12 |                         "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"};
+      |                                                                                     ^~~
+../exercicio66.c:12:85: note: (near initialization for ‘maiuscula’)
+../exercicio66.c:28:19: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘int’ [-Wformat=]
+   28 |         }printf("%s", maiuscula[idx]);
+      |                  ~^   ~~~~~~~~~~~~~~
+      |                   |            |
+      |                   char *       int
+      |                  %d
+make: *** [subdir.mk:20: exercicio66.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:58:56 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio66.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio66.d" -MT"exercicio66.o" -o "exercicio66.o" "../exercicio66.c"
+../exercicio66.c: In function ‘minuscula_maiuscula’:
+../exercicio66.c:28:19: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘int’ [-Wformat=]
+   28 |         }printf("%s", maiuscula[idx]);
+      |                  ~^   ~~~~~~~~~~~~~~
+      |                   |            |
+      |                   char *       int
+      |                  %d
+Finished building: ../exercicio66.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio66.o   -lm
+Finished building target: ProgramasC
+ 
+15:59:00 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+16:00:33 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio66.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio66.d" -MT"exercicio66.o" -o "exercicio66.o" "../exercicio66.c"
+../exercicio66.c: In function ‘minuscula_maiuscula’:
+../exercicio66.c:28:19: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘int’ [-Wformat=]
+   28 |         }printf("%s", maiuscula[idx]);
+      |                  ~^   ~~~~~~~~~~~~~~
+      |                   |            |
+      |                   char *       int
+      |                  %d
+Finished building: ../exercicio66.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio66.o   -lm
+Finished building target: ProgramasC
+ 
+16:01:23 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio66.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio66.d" -MT"exercicio66.o" -o "exercicio66.o" "../exercicio66.c"
+../exercicio66.c: In function ‘minuscula_maiuscula’:
+../exercicio66.c:18:25: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘int’ [-Wformat=]
+   18 |         printf("Hello! %s", minuscula[9]);
+      |                        ~^   ~~~~~~~~~~~~
+      |                         |            |
+      |                         char *       int
+      |                        %d
+../exercicio66.c:31:19: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘int’ [-Wformat=]
+   31 |         }printf("%s", maiuscula[idx]);
+      |                  ~^   ~~~~~~~~~~~~~~
+      |                   |            |
+      |                   char *       int
+      |                  %d
+Finished building: ../exercicio66.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio66.o   -lm
+Finished building target: ProgramasC
+ 
+16:01:58 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio66.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio66.d" -MT"exercicio66.o" -o "exercicio66.o" "../exercicio66.c"
+../exercicio66.c: In function ‘minuscula_maiuscula’:
+../exercicio66.c:31:19: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘int’ [-Wformat=]
+   31 |         }printf("%s", maiuscula[idx]);
+      |                  ~^   ~~~~~~~~~~~~~~
+      |                   |            |
+      |                   char *       int
+      |                  %d
+Finished building: ../exercicio66.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio66.o   -lm
+Finished building target: ProgramasC
+ 
+16:02:02 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+16:02:39 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio66.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio66.d" -MT"exercicio66.o" -o "exercicio66.o" "../exercicio66.c"
+Finished building: ../exercicio66.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio66.o   -lm
+Finished building target: ProgramasC
+ 
+16:02:49 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+16:03:09 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio66.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio66.d" -MT"exercicio66.o" -o "exercicio66.o" "../exercicio66.c"
+Finished building: ../exercicio66.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio66.o   -lm
+Finished building target: ProgramasC
+ 

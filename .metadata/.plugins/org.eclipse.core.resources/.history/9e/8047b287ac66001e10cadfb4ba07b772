@@ -1,0 +1,37 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+
+void concatencao_strings(){
+
+	char str1[50], str2[50], str3[100];
+
+	int tam1, tam2;
+
+	printf("Digite a primeira string: ");
+	scanf("%s", &str1);
+	printf("Digite a segunda string: ");
+	scanf("%s", &str2);
+	printf("\n");
+
+	for(int i = 0; i < tam1; i++){
+		str3[i] = str1[i];
+
+	}for(int i = tam1; i < tam1 + tam2; i++){
+		str3[i] = str2[i];
+
+	}
+
+	printf("As duas strings concatenadas formou a string %s.", str3);
+
+}
+
+
+int main(){
+
+	concatencao_strings();
+
+	return 0;
+
+}

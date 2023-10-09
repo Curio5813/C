@@ -1,0 +1,35 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+
+void minuscula_maiuscula(){
+
+	char minuscula = "abcdefghijklmnopqrstuvwxyz", maiuscula = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+	char carct[50];
+
+	int idx;
+
+	printf("Digite um caracter: ");
+	scanf('%c', &carct[0]);
+
+	for(int i = 0; i < 26; i++){
+		if(carct[0] == minuscula[i]){
+			idx = i;
+			break;
+
+		}
+
+	}printf("%s", maiuscula[idx]);
+
+}
+
+
+int main(){
+
+	minuscula_maiuscula();
+
+	return 0;
+
+}
