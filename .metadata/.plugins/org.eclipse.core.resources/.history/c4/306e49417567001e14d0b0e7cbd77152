@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+
+void rotina_string(){
+
+	char str[] = {'a', 'e', 'i', 'o', 'u'};
+
+	int tam;
+
+	tam = sizeof(str)/sizeof(int);
+
+	printf("%d", tam);
+
+
+
+
+}
+
+
+int main(){
+
+	rotina_string();
+
+	return 0;
+
+}

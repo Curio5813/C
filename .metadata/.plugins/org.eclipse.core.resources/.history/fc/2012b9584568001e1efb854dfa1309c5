@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+void soma(v1[4]);
+
+
+int main(){
+
+	float v1[4];
+
+	for(int i = 0; i < 4; i++){
+		printf("Digite um valor para a posição %d, do vetor: ", i);
+		scanf("%f", &v1[i]);
+
+	}
+
+	int tam;
+
+	tam = sizeof(v1);
+
+	soma(v1[4]);
+
+	return 0;
+
+}
+
+void soma(v1[4]){
+
+	printf("%f", v1[3]);
+
+}

@@ -1,0 +1,34 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+void soma(v1[4], v2[4], tam){
+
+	float soma, res[4];
+
+	for(int i = 0; i < tam; i++){
+		printf("%f ", v1[i]);
+
+
+	}printf("O vetor soma res é:\n");
+	for(int i = 0; i < tam; i++){
+		printf("%f ", res[i]);
+
+	}printf("\n");
+
+}
+
+
+int main(){
+
+	float v1[4] = {5.3, 9.0, 3.5, 8.8}, v2[4] = {5.8, 9.9, 10.0, 7.5};
+
+	int tam;
+
+	tam = sizeof(v1);
+
+	soma(v1[4], v2[4], tam);
+
+	return 0;
+
+}

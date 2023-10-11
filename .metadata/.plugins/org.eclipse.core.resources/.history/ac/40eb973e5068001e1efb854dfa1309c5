@@ -1,0 +1,81 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+
+void media_idade(int **v[5][4]){
+
+	double media, qt = 0, idades = 0;
+
+
+	for(int i = 0; i < 5; i++){
+		if(v[i][2] == 'C' && v[i][3] == 'P'){
+			idades += v[i][0];
+			qt += 1;
+
+		}
+
+	}media = idades / qt;
+	printf("A média de idade das pessoas com olhos castnhos e cabelos pretos é de %.2lf", media);
+	printf("\n");
+
+}
+
+
+void maior_idade(int **v[5][4]){
+
+	int maior = 0;
+
+	for(int i = 0; i < 5; i++){
+		if(v[i][0] > maior){
+			maior = v[i][0];
+		}
+
+	}printf("A pessoa de maior idade tem %d anos", maior);
+	printf("\n");
+
+}
+
+
+void sexo_feminino(int **v[5][4]){
+
+	int qt = 0;
+
+	for(int i = 0; i < 5; i++){
+		if(v[i][0] <= 18 && v[i][0] <= 35 && v[i][1] == 'F' && v[i][2] == 'A' && v[i][3] == 'L'){
+			qt += 1;
+
+		}
+
+	}printf("A quantidade de mulheres com idade entre 18 à 35 anos, olhos azuis e cabelos louros é de %d", qt);
+	printf("\n");
+}
+
+
+int main(){
+
+	int v[5][4];
+
+	for(int i = 0; i < 5; i++){
+		printf("Características do %dº habitante:\n", i + 1);
+		printf("Idade: ");
+		scanf("%d", &v[i][0]);
+		printf("Sexo [M] => Masculino, [F] => Feminino: ");
+		scanf("%s", &v[i][1]);
+		printf("Cor dos olhos [A] => Azuis, [C] => Castanhos: ");
+		scanf("%s", &v[i][2]);
+		printf("Cor dos cabelos [L] => Louros, [P] => Pretos, [C] => Castanhos: ");
+		scanf("%s", &v[i][3]);
+		printf("\n");
+
+	}printf("\n");
+
+	media_idade(v);
+
+	maior_idade(v);
+
+	sexo_feminino(v);
+
+	return 0;
+
+}
