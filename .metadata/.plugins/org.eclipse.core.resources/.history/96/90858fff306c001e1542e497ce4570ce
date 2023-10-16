@@ -1,0 +1,39 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+void maior_endereco(){
+
+	int n1, n2;
+
+	printf("Digite um número inteiro: ");
+	scanf("%d", &n1);
+	printf("Digite outro número inteiro: ");
+	scanf("%d", &n2);
+	printf("\n");
+
+	int *p1 = &n1, *p2 = &n2;
+
+	printf("O endereço de memória do número %d é %p1\n", n1, p1);
+	printf("O endereço de memória do número %d é %p2\n", n2, p2);
+	printf("\n");
+
+	scanf("%x", &n1);
+	scanf("%x", &n2);
+	printf("\n");
+
+	if(n1 > n2){
+		printf("O endereço de memória %x é maior do que %x\n", n1, n2);
+
+	}
+
+}
+
+
+int main(){
+
+	maior_endereco();
+
+	return 0;
+
+}

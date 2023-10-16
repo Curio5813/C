@@ -31793,3 +31793,785 @@ Invoking: GCC C Linker
 gcc -lm  -o "ProgramasC" ./programa22.o   -lm
 Finished building target: ProgramasC
  
+01:30:13 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio73.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio73.d" -MT"exercicio73.o" -o "exercicio73.o" "../exercicio73.c"
+../exercicio73.c: In function ‘media_idade’:
+../exercicio73.c:29:1: warning: control reaches end of non-void function [-Wreturn-type]
+   29 | }
+      | ^
+../exercicio73.c: In function ‘maior_idade’:
+../exercicio73.c:44:1: warning: control reaches end of non-void function [-Wreturn-type]
+   44 | }
+      | ^
+../exercicio73.c: In function ‘sexo_feminino’:
+../exercicio73.c:60:1: warning: control reaches end of non-void function [-Wreturn-type]
+   60 | }
+      | ^
+Finished building: ../exercicio73.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio73.o   -lm
+Finished building target: ProgramasC
+ 
+14:45:47 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio01.d" -MT"exercicio01.o" -o "exercicio01.o" "../exercicio01.c"
+../exercicio01.c: In function ‘incrementa’:
+../exercicio01.c:7:95: warning: format ‘%s’ expects argument of type ‘char *’, but argument 4 has type ‘int’ [-Wformat=]
+    7 |         printf("Antes de incrementar o inteiro vale %d o numero real vale %f e a string vale %s\n", *i, *f, *str);
+      |                                                                                              ~^             ~~~~
+      |                                                                                               |             |
+      |                                                                                               char *        int
+      |                                                                                              %d
+../exercicio01.c:8:64: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat=]
+    8 |         printf("Seus endereços de memória são respectivamente %d %f %s\n", i, f, str);
+      |                                                               ~^           ~
+      |                                                                |           |
+      |                                                                int         int *
+      |                                                               %ls
+../exercicio01.c:8:67: warning: format ‘%f’ expects argument of type ‘double’, but argument 3 has type ‘float *’ [-Wformat=]
+    8 |         printf("Seus endereços de memória são respectivamente %d %f %s\n", i, f, str);
+      |                                                                  ~^           ~
+      |                                                                   |           |
+      |                                                                   double      float *
+../exercicio01.c:10:24: warning: format ‘%s’ expects a matching ‘char *’ argument [-Wformat=]
+   10 |         printf("%d %f %str", ++*i, ++*f);
+      |                       ~^
+      |                        |
+      |                        char *
+../exercicio01.c:13:55: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat=]
+   13 |         printf("Depois de incrementar o inteiro vale %d o numero real vale %f e a string vale %s\n", i, f, str);
+      |                                                      ~^                                              ~
+      |                                                       |                                              |
+      |                                                       int                                            int *
+      |                                                      %ls
+../exercicio01.c:13:77: warning: format ‘%f’ expects argument of type ‘double’, but argument 3 has type ‘float *’ [-Wformat=]
+   13 |         printf("Depois de incrementar o inteiro vale %d o numero real vale %f e a string vale %s\n", i, f, str);
+      |                                                                            ~^                           ~
+      |                                                                             |                           |
+      |                                                                             double                      float *
+../exercicio01.c:14:64: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int **’ [-Wformat=]
+   14 |         printf("Seus endereços de memória são respectivamente %d %f %s\n", &i, &f, &str);
+      |                                                               ~^           ~~
+      |                                                                |           |
+      |                                                                int         int **
+../exercicio01.c:14:67: warning: format ‘%f’ expects argument of type ‘double’, but argument 3 has type ‘float **’ [-Wformat=]
+   14 |         printf("Seus endereços de memória são respectivamente %d %f %s\n", &i, &f, &str);
+      |                                                                  ~^            ~~
+      |                                                                   |            |
+      |                                                                   double       float **
+../exercicio01.c:14:70: warning: format ‘%s’ expects argument of type ‘char *’, but argument 4 has type ‘char **’ [-Wformat=]
+   14 |         printf("Seus endereços de memória são respectivamente %d %f %s\n", &i, &f, &str);
+      |                                                                     ~^             ~~~~
+      |                                                                      |             |
+      |                                                                      char *        char **
+../exercicio01.c: In function ‘main’:
+../exercicio01.c:28:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   28 |         scanf("%s", &str);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio01.c:32:64: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat=]
+   32 |         printf("Seus endereços de memória são respectivamente %d %f %s\n", &i, &f, &str);
+      |                                                               ~^           ~~
+      |                                                                |           |
+      |                                                                int         int *
+      |                                                               %ls
+../exercicio01.c:32:67: warning: format ‘%f’ expects argument of type ‘double’, but argument 3 has type ‘float *’ [-Wformat=]
+   32 |         printf("Seus endereços de memória são respectivamente %d %f %s\n", &i, &f, &str);
+      |                                                                  ~^            ~~
+      |                                                                   |            |
+      |                                                                   double       float *
+../exercicio01.c:32:70: warning: format ‘%s’ expects argument of type ‘char *’, but argument 4 has type ‘char (*)[50]’ [-Wformat=]
+   32 |         printf("Seus endereços de memória são respectivamente %d %f %s\n", &i, &f, &str);
+      |                                                                     ~^             ~~~~
+      |                                                                      |             |
+      |                                                                      char *        char (*)[50]
+../exercicio01.c:34:28: warning: passing argument 3 of ‘incrementa’ from incompatible pointer type [-Wincompatible-pointer-types]
+   34 |         incrementa(&i, &f, &str);
+      |                            ^~~~
+      |                            |
+      |                            char (*)[50]
+../exercicio01.c:5:41: note: expected ‘char *’ but argument is of type ‘char (*)[50]’
+    5 | void incrementa(int *i, float *f, char *str ){
+      |                                   ~~~~~~^~~
+../exercicio01.c:37:64: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat=]
+   37 |         printf("Seus endereços de memória são respectivamente %d %f %s\n", &i, &f, &str);
+      |                                                               ~^           ~~
+      |                                                                |           |
+      |                                                                int         int *
+      |                                                               %ls
+../exercicio01.c:37:67: warning: format ‘%f’ expects argument of type ‘double’, but argument 3 has type ‘float *’ [-Wformat=]
+   37 |         printf("Seus endereços de memória são respectivamente %d %f %s\n", &i, &f, &str);
+      |                                                                  ~^            ~~
+      |                                                                   |            |
+      |                                                                   double       float *
+../exercicio01.c:37:70: warning: format ‘%s’ expects argument of type ‘char *’, but argument 4 has type ‘char (*)[50]’ [-Wformat=]
+   37 |         printf("Seus endereços de memória são respectivamente %d %f %s\n", &i, &f, &str);
+      |                                                                     ~^             ~~~~
+      |                                                                      |             |
+      |                                                                      char *        char (*)[50]
+Finished building: ../exercicio01.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio01.o   -lm
+Finished building target: ProgramasC
+ 
+14:47:19 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio01.d" -MT"exercicio01.o" -o "exercicio01.o" "../exercicio01.c"
+../exercicio01.c: In function ‘incrementa’:
+../exercicio01.c:7:24: warning: format ‘%s’ expects a matching ‘char *’ argument [-Wformat=]
+    7 |         printf("%d %f %str", ++*i, ++*f);
+      |                       ~^
+      |                        |
+      |                        char *
+../exercicio01.c: In function ‘main’:
+../exercicio01.c:21:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   21 |         scanf("%s", &str);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio01.c:25:64: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat=]
+   25 |         printf("Seus endereços de memória são respectivamente %d %f %s\n", &i, &f, &str);
+      |                                                               ~^           ~~
+      |                                                                |           |
+      |                                                                int         int *
+      |                                                               %ls
+../exercicio01.c:25:67: warning: format ‘%f’ expects argument of type ‘double’, but argument 3 has type ‘float *’ [-Wformat=]
+   25 |         printf("Seus endereços de memória são respectivamente %d %f %s\n", &i, &f, &str);
+      |                                                                  ~^            ~~
+      |                                                                   |            |
+      |                                                                   double       float *
+../exercicio01.c:25:70: warning: format ‘%s’ expects argument of type ‘char *’, but argument 4 has type ‘char (*)[50]’ [-Wformat=]
+   25 |         printf("Seus endereços de memória são respectivamente %d %f %s\n", &i, &f, &str);
+      |                                                                     ~^             ~~~~
+      |                                                                      |             |
+      |                                                                      char *        char (*)[50]
+../exercicio01.c:27:28: warning: passing argument 3 of ‘incrementa’ from incompatible pointer type [-Wincompatible-pointer-types]
+   27 |         incrementa(&i, &f, &str);
+      |                            ^~~~
+      |                            |
+      |                            char (*)[50]
+../exercicio01.c:5:41: note: expected ‘char *’ but argument is of type ‘char (*)[50]’
+    5 | void incrementa(int *i, float *f, char *str ){
+      |                                   ~~~~~~^~~
+../exercicio01.c:30:64: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat=]
+   30 |         printf("Seus endereços de memória são respectivamente %d %f %s\n", &i, &f, &str);
+      |                                                               ~^           ~~
+      |                                                                |           |
+      |                                                                int         int *
+      |                                                               %ls
+../exercicio01.c:30:67: warning: format ‘%f’ expects argument of type ‘double’, but argument 3 has type ‘float *’ [-Wformat=]
+   30 |         printf("Seus endereços de memória são respectivamente %d %f %s\n", &i, &f, &str);
+      |                                                                  ~^            ~~
+      |                                                                   |            |
+      |                                                                   double       float *
+../exercicio01.c:30:70: warning: format ‘%s’ expects argument of type ‘char *’, but argument 4 has type ‘char (*)[50]’ [-Wformat=]
+   30 |         printf("Seus endereços de memória são respectivamente %d %f %s\n", &i, &f, &str);
+      |                                                                     ~^             ~~~~
+      |                                                                      |             |
+      |                                                                      char *        char (*)[50]
+Finished building: ../exercicio01.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio01.o   -lm
+Finished building target: ProgramasC
+ 
+14:49:06 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio01.d" -MT"exercicio01.o" -o "exercicio01.o" "../exercicio01.c"
+../exercicio01.c: In function ‘main’:
+../exercicio01.c:21:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   21 |         scanf("%s", &str);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio01.c:25:64: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat=]
+   25 |         printf("Seus endereços de memória são respectivamente %d %f %s\n", &i, &f, &str);
+      |                                                               ~^           ~~
+      |                                                                |           |
+      |                                                                int         int *
+      |                                                               %ls
+../exercicio01.c:25:67: warning: format ‘%f’ expects argument of type ‘double’, but argument 3 has type ‘float *’ [-Wformat=]
+   25 |         printf("Seus endereços de memória são respectivamente %d %f %s\n", &i, &f, &str);
+      |                                                                  ~^            ~~
+      |                                                                   |            |
+      |                                                                   double       float *
+../exercicio01.c:25:70: warning: format ‘%s’ expects argument of type ‘char *’, but argument 4 has type ‘char (*)[50]’ [-Wformat=]
+   25 |         printf("Seus endereços de memória são respectivamente %d %f %s\n", &i, &f, &str);
+      |                                                                     ~^             ~~~~
+      |                                                                      |             |
+      |                                                                      char *        char (*)[50]
+../exercicio01.c:27:28: warning: passing argument 3 of ‘incrementa’ from incompatible pointer type [-Wincompatible-pointer-types]
+   27 |         incrementa(&i, &f, &str);
+      |                            ^~~~
+      |                            |
+      |                            char (*)[50]
+../exercicio01.c:5:41: note: expected ‘char *’ but argument is of type ‘char (*)[50]’
+    5 | void incrementa(int *i, float *f, char *str){
+      |                                   ~~~~~~^~~
+../exercicio01.c:30:64: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat=]
+   30 |         printf("Seus endereços de memória são respectivamente %d %f %s\n", &i, &f, &str);
+      |                                                               ~^           ~~
+      |                                                                |           |
+      |                                                                int         int *
+      |                                                               %ls
+../exercicio01.c:30:67: warning: format ‘%f’ expects argument of type ‘double’, but argument 3 has type ‘float *’ [-Wformat=]
+   30 |         printf("Seus endereços de memória são respectivamente %d %f %s\n", &i, &f, &str);
+      |                                                                  ~^            ~~
+      |                                                                   |            |
+      |                                                                   double       float *
+../exercicio01.c:30:70: warning: format ‘%s’ expects argument of type ‘char *’, but argument 4 has type ‘char (*)[50]’ [-Wformat=]
+   30 |         printf("Seus endereços de memória são respectivamente %d %f %s\n", &i, &f, &str);
+      |                                                                     ~^             ~~~~
+      |                                                                      |             |
+      |                                                                      char *        char (*)[50]
+Finished building: ../exercicio01.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio01.o   -lm
+Finished building target: ProgramasC
+ 
+14:55:59 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio01.d" -MT"exercicio01.o" -o "exercicio01.o" "../exercicio01.c"
+../exercicio01.c: In function ‘main’:
+../exercicio01.c:21:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   21 |         scanf("%s", &str);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio01.c:24:49: warning: initialization of ‘char *’ from incompatible pointer type ‘char (*)[50]’ [-Wincompatible-pointer-types]
+   24 |         int *p = &i; float *pf = &f; char *ps = &str;
+      |                                                 ^
+../exercicio01.c:27:64: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat=]
+   27 |         printf("Seus endereços de memória são respectivamente %d %f %s\n", p, pf, ps);
+      |                                                               ~^           ~
+      |                                                                |           |
+      |                                                                int         int *
+      |                                                               %ls
+../exercicio01.c:27:67: warning: format ‘%f’ expects argument of type ‘double’, but argument 3 has type ‘float *’ [-Wformat=]
+   27 |         printf("Seus endereços de memória são respectivamente %d %f %s\n", p, pf, ps);
+      |                                                                  ~^           ~~
+      |                                                                   |           |
+      |                                                                   double      float *
+../exercicio01.c:30:28: warning: passing argument 3 of ‘incrementa’ from incompatible pointer type [-Wincompatible-pointer-types]
+   30 |         incrementa(&i, &f, &str);
+      |                            ^~~~
+      |                            |
+      |                            char (*)[50]
+../exercicio01.c:5:41: note: expected ‘char *’ but argument is of type ‘char (*)[50]’
+    5 | void incrementa(int *i, float *f, char *str){
+      |                                   ~~~~~~^~~
+../exercicio01.c:33:64: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat=]
+   33 |         printf("Seus endereços de memória são respectivamente %d %f %s\n", p, pf, ps);
+      |                                                               ~^           ~
+      |                                                                |           |
+      |                                                                int         int *
+      |                                                               %ls
+../exercicio01.c:33:67: warning: format ‘%f’ expects argument of type ‘double’, but argument 3 has type ‘float *’ [-Wformat=]
+   33 |         printf("Seus endereços de memória são respectivamente %d %f %s\n", p, pf, ps);
+      |                                                                  ~^           ~~
+      |                                                                   |           |
+Finished building: ../exercicio01.c
+ 
+Building target: ProgramasC
+      |                                                                   double      float *
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio01.o   -lm
+Finished building target: ProgramasC
+ 
+14:57:56 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio01.d" -MT"exercicio01.o" -o "exercicio01.o" "../exercicio01.c"
+../exercicio01.c: In function ‘incrementa’:
+../exercicio01.c:7:24: warning: format ‘%s’ expects argument of type ‘char *’, but argument 4 has type ‘int’ [-Wformat=]
+    7 |         printf("%d %f %str\n", ++*(i), ++*(f), ++*(" Folks!"));
+      |                       ~^                       ~~~~~~~~~~~~~~
+      |                        |                       |
+      |                        char *                  int
+      |                       %d
+../exercicio01.c: In function ‘main’:
+../exercicio01.c:21:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   21 |         scanf("%s", &str);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio01.c:24:49: warning: initialization of ‘char *’ from incompatible pointer type ‘char (*)[50]’ [-Wincompatible-pointer-types]
+   24 |         int *p = &i; float *pf = &f; char *ps = &str;
+      |                                                 ^
+../exercicio01.c:27:64: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat=]
+   27 |         printf("Seus endereços de memória são respectivamente %d %f %s\n", p, pf, ps);
+      |                                                               ~^           ~
+      |                                                                |           |
+      |                                                                int         int *
+      |                                                               %ls
+../exercicio01.c:27:67: warning: format ‘%f’ expects argument of type ‘double’, but argument 3 has type ‘float *’ [-Wformat=]
+   27 |         printf("Seus endereços de memória são respectivamente %d %f %s\n", p, pf, ps);
+      |                                                                  ~^           ~~
+      |                                                                   |           |
+      |                                                                   double      float *
+../exercicio01.c:30:28: warning: passing argument 3 of ‘incrementa’ from incompatible pointer type [-Wincompatible-pointer-types]
+   30 |         incrementa(&i, &f, &str);
+      |                            ^~~~
+      |                            |
+      |                            char (*)[50]
+../exercicio01.c:5:41: note: expected ‘char *’ but argument is of type ‘char (*)[50]’
+    5 | void incrementa(int *i, float *f, char *str){
+      |                                   ~~~~~~^~~
+../exercicio01.c:33:64: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat=]
+   33 |         printf("Seus endereços de memória são respectivamente %d %f %s\n", p, pf, ps);
+      |                                                               ~^           ~
+      |                                                                |           |
+      |                                                                int         int *
+      |                                                               %ls
+../exercicio01.c:33:67: warning: format ‘%f’ expects argument of type ‘double’, but argument 3 has type ‘float *’ [-Wformat=]
+   33 |         printf("Seus endereços de memória são respectivamente %d %f %s\n", p, pf, ps);
+      |                                                                  ~^           ~~
+      |                                                                   |           |
+      |                                                                   double      float *
+Finished building: ../exercicio01.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio01.o   -lm
+Finished building target: ProgramasC
+ 
+14:58:46 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio01.d" -MT"exercicio01.o" -o "exercicio01.o" "../exercicio01.c"
+../exercicio01.c: In function ‘main’:
+../exercicio01.c:21:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   21 |         scanf("%s", &str);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio01.c:24:49: warning: initialization of ‘char *’ from incompatible pointer type ‘char (*)[50]’ [-Wincompatible-pointer-types]
+   24 |         int *p = &i; float *pf = &f; char *ps = &str;
+      |                                                 ^
+../exercicio01.c:27:64: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat=]
+   27 |         printf("Seus endereços de memória são respectivamente %d %f %s\n", p, pf, ps);
+      |                                                               ~^           ~
+      |                                                                |           |
+      |                                                                int         int *
+      |                                                               %ls
+../exercicio01.c:27:67: warning: format ‘%f’ expects argument of type ‘double’, but argument 3 has type ‘float *’ [-Wformat=]
+   27 |         printf("Seus endereços de memória são respectivamente %d %f %s\n", p, pf, ps);
+      |                                                                  ~^           ~~
+      |                                                                   |           |
+      |                                                                   double      float *
+../exercicio01.c:30:28: warning: passing argument 3 of ‘incrementa’ from incompatible pointer type [-Wincompatible-pointer-types]
+   30 |         incrementa(&i, &f, &str);
+      |                            ^~~~
+      |                            |
+      |                            char (*)[50]
+../exercicio01.c:5:41: note: expected ‘char *’ but argument is of type ‘char (*)[50]’
+    5 | void incrementa(int *i, float *f, char *str){
+      |                                   ~~~~~~^~~
+../exercicio01.c:33:64: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat=]
+   33 |         printf("Seus endereços de memória são respectivamente %d %f %s\n", p, pf, ps);
+      |                                                               ~^           ~
+      |                                                                |           |
+      |                                                                int         int *
+      |                                                               %ls
+../exercicio01.c:33:67: warning: format ‘%f’ expects argument of type ‘double’, but argument 3 has type ‘float *’ [-Wformat=]
+   33 |         printf("Seus endereços de memória são respectivamente %d %f %s\n", p, pf, ps);
+      |                                                                  ~^           ~~
+      |                                                                   |           |
+      |                                                                   double      float *
+Finished building: ../exercicio01.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio01.o   -lm
+Finished building target: ProgramasC
+ 
+15:01:20 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio01.d" -MT"exercicio01.o" -o "exercicio01.o" "../exercicio01.c"
+../exercicio01.c: In function ‘main’:
+../exercicio01.c:21:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   21 |         scanf("%s", &str);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio01.c:24:49: warning: initialization of ‘char *’ from incompatible pointer type ‘char (*)[50]’ [-Wincompatible-pointer-types]
+   24 |         int *p = &i; float *pf = &f; char *ps = &str;
+      |                                                 ^
+../exercicio01.c:27:64: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat=]
+   27 |         printf("Seus endereços de memória são respectivamente %d %f %s\n", &i, &f, &str);
+      |                                                               ~^           ~~
+      |                                                                |           |
+      |                                                                int         int *
+      |                                                               %ls
+../exercicio01.c:27:67: warning: format ‘%f’ expects argument of type ‘double’, but argument 3 has type ‘float *’ [-Wformat=]
+   27 |         printf("Seus endereços de memória são respectivamente %d %f %s\n", &i, &f, &str);
+      |                                                                  ~^            ~~
+      |                                                                   |            |
+      |                                                                   double       float *
+../exercicio01.c:27:70: warning: format ‘%s’ expects argument of type ‘char *’, but argument 4 has type ‘char (*)[50]’ [-Wformat=]
+   27 |         printf("Seus endereços de memória são respectivamente %d %f %s\n", &i, &f, &str);
+      |                                                                     ~^             ~~~~
+      |                                                                      |             |
+      |                                                                      char *        char (*)[50]
+../exercicio01.c:30:28: warning: passing argument 3 of ‘incrementa’ from incompatible pointer type [-Wincompatible-pointer-types]
+   30 |         incrementa(&i, &f, &str);
+      |                            ^~~~
+      |                            |
+      |                            char (*)[50]
+../exercicio01.c:5:41: note: expected ‘char *’ but argument is of type ‘char (*)[50]’
+    5 | void incrementa(int *i, float *f, char *str){
+      |                                   ~~~~~~^~~
+../exercicio01.c:33:64: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat=]
+   33 |         printf("Seus endereços de memória são respectivamente %d %f %s\n", p, pf, ps);
+      |                                                               ~^           ~
+      |                                                                |           |
+      |                                                                int         int *
+      |                                                               %ls
+../exercicio01.c:33:67: warning: format ‘%f’ expects argument of type ‘double’, but argument 3 has type ‘float *’ [-Wformat=]
+   33 |         printf("Seus endereços de memória são respectivamente %d %f %s\n", p, pf, ps);
+      |                                                                  ~^           ~~
+      |                                                                   |           |
+      |                                                                   double      float *
+Finished building: ../exercicio01.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio01.o   -lm
+Finished building target: ProgramasC
+ 
+15:02:23 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio01.d" -MT"exercicio01.o" -o "exercicio01.o" "../exercicio01.c"
+../exercicio01.c: In function ‘main’:
+../exercicio01.c:21:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   21 |         scanf("%s", &str);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio01.c:27:64: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat=]
+   27 |         printf("Seus endereços de memória são respectivamente %d %f %s\n", &i, &f, &str[0]);
+      |                                                               ~^           ~~
+      |                                                                |           |
+      |                                                                int         int *
+      |                                                               %ls
+../exercicio01.c:27:67: warning: format ‘%f’ expects argument of type ‘double’, but argument 3 has type ‘float *’ [-Wformat=]
+   27 |         printf("Seus endereços de memória são respectivamente %d %f %s\n", &i, &f, &str[0]);
+      |                                                                  ~^            ~~
+      |                                                                   |            |
+      |                                                                   double       float *
+../exercicio01.c:30:28: warning: passing argument 3 of ‘incrementa’ from incompatible pointer type [-Wincompatible-pointer-types]
+   30 |         incrementa(&i, &f, &str);
+      |                            ^~~~
+      |                            |
+      |                            char (*)[50]
+../exercicio01.c:5:41: note: expected ‘char *’ but argument is of type ‘char (*)[50]’
+    5 | void incrementa(int *i, float *f, char *str){
+      |                                   ~~~~~~^~~
+../exercicio01.c:33:64: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat=]
+   33 |         printf("Seus endereços de memória são respectivamente %d %f %s\n", p, pf, ps);
+      |                                                               ~^           ~
+      |                                                                |           |
+      |                                                                int         int *
+      |                                                               %ls
+../exercicio01.c:33:67: warning: format ‘%f’ expects argument of type ‘double’, but argument 3 has type ‘float *’ [-Wformat=]
+   33 |         printf("Seus endereços de memória são respectivamente %d %f %s\n", p, pf, ps);
+      |                                                                  ~^           ~~
+      |                                                                   |           |
+      |                                                                   double      float *
+Finished building: ../exercicio01.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio01.o   -lm
+Finished building target: ProgramasC
+ 
+15:06:10 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../programa22.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"programa22.d" -MT"programa22.o" -o "programa22.o" "../programa22.c"
+Finished building: ../programa22.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./programa22.o   -lm
+Finished building target: ProgramasC
+ 
+15:10:57 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio01.d" -MT"exercicio01.o" -o "exercicio01.o" "../exercicio01.c"
+../exercicio01.c: In function ‘main’:
+../exercicio01.c:21:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   21 |         scanf("%s", &str);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio01.c:24:49: warning: initialization of ‘char *’ from incompatible pointer type ‘char (*)[50]’ [-Wincompatible-pointer-types]
+   24 |         int *p = &i; float *pf = &f; char *ps = &str;
+      |                                                 ^
+../exercicio01.c:30:28: warning: passing argument 3 of ‘incrementa’ from incompatible pointer type [-Wincompatible-pointer-types]
+   30 |         incrementa(&i, &f, &str);
+      |                            ^~~~
+      |                            |
+      |                            char (*)[50]
+../exercicio01.c:5:41: note: expected ‘char *’ but argument is of type ‘char (*)[50]’
+    5 | void incrementa(int *i, float *f, char *str){
+      |                                   ~~~~~~^~~
+../exercicio01.c:33:64: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat=]
+   33 |         printf("Seus endereços de memória são respectivamente %d %f %s\n", p, pf, ps);
+      |                                                               ~^           ~
+      |                                                                |           |
+      |                                                                int         int *
+      |                                                               %ls
+../exercicio01.c:33:67: warning: format ‘%f’ expects argument of type ‘double’, but argument 3 has type ‘float *’ [-Wformat=]
+   33 |         printf("Seus endereços de memória são respectivamente %d %f %s\n", p, pf, ps);
+      |                                                                  ~^           ~~
+      |                                                                   |           |
+      |                                                                   double      float *
+Finished building: ../exercicio01.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio01.o   -lm
+Finished building target: ProgramasC
+ 
+15:11:45 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio01.d" -MT"exercicio01.o" -o "exercicio01.o" "../exercicio01.c"
+../exercicio01.c: In function ‘main’:
+../exercicio01.c:21:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   21 |         scanf("%s", &str);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio01.c:24:49: warning: initialization of ‘char *’ from incompatible pointer type ‘char (*)[50]’ [-Wincompatible-pointer-types]
+   24 |         int *p = &i; float *pf = &f; char *ps = &str;
+      |                                                 ^
+../exercicio01.c:30:28: warning: passing argument 3 of ‘incrementa’ from incompatible pointer type [-Wincompatible-pointer-types]
+   30 |         incrementa(&i, &f, &str);
+      |                            ^~~~
+      |                            |
+      |                            char (*)[50]
+../exercicio01.c:5:41: note: expected ‘char *’ but argument is of type ‘char (*)[50]’
+    5 | void incrementa(int *i, float *f, char *str){
+      |                                   ~~~~~~^~~
+Finished building: ../exercicio01.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio01.o   -lm
+Finished building target: ProgramasC
+ 
+15:31:25 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio02.d" -MT"exercicio02.o" -o "exercicio02.o" "../exercicio02.c"
+Finished building: ../exercicio02.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio01.o ./exercicio02.o   -lm
+/usr/bin/ld: ./exercicio02.o: na função "main":
+/home/marcos/Computacao/C/ProgramasC/Debug/../exercicio02.c:33: múltiplas definições de "main"; ./exercicio01.o:/home/marcos/Computacao/C/ProgramasC/Debug/../exercicio01.c:12: definido primeiro aqui
+collect2: error: ld returned 1 exit status
+make: *** [makefile:31: ProgramasC] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:33:39 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio02.d" -MT"exercicio02.o" -o "exercicio02.o" "../exercicio02.c"
+Finished building: ../exercicio02.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio02.o   -lm
+Finished building target: ProgramasC
+ 
+15:36:00 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio02.d" -MT"exercicio02.o" -o "exercicio02.o" "../exercicio02.c"
+Finished building: ../exercicio02.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio02.o   -lm
+Finished building target: ProgramasC
+ 
+15:37:30 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio02.d" -MT"exercicio02.o" -o "exercicio02.o" "../exercicio02.c"
+../exercicio02.c: In function ‘maior_endereco’:
+../exercicio02.c:21:17: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int **’ [-Wformat=]
+   21 |         scanf("%d", &p1);
+      |                ~^   ~~~
+      |                 |   |
+      |                 |   int **
+      |                 int *
+../exercicio02.c:22:17: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int **’ [-Wformat=]
+   22 |         scanf("%d", &p2);
+      |                ~^   ~~~
+      |                 |   |
+      |                 |   int **
+      |                 int *
+Finished building: ../exercicio02.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio02.o   -lm
+Finished building target: ProgramasC
+ 
+15:38:59 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio02.d" -MT"exercicio02.o" -o "exercicio02.o" "../exercicio02.c"
+Finished building: ../exercicio02.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio02.o   -lm
+Finished building target: ProgramasC
+ 
+15:40:25 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+15:42:12 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio02.d" -MT"exercicio02.o" -o "exercicio02.o" "../exercicio02.c"
+../exercicio02.c: In function ‘maior_endereco’:
+../exercicio02.c:22:17: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int **’ [-Wformat=]
+   22 |         scanf("%d %d", &p1, &p2);
+      |                ~^      ~~~
+      |                 |      |
+      |                 int *  int **
+../exercicio02.c:22:20: warning: format ‘%d’ expects argument of type ‘int *’, but argument 3 has type ‘int **’ [-Wformat=]
+   22 |         scanf("%d %d", &p1, &p2);
+      |                   ~^        ~~~
+      |                    |        |
+      |                    int *    int **
+Finished building: ../exercicio02.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio02.o   -lm
+Finished building target: ProgramasC
+ 
+15:53:12 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio03.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio03.d" -MT"exercicio03.o" -o "exercicio03.o" "../exercicio03.c"
+Finished building: ../exercicio03.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio03.o   -lm
+Finished building target: ProgramasC
+ 
+15:53:42 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio03.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio03.d" -MT"exercicio03.o" -o "exercicio03.o" "../exercicio03.c"
+Finished building: ../exercicio03.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio03.o   -lm
+Finished building target: ProgramasC
+ 
+15:54:47 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio03.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio03.d" -MT"exercicio03.o" -o "exercicio03.o" "../exercicio03.c"
+Finished building: ../exercicio03.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio03.o   -lm
+Finished building target: ProgramasC
+ 
+15:55:19 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio03.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio03.d" -MT"exercicio03.o" -o "exercicio03.o" "../exercicio03.c"
+Finished building: ../exercicio03.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio03.o   -lm
+Finished building target: ProgramasC
+ 
+15:55:44 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio03.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio03.d" -MT"exercicio03.o" -o "exercicio03.o" "../exercicio03.c"
+Finished building: ../exercicio03.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio03.o   -lm
+Finished building target: ProgramasC
+ 
+15:57:00 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio03.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio03.d" -MT"exercicio03.o" -o "exercicio03.o" "../exercicio03.c"
+Finished building: ../exercicio03.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio03.o   -lm
+Finished building target: ProgramasC
+ 
