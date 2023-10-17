@@ -12,6 +12,7 @@ C_SRCS += \
 ../beecrowd/fibonot.c \
 ../beecrowd/jogo_das_aranhas.c \
 ../beecrowd/o_criptografo_envergonhado.c \
+../beecrowd/preparando_a_producao.c \
 ../beecrowd/salario_com_bonus.c \
 ../beecrowd/tamanho_da_placa.c 
 
@@ -24,6 +25,7 @@ OBJS += \
 ./beecrowd/fibonot.o \
 ./beecrowd/jogo_das_aranhas.o \
 ./beecrowd/o_criptografo_envergonhado.o \
+./beecrowd/preparando_a_producao.o \
 ./beecrowd/salario_com_bonus.o \
 ./beecrowd/tamanho_da_placa.o 
 
@@ -36,6 +38,7 @@ C_DEPS += \
 ./beecrowd/fibonot.d \
 ./beecrowd/jogo_das_aranhas.d \
 ./beecrowd/o_criptografo_envergonhado.d \
+./beecrowd/preparando_a_producao.d \
 ./beecrowd/salario_com_bonus.d \
 ./beecrowd/tamanho_da_placa.d 
 

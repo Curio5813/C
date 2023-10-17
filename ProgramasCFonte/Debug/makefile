@@ -9,6 +9,7 @@ RM := rm -rf
 # All of the sources participating in the build are defined here
 -include sources.mk
 -include beecrowd/subdir.mk
+-include GeekUniversity/secao10/subdir.mk
 -include GeekUniversity/secao09/subdir.mk
 -include GeekUniversity/secao08/subdir.mk
 -include GeekUniversity/secao07/vetores/subdir.mk

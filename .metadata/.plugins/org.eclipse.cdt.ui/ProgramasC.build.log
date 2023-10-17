@@ -1,15 +1,33 @@
-15:57:00 **** Incremental Build of configuration Debug for project ProgramasC ****
+18:42:11 **** Incremental Build of configuration Debug for project ProgramasC ****
 make all 
-Building file: ../exercicio03.c
+Building file: ../exercicio01.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio03.d" -MT"exercicio03.o" -o "exercicio03.o" "../exercicio03.c"
-Finished building: ../exercicio03.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio01.d" -MT"exercicio01.o" -o "exercicio01.o" "../exercicio01.c"
+../exercicio01.c: In function ‘main’:
+../exercicio01.c:21:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   21 |         scanf("%s", &str);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[50]
+      |                 char *
+../exercicio01.c:24:49: warning: initialization of ‘char *’ from incompatible pointer type ‘char (*)[50]’ [-Wincompatible-pointer-types]
+   24 |         int *p = &i; float *pf = &f; char *ps = &str;
+      |                                                 ^
+../exercicio01.c:30:28: warning: passing argument 3 of ‘incrementa’ from incompatible pointer type [-Wincompatible-pointer-types]
+   30 |         incrementa(&i, &f, &str);
+      |                            ^~~~
+      |                            |
+      |                            char (*)[50]
+../exercicio01.c:5:41: note: expected ‘char *’ but argument is of type ‘char (*)[50]’
+    5 | void incrementa(int *i, float *f, char *str){
+      |                                   ~~~~~~^~~
+Finished building: ../exercicio01.c
  
 Building target: ProgramasC
 Invoking: GCC C Linker
-gcc -lm  -o "ProgramasC" ./exercicio03.o   -lm
+gcc -lm  -o "ProgramasC" ./exercicio01.o   -lm
 Finished building target: ProgramasC
  
 
-15:57:01 Build Finished. 0 errors, 0 warnings. (took 1s.182ms)
+18:42:12 Build Finished. 0 errors, 3 warnings. (took 1s.139ms)
 

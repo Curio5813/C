@@ -1,0 +1,48 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+void maiores_valores(num1, num2, aux, p1, p2){
+
+	if(num1 > num2){
+
+		printf("O maior número é %d\n", num1);
+		printf("O endereço de memória do maior numero e %p1\n", p1);
+		printf("O endereço de memória do menor numero e %p1\n", p2);
+
+	}if(num2 > num1){
+
+		aux = num1;
+		num1 = num2;
+		num2 = aux;
+
+		printf("O maior número é %d\n", num2);
+		printf("O endereço de memória do maior numero e %p\n", p1);
+		printf("O endereço de memória do menor numero e %p1\n", p2);
+
+	}
+
+}
+
+
+int main(){
+
+	int num1, num2, aux;
+
+	printf("Digite um número inteiro: ");
+	scanf("%d", &num1);
+	printf("Digite outro número inteiro: ");
+	scanf("%d", &num2);
+	printf("\n");
+
+	int *p1 = &num1, *p2 = &num2;
+
+	printf("O endereço de memória de %d é %p1\n", num1, p1);
+	printf("O endereço de memória de %d é %p1\n", num2, p2);
+	printf("\n");
+
+	maiores_valores(num1, num2, aux, p1, p2);
+
+	return 0;
+
+}
