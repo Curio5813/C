@@ -1,4 +1,4 @@
-#include <stdio.h>
+	#include <stdio.h>
 
 int main(){
 	/*  0   1    2    3   4

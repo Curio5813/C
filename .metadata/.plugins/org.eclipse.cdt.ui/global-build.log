@@ -37513,3 +37513,1640 @@ Invoking: GCC C Linker
 gcc -lm  -o "ProgramasC" ./exercicio01.o   -lm
 Finished building target: ProgramasC
  
+14:39:19 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio08.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio08.d" -MT"exercicio08.o" -o "exercicio08.o" "../exercicio08.c"
+../exercicio08.c: In function ‘main’:
+../exercicio08.c:21:9: error: too few arguments to function ‘array_enderecos’
+   21 |         array_enderecos();
+      |         ^~~~~~~~~~~~~~~
+../exercicio08.c:5:7: note: declared here
+    5 | float array_enderecos(float *v[10]){
+      |       ^~~~~~~~~~~~~~~
+../exercicio08.c: In function ‘array_enderecos’:
+../exercicio08.c:9:1: warning: control reaches end of non-void function [-Wreturn-type]
+    9 | }
+      | ^
+make: *** [subdir.mk:20: exercicio08.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:39:59 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio08.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio08.d" -MT"exercicio08.o" -o "exercicio08.o" "../exercicio08.c"
+../exercicio08.c: In function ‘main’:
+../exercicio08.c:21:25: warning: passing argument 1 of ‘array_enderecos’ from incompatible pointer type [-Wincompatible-pointer-types]
+   21 |         array_enderecos(&v);
+      |                         ^~
+      |                         |
+      |                         float (*)[10]
+../exercicio08.c:5:30: note: expected ‘float **’ but argument is of type ‘float (*)[10]’
+    5 | float array_enderecos(float *v[10]){
+      |                       ~~~~~~~^~~~~
+../exercicio08.c: In function ‘array_enderecos’:
+../exercicio08.c:9:1: warning: control reaches end of non-void function [-Wreturn-type]
+    9 | }
+      | ^
+../exercicio08.c: In function ‘main’:
+../exercicio08.c:21:9: warning: ‘array_enderecos’ accessing 80 bytes in a region of size 40 [-Wstringop-overflow=]
+   21 |         array_enderecos(&v);
+      |         ^~~~~~~~~~~~~~~~~~~
+../exercicio08.c:21:9: note: referencing argument 1 of type ‘float **’
+../exercicio08.c:5:7: note: in a call to function ‘array_enderecos’
+    5 | float array_enderecos(float *v[10]){
+      |       ^~~~~~~~~~~~~~~
+Finished building: ../exercicio08.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio08.o   -lm
+Finished building target: ProgramasC
+ 
+14:43:02 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio08.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio08.d" -MT"exercicio08.o" -o "exercicio08.o" "../exercicio08.c"
+../exercicio08.c: In function ‘array_enderecos’:
+../exercicio08.c:9:73: warning: format ‘%f’ expects argument of type ‘double’, but argument 3 has type ‘float **’ [-Wformat=]
+    9 |                 printf("O endereço de memória do vetor na posição %d é %f\n", i, &v[i]);
+      |                                                                        ~^        ~~~~~
+      |                                                                         |        |
+      |                                                                         double   float **
+../exercicio08.c: In function ‘main’:
+../exercicio08.c:24:25: warning: passing argument 1 of ‘array_enderecos’ from incompatible pointer type [-Wincompatible-pointer-types]
+   24 |         array_enderecos(&v);
+      |                         ^~
+      |                         |
+      |                         float (*)[10]
+../exercicio08.c:5:30: note: expected ‘float **’ but argument is of type ‘float (*)[10]’
+    5 | float array_enderecos(float *v[10]){
+      |                       ~~~~~~~^~~~~
+../exercicio08.c: In function ‘array_enderecos’:
+../exercicio08.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+   13 | }
+      | ^
+../exercicio08.c: In function ‘main’:
+../exercicio08.c:24:9: warning: ‘array_enderecos’ accessing 80 bytes in a region of size 40 [-Wstringop-overflow=]
+   24 |         array_enderecos(&v);
+      |         ^~~~~~~~~~~~~~~~~~~
+../exercicio08.c:24:9: note: referencing argument 1 of type ‘float **’
+../exercicio08.c:5:7: note: in a call to function ‘array_enderecos’
+    5 | float array_enderecos(float *v[10]){
+      |       ^~~~~~~~~~~~~~~
+Finished building: ../exercicio08.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio08.o   -lm
+Finished building target: ProgramasC
+ 
+14:43:26 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio08.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio08.d" -MT"exercicio08.o" -o "exercicio08.o" "../exercicio08.c"
+../exercicio08.c: In function ‘main’:
+../exercicio08.c:24:25: warning: passing argument 1 of ‘array_enderecos’ from incompatible pointer type [-Wincompatible-pointer-types]
+   24 |         array_enderecos(&v);
+      |                         ^~
+      |                         |
+      |                         float (*)[10]
+../exercicio08.c:5:30: note: expected ‘float **’ but argument is of type ‘float (*)[10]’
+    5 | float array_enderecos(float *v[10]){
+      |                       ~~~~~~~^~~~~
+../exercicio08.c: In function ‘array_enderecos’:
+../exercicio08.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+   13 | }
+      | ^
+../exercicio08.c: In function ‘main’:
+../exercicio08.c:24:9: warning: ‘array_enderecos’ accessing 80 bytes in a region of size 40 [-Wstringop-overflow=]
+   24 |         array_enderecos(&v);
+      |         ^~~~~~~~~~~~~~~~~~~
+../exercicio08.c:24:9: note: referencing argument 1 of type ‘float **’
+../exercicio08.c:5:7: note: in a call to function ‘array_enderecos’
+    5 | float array_enderecos(float *v[10]){
+      |       ^~~~~~~~~~~~~~~
+Finished building: ../exercicio08.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio08.o   -lm
+Finished building target: ProgramasC
+ 
+14:44:07 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio08.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio08.d" -MT"exercicio08.o" -o "exercicio08.o" "../exercicio08.c"
+../exercicio08.c: In function ‘array_enderecos’:
+../exercicio08.c:9:73: warning: format ‘%f’ expects argument of type ‘double’, but argument 3 has type ‘float *’ [-Wformat=]
+    9 |                 printf("O endereço de memória do vetor na posição %d é %f\n", i, v[i]);
+      |                                                                        ~^        ~~~~
+      |                                                                         |         |
+      |                                                                         double    float *
+../exercicio08.c: In function ‘main’:
+../exercicio08.c:20:20: warning: initialization of ‘float *’ from incompatible pointer type ‘float (*)[10]’ [-Wincompatible-pointer-types]
+   20 |         float *p = &v;
+      |                    ^
+../exercicio08.c:24:25: warning: passing argument 1 of ‘array_enderecos’ from incompatible pointer type [-Wincompatible-pointer-types]
+   24 |         array_enderecos(&v);
+      |                         ^~
+      |                         |
+      |                         float (*)[10]
+../exercicio08.c:5:30: note: expected ‘float **’ but argument is of type ‘float (*)[10]’
+    5 | float array_enderecos(float *v[10]){
+      |                       ~~~~~~~^~~~~
+../exercicio08.c: In function ‘array_enderecos’:
+../exercicio08.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+   13 | }
+      | ^
+../exercicio08.c: In function ‘main’:
+../exercicio08.c:24:9: warning: ‘array_enderecos’ accessing 80 bytes in a region of size 40 [-Wstringop-overflow=]
+   24 |         array_enderecos(&v);
+      |         ^~~~~~~~~~~~~~~~~~~
+../exercicio08.c:24:9: note: referencing argument 1 of type ‘float **’
+../exercicio08.c:5:7: note: in a call to function ‘array_enderecos’
+    5 | float array_enderecos(float *v[10]){
+      |       ^~~~~~~~~~~~~~~
+Finished building: ../exercicio08.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio08.o   -lm
+Finished building target: ProgramasC
+ 
+14:45:21 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio08.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio08.d" -MT"exercicio08.o" -o "exercicio08.o" "../exercicio08.c"
+../exercicio08.c: In function ‘array_enderecos’:
+../exercicio08.c:9:73: warning: format ‘%f’ expects argument of type ‘double’, but argument 3 has type ‘float *’ [-Wformat=]
+    9 |                 printf("O endereço de memória do vetor na posição %d é %f\n", i, v[i]);
+      |                                                                        ~^        ~~~~
+      |                                                                         |         |
+      |                                                                         double    float *
+../exercicio08.c: In function ‘main’:
+../exercicio08.c:20:20: warning: initialization of ‘float *’ from incompatible pointer type ‘float (*)[10]’ [-Wincompatible-pointer-types]
+   20 |         float *p = &v;
+      |                    ^
+../exercicio08.c:23:16: warning: too many arguments for format [-Wformat-extra-args]
+   23 |         printf("O endereço do memória do vetor na posição zero é: ", &v[0]);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../exercicio08.c:25:25: warning: passing argument 1 of ‘array_enderecos’ from incompatible pointer type [-Wincompatible-pointer-types]
+   25 |         array_enderecos(&v);
+      |                         ^~
+      |                         |
+      |                         float (*)[10]
+../exercicio08.c:5:30: note: expected ‘float **’ but argument is of type ‘float (*)[10]’
+    5 | float array_enderecos(float *v[10]){
+      |                       ~~~~~~~^~~~~
+../exercicio08.c: In function ‘array_enderecos’:
+../exercicio08.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+   13 | }
+      | ^
+../exercicio08.c: In function ‘main’:
+../exercicio08.c:25:9: warning: ‘array_enderecos’ accessing 80 bytes in a region of size 40 [-Wstringop-overflow=]
+   25 |         array_enderecos(&v);
+      |         ^~~~~~~~~~~~~~~~~~~
+../exercicio08.c:25:9: note: referencing argument 1 of type ‘float **’
+../exercicio08.c:5:7: note: in a call to function ‘array_enderecos’
+    5 | float array_enderecos(float *v[10]){
+      |       ^~~~~~~~~~~~~~~
+Finished building: ../exercicio08.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio08.o   -lm
+Finished building target: ProgramasC
+ 
+14:46:50 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio08.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio08.d" -MT"exercicio08.o" -o "exercicio08.o" "../exercicio08.c"
+../exercicio08.c: In function ‘array_enderecos’:
+../exercicio08.c:9:73: warning: format ‘%f’ expects argument of type ‘double’, but argument 3 has type ‘float *’ [-Wformat=]
+    9 |                 printf("O endereço de memória do vetor na posição %d é %f\n", i, v[i]);
+      |                                                                        ~^        ~~~~
+      |                                                                         |         |
+      |                                                                         double    float *
+../exercicio08.c: In function ‘main’:
+../exercicio08.c:20:20: warning: initialization of ‘float *’ from incompatible pointer type ‘float (*)[10]’ [-Wincompatible-pointer-types]
+   20 |         float *p = &v;
+      |                    ^
+../exercicio08.c:23:68: warning: format ‘%f’ expects argument of type ‘double’, but argument 2 has type ‘float *’ [-Wformat=]
+   23 |         printf("O endereço do memória do vetor na posição zero é: %f\n", &v[0]);
+      |                                                                   ~^     ~~~~~
+      |                                                                    |     |
+      |                                                                    |     float *
+      |                                                                    double
+../exercicio08.c:26:25: warning: passing argument 1 of ‘array_enderecos’ from incompatible pointer type [-Wincompatible-pointer-types]
+   26 |         array_enderecos(&v[10]);
+      |                         ^~~~~~
+      |                         |
+      |                         float *
+../exercicio08.c:5:30: note: expected ‘float **’ but argument is of type ‘float *’
+    5 | float array_enderecos(float *v[10]){
+      |                       ~~~~~~~^~~~~
+../exercicio08.c: In function ‘array_enderecos’:
+../exercicio08.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+   13 | }
+      | ^
+../exercicio08.c: In function ‘main’:
+../exercicio08.c:26:9: warning: ‘array_enderecos’ accessing 80 bytes in a region of size 0 [-Wstringop-overflow=]
+   26 |         array_enderecos(&v[10]);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~
+../exercicio08.c:26:9: note: referencing argument 1 of type ‘float **’
+../exercicio08.c:5:7: note: in a call to function ‘array_enderecos’
+    5 | float array_enderecos(float *v[10]){
+      |       ^~~~~~~~~~~~~~~
+Finished building: ../exercicio08.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio08.o   -lm
+Finished building target: ProgramasC
+ 
+14:48:36 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio08.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio08.d" -MT"exercicio08.o" -o "exercicio08.o" "../exercicio08.c"
+../exercicio08.c: In function ‘main’:
+../exercicio08.c:20:20: warning: initialization of ‘float *’ from incompatible pointer type ‘float (*)[10]’ [-Wincompatible-pointer-types]
+   20 |         float *p = &v;
+      |                    ^
+../exercicio08.c:23:68: warning: format ‘%f’ expects argument of type ‘double’, but argument 2 has type ‘float *’ [-Wformat=]
+   23 |         printf("O endereço do memória do vetor na posição zero é: %f\n", &v[0]);
+      |                                                                   ~^     ~~~~~
+      |                                                                    |     |
+      |                                                                    |     float *
+      |                                                                    double
+../exercicio08.c:26:25: warning: passing argument 1 of ‘array_enderecos’ from incompatible pointer type [-Wincompatible-pointer-types]
+   26 |         array_enderecos(&v[10]);
+      |                         ^~~~~~
+      |                         |
+      |                         float *
+../exercicio08.c:5:30: note: expected ‘float **’ but argument is of type ‘float *’
+    5 | float array_enderecos(float *v[10]){
+      |                       ~~~~~~~^~~~~
+../exercicio08.c: In function ‘array_enderecos’:
+../exercicio08.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+   13 | }
+      | ^
+../exercicio08.c: In function ‘main’:
+../exercicio08.c:26:9: warning: ‘array_enderecos’ accessing 80 bytes in a region of size 0 [-Wstringop-overflow=]
+   26 |         array_enderecos(&v[10]);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~
+../exercicio08.c:26:9: note: referencing argument 1 of type ‘float **’
+../exercicio08.c:5:7: note: in a call to function ‘array_enderecos’
+    5 | float array_enderecos(float *v[10]){
+      |       ^~~~~~~~~~~~~~~
+Finished building: ../exercicio08.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio08.o   -lm
+Finished building target: ProgramasC
+ 
+14:49:08 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio08.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio08.d" -MT"exercicio08.o" -o "exercicio08.o" "../exercicio08.c"
+../exercicio08.c: In function ‘array_enderecos’:
+../exercicio08.c:9:73: warning: format ‘%f’ expects argument of type ‘double’, but argument 3 has type ‘float **’ [-Wformat=]
+    9 |                 printf("O endereço de memória do vetor na posição %d é %f\n", i, &v[i]);
+      |                                                                        ~^        ~~~~~
+      |                                                                         |        |
+      |                                                                         double   float **
+../exercicio08.c: In function ‘main’:
+../exercicio08.c:20:20: warning: initialization of ‘float *’ from incompatible pointer type ‘float (*)[10]’ [-Wincompatible-pointer-types]
+   20 |         float *p = &v;
+      |                    ^
+../exercicio08.c:23:68: warning: format ‘%f’ expects argument of type ‘double’, but argument 2 has type ‘float *’ [-Wformat=]
+   23 |         printf("O endereço do memória do vetor na posição zero é: %f\n", &v[0]);
+      |                                                                   ~^     ~~~~~
+      |                                                                    |     |
+      |                                                                    |     float *
+      |                                                                    double
+../exercicio08.c:26:25: warning: passing argument 1 of ‘array_enderecos’ from incompatible pointer type [-Wincompatible-pointer-types]
+   26 |         array_enderecos(&v[10]);
+      |                         ^~~~~~
+      |                         |
+      |                         float *
+../exercicio08.c:5:30: note: expected ‘float **’ but argument is of type ‘float *’
+    5 | float array_enderecos(float *v[10]){
+      |                       ~~~~~~~^~~~~
+../exercicio08.c: In function ‘array_enderecos’:
+../exercicio08.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+   13 | }
+      | ^
+../exercicio08.c: In function ‘main’:
+../exercicio08.c:26:9: warning: ‘array_enderecos’ accessing 80 bytes in a region of size 0 [-Wstringop-overflow=]
+   26 |         array_enderecos(&v[10]);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~
+../exercicio08.c:26:9: note: referencing argument 1 of type ‘float **’
+../exercicio08.c:5:7: note: in a call to function ‘array_enderecos’
+    5 | float array_enderecos(float *v[10]){
+      |       ^~~~~~~~~~~~~~~
+Finished building: ../exercicio08.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio08.o   -lm
+Finished building target: ProgramasC
+ 
+14:50:15 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio08.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio08.d" -MT"exercicio08.o" -o "exercicio08.o" "../exercicio08.c"
+../exercicio08.c: In function ‘main’:
+../exercicio08.c:20:20: warning: initialization of ‘float *’ from incompatible pointer type ‘float (*)[10]’ [-Wincompatible-pointer-types]
+   20 |         float *p = &v;
+      |                    ^
+../exercicio08.c:23:68: warning: format ‘%f’ expects argument of type ‘double’, but argument 2 has type ‘float *’ [-Wformat=]
+   23 |         printf("O endereço do memória do vetor na posição zero é: %f\n", &v[0]);
+      |                                                                   ~^     ~~~~~
+      |                                                                    |     |
+      |                                                                    |     float *
+      |                                                                    double
+../exercicio08.c:26:25: warning: passing argument 1 of ‘array_enderecos’ from incompatible pointer type [-Wincompatible-pointer-types]
+   26 |         array_enderecos(&v[10], p);
+      |                         ^~~~~~
+      |                         |
+      |                         float *
+../exercicio08.c:5:30: note: expected ‘float **’ but argument is of type ‘float *’
+    5 | float array_enderecos(float *v[10], float *p){
+      |                       ~~~~~~~^~~~~
+../exercicio08.c: In function ‘array_enderecos’:
+../exercicio08.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+   13 | }
+      | ^
+../exercicio08.c: In function ‘main’:
+../exercicio08.c:26:9: warning: ‘array_enderecos’ accessing 80 bytes in a region of size 0 [-Wstringop-overflow=]
+   26 |         array_enderecos(&v[10], p);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../exercicio08.c:26:9: note: referencing argument 1 of type ‘float **’
+../exercicio08.c:5:7: note: in a call to function ‘array_enderecos’
+    5 | float array_enderecos(float *v[10], float *p){
+      |       ^~~~~~~~~~~~~~~
+Finished building: ../exercicio08.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio08.o   -lm
+Finished building target: ProgramasC
+ 
+14:51:55 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio08.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio08.d" -MT"exercicio08.o" -o "exercicio08.o" "../exercicio08.c"
+../exercicio08.c: In function ‘main’:
+../exercicio08.c:20:20: warning: initialization of ‘float *’ from incompatible pointer type ‘float (*)[10]’ [-Wincompatible-pointer-types]
+   20 |         float *p = &v, *pz = &v[0];
+      |                    ^
+../exercicio08.c:26:25: warning: passing argument 1 of ‘array_enderecos’ from incompatible pointer type [-Wincompatible-pointer-types]
+   26 |         array_enderecos(&v[10], p);
+      |                         ^~~~~~
+      |                         |
+      |                         float *
+../exercicio08.c:5:30: note: expected ‘float **’ but argument is of type ‘float *’
+    5 | float array_enderecos(float *v[10], float *p){
+      |                       ~~~~~~~^~~~~
+../exercicio08.c: In function ‘array_enderecos’:
+../exercicio08.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+   13 | }
+      | ^
+../exercicio08.c: In function ‘main’:
+../exercicio08.c:26:9: warning: ‘array_enderecos’ accessing 80 bytes in a region of size 0 [-Wstringop-overflow=]
+   26 |         array_enderecos(&v[10], p);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../exercicio08.c:26:9: note: referencing argument 1 of type ‘float **’
+../exercicio08.c:5:7: note: in a call to function ‘array_enderecos’
+    5 | float array_enderecos(float *v[10], float *p){
+      |       ^~~~~~~~~~~~~~~
+Finished building: ../exercicio08.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio08.o   -lm
+Finished building target: ProgramasC
+ 
+14:53:24 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio08.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio08.d" -MT"exercicio08.o" -o "exercicio08.o" "../exercicio08.c"
+../exercicio08.c: In function ‘array_enderecos’:
+../exercicio08.c:9:29: warning: initialization of ‘float *’ from incompatible pointer type ‘float **’ [-Wincompatible-pointer-types]
+    9 |                 float *pi = &v[i];
+      |                             ^
+../exercicio08.c: In function ‘main’:
+../exercicio08.c:22:20: warning: initialization of ‘float *’ from incompatible pointer type ‘float (*)[10]’ [-Wincompatible-pointer-types]
+   22 |         float *p = &v, *pz = &v[0];
+      |                    ^
+../exercicio08.c:28:25: warning: passing argument 1 of ‘array_enderecos’ from incompatible pointer type [-Wincompatible-pointer-types]
+   28 |         array_enderecos(&v[10], p);
+      |                         ^~~~~~
+      |                         |
+      |                         float *
+../exercicio08.c:5:30: note: expected ‘float **’ but argument is of type ‘float *’
+    5 | float array_enderecos(float *v[10], float *p){
+      |                       ~~~~~~~^~~~~
+../exercicio08.c: In function ‘array_enderecos’:
+../exercicio08.c:15:1: warning: control reaches end of non-void function [-Wreturn-type]
+   15 | }
+      | ^
+../exercicio08.c: In function ‘main’:
+../exercicio08.c:28:9: warning: ‘array_enderecos’ accessing 80 bytes in a region of size 0 [-Wstringop-overflow=]
+   28 |         array_enderecos(&v[10], p);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../exercicio08.c:28:9: note: referencing argument 1 of type ‘float **’
+../exercicio08.c:5:7: note: in a call to function ‘array_enderecos’
+    5 | float array_enderecos(float *v[10], float *p){
+      |       ^~~~~~~~~~~~~~~
+Finished building: ../exercicio08.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio08.o   -lm
+Finished building target: ProgramasC
+ 
+14:53:53 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+14:54:29 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio08.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio08.d" -MT"exercicio08.o" -o "exercicio08.o" "../exercicio08.c"
+../exercicio08.c: In function ‘main’:
+../exercicio08.c:22:20: warning: initialization of ‘float *’ from incompatible pointer type ‘float (*)[10]’ [-Wincompatible-pointer-types]
+   22 |         float *p = &v, *pz = &v[0];
+      |                    ^
+../exercicio08.c:28:25: warning: passing argument 1 of ‘array_enderecos’ from incompatible pointer type [-Wincompatible-pointer-types]
+   28 |         array_enderecos(&v, p);
+      |                         ^~
+      |                         |
+      |                         float (*)[10]
+../exercicio08.c:5:30: note: expected ‘float *’ but argument is of type ‘float (*)[10]’
+    5 | float array_enderecos(float *v, float *p){
+      |                       ~~~~~~~^
+../exercicio08.c: In function ‘array_enderecos’:
+../exercicio08.c:15:1: warning: control reaches end of non-void function [-Wreturn-type]
+   15 | }
+      | ^
+Finished building: ../exercicio08.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio08.o   -lm
+Finished building target: ProgramasC
+ 
+15:23:10 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio09.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio09.d" -MT"exercicio09.o" -o "exercicio09.o" "../exercicio09.c"
+../exercicio09.c: In function ‘matriz_enderecos’:
+../exercicio09.c:11:37: warning: initialization of ‘float *’ from incompatible pointer type ‘float **’ [-Wincompatible-pointer-types]
+   11 |                         float *pm = &m[i][3];
+      |                                     ^
+../exercicio09.c: In function ‘main’:
+../exercicio09.c:30:9: error: too few arguments to function ‘matriz_enderecos’
+   30 |         matriz_enderecos();
+      |         ^~~~~~~~~~~~~~~~
+../exercicio09.c:5:7: note: declared here
+    5 | float matriz_enderecos(float *m[3][3]){
+      |       ^~~~~~~~~~~~~~~~
+../exercicio09.c: In function ‘matriz_enderecos’:
+../exercicio09.c:18:1: warning: control reaches end of non-void function [-Wreturn-type]
+   18 | }
+      | ^
+make: *** [subdir.mk:20: exercicio09.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:23:46 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio09.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio09.d" -MT"exercicio09.o" -o "exercicio09.o" "../exercicio09.c"
+../exercicio09.c: In function ‘matriz_enderecos’:
+../exercicio09.c:11:37: warning: initialization of ‘float *’ from incompatible pointer type ‘float **’ [-Wincompatible-pointer-types]
+   11 |                         float *pm = &m[i][3];
+      |                                     ^
+../exercicio09.c: In function ‘main’:
+../exercicio09.c:30:30: error: subscripted value is neither array nor pointer nor vector
+   30 |         matriz_enderecos(&m[3[3]]);
+      |                              ^
+../exercicio09.c: In function ‘matriz_enderecos’:
+../exercicio09.c:18:1: warning: control reaches end of non-void function [-Wreturn-type]
+   18 | }
+      | ^
+make: *** [subdir.mk:20: exercicio09.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:24:02 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio09.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio09.d" -MT"exercicio09.o" -o "exercicio09.o" "../exercicio09.c"
+../exercicio09.c: In function ‘matriz_enderecos’:
+../exercicio09.c:11:37: warning: initialization of ‘float *’ from incompatible pointer type ‘float **’ [-Wincompatible-pointer-types]
+   11 |                         float *pm = &m[i][3];
+      |                                     ^
+../exercicio09.c: In function ‘main’:
+../exercicio09.c:30:26: warning: passing argument 1 of ‘matriz_enderecos’ from incompatible pointer type [-Wincompatible-pointer-types]
+   30 |         matriz_enderecos(&m[3][3]);
+      |                          ^~~~~~~~
+      |                          |
+      |                          float *
+../exercicio09.c:5:31: note: expected ‘float * (*)[3]’ but argument is of type ‘float *’
+    5 | float matriz_enderecos(float *m[3][3]){
+      |                        ~~~~~~~^~~~~~~
+../exercicio09.c: In function ‘matriz_enderecos’:
+../exercicio09.c:18:1: warning: control reaches end of non-void function [-Wreturn-type]
+   18 | }
+      | ^
+../exercicio09.c: In function ‘main’:
+../exercicio09.c:30:9: warning: ‘matriz_enderecos’ accessing 72 bytes in a region of size 0 [-Wstringop-overflow=]
+   30 |         matriz_enderecos(&m[3][3]);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../exercicio09.c:30:9: note: referencing argument 1 of type ‘float * (*)[3]’
+../exercicio09.c:5:7: note: in a call to function ‘matriz_enderecos’
+    5 | float matriz_enderecos(float *m[3][3]){
+      |       ^~~~~~~~~~~~~~~~
+Finished building: ../exercicio09.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio09.o   -lm
+Finished building target: ProgramasC
+ 
+15:24:30 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio09.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio09.d" -MT"exercicio09.o" -o "exercicio09.o" "../exercicio09.c"
+../exercicio09.c: In function ‘matriz_enderecos’:
+../exercicio09.c:11:37: warning: initialization of ‘float *’ from incompatible pointer type ‘float **’ [-Wincompatible-pointer-types]
+   11 |                         float *pm = &m[i][k];
+      |                                     ^
+../exercicio09.c: In function ‘main’:
+../exercicio09.c:30:26: warning: passing argument 1 of ‘matriz_enderecos’ from incompatible pointer type [-Wincompatible-pointer-types]
+   30 |         matriz_enderecos(&m[3][3]);
+      |                          ^~~~~~~~
+      |                          |
+      |                          float *
+../exercicio09.c:5:31: note: expected ‘float * (*)[3]’ but argument is of type ‘float *’
+    5 | float matriz_enderecos(float *m[3][3]){
+      |                        ~~~~~~~^~~~~~~
+../exercicio09.c: In function ‘matriz_enderecos’:
+../exercicio09.c:18:1: warning: control reaches end of non-void function [-Wreturn-type]
+   18 | }
+      | ^
+../exercicio09.c: In function ‘main’:
+../exercicio09.c:30:9: warning: ‘matriz_enderecos’ accessing 72 bytes in a region of size 0 [-Wstringop-overflow=]
+   30 |         matriz_enderecos(&m[3][3]);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../exercicio09.c:30:9: note: referencing argument 1 of type ‘float * (*)[3]’
+../exercicio09.c:5:7: note: in a call to function ‘matriz_enderecos’
+    5 | float matriz_enderecos(float *m[3][3]){
+      |       ^~~~~~~~~~~~~~~~
+Finished building: ../exercicio09.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio09.o   -lm
+Finished building target: ProgramasC
+ 
+15:25:39 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio09.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio09.d" -MT"exercicio09.o" -o "exercicio09.o" "../exercicio09.c"
+../exercicio09.c: In function ‘matriz_enderecos’:
+../exercicio09.c:11:37: warning: initialization of ‘float *’ from incompatible pointer type ‘float **’ [-Wincompatible-pointer-types]
+   11 |                         float *pm = &m[i][k];
+      |                                     ^
+../exercicio09.c: In function ‘main’:
+../exercicio09.c:30:26: warning: passing argument 1 of ‘matriz_enderecos’ from incompatible pointer type [-Wincompatible-pointer-types]
+   30 |         matriz_enderecos(&m[3][3]);
+      |                          ^~~~~~~~
+      |                          |
+      |                          float *
+../exercicio09.c:5:31: note: expected ‘float * (*)[3]’ but argument is of type ‘float *’
+    5 | float matriz_enderecos(float *m[3][3]){
+      |                        ~~~~~~~^~~~~~~
+../exercicio09.c: In function ‘matriz_enderecos’:
+../exercicio09.c:18:1: warning: control reaches end of non-void function [-Wreturn-type]
+   18 | }
+      | ^
+../exercicio09.c: In function ‘main’:
+../exercicio09.c:30:9: warning: ‘matriz_enderecos’ accessing 72 bytes in a region of size 0 [-Wstringop-overflow=]
+   30 |         matriz_enderecos(&m[3][3]);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../exercicio09.c:30:9: note: referencing argument 1 of type ‘float * (*)[3]’
+../exercicio09.c:5:7: note: in a call to function ‘matriz_enderecos’
+    5 | float matriz_enderecos(float *m[3][3]){
+      |       ^~~~~~~~~~~~~~~~
+Finished building: ../exercicio09.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio09.o   -lm
+Finished building target: ProgramasC
+ 
+15:40:02 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio10.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio10.d" -MT"exercicio10.o" -o "exercicio10.o" "../exercicio10.c"
+../exercicio10.c:5:17: error: expected declaration specifiers or ‘...’ before ‘*’ token
+    5 | int dobro_array(*v[5]){
+      |                 ^
+../exercicio10.c: In function ‘main’:
+../exercicio10.c:37:9: warning: implicit declaration of function ‘dobro_array’ [-Wimplicit-function-declaration]
+   37 |         dobro_array(&v[5]);
+      |         ^~~~~~~~~~~
+../exercicio10.c:51:1: error: expected declaration or statement at end of input
+   51 | }
+      | ^
+make: *** [subdir.mk:20: exercicio10.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:41:10 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio10.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio10.d" -MT"exercicio10.o" -o "exercicio10.o" "../exercicio10.c"
+../exercicio10.c: In function ‘main’:
+../exercicio10.c:37:21: warning: passing argument 1 of ‘dobro_array’ from incompatible pointer type [-Wincompatible-pointer-types]
+   37 |         dobro_array(&v[5]);
+      |                     ^~~~~
+      |                     |
+      |                     int *
+../exercicio10.c:5:22: note: expected ‘int **’ but argument is of type ‘int *’
+    5 | int dobro_array(int *v[5]){
+      |                 ~~~~~^~~~
+../exercicio10.c:52:1: error: expected declaration or statement at end of input
+   52 | }
+      | ^
+../exercicio10.c: In function ‘dobro_array’:
+../exercicio10.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+   13 | }
+      | ^
+make: *** [subdir.mk:20: exercicio10.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:42:02 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio10.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio10.d" -MT"exercicio10.o" -o "exercicio10.o" "../exercicio10.c"
+../exercicio10.c: In function ‘dobro_array’:
+../exercicio10.c:9:17: error: invalid type argument of unary ‘*’ (have ‘int’)
+    9 |                 *(v[i]) *= 2;
+      |                 ^~~~~~~
+../exercicio10.c: In function ‘main’:
+../exercicio10.c:37:21: warning: passing argument 1 of ‘dobro_array’ from incompatible pointer type [-Wincompatible-pointer-types]
+   37 |         dobro_array(&v);
+      |                     ^~
+      |                     |
+      |                     int (*)[5]
+../exercicio10.c:5:22: note: expected ‘int *’ but argument is of type ‘int (*)[5]’
+    5 | int dobro_array(int *v){
+      |                 ~~~~~^
+../exercicio10.c:52:1: error: expected declaration or statement at end of input
+   52 | }
+      | ^
+../exercicio10.c: In function ‘dobro_array’:
+../exercicio10.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+   13 | }
+      | ^
+make: *** [subdir.mk:20: exercicio10.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:43:09 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio10.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio10.d" -MT"exercicio10.o" -o "exercicio10.o" "../exercicio10.c"
+../exercicio10.c: In function ‘dobro_array’:
+../exercicio10.c:9:17: error: invalid type argument of unary ‘*’ (have ‘int’)
+    9 |                 *(v[i]) = *(v[i) * 2;
+      |                 ^~~~~~~
+../exercicio10.c:9:32: error: expected ‘]’ before ‘)’ token
+    9 |                 *(v[i]) = *(v[i) * 2;
+      |                                ^
+      |                                ]
+../exercicio10.c:9:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+    9 |                 *(v[i]) = *(v[i) * 2;
+      |                           ^~~~~~
+../exercicio10.c: In function ‘main’:
+../exercicio10.c:37:21: warning: passing argument 1 of ‘dobro_array’ from incompatible pointer type [-Wincompatible-pointer-types]
+   37 |         dobro_array(&v);
+      |                     ^~
+      |                     |
+      |                     int (*)[5]
+../exercicio10.c:5:22: note: expected ‘int *’ but argument is of type ‘int (*)[5]’
+    5 | int dobro_array(int *v){
+      |                 ~~~~~^
+../exercicio10.c:52:1: error: expected declaration or statement at end of input
+   52 | }
+      | ^
+../exercicio10.c: In function ‘dobro_array’:
+../exercicio10.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+   13 | }
+      | ^
+make: *** [subdir.mk:20: exercicio10.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:43:53 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio10.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio10.d" -MT"exercicio10.o" -o "exercicio10.o" "../exercicio10.c"
+../exercicio10.c: In function ‘dobro_array’:
+../exercicio10.c:9:17: error: invalid type argument of unary ‘*’ (have ‘int’)
+    9 |                 *v[i] *= 2;
+      |                 ^~~~~
+../exercicio10.c: In function ‘main’:
+../exercicio10.c:37:21: warning: passing argument 1 of ‘dobro_array’ from incompatible pointer type [-Wincompatible-pointer-types]
+   37 |         dobro_array(&v);
+      |                     ^~
+      |                     |
+      |                     int (*)[5]
+../exercicio10.c:5:22: note: expected ‘int *’ but argument is of type ‘int (*)[5]’
+    5 | int dobro_array(int *v){
+      |                 ~~~~~^
+../exercicio10.c:52:1: error: expected declaration or statement at end of input
+   52 | }
+      | ^
+../exercicio10.c: In function ‘dobro_array’:
+../exercicio10.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+   13 | }
+      | ^
+make: *** [subdir.mk:20: exercicio10.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:44:07 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio10.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio10.d" -MT"exercicio10.o" -o "exercicio10.o" "../exercicio10.c"
+../exercicio10.c: In function ‘dobro_array’:
+../exercicio10.c:9:17: error: invalid type argument of unary ‘*’ (have ‘int’)
+    9 |                 *(v[i]) *= 2;
+      |                 ^~~~~~~
+../exercicio10.c: In function ‘main’:
+../exercicio10.c:37:21: warning: passing argument 1 of ‘dobro_array’ from incompatible pointer type [-Wincompatible-pointer-types]
+   37 |         dobro_array(&v);
+      |                     ^~
+      |                     |
+      |                     int (*)[5]
+../exercicio10.c:5:22: note: expected ‘int *’ but argument is of type ‘int (*)[5]’
+    5 | int dobro_array(int *v){
+      |                 ~~~~~^
+../exercicio10.c:52:1: error: expected declaration or statement at end of input
+   52 | }
+      | ^
+../exercicio10.c: In function ‘dobro_array’:
+../exercicio10.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+   13 | }
+      | ^
+make: *** [subdir.mk:20: exercicio10.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:44:48 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio10.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio10.d" -MT"exercicio10.o" -o "exercicio10.o" "../exercicio10.c"
+../exercicio10.c: In function ‘main’:
+../exercicio10.c:37:21: warning: passing argument 1 of ‘dobro_array’ from incompatible pointer type [-Wincompatible-pointer-types]
+   37 |         dobro_array(&v[5]);
+      |                     ^~~~~
+      |                     |
+      |                     int *
+../exercicio10.c:5:22: note: expected ‘int **’ but argument is of type ‘int *’
+    5 | int dobro_array(int *v[5]){
+      |                 ~~~~~^~~~
+../exercicio10.c:52:1: error: expected declaration or statement at end of input
+   52 | }
+      | ^
+../exercicio10.c: In function ‘dobro_array’:
+../exercicio10.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+   13 | }
+      | ^
+make: *** [subdir.mk:20: exercicio10.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:46:46 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio10.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio10.d" -MT"exercicio10.o" -o "exercicio10.o" "../exercicio10.c"
+../exercicio10.c: In function ‘main’:
+../exercicio10.c:36:21: warning: passing argument 1 of ‘dobro_array’ from incompatible pointer type [-Wincompatible-pointer-types]
+   36 |         dobro_array(&v[5]);
+      |                     ^~~~~
+      |                     |
+      |                     int *
+../exercicio10.c:5:22: note: expected ‘int **’ but argument is of type ‘int *’
+    5 | int dobro_array(int *v[5]){
+      |                 ~~~~~^~~~
+../exercicio10.c: In function ‘dobro_array’:
+../exercicio10.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+   13 | }
+      | ^
+../exercicio10.c: In function ‘main’:
+../exercicio10.c:36:9: warning: ‘dobro_array’ accessing 40 bytes in a region of size 0 [-Wstringop-overflow=]
+   36 |         dobro_array(&v[5]);
+      |         ^~~~~~~~~~~~~~~~~~
+../exercicio10.c:36:9: note: referencing argument 1 of type ‘int **’
+../exercicio10.c:5:5: note: in a call to function ‘dobro_array’
+    5 | int dobro_array(int *v[5]){
+      |     ^~~~~~~~~~~
+Finished building: ../exercicio10.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio10.o   -lm
+Finished building target: ProgramasC
+ 
+15:48:27 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio10.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio10.d" -MT"exercicio10.o" -o "exercicio10.o" "../exercicio10.c"
+../exercicio10.c: In function ‘main’:
+../exercicio10.c:36:21: warning: passing argument 1 of ‘dobro_array’ from incompatible pointer type [-Wincompatible-pointer-types]
+   36 |         dobro_array(&v[5]);
+      |                     ^~~~~
+      |                     |
+      |                     int *
+../exercicio10.c:5:22: note: expected ‘int **’ but argument is of type ‘int *’
+    5 | int dobro_array(int *v[5]){
+      |                 ~~~~~^~~~
+../exercicio10.c: In function ‘dobro_array’:
+../exercicio10.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+   13 | }
+      | ^
+../exercicio10.c: In function ‘main’:
+../exercicio10.c:36:9: warning: ‘dobro_array’ accessing 40 bytes in a region of size 0 [-Wstringop-overflow=]
+   36 |         dobro_array(&v[5]);
+      |         ^~~~~~~~~~~~~~~~~~
+../exercicio10.c:36:9: note: referencing argument 1 of type ‘int **’
+../exercicio10.c:5:5: note: in a call to function ‘dobro_array’
+    5 | int dobro_array(int *v[5]){
+      |     ^~~~~~~~~~~
+Finished building: ../exercicio10.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio10.o   -lm
+Finished building target: ProgramasC
+ 
+15:49:36 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio10.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio10.d" -MT"exercicio10.o" -o "exercicio10.o" "../exercicio10.c"
+../exercicio10.c: In function ‘main’:
+../exercicio10.c:32:21: warning: passing argument 1 of ‘dobro_array’ from incompatible pointer type [-Wincompatible-pointer-types]
+   32 |         dobro_array(&v[5]);
+      |                     ^~~~~
+      |                     |
+      |                     int *
+../exercicio10.c:5:22: note: expected ‘int **’ but argument is of type ‘int *’
+    5 | int dobro_array(int *v[5]){
+      |                 ~~~~~^~~~
+../exercicio10.c: In function ‘dobro_array’:
+../exercicio10.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+   13 | }
+      | ^
+../exercicio10.c: In function ‘main’:
+../exercicio10.c:32:9: warning: ‘dobro_array’ accessing 40 bytes in a region of size 0 [-Wstringop-overflow=]
+   32 |         dobro_array(&v[5]);
+      |         ^~~~~~~~~~~~~~~~~~
+../exercicio10.c:32:9: note: referencing argument 1 of type ‘int **’
+../exercicio10.c:5:5: note: in a call to function ‘dobro_array’
+    5 | int dobro_array(int *v[5]){
+      |     ^~~~~~~~~~~
+Finished building: ../exercicio10.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio10.o   -lm
+Finished building target: ProgramasC
+ 
+15:50:17 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio10.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio10.d" -MT"exercicio10.o" -o "exercicio10.o" "../exercicio10.c"
+../exercicio10.c: In function ‘dobro_array’:
+../exercicio10.c:9:17: error: invalid type argument of unary ‘*’ (have ‘int’)
+    9 |                 *(v[i]) *= 2;
+      |                 ^~~~~~~
+../exercicio10.c: In function ‘main’:
+../exercicio10.c:32:21: warning: passing argument 1 of ‘dobro_array’ from incompatible pointer type [-Wincompatible-pointer-types]
+   32 |         dobro_array(&v);
+      |                     ^~
+      |                     |
+      |                     int (*)[5]
+../exercicio10.c:5:22: note: expected ‘int *’ but argument is of type ‘int (*)[5]’
+    5 | int dobro_array(int *v){
+      |                 ~~~~~^
+../exercicio10.c: In function ‘dobro_array’:
+../exercicio10.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+   13 | }
+      | ^
+make: *** [subdir.mk:20: exercicio10.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:50:31 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio10.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio10.d" -MT"exercicio10.o" -o "exercicio10.o" "../exercicio10.c"
+../exercicio10.c: In function ‘main’:
+../exercicio10.c:32:21: warning: passing argument 1 of ‘dobro_array’ from incompatible pointer type [-Wincompatible-pointer-types]
+   32 |         dobro_array(&v);
+      |                     ^~
+      |                     |
+      |                     int (*)[5]
+../exercicio10.c:5:22: note: expected ‘int **’ but argument is of type ‘int (*)[5]’
+    5 | int dobro_array(int *v[5]){
+      |                 ~~~~~^~~~
+../exercicio10.c: In function ‘dobro_array’:
+../exercicio10.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+   13 | }
+      | ^
+../exercicio10.c: In function ‘main’:
+../exercicio10.c:32:9: warning: ‘dobro_array’ accessing 40 bytes in a region of size 20 [-Wstringop-overflow=]
+   32 |         dobro_array(&v);
+      |         ^~~~~~~~~~~~~~~
+../exercicio10.c:32:9: note: referencing argument 1 of type ‘int **’
+../exercicio10.c:5:5: note: in a call to function ‘dobro_array’
+    5 | int dobro_array(int *v[5]){
+      |     ^~~~~~~~~~~
+Finished building: ../exercicio10.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio10.o   -lm
+Finished building target: ProgramasC
+ 
+15:50:58 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio10.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio10.d" -MT"exercicio10.o" -o "exercicio10.o" "../exercicio10.c"
+../exercicio10.c: In function ‘main’:
+../exercicio10.c:32:24: error: expected expression before ‘]’ token
+   32 |         dobro_array(&v[]);
+      |                        ^
+../exercicio10.c: In function ‘dobro_array’:
+../exercicio10.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+   13 | }
+      | ^
+make: *** [subdir.mk:20: exercicio10.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:52:24 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio10.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio10.d" -MT"exercicio10.o" -o "exercicio10.o" "../exercicio10.c"
+../exercicio10.c: In function ‘main’:
+../exercicio10.c:33:21: warning: passing argument 1 of ‘dobro_array’ from incompatible pointer type [-Wincompatible-pointer-types]
+   33 |         dobro_array(&v[5]);
+      |                     ^~~~~
+      |                     |
+      |                     int *
+../exercicio10.c:5:22: note: expected ‘int **’ but argument is of type ‘int *’
+    5 | int dobro_array(int *v[]){
+      |                 ~~~~~^~~
+../exercicio10.c: In function ‘dobro_array’:
+../exercicio10.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+   13 | }
+      | ^
+../exercicio10.c: In function ‘main’:
+../exercicio10.c:33:9: warning: ‘dobro_array’ accessing 8 bytes in a region of size 0 [-Wstringop-overflow=]
+   33 |         dobro_array(&v[5]);
+      |         ^~~~~~~~~~~~~~~~~~
+../exercicio10.c:33:9: note: referencing argument 1 of type ‘int **’
+../exercicio10.c:5:5: note: in a call to function ‘dobro_array’
+    5 | int dobro_array(int *v[]){
+      |     ^~~~~~~~~~~
+Finished building: ../exercicio10.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio10.o   -lm
+Finished building target: ProgramasC
+ 
+15:54:08 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio10.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio10.d" -MT"exercicio10.o" -o "exercicio10.o" "../exercicio10.c"
+../exercicio10.c: In function ‘main’:
+../exercicio10.c:34:21: warning: passing argument 1 of ‘dobro_array’ from incompatible pointer type [-Wincompatible-pointer-types]
+   34 |         dobro_array(&v[5]);
+      |                     ^~~~~
+      |                     |
+      |                     int *
+../exercicio10.c:5:22: note: expected ‘int **’ but argument is of type ‘int *’
+    5 | int dobro_array(int *v[]){
+      |                 ~~~~~^~~
+../exercicio10.c:34:9: warning: ‘dobro_array’ accessing 8 bytes in a region of size 0 [-Wstringop-overflow=]
+   34 |         dobro_array(&v[5]);
+      |         ^~~~~~~~~~~~~~~~~~
+../exercicio10.c:34:9: note: referencing argument 1 of type ‘int **’
+../exercicio10.c:5:5: note: in a call to function ‘dobro_array’
+    5 | int dobro_array(int *v[]){
+      |     ^~~~~~~~~~~
+Finished building: ../exercicio10.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio10.o   -lm
+Finished building target: ProgramasC
+ 
+15:55:54 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio10.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio10.d" -MT"exercicio10.o" -o "exercicio10.o" "../exercicio10.c"
+../exercicio10.c: In function ‘main’:
+../exercicio10.c:34:21: warning: passing argument 1 of ‘dobro_array’ from incompatible pointer type [-Wincompatible-pointer-types]
+   34 |         dobro_array(&v[5]);
+      |                     ^~~~~
+      |                     |
+      |                     int *
+../exercicio10.c:5:22: note: expected ‘int **’ but argument is of type ‘int *’
+    5 | int dobro_array(int *v[5]){
+      |                 ~~~~~^~~~
+../exercicio10.c:34:9: warning: ‘dobro_array’ accessing 40 bytes in a region of size 0 [-Wstringop-overflow=]
+   34 |         dobro_array(&v[5]);
+      |         ^~~~~~~~~~~~~~~~~~
+../exercicio10.c:34:9: note: referencing argument 1 of type ‘int **’
+../exercicio10.c:5:5: note: in a call to function ‘dobro_array’
+    5 | int dobro_array(int *v[5]){
+      |     ^~~~~~~~~~~
+Finished building: ../exercicio10.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio10.o   -lm
+Finished building target: ProgramasC
+ 
+15:57:35 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio10.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio10.d" -MT"exercicio10.o" -o "exercicio10.o" "../exercicio10.c"
+../exercicio10.c: In function ‘dobro_array’:
+../exercicio10.c:9:25: error: invalid operands to binary * (have ‘int *’ and ‘int’)
+    9 |                 *(v[i]) *= 2;
+      |                         ^~
+../exercicio10.c: In function ‘main’:
+../exercicio10.c:33:21: warning: passing argument 1 of ‘dobro_array’ from incompatible pointer type [-Wincompatible-pointer-types]
+   33 |         dobro_array(&v[5]);
+      |                     ^~~~~
+      |                     |
+      |                     int *
+../exercicio10.c:5:23: note: expected ‘int ***’ but argument is of type ‘int *’
+    5 | int dobro_array(int **v[5]){
+      |                 ~~~~~~^~~~
+../exercicio10.c: In function ‘dobro_array’:
+../exercicio10.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+   13 | }
+      | ^
+make: *** [subdir.mk:20: exercicio10.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:57:45 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio10.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio10.d" -MT"exercicio10.o" -o "exercicio10.o" "../exercicio10.c"
+../exercicio10.c: In function ‘main’:
+../exercicio10.c:33:21: warning: passing argument 1 of ‘dobro_array’ from incompatible pointer type [-Wincompatible-pointer-types]
+   33 |         dobro_array(&v[5]);
+      |                     ^~~~~
+      |                     |
+      |                     int *
+../exercicio10.c:5:22: note: expected ‘int **’ but argument is of type ‘int *’
+    5 | int dobro_array(int *v[5]){
+      |                 ~~~~~^~~~
+../exercicio10.c: In function ‘dobro_array’:
+../exercicio10.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+   13 | }
+      | ^
+../exercicio10.c: In function ‘main’:
+../exercicio10.c:33:9: warning: ‘dobro_array’ accessing 40 bytes in a region of size 0 [-Wstringop-overflow=]
+   33 |         dobro_array(&v[5]);
+      |         ^~~~~~~~~~~~~~~~~~
+../exercicio10.c:33:9: note: referencing argument 1 of type ‘int **’
+../exercicio10.c:5:5: note: in a call to function ‘dobro_array’
+    5 | int dobro_array(int *v[5]){
+      |     ^~~~~~~~~~~
+Finished building: ../exercicio10.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio10.o   -lm
+Finished building target: ProgramasC
+ 
+16:02:43 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio10.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio10.d" -MT"exercicio10.o" -o "exercicio10.o" "../exercicio10.c"
+../exercicio10.c: In function ‘main’:
+../exercicio10.c:33:21: warning: passing argument 1 of ‘dobro_array’ from incompatible pointer type [-Wincompatible-pointer-types]
+   33 |         dobro_array(&v[5]);
+      |                     ^~~~~
+      |                     |
+      |                     int *
+../exercicio10.c:5:23: note: expected ‘int **’ but argument is of type ‘int *’
+    5 | void dobro_array(int *v[5]){
+      |                  ~~~~~^~~~
+../exercicio10.c:33:9: warning: ‘dobro_array’ accessing 40 bytes in a region of size 0 [-Wstringop-overflow=]
+   33 |         dobro_array(&v[5]);
+      |         ^~~~~~~~~~~~~~~~~~
+../exercicio10.c:33:9: note: referencing argument 1 of type ‘int **’
+../exercicio10.c:5:6: note: in a call to function ‘dobro_array’
+    5 | void dobro_array(int *v[5]){
+      |      ^~~~~~~~~~~
+Finished building: ../exercicio10.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio10.o   -lm
+Finished building target: ProgramasC
+ 
+16:05:35 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio10.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio10.d" -MT"exercicio10.o" -o "exercicio10.o" "../exercicio10.c"
+../exercicio10.c: In function ‘main’:
+../exercicio10.c:25:21: warning: passing argument 1 of ‘dobro_array’ from incompatible pointer type [-Wincompatible-pointer-types]
+   25 |         dobro_array(&v[5]);
+      |                     ^~~~~
+      |                     |
+      |                     int *
+../exercicio10.c:5:22: note: expected ‘int **’ but argument is of type ‘int *’
+    5 | int dobro_array(int *v[5]);
+      |                 ~~~~~^~~~
+../exercicio10.c: In function ‘dobro_array’:
+../exercicio10.c:51:1: warning: control reaches end of non-void function [-Wreturn-type]
+   51 | }
+      | ^
+../exercicio10.c: In function ‘main’:
+../exercicio10.c:25:9: warning: ‘dobro_array’ accessing 40 bytes in a region of size 0 [-Wstringop-overflow=]
+   25 |         dobro_array(&v[5]);
+      |         ^~~~~~~~~~~~~~~~~~
+../exercicio10.c:25:9: note: referencing argument 1 of type ‘int **’
+../exercicio10.c:43:5: note: in a call to function ‘dobro_array’
+   43 | int dobro_array(int *v[5]){
+      |     ^~~~~~~~~~~
+Finished building: ../exercicio10.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio10.o   -lm
+Finished building target: ProgramasC
+ 
+16:07:41 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio10.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio10.d" -MT"exercicio10.o" -o "exercicio10.o" "../exercicio10.c"
+../exercicio10.c: In function ‘main’:
+../exercicio10.c:25:21: warning: passing argument 1 of ‘dobro_array’ from incompatible pointer type [-Wincompatible-pointer-types]
+   25 |         dobro_array(&v);
+      |                     ^~
+      |                     |
+      |                     int (*)[5]
+../exercicio10.c:5:22: note: expected ‘int *’ but argument is of type ‘int (*)[5]’
+    5 | int dobro_array(int *v);
+      |                 ~~~~~^
+../exercicio10.c: In function ‘dobro_array’:
+../exercicio10.c:47:17: error: invalid type argument of unary ‘*’ (have ‘int’)
+   47 |                 *(v[i]) *= 2;
+      |                 ^~~~~~~
+../exercicio10.c:51:1: warning: control reaches end of non-void function [-Wreturn-type]
+   51 | }
+      | ^
+make: *** [subdir.mk:20: exercicio10.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:08:27 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio10.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio10.d" -MT"exercicio10.o" -o "exercicio10.o" "../exercicio10.c"
+../exercicio10.c: In function ‘main’:
+../exercicio10.c:25:21: warning: passing argument 1 of ‘dobro_array’ from incompatible pointer type [-Wincompatible-pointer-types]
+   25 |         dobro_array(&v);
+      |                     ^~
+      |                     |
+      |                     int (*)[5]
+../exercicio10.c:5:22: note: expected ‘int *’ but argument is of type ‘int (*)[5]’
+    5 | int dobro_array(int *v);
+      |                 ~~~~~^
+../exercicio10.c: In function ‘dobro_array’:
+../exercicio10.c:51:1: warning: control reaches end of non-void function [-Wreturn-type]
+   51 | }
+      | ^
+Finished building: ../exercicio10.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio10.o   -lm
+Finished building target: ProgramasC
+ 
+16:09:53 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio10.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio10.d" -MT"exercicio10.o" -o "exercicio10.o" "../exercicio10.c"
+../exercicio10.c: In function ‘main’:
+../exercicio10.c:33:21: warning: passing argument 1 of ‘dobro_array’ from incompatible pointer type [-Wincompatible-pointer-types]
+   33 |         dobro_array(&v);
+      |                     ^~
+      |                     |
+      |                     int (*)[5]
+../exercicio10.c:5:22: note: expected ‘int *’ but argument is of type ‘int (*)[5]’
+    5 | int dobro_array(int *v){
+      |                 ~~~~~^
+../exercicio10.c: In function ‘dobro_array’:
+../exercicio10.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+   13 | }
+      | ^
+Finished building: ../exercicio10.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio10.o   -lm
+Finished building target: ProgramasC
+ 
+16:11:55 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio10.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio10.d" -MT"exercicio10.o" -o "exercicio10.o" "../exercicio10.c"
+../exercicio10.c: In function ‘main’:
+../exercicio10.c:33:21: warning: passing argument 1 of ‘dobro_array’ from incompatible pointer type [-Wincompatible-pointer-types]
+   33 |         dobro_array(&v);
+      |                     ^~
+      |                     |
+      |                     int (*)[5]
+../exercicio10.c:5:22: note: expected ‘int *’ but argument is of type ‘int (*)[5]’
+    5 | int dobro_array(int *v){
+      |                 ~~~~~^
+../exercicio10.c: In function ‘dobro_array’:
+../exercicio10.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+   13 | }
+      | ^
+Finished building: ../exercicio10.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio10.o   -lm
+Finished building target: ProgramasC
+ 
+16:12:25 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+16:12:38 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio10.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio10.d" -MT"exercicio10.o" -o "exercicio10.o" "../exercicio10.c"
+../exercicio10.c: In function ‘main’:
+../exercicio10.c:33:21: warning: passing argument 1 of ‘dobro_array’ from incompatible pointer type [-Wincompatible-pointer-types]
+   33 |         dobro_array(&v);
+      |                     ^~
+      |                     |
+      |                     int (*)[5]
+../exercicio10.c:5:22: note: expected ‘int *’ but argument is of type ‘int (*)[5]’
+    5 | int dobro_array(int *v){
+      |                 ~~~~~^
+../exercicio10.c: In function ‘dobro_array’:
+../exercicio10.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+   13 | }
+      | ^
+Finished building: ../exercicio10.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio10.o   -lm
+Finished building target: ProgramasC
+ 
+16:13:24 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+16:20:28 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio11.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio11.d" -MT"exercicio11.o" -o "exercicio11.o" "../exercicio11.c"
+../exercicio11.c:5:21: error: expected declaration specifiers or ‘...’ before ‘*’ token
+    5 | int enderecos_pares(*v){
+      |                     ^
+../exercicio11.c: In function ‘main’:
+../exercicio11.c:26:25: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+   26 |                 scanf("%d", v[i]);
+      |                        ~^   ~~~~
+      |                         |    |
+      |                         |    int
+      |                         int *
+../exercicio11.c:30:9: warning: implicit declaration of function ‘enderecos_pares’ [-Wimplicit-function-declaration]
+   30 |         enderecos_pares(&v);
+      |         ^~~~~~~~~~~~~~~
+make: *** [subdir.mk:20: exercicio11.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:20:58 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio11.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio11.d" -MT"exercicio11.o" -o "exercicio11.o" "../exercicio11.c"
+../exercicio11.c: In function ‘enderecos_pares’:
+../exercicio11.c:11:34: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat=]
+   11 |                         printf("%d", &v[i]);
+      |                                 ~^   ~~~~~
+      |                                  |   |
+      |                                  int int *
+      |                                 %ls
+../exercicio11.c: In function ‘main’:
+../exercicio11.c:26:25: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+   26 |                 scanf("%d", v[i]);
+      |                        ~^   ~~~~
+      |                         |    |
+      |                         |    int
+      |                         int *
+../exercicio11.c:30:25: warning: passing argument 1 of ‘enderecos_pares’ from incompatible pointer type [-Wincompatible-pointer-types]
+   30 |         enderecos_pares(&v);
+      |                         ^~
+      |                         |
+      |                         int (*)[5]
+../exercicio11.c:5:26: note: expected ‘int *’ but argument is of type ‘int (*)[5]’
+    5 | int enderecos_pares(int *v){
+      |                     ~~~~~^
+../exercicio11.c: In function ‘enderecos_pares’:
+../exercicio11.c:16:1: warning: control reaches end of non-void function [-Wreturn-type]
+   16 | }
+      | ^
+Finished building: ../exercicio11.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio11.o   -lm
+Finished building target: ProgramasC
+ 
+16:21:10 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio11.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio11.d" -MT"exercicio11.o" -o "exercicio11.o" "../exercicio11.c"
+../exercicio11.c: In function ‘enderecos_pares’:
+../exercicio11.c:11:34: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat=]
+   11 |                         printf("%d", &v[i]);
+      |                                 ~^   ~~~~~
+      |                                  |   |
+      |                                  int int *
+      |                                 %ls
+../exercicio11.c: In function ‘main’:
+../exercicio11.c:26:25: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+   26 |                 scanf("%d", v[i]);
+      |                        ~^   ~~~~
+      |                         |    |
+      |                         |    int
+      |                         int *
+../exercicio11.c:30:25: warning: passing argument 1 of ‘enderecos_pares’ from incompatible pointer type [-Wincompatible-pointer-types]
+   30 |         enderecos_pares(&v);
+      |                         ^~
+      |                         |
+      |                         int (*)[5]
+../exercicio11.c:5:26: note: expected ‘int *’ but argument is of type ‘int (*)[5]’
+    5 | int enderecos_pares(int *v){
+      |                     ~~~~~^
+../exercicio11.c: In function ‘enderecos_pares’:
+../exercicio11.c:16:1: warning: control reaches end of non-void function [-Wreturn-type]
+   16 | }
+      | ^
+Finished building: ../exercicio11.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio11.o   -lm
+Finished building target: ProgramasC
+ 
+16:21:24 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio11.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio11.d" -MT"exercicio11.o" -o "exercicio11.o" "../exercicio11.c"
+../exercicio11.c: In function ‘enderecos_pares’:
+../exercicio11.c:11:34: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat=]
+   11 |                         printf("%d", &v[i]);
+      |                                 ~^   ~~~~~
+      |                                  |   |
+      |                                  int int *
+      |                                 %ls
+../exercicio11.c: In function ‘main’:
+../exercicio11.c:30:25: warning: passing argument 1 of ‘enderecos_pares’ from incompatible pointer type [-Wincompatible-pointer-types]
+   30 |         enderecos_pares(&v);
+      |                         ^~
+      |                         |
+      |                         int (*)[5]
+../exercicio11.c:5:26: note: expected ‘int *’ but argument is of type ‘int (*)[5]’
+    5 | int enderecos_pares(int *v){
+      |                     ~~~~~^
+../exercicio11.c: In function ‘enderecos_pares’:
+../exercicio11.c:16:1: warning: control reaches end of non-void function [-Wreturn-type]
+   16 | }
+      | ^
+Finished building: ../exercicio11.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio11.o   -lm
+Finished building target: ProgramasC
+ 
+16:22:16 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio11.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio11.d" -MT"exercicio11.o" -o "exercicio11.o" "../exercicio11.c"
+../exercicio11.c: In function ‘main’:
+../exercicio11.c:32:25: warning: passing argument 1 of ‘enderecos_pares’ from incompatible pointer type [-Wincompatible-pointer-types]
+   32 |         enderecos_pares(&v);
+      |                         ^~
+      |                         |
+      |                         int (*)[5]
+../exercicio11.c:5:26: note: expected ‘int *’ but argument is of type ‘int (*)[5]’
+    5 | int enderecos_pares(int *v){
+      |                     ~~~~~^
+../exercicio11.c: In function ‘enderecos_pares’:
+../exercicio11.c:18:1: warning: control reaches end of non-void function [-Wreturn-type]
+   18 | }
+      | ^
+Finished building: ../exercicio11.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio11.o   -lm
+Finished building target: ProgramasC
+ 
+16:23:42 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio11.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio11.d" -MT"exercicio11.o" -o "exercicio11.o" "../exercicio11.c"
+../exercicio11.c: In function ‘main’:
+../exercicio11.c:32:25: warning: passing argument 1 of ‘enderecos_pares’ from incompatible pointer type [-Wincompatible-pointer-types]
+   32 |         enderecos_pares(&v);
+      |                         ^~
+      |                         |
+      |                         int (*)[5]
+../exercicio11.c:5:26: note: expected ‘int *’ but argument is of type ‘int (*)[5]’
+    5 | int enderecos_pares(int *v){
+      |                     ~~~~~^
+../exercicio11.c: In function ‘enderecos_pares’:
+../exercicio11.c:18:1: warning: control reaches end of non-void function [-Wreturn-type]
+   18 | }
+      | ^
+Finished building: ../exercicio11.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio11.o   -lm
+Finished building target: ProgramasC
+ 
+16:25:23 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio11.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio11.d" -MT"exercicio11.o" -o "exercicio11.o" "../exercicio11.c"
+../exercicio11.c: In function ‘main’:
+../exercicio11.c:34:25: warning: passing argument 1 of ‘enderecos_pares’ from incompatible pointer type [-Wincompatible-pointer-types]
+   34 |         enderecos_pares(&v);
+      |                         ^~
+      |                         |
+      |                         int (*)[5]
+../exercicio11.c:5:26: note: expected ‘int *’ but argument is of type ‘int (*)[5]’
+    5 | int enderecos_pares(int *v){
+      |                     ~~~~~^
+../exercicio11.c: In function ‘enderecos_pares’:
+../exercicio11.c:18:1: warning: control reaches end of non-void function [-Wreturn-type]
+   18 | }
+      | ^
+Finished building: ../exercicio11.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio11.o   -lm
+Finished building target: ProgramasC
+ 
+16:26:10 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio11.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio11.d" -MT"exercicio11.o" -o "exercicio11.o" "../exercicio11.c"
+../exercicio11.c: In function ‘main’:
+../exercicio11.c:35:25: warning: passing argument 1 of ‘enderecos_pares’ from incompatible pointer type [-Wincompatible-pointer-types]
+   35 |         enderecos_pares(&v);
+      |                         ^~
+      |                         |
+      |                         int (*)[5]
+../exercicio11.c:5:26: note: expected ‘int *’ but argument is of type ‘int (*)[5]’
+    5 | int enderecos_pares(int *v){
+      |                     ~~~~~^
+../exercicio11.c:35:9: error: expected declaration or statement at end of input
+   35 |         enderecos_pares(&v);
+      |         ^~~~~~~~~~~~~~~
+../exercicio11.c: In function ‘enderecos_pares’:
+../exercicio11.c:18:1: warning: control reaches end of non-void function [-Wreturn-type]
+   18 | }
+      | ^
+make: *** [subdir.mk:20: exercicio11.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:26:55 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio11 (conflicted).c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio11 (conflicted).d" -MT"exercicio11\ (conflicted).d" -o "exercicio11 (conflicted).o" "../exercicio11 (conflicted).c"
+../exercicio11 (conflicted).c: In function ‘main’:
+../exercicio11 (conflicted).c:35:25: warning: passing argument 1 of ‘enderecos_pares’ from incompatible pointer type [-Wincompatible-pointer-types]
+   35 |         enderecos_pares(&v);
+      |                         ^~
+      |                         |
+      |                         int (*)[5]
+../exercicio11 (conflicted).c:5:26: note: expected ‘int *’ but argument is of type ‘int (*)[5]’
+    5 | int enderecos_pares(int *v){
+      |                     ~~~~~^
+../exercicio11 (conflicted).c: In function ‘enderecos_pares’:
+../exercicio11 (conflicted).c:18:1: warning: control reaches end of non-void function [-Wreturn-type]
+   18 | }
+      | ^
+Finished building: ../exercicio11 (conflicted).c
+ 
+Building file: ../exercicio11.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio11.d" -MT"exercicio11.o" -o "exercicio11.o" "../exercicio11.c"
+../exercicio11.c: In function ‘main’:
+../exercicio11.c:34:25: warning: passing argument 1 of ‘enderecos_pares’ from incompatible pointer type [-Wincompatible-pointer-types]
+   34 |         enderecos_pares(&v);
+      |                         ^~
+      |                         |
+      |                         int (*)[5]
+../exercicio11.c:5:26: note: expected ‘int *’ but argument is of type ‘int (*)[5]’
+    5 | int enderecos_pares(int *v){
+      |                     ~~~~~^
+../exercicio11.c: In function ‘enderecos_pares’:
+../exercicio11.c:18:1: warning: control reaches end of non-void function [-Wreturn-type]
+   18 | }
+      | ^
+Finished building: ../exercicio11.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio11\ (conflicted).o ./exercicio11.o   -lm
+/bin/sh: 1: Syntax error: "(" unexpected
+make: *** [makefile:31: ProgramasC] Erro 2
+"make all" terminated with exit code 2. Build might be incomplete.
+16:28:08 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio11.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio11.d" -MT"exercicio11.o" -o "exercicio11.o" "../exercicio11.c"
+../exercicio11.c: In function ‘main’:
+../exercicio11.c:34:25: warning: passing argument 1 of ‘enderecos_pares’ from incompatible pointer type [-Wincompatible-pointer-types]
+   34 |         enderecos_pares(&v);
+      |                         ^~
+      |                         |
+      |                         int (*)[5]
+../exercicio11.c:5:26: note: expected ‘int *’ but argument is of type ‘int (*)[5]’
+    5 | int enderecos_pares(int *v){
+      |                     ~~~~~^
+../exercicio11.c: In function ‘enderecos_pares’:
+../exercicio11.c:18:1: warning: control reaches end of non-void function [-Wreturn-type]
+   18 | }
+      | ^
+Finished building: ../exercicio11.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio11\ (conflicted).o ./exercicio11.o   -lm
+/bin/sh: 1: Syntax error: "(" unexpected
+make: *** [makefile:31: ProgramasC] Erro 2
+"make all" terminated with exit code 2. Build might be incomplete.
+16:28:25 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio11.o   -lm
+Finished building target: ProgramasC
+ 
