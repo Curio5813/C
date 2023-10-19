@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int aritmetica_de_ponteiros(int *v, int a){
+
+	for(int i = 0; i < 5; i++){
+
+		printf("%d ", v[i]);
+
+	}
+
+}
+
+
+int main(){
+
+	int v[5], *a = 1;
+
+	*a = &v;
+
+	aritmetica_de_ponteiros(&v, a);
+
+	return 0;
+
+}

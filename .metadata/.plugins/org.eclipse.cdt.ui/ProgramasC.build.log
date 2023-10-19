@@ -1,10 +1,36 @@
-16:28:25 **** Incremental Build of configuration Debug for project ProgramasC ****
+16:17:32 **** Build of configuration Debug for project ProgramasC ****
 make all 
+Building file: ../exercicio06 .c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio06 .d" -MT"exercicio06\ .d" -o "exercicio06 .o" "../exercicio06 .c"
+../exercicio06 .c: In function ‘main’:
+../exercicio06 .c:39:34: warning: passing argument 3 of ‘dobro_soma’ makes integer from pointer without a cast [-Wint-conversion]
+   39 |         dobro_soma(&num1, &num2, p1, p2);
+      |                                  ^~
+      |                                  |
+      |                                  int *
+../exercicio06 .c:5:42: note: expected ‘int’ but argument is of type ‘int *’
+    5 | int dobro_soma(int *num1, int *num2, int p1, int p2){
+      |                                      ~~~~^~
+../exercicio06 .c:39:38: warning: passing argument 4 of ‘dobro_soma’ makes integer from pointer without a cast [-Wint-conversion]
+   39 |         dobro_soma(&num1, &num2, p1, p2);
+      |                                      ^~
+      |                                      |
+      |                                      int *
+../exercicio06 .c:5:50: note: expected ‘int’ but argument is of type ‘int *’
+    5 | int dobro_soma(int *num1, int *num2, int p1, int p2){
+      |                                              ~~~~^~
+../exercicio06 .c: In function ‘dobro_soma’:
+../exercicio06 .c:20:1: warning: control reaches end of non-void function [-Wreturn-type]
+   20 | }
+      | ^
+Finished building: ../exercicio06 .c
+ 
 Building target: ProgramasC
 Invoking: GCC C Linker
-gcc -lm  -o "ProgramasC" ./exercicio11.o   -lm
+gcc -lm  -o "ProgramasC" ./exercicio06\ .o   -lm
 Finished building target: ProgramasC
  
 
-16:28:26 Build Finished. 0 errors, 0 warnings. (took 1s.83ms)
+16:17:33 Build Finished. 0 errors, 3 warnings. (took 1s.136ms)
 
