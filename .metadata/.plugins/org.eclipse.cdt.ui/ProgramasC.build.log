@@ -1,19 +1,19 @@
-10:26:38 **** Incremental Build of configuration Debug for project ProgramasC ****
+12:51:03 **** Incremental Build of configuration Debug for project ProgramasC ****
 make all 
-Building file: ../exercicio16.c
+Building file: ../exercicio17.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio16.d" -MT"exercicio16.o" -o "exercicio16.o" "../exercicio16.c"
-../exercicio16.c: In function ‘multiplicando_varias_vezes’:
-../exercicio16.c:11:1: warning: control reaches end of non-void function [-Wreturn-type]
-   11 | }
-      | ^
-Finished building: ../exercicio16.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio17.d" -MT"exercicio17.o" -o "exercicio17.o" "../exercicio17.c"
+../exercicio17.c: In function ‘frac’:
+../exercicio17.c:7:13: warning: unused variable ‘resto’ [-Wunused-variable]
+    7 |         int resto;
+      |             ^~~~~
+Finished building: ../exercicio17.c
  
 Building target: ProgramasC
 Invoking: GCC C Linker
-gcc -lm  -o "ProgramasC" ./exercicio16.o   -lm
+gcc -lm  -o "ProgramasC" ./exercicio17.o   -lm
 Finished building target: ProgramasC
  
 
-10:26:40 Build Finished. 0 errors, 1 warnings. (took 1s.247ms)
+12:51:05 Build Finished. 0 errors, 1 warnings. (took 1s.183ms)
 

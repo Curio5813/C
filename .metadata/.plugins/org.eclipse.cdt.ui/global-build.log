@@ -41974,3 +41974,473 @@ Invoking: GCC C Linker
 gcc -lm  -o "ProgramasC" ./exercicio16.o   -lm
 Finished building target: ProgramasC
  
+12:22:28 **** Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio17.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio17.d" -MT"exercicio17.o" -o "exercicio17.o" "../exercicio17.c"
+../exercicio17.c: In function ‘frac’:
+../exercicio17.c:10:25: error: invalid operands to binary % (have ‘float *’ and ‘int’)
+   10 |         *(fracao) = num % 1;
+      |                         ^
+../exercicio17.c:7:13: warning: unused variable ‘divisor’ [-Wunused-variable]
+    7 |         int divisor = 1;
+      |             ^~~~~~~
+make: *** [subdir.mk:20: exercicio17.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+12:23:02 **** Clean-only build of configuration Debug for project ProgramasC ****
+make clean 
+rm -rf ./exercicio17.o ./exercicio17.d  ProgramasC
+ 
+12:23:22 **** Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio17.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio17.d" -MT"exercicio17.o" -o "exercicio17.o" "../exercicio17.c"
+../exercicio17.c: In function ‘frac’:
+../exercicio17.c:10:25: error: invalid operands to binary % (have ‘float *’ and ‘int’)
+   10 |         *(fracao) = num % 1;
+      |                         ^
+../exercicio17.c:7:13: warning: unused variable ‘divisor’ [-Wunused-variable]
+    7 |         int divisor = 1;
+      |             ^~~~~~~
+make: *** [subdir.mk:20: exercicio17.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+12:24:06 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio17.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio17.d" -MT"exercicio17.o" -o "exercicio17.o" "../exercicio17.c"
+../exercicio17.c: In function ‘frac’:
+../exercicio17.c:10:28: error: invalid operands to binary % (have ‘float’ and ‘int’)
+   10 |         *(fracao) = *(num) % 1;
+      |                     ~~~~~~ ^
+      |                     |
+      |                     float
+../exercicio17.c:7:13: warning: unused variable ‘divisor’ [-Wunused-variable]
+    7 |         int divisor = 1;
+      |             ^~~~~~~
+make: *** [subdir.mk:20: exercicio17.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+12:25:04 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio17.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio17.d" -MT"exercicio17.o" -o "exercicio17.o" "../exercicio17.c"
+../exercicio17.c: In function ‘frac’:
+../exercicio17.c:10:28: error: invalid operands to binary % (have ‘float’ and ‘int’)
+   10 |         *(fracao) = *(num) % 1;
+      |                     ~~~~~~ ^
+      |                     |
+      |                     float
+../exercicio17.c:7:13: warning: unused variable ‘divisor’ [-Wunused-variable]
+    7 |         int divisor = 1;
+      |             ^~~~~~~
+make: *** [subdir.mk:20: exercicio17.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+12:25:37 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio17.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio17.d" -MT"exercicio17.o" -o "exercicio17.o" "../exercicio17.c"
+../exercicio17.c: In function ‘frac’:
+../exercicio17.c:10:28: error: invalid operands to binary % (have ‘float’ and ‘double’)
+   10 |         *(fracao) = *(num) % 1.0;
+      |                     ~~~~~~ ^
+      |                     |
+      |                     float
+../exercicio17.c:7:13: warning: unused variable ‘divisor’ [-Wunused-variable]
+    7 |         int divisor = 1;
+      |             ^~~~~~~
+make: *** [subdir.mk:20: exercicio17.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+12:26:10 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio17.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio17.d" -MT"exercicio17.o" -o "exercicio17.o" "../exercicio17.c"
+../exercicio17.c: In function ‘frac’:
+../exercicio17.c:10:28: error: invalid operands to binary % (have ‘float’ and ‘int’)
+   10 |         *(fracao) = *(num) % 10;
+      |                     ~~~~~~ ^
+      |                     |
+      |                     float
+../exercicio17.c:7:13: warning: unused variable ‘divisor’ [-Wunused-variable]
+    7 |         int divisor = 1;
+      |             ^~~~~~~
+make: *** [subdir.mk:20: exercicio17.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+12:26:25 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio17.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio17.d" -MT"exercicio17.o" -o "exercicio17.o" "../exercicio17.c"
+../exercicio17.c: In function ‘frac’:
+../exercicio17.c:7:13: warning: unused variable ‘divisor’ [-Wunused-variable]
+    7 |         int divisor = 1;
+      |             ^~~~~~~
+Finished building: ../exercicio17.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio17.o   -lm
+Finished building target: ProgramasC
+ 
+12:27:56 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio17.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio17.d" -MT"exercicio17.o" -o "exercicio17.o" "../exercicio17.c"
+../exercicio17.c: In function ‘frac’:
+../exercicio17.c:9:28: error: invalid operands to binary % (have ‘float’ and ‘int’)
+    9 |         *(fracao) = *(num) % 1
+      |                     ~~~~~~ ^
+      |                     |
+      |                     float
+../exercicio17.c:7:13: warning: unused variable ‘divisor’ [-Wunused-variable]
+    7 |         int divisor = 1;
+      |             ^~~~~~~
+make: *** [subdir.mk:20: exercicio17.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+12:28:16 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio17.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio17.d" -MT"exercicio17.o" -o "exercicio17.o" "../exercicio17.c"
+../exercicio17.c: In function ‘frac’:
+../exercicio17.c:10:9: error: invalid operands to binary * (have ‘int’ and ‘int *’)
+    9 |         *(fracao) = (int)*(num) % 1
+      |                     ~~~~~~~~~~~~~~~
+      |                                 |
+      |                                 int
+   10 |         *(inteiro) = *(num) / 1;
+      |         ^
+../exercicio17.c:7:13: warning: unused variable ‘divisor’ [-Wunused-variable]
+    7 |         int divisor = 1;
+      |             ^~~~~~~
+make: *** [subdir.mk:20: exercicio17.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+12:28:34 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio17.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio17.d" -MT"exercicio17.o" -o "exercicio17.o" "../exercicio17.c"
+../exercicio17.c: In function ‘frac’:
+../exercicio17.c:10:9: error: invalid operands to binary * (have ‘int’ and ‘int *’)
+    9 |         *(fracao) = (int)*(num) % 1
+      |                     ~~~~~~~~~~~~~~~
+      |                                 |
+      |                                 int
+   10 |         *(inteiro) = (int)*(num) / 1;
+      |         ^
+../exercicio17.c:7:13: warning: unused variable ‘divisor’ [-Wunused-variable]
+    7 |         int divisor = 1;
+      |             ^~~~~~~
+make: *** [subdir.mk:20: exercicio17.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+12:28:43 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio17.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio17.d" -MT"exercicio17.o" -o "exercicio17.o" "../exercicio17.c"
+../exercicio17.c: In function ‘frac’:
+../exercicio17.c:10:9: error: invalid operands to binary * (have ‘int’ and ‘int *’)
+    9 |         *(fracao) = (int)*(num) % 1
+      |                     ~~~~~~~~~~~~~~~
+      |                                 |
+      |                                 int
+   10 |         *(inteiro) = *(num) / 1;
+      |         ^
+../exercicio17.c:7:13: warning: unused variable ‘divisor’ [-Wunused-variable]
+    7 |         int divisor = 1;
+      |             ^~~~~~~
+make: *** [subdir.mk:20: exercicio17.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+12:28:55 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio17.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio17.d" -MT"exercicio17.o" -o "exercicio17.o" "../exercicio17.c"
+../exercicio17.c: In function ‘frac’:
+../exercicio17.c:9:28: error: invalid operands to binary % (have ‘float’ and ‘int’)
+    9 |         *(fracao) = *(num) % 1
+      |                     ~~~~~~ ^
+      |                     |
+      |                     float
+../exercicio17.c:7:13: warning: unused variable ‘divisor’ [-Wunused-variable]
+    7 |         int divisor = 1;
+      |             ^~~~~~~
+make: *** [subdir.mk:20: exercicio17.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+12:30:51 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio17.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio17.d" -MT"exercicio17.o" -o "exercicio17.o" "../exercicio17.c"
+../exercicio17.c: In function ‘frac’:
+../exercicio17.c:10:28: error: invalid operands to binary % (have ‘float’ and ‘int’)
+   10 |         *(fracao) = *(num) % 1;
+      |                     ~~~~~~ ^
+      |                     |
+      |                     float
+../exercicio17.c:7:13: warning: unused variable ‘divisor’ [-Wunused-variable]
+    7 |         int divisor = 1;
+      |             ^~~~~~~
+../exercicio17.c: In function ‘main’:
+../exercicio17.c:28:71: warning: format ‘%f’ expects argument of type ‘double’, but argument 3 has type ‘int’ [-Wformat=]
+   28 |         printf("A parte inteira é igual à %d e a fracionária igual à %f", inteiro, fracao);
+      |                                                                      ~^            ~~~~~~
+      |                                                                       |            |
+      |                                                                       double       int
+      |                                                                      %d
+make: *** [subdir.mk:20: exercicio17.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+12:31:07 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio17.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio17.d" -MT"exercicio17.o" -o "exercicio17.o" "../exercicio17.c"
+../exercicio17.c: In function ‘frac’:
+../exercicio17.c:7:13: warning: unused variable ‘divisor’ [-Wunused-variable]
+    7 |         int divisor = 1;
+      |             ^~~~~~~
+../exercicio17.c: In function ‘main’:
+../exercicio17.c:28:71: warning: format ‘%f’ expects argument of type ‘double’, but argument 3 has type ‘int’ [-Wformat=]
+   28 |         printf("A parte inteira é igual à %d e a fracionária igual à %f", inteiro, fracao);
+      |                                                                      ~^            ~~~~~~
+      |                                                                       |            |
+      |                                                                       double       int
+      |                                                                      %d
+Finished building: ../exercicio17.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio17.o   -lm
+Finished building target: ProgramasC
+ 
+12:32:09 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio17.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio17.d" -MT"exercicio17.o" -o "exercicio17.o" "../exercicio17.c"
+../exercicio17.c: In function ‘frac’:
+../exercicio17.c:7:13: warning: unused variable ‘divisor’ [-Wunused-variable]
+    7 |         int divisor = 1;
+      |             ^~~~~~~
+Finished building: ../exercicio17.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio17.o   -lm
+Finished building target: ProgramasC
+ 
+12:32:31 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio17.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio17.d" -MT"exercicio17.o" -o "exercicio17.o" "../exercicio17.c"
+../exercicio17.c: In function ‘frac’:
+../exercicio17.c:10:28: error: invalid operands to binary % (have ‘float’ and ‘int’)
+   10 |         *(fracao) = *(num) % 1;
+      |                     ~~~~~~ ^
+      |                     |
+      |                     float
+../exercicio17.c:7:13: warning: unused variable ‘divisor’ [-Wunused-variable]
+    7 |         int divisor = 1;
+      |             ^~~~~~~
+make: *** [subdir.mk:20: exercicio17.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+12:33:33 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio17.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio17.d" -MT"exercicio17.o" -o "exercicio17.o" "../exercicio17.c"
+../exercicio17.c: In function ‘frac’:
+../exercicio17.c:7:13: warning: unused variable ‘divisor’ [-Wunused-variable]
+    7 |         int divisor = 1;
+      |             ^~~~~~~
+Finished building: ../exercicio17.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio17.o   -lm
+Finished building target: ProgramasC
+ 
+12:36:10 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio17.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio17.d" -MT"exercicio17.o" -o "exercicio17.o" "../exercicio17.c"
+../exercicio17.c: In function ‘frac’:
+../exercicio17.c:10:23: warning: comparison between pointer and integer
+   10 |         while(inteiro > divisor){
+      |                       ^
+Finished building: ../exercicio17.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio17.o   -lm
+Finished building target: ProgramasC
+ 
+12:37:24 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio17.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio17.d" -MT"exercicio17.o" -o "exercicio17.o" "../exercicio17.c"
+../exercicio17.c: In function ‘frac’:
+../exercicio17.c:10:23: warning: comparison between pointer and integer
+   10 |         while(inteiro > divisor){
+      |                       ^
+Finished building: ../exercicio17.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio17.o   -lm
+Finished building target: ProgramasC
+ 
+12:43:53 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio17.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio17.d" -MT"exercicio17.o" -o "exercicio17.o" "../exercicio17.c"
+../exercicio17.c: In function ‘frac’:
+../exercicio17.c:15:28: error: invalid operands to binary % (have ‘float’ and ‘int’)
+   15 |         *(fracao) = *(num) % divisor;
+      |                     ~~~~~~ ^
+      |                     |
+      |                     float
+make: *** [subdir.mk:20: exercicio17.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+12:44:05 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio17.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio17.d" -MT"exercicio17.o" -o "exercicio17.o" "../exercicio17.c"
+Finished building: ../exercicio17.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio17.o   -lm
+Finished building target: ProgramasC
+ 
+12:46:13 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio17.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio17.d" -MT"exercicio17.o" -o "exercicio17.o" "../exercicio17.c"
+../exercicio17.c: In function ‘frac’:
+../exercicio17.c:10:24: error: invalid operands to binary % (have ‘float’ and ‘int’)
+   10 |         resto = *(num) % 100
+      |                 ~~~~~~ ^
+      |                 |
+      |                 float
+make: *** [subdir.mk:20: exercicio17.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+12:47:43 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio17.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio17.d" -MT"exercicio17.o" -o "exercicio17.o" "../exercicio17.c"
+../exercicio17.c: In function ‘frac’:
+../exercicio17.c:10:38: error: expected ‘;’ before ‘}’ token
+   10 |         *fracao = *(num) - *(inteiro)
+      |                                      ^
+      |                                      ;
+......
+   13 | }
+      | ~                                     
+../exercicio17.c:7:13: warning: unused variable ‘resto’ [-Wunused-variable]
+    7 |         int resto;
+      |             ^~~~~
+make: *** [subdir.mk:20: exercicio17.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+12:48:03 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio17.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio17.d" -MT"exercicio17.o" -o "exercicio17.o" "../exercicio17.c"
+../exercicio17.c: In function ‘frac’:
+../exercicio17.c:10:43: error: expected ‘;’ before ‘}’ token
+   10 |         *fracao = (int)*(num) - *(inteiro)
+      |                                           ^
+      |                                           ;
+......
+   13 | }
+      | ~                                          
+../exercicio17.c:7:13: warning: unused variable ‘resto’ [-Wunused-variable]
+    7 |         int resto;
+      |             ^~~~~
+make: *** [subdir.mk:20: exercicio17.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+12:48:17 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio17.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio17.d" -MT"exercicio17.o" -o "exercicio17.o" "../exercicio17.c"
+../exercicio17.c: In function ‘frac’:
+../exercicio17.c:7:13: warning: unused variable ‘resto’ [-Wunused-variable]
+    7 |         int resto;
+      |             ^~~~~
+Finished building: ../exercicio17.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio17.o   -lm
+Finished building target: ProgramasC
+ 
+12:49:48 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio17.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio17.d" -MT"exercicio17.o" -o "exercicio17.o" "../exercicio17.c"
+../exercicio17.c: In function ‘frac’:
+../exercicio17.c:7:13: warning: unused variable ‘resto’ [-Wunused-variable]
+    7 |         int resto;
+      |             ^~~~~
+Finished building: ../exercicio17.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio17.o   -lm
+Finished building target: ProgramasC
+ 
+12:50:37 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio17.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio17.d" -MT"exercicio17.o" -o "exercicio17.o" "../exercicio17.c"
+../exercicio17.c: In function ‘frac’:
+../exercicio17.c:7:13: warning: unused variable ‘resto’ [-Wunused-variable]
+    7 |         int resto;
+      |             ^~~~~
+../exercicio17.c: In function ‘main’:
+../exercicio17.c:22:17: warning: format ‘%f’ expects argument of type ‘float *’, but argument 2 has type ‘double *’ [-Wformat=]
+   22 |         scanf("%f", &num);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   double *
+      |                 float *
+      |                %lf
+Finished building: ../exercicio17.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio17.o   -lm
+Finished building target: ProgramasC
+ 
+12:51:03 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio17.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio17.d" -MT"exercicio17.o" -o "exercicio17.o" "../exercicio17.c"
+../exercicio17.c: In function ‘frac’:
+../exercicio17.c:7:13: warning: unused variable ‘resto’ [-Wunused-variable]
+    7 |         int resto;
+      |             ^~~~~
+Finished building: ../exercicio17.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio17.o   -lm
+Finished building target: ProgramasC
+ 

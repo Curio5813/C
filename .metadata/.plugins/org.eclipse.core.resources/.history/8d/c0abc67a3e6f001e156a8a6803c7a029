@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+void frac(float *num, int *inteiro, float *fracao){
+
+	int resto;
+
+	*(inteiro) = *(num) / 1;
+	resto = *(num) % 100
+	*(fracao) = resto;
+
+
+}
+
+
+int main(){
+
+	float num, fracao;
+
+	int inteiro;
+
+	printf("Digite um número real sem ser inteiro: ");
+	scanf("%f", &num);
+	printf("\n");
+
+	frac(&num, &inteiro, &fracao);
+
+	printf("A parte inteira é igual à %d e a fracionária igual à %f", inteiro, fracao);
+
+}

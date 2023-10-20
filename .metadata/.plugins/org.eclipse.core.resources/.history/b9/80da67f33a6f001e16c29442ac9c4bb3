@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+void frac(float num, int *inteiro, float *fracao){
+
+
+
+}
+
+
+int main(){
+
+	float fracao;
+
+	int inteiro;
+
+	printf("Digite um número real sem ser inteiro: ");
+	scanf("%f", &fracao);
+	printf("\n");
+
+
+}
