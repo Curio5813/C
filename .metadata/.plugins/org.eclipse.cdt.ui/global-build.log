@@ -42444,3 +42444,1732 @@ Invoking: GCC C Linker
 gcc -lm  -o "ProgramasC" ./exercicio17.o   -lm
 Finished building target: ProgramasC
  
+15:12:06 **** Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio18_test.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio18_test.d" -MT"exercicio18_test.o" -o "exercicio18_test.o" "../exercicio18_test.c"
+../exercicio18_test.c: In function ‘calc_esfera’:
+../exercicio18_test.c:9:9: error: invalid operands to binary * (have ‘double’ and ‘float *’)
+    9 |         *(area) = 4 * pi * pow(r, 2);
+      |         ^
+../exercicio18_test.c:9:28: warning: implicit declaration of function ‘pow’ [-Wimplicit-function-declaration]
+    9 |         *(area) = 4 * pi * pow(r, 2);
+      |                            ^~~
+../exercicio18_test.c:3:1: note: include ‘<math.h>’ or provide a declaration of ‘pow’
+    2 | #include <stdlib.h>
+  +++ |+#include <math.h>
+    3 | 
+../exercicio18_test.c:9:28: warning: incompatible implicit declaration of built-in function ‘pow’ [-Wbuiltin-declaration-mismatch]
+    9 |         *(area) = 4 * pi * pow(r, 2);
+      |                            ^~~
+../exercicio18_test.c:9:28: note: include ‘<math.h>’ or provide a declaration of ‘pow’
+../exercicio18_test.c:9:32: error: incompatible type for argument 1 of ‘pow’
+    9 |         *(area) = 4 * pi * pow(r, 2);
+      |                                ^
+      |                                |
+      |                                float *
+../exercicio18_test.c:9:32: note: expected ‘double’ but argument is of type ‘float *’
+../exercicio18_test.c:10:40: error: incompatible type for argument 1 of ‘pow’
+   10 |         *(volume) = (4 / 3) * pi * pow(r, 2);
+      |                                        ^
+      |                                        |
+      |                                        float *
+../exercicio18_test.c:10:40: note: expected ‘double’ but argument is of type ‘float *’
+../exercicio18_test.c: In function ‘main’:
+../exercicio18_test.c:23:9: warning: implicit declaration of function ‘cal_esfera’; did you mean ‘calc_esfera’? [-Wimplicit-function-declaration]
+   23 |         cal_esfera(&r);
+      |         ^~~~~~~~~~
+      |         calc_esfera
+make: *** [subdir.mk:20: exercicio18_test.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:12:37 **** Clean-only build of configuration Debug for project ProgramasC ****
+make clean 
+rm -rf ./exercicio18_test.o ./exercicio18_test.d  ProgramasC
+ 
+15:12:49 **** Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio18.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio18.d" -MT"exercicio18.o" -o "exercicio18.o" "../exercicio18.c"
+../exercicio18.c: In function ‘calc_esfera’:
+../exercicio18.c:9:9: error: invalid operands to binary * (have ‘double’ and ‘float *’)
+    9 |         *(area) = 4 * pi * pow(r, 2);
+      |         ^
+../exercicio18.c:9:28: warning: implicit declaration of function ‘pow’ [-Wimplicit-function-declaration]
+    9 |         *(area) = 4 * pi * pow(r, 2);
+      |                            ^~~
+../exercicio18.c:3:1: note: include ‘<math.h>’ or provide a declaration of ‘pow’
+    2 | #include <stdlib.h>
+  +++ |+#include <math.h>
+    3 | 
+../exercicio18.c:9:28: warning: incompatible implicit declaration of built-in function ‘pow’ [-Wbuiltin-declaration-mismatch]
+    9 |         *(area) = 4 * pi * pow(r, 2);
+      |                            ^~~
+../exercicio18.c:9:28: note: include ‘<math.h>’ or provide a declaration of ‘pow’
+../exercicio18.c:9:32: error: incompatible type for argument 1 of ‘pow’
+    9 |         *(area) = 4 * pi * pow(r, 2);
+      |                                ^
+      |                                |
+      |                                float *
+../exercicio18.c:9:32: note: expected ‘double’ but argument is of type ‘float *’
+../exercicio18.c:10:40: error: incompatible type for argument 1 of ‘pow’
+   10 |         *(volume) = (4 / 3) * pi * pow(r, 2);
+      |                                        ^
+      |                                        |
+      |                                        float *
+../exercicio18.c:10:40: note: expected ‘double’ but argument is of type ‘float *’
+../exercicio18.c: In function ‘main’:
+../exercicio18.c:22:9: warning: implicit declaration of function ‘cal_esfera’; did you mean ‘calc_esfera’? [-Wimplicit-function-declaration]
+   22 |         cal_esfera(&r);
+      |         ^~~~~~~~~~
+      |         calc_esfera
+make: *** [subdir.mk:20: exercicio18.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:13:50 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio18_test.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio18_test.d" -MT"exercicio18_test.o" -o "exercicio18_test.o" "../exercicio18_test.c"
+../exercicio18_test.c: In function ‘calc_esfera’:
+../exercicio18_test.c:10:9: error: invalid operands to binary * (have ‘double’ and ‘float *’)
+   10 |         *(area) = 4 * pi * pow(r, 2);
+      |         ^
+../exercicio18_test.c:10:32: error: incompatible type for argument 1 of ‘pow’
+   10 |         *(area) = 4 * pi * pow(r, 2);
+      |                                ^
+      |                                |
+      |                                float *
+In file included from ../exercicio18_test.c:3:
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:140:1: note: expected ‘double’ but argument is of type ‘float *’
+  140 | __MATHCALL_VEC (pow,, (_Mdouble_ __x, _Mdouble_ __y));
+      | ^
+../exercicio18_test.c:11:40: error: incompatible type for argument 1 of ‘pow’
+   11 |         *(volume) = (4 / 3) * pi * pow(r, 2);
+      |                                        ^
+      |                                        |
+      |                                        float *
+In file included from ../exercicio18_test.c:3:
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:140:1: note: expected ‘double’ but argument is of type ‘float *’
+  140 | __MATHCALL_VEC (pow,, (_Mdouble_ __x, _Mdouble_ __y));
+      | ^
+../exercicio18_test.c: In function ‘main’:
+../exercicio18_test.c:23:9: warning: implicit declaration of function ‘cal_esfera’; did you mean ‘calc_esfera’? [-Wimplicit-function-declaration]
+   23 |         cal_esfera(&r);
+      |         ^~~~~~~~~~
+      |         calc_esfera
+make: *** [subdir.mk:20: exercicio18_test.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:14:08 **** Clean-only build of configuration Debug for project ProgramasC ****
+make clean 
+rm -rf ./exercicio18_test.o ./exercicio18_test.d  ProgramasC
+ 
+15:14:20 **** Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio18_test.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio18_test.d" -MT"exercicio18_test.o" -o "exercicio18_test.o" "../exercicio18_test.c"
+../exercicio18_test.c: In function ‘calc_esfera’:
+../exercicio18_test.c:10:9: error: invalid operands to binary * (have ‘double’ and ‘float *’)
+   10 |         *(area) = 4 * pi * pow(r, 2);
+      |         ^
+../exercicio18_test.c:10:32: error: incompatible type for argument 1 of ‘pow’
+   10 |         *(area) = 4 * pi * pow(r, 2);
+      |                                ^
+      |                                |
+      |                                float *
+In file included from ../exercicio18_test.c:3:
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:140:1: note: expected ‘double’ but argument is of type ‘float *’
+  140 | __MATHCALL_VEC (pow,, (_Mdouble_ __x, _Mdouble_ __y));
+      | ^
+../exercicio18_test.c:11:40: error: incompatible type for argument 1 of ‘pow’
+   11 |         *(volume) = (4 / 3) * pi * pow(r, 2);
+      |                                        ^
+      |                                        |
+      |                                        float *
+In file included from ../exercicio18_test.c:3:
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:140:1: note: expected ‘double’ but argument is of type ‘float *’
+  140 | __MATHCALL_VEC (pow,, (_Mdouble_ __x, _Mdouble_ __y));
+      | ^
+../exercicio18_test.c: In function ‘main’:
+../exercicio18_test.c:23:9: warning: implicit declaration of function ‘cal_esfera’; did you mean ‘calc_esfera’? [-Wimplicit-function-declaration]
+   23 |         cal_esfera(&r);
+      |         ^~~~~~~~~~
+      |         calc_esfera
+make: *** [subdir.mk:20: exercicio18_test.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:16:30 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio18_test.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio18_test.d" -MT"exercicio18_test.o" -o "exercicio18_test.o" "../exercicio18_test.c"
+../exercicio18_test.c: In function ‘calc_esfera’:
+../exercicio18_test.c:10:9: error: invalid operands to binary * (have ‘double’ and ‘float *’)
+   10 |         *(area) = 4 * pi * pow(*(r), 2);
+      |         ^
+../exercicio18_test.c: In function ‘main’:
+../exercicio18_test.c:23:9: warning: implicit declaration of function ‘cal_esfera’; did you mean ‘calc_esfera’? [-Wimplicit-function-declaration]
+   23 |         cal_esfera(&r);
+      |         ^~~~~~~~~~
+      |         calc_esfera
+make: *** [subdir.mk:20: exercicio18_test.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:17:01 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio18_test.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio18_test.d" -MT"exercicio18_test.o" -o "exercicio18_test.o" "../exercicio18_test.c"
+../exercicio18_test.c: In function ‘calc_esfera’:
+../exercicio18_test.c:11:9: error: invalid operands to binary * (have ‘double’ and ‘float *’)
+   11 |         *(volume) = (4 / 3) * pi * pow(*(r), 2);
+      |         ^
+../exercicio18_test.c: In function ‘main’:
+../exercicio18_test.c:23:9: warning: implicit declaration of function ‘cal_esfera’; did you mean ‘calc_esfera’? [-Wimplicit-function-declaration]
+   23 |         cal_esfera(&r);
+      |         ^~~~~~~~~~
+      |         calc_esfera
+make: *** [subdir.mk:20: exercicio18_test.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:17:56 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio18_test.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio18_test.d" -MT"exercicio18_test.o" -o "exercicio18_test.o" "../exercicio18_test.c"
+../exercicio18_test.c: In function ‘calc_esfera’:
+../exercicio18_test.c:10:9: error: invalid operands to binary * (have ‘double’ and ‘float *’)
+   10 |         *(area) = 4 * pi * *(r) * *(r);
+      |         ^
+../exercicio18_test.c: In function ‘main’:
+../exercicio18_test.c:23:9: warning: implicit declaration of function ‘cal_esfera’; did you mean ‘calc_esfera’? [-Wimplicit-function-declaration]
+   23 |         cal_esfera(&r);
+      |         ^~~~~~~~~~
+      |         calc_esfera
+make: *** [subdir.mk:20: exercicio18_test.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:19:12 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio18_test.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio18_test.d" -MT"exercicio18_test.o" -o "exercicio18_test.o" "../exercicio18_test.c"
+../exercicio18_test.c: In function ‘calc_esfera’:
+../exercicio18_test.c:10:9: error: invalid operands to binary * (have ‘double’ and ‘float *’)
+   10 |         *(area) = 4 * pi * *(r) * *(r);
+      |         ^
+../exercicio18_test.c:10:28: error: invalid type argument of unary ‘*’ (have ‘float’)
+   10 |         *(area) = 4 * pi * *(r) * *(r);
+      |                            ^~~~
+../exercicio18_test.c:10:35: error: invalid type argument of unary ‘*’ (have ‘float’)
+   10 |         *(area) = 4 * pi * *(r) * *(r);
+      |                                   ^~~~
+../exercicio18_test.c:11:36: error: invalid type argument of unary ‘*’ (have ‘float’)
+   11 |         *(volume) = (4 / 3) * pi * *(r) * *(r);
+      |                                    ^~~~
+../exercicio18_test.c:11:43: error: invalid type argument of unary ‘*’ (have ‘float’)
+   11 |         *(volume) = (4 / 3) * pi * *(r) * *(r);
+      |                                           ^~~~
+../exercicio18_test.c: In function ‘main’:
+../exercicio18_test.c:23:9: warning: implicit declaration of function ‘cal_esfera’; did you mean ‘calc_esfera’? [-Wimplicit-function-declaration]
+   23 |         cal_esfera(&r, &area, &volume);
+      |         ^~~~~~~~~~
+      |         calc_esfera
+make: *** [subdir.mk:20: exercicio18_test.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:20:00 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio18_test.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio18_test.d" -MT"exercicio18_test.o" -o "exercicio18_test.o" "../exercicio18_test.c"
+../exercicio18_test.c: In function ‘calc_esfera’:
+../exercicio18_test.c:10:9: error: invalid operands to binary * (have ‘double’ and ‘float *’)
+   10 |         *(area) = 4 * pi * pow(r, 2);
+      |         ^
+../exercicio18_test.c: In function ‘main’:
+../exercicio18_test.c:23:9: warning: implicit declaration of function ‘cal_esfera’; did you mean ‘calc_esfera’? [-Wimplicit-function-declaration]
+   23 |         cal_esfera(r, &area, &volume);
+      |         ^~~~~~~~~~
+      |         calc_esfera
+make: *** [subdir.mk:20: exercicio18_test.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:21:14 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio18_test.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio18_test.d" -MT"exercicio18_test.o" -o "exercicio18_test.o" "../exercicio18_test.c"
+../exercicio18_test.c: In function ‘main’:
+../exercicio18_test.c:23:9: warning: implicit declaration of function ‘cal_esfera’; did you mean ‘calc_esfera’? [-Wimplicit-function-declaration]
+   23 |         cal_esfera(r, &area, &volume);
+      |         ^~~~~~~~~~
+      |         calc_esfera
+Finished building: ../exercicio18_test.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio18_test.o   -lm
+/usr/bin/ld: ./exercicio18_test.o: na função "main":
+/home/marcos/Computacao/C/ProgramasC/Debug/../exercicio18_test.c:23: referência não definida para "cal_esfera"
+collect2: error: ld returned 1 exit status
+make: *** [makefile:31: ProgramasC] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:21:35 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio18_test.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio18_test.d" -MT"exercicio18_test.o" -o "exercicio18_test.o" "../exercicio18_test.c"
+Finished building: ../exercicio18_test.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio18_test.o   -lm
+Finished building target: ProgramasC
+ 
+15:22:14 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio18_test.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio18_test.d" -MT"exercicio18_test.o" -o "exercicio18_test.o" "../exercicio18_test.c"
+Finished building: ../exercicio18_test.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio18_test.o   -lm
+Finished building target: ProgramasC
+ 
+15:33:41 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio19.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio19.d" -MT"exercicio19.o" -o "exercicio19.o" "../exercicio19.c"
+../exercicio19.c: In function ‘main’:
+../exercicio19.c:37:23: warning: passing argument 1 of ‘maior_inteiro’ from incompatible pointer type [-Wincompatible-pointer-types]
+   37 |         maior_inteiro(&v, &maior, &cont);
+      |                       ^~
+      |                       |
+      |                       int (*)[10]
+../exercicio19.c:5:25: note: expected ‘int *’ but argument is of type ‘int (*)[10]’
+    5 | void maior_inteiro(int *v, int *maior, int *cont){
+      |                    ~~~~~^
+Finished building: ../exercicio19.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio19.o   -lm
+Finished building target: ProgramasC
+ 
+15:34:49 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio19.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio19.d" -MT"exercicio19.o" -o "exercicio19.o" "../exercicio19.c"
+../exercicio19.c: In function ‘main’:
+../exercicio19.c:37:23: warning: passing argument 1 of ‘maior_inteiro’ from incompatible pointer type [-Wincompatible-pointer-types]
+   37 |         maior_inteiro(&v, &maior, &cont);
+      |                       ^~
+      |                       |
+      |                       int (*)[10]
+../exercicio19.c:5:25: note: expected ‘int *’ but argument is of type ‘int (*)[10]’
+    5 | void maior_inteiro(int *v, int *maior, int *cont){
+      |                    ~~~~~^
+../exercicio19.c:40:68: error: invalid type argument of unary ‘*’ (have ‘int’)
+   40 |         printf("O maior número do array é %d e apareceu %d vezes", *(maior), *(cont));
+      |                                                                    ^~~~~~~~
+../exercicio19.c:40:78: error: invalid type argument of unary ‘*’ (have ‘int’)
+   40 |         printf("O maior número do array é %d e apareceu %d vezes", *(maior), *(cont));
+      |                                                                              ^~~~~~~
+make: *** [subdir.mk:20: exercicio19.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:35:38 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio19.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio19.d" -MT"exercicio19.o" -o "exercicio19.o" "../exercicio19.c"
+../exercicio19.c: In function ‘main’:
+../exercicio19.c:37:23: warning: passing argument 1 of ‘maior_inteiro’ from incompatible pointer type [-Wincompatible-pointer-types]
+   37 |         maior_inteiro(&v, &maior, &cont);
+      |                       ^~
+      |                       |
+      |                       int (*)[10]
+../exercicio19.c:5:25: note: expected ‘int *’ but argument is of type ‘int (*)[10]’
+    5 | void maior_inteiro(int *v, int *maior, int *cont){
+      |                    ~~~~~^
+Finished building: ../exercicio19.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio19.o   -lm
+Finished building target: ProgramasC
+ 
+15:44:03 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio20.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio20.d" -MT"exercicio20.o" -o "exercicio20.o" "../exercicio20.c"
+../exercicio20.c: In function ‘main’:
+../exercicio20.c:30:25: warning: format ‘%f’ expects argument of type ‘float *’, but argument 2 has type ‘double’ [-Wformat=]
+   30 |                 scanf("%f", vet[i]);
+      |                        ~^   ~~~~~~
+      |                         |      |
+      |                         |      double
+      |                         float *
+../exercicio20.c:34:19: warning: passing argument 1 of ‘negativos’ from incompatible pointer type [-Wincompatible-pointer-types]
+   34 |         negativos(&vet, &n);
+      |                   ^~~~
+      |                   |
+      |                   float (*)[10]
+../exercicio20.c:5:22: note: expected ‘float *’ but argument is of type ‘float (*)[10]’
+    5 | int negativos(float *vet, int n){
+      |               ~~~~~~~^~~
+../exercicio20.c:34:25: warning: passing argument 2 of ‘negativos’ makes integer from pointer without a cast [-Wint-conversion]
+   34 |         negativos(&vet, &n);
+      |                         ^~
+      |                         |
+      |                         int *
+../exercicio20.c:5:31: note: expected ‘int’ but argument is of type ‘int *’
+    5 | int negativos(float *vet, int n){
+      |                           ~~~~^
+../exercicio20.c: In function ‘negativos’:
+../exercicio20.c:17:1: warning: control reaches end of non-void function [-Wreturn-type]
+   17 | }
+      | ^
+Finished building: ../exercicio20.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio20.o   -lm
+Finished building target: ProgramasC
+ 
+15:44:18 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio20.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio20.d" -MT"exercicio20.o" -o "exercicio20.o" "../exercicio20.c"
+../exercicio20.c: In function ‘main’:
+../exercicio20.c:34:19: warning: passing argument 1 of ‘negativos’ from incompatible pointer type [-Wincompatible-pointer-types]
+   34 |         negativos(&vet, &n);
+      |                   ^~~~
+      |                   |
+      |                   float (*)[10]
+../exercicio20.c:5:22: note: expected ‘float *’ but argument is of type ‘float (*)[10]’
+    5 | int negativos(float *vet, int n){
+      |               ~~~~~~~^~~
+../exercicio20.c:34:25: warning: passing argument 2 of ‘negativos’ makes integer from pointer without a cast [-Wint-conversion]
+   34 |         negativos(&vet, &n);
+      |                         ^~
+      |                         |
+      |                         int *
+../exercicio20.c:5:31: note: expected ‘int’ but argument is of type ‘int *’
+    5 | int negativos(float *vet, int n){
+      |                           ~~~~^
+../exercicio20.c: In function ‘negativos’:
+../exercicio20.c:17:1: warning: control reaches end of non-void function [-Wreturn-type]
+   17 | }
+      | ^
+Finished building: ../exercicio20.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio20.o   -lm
+Finished building target: ProgramasC
+ 
+15:46:29 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio20.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio20.d" -MT"exercicio20.o" -o "exercicio20.o" "../exercicio20.c"
+../exercicio20.c: In function ‘main’:
+../exercicio20.c:34:19: warning: passing argument 1 of ‘negativos’ from incompatible pointer type [-Wincompatible-pointer-types]
+   34 |         negativos(&vet, &n);
+      |                   ^~~~
+      |                   |
+      |                   float (*)[10]
+../exercicio20.c:5:22: note: expected ‘float *’ but argument is of type ‘float (*)[10]’
+    5 | int negativos(float *vet, int *n){
+      |               ~~~~~~~^~~
+../exercicio20.c: In function ‘negativos’:
+../exercicio20.c:17:1: warning: control reaches end of non-void function [-Wreturn-type]
+   17 | }
+      | ^
+Finished building: ../exercicio20.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio20.o   -lm
+Finished building target: ProgramasC
+ 
+15:48:02 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio20.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio20.d" -MT"exercicio20.o" -o "exercicio20.o" "../exercicio20.c"
+../exercicio20.c: In function ‘main’:
+../exercicio20.c:34:19: warning: passing argument 1 of ‘negativos’ from incompatible pointer type [-Wincompatible-pointer-types]
+   34 |         negativos(&vet, &n);
+      |                   ^~~~
+      |                   |
+      |                   float (*)[10]
+../exercicio20.c:5:22: note: expected ‘float *’ but argument is of type ‘float (*)[10]’
+    5 | int negativos(float *vet, int *n){
+      |               ~~~~~~~^~~
+../exercicio20.c: In function ‘negativos’:
+../exercicio20.c:17:1: warning: control reaches end of non-void function [-Wreturn-type]
+   17 | }
+      | ^
+Finished building: ../exercicio20.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio20.o   -lm
+Finished building target: ProgramasC
+ 
+15:56:21 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio21.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio21.d" -MT"exercicio21.o" -o "exercicio21.o" "../exercicio21.c"
+../exercicio21.c:5:22: error: expected declaration specifiers or ‘...’ before ‘*’ token
+    5 | int contador(int *v, *cont){
+      |                      ^
+../exercicio21.c: In function ‘main’:
+../exercicio21.c:28:9: warning: implicit declaration of function ‘contador’ [-Wimplicit-function-declaration]
+   28 |         contador(&v, &cont);
+      |         ^~~~~~~~
+make: *** [subdir.mk:20: exercicio21.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:56:35 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio21.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio21.d" -MT"exercicio21.o" -o "exercicio21.o" "../exercicio21.c"
+../exercicio21.c: In function ‘main’:
+../exercicio21.c:28:18: warning: passing argument 1 of ‘contador’ from incompatible pointer type [-Wincompatible-pointer-types]
+   28 |         contador(&v, &cont);
+      |                  ^~
+      |                  |
+      |                  int (*)[10]
+../exercicio21.c:5:19: note: expected ‘int *’ but argument is of type ‘int (*)[10]’
+    5 | int contador(int *v, int *cont){
+      |              ~~~~~^
+../exercicio21.c: In function ‘contador’:
+../exercicio21.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+   13 | }
+      | ^
+Finished building: ../exercicio21.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio21.o   -lm
+Finished building target: ProgramasC
+ 
+15:57:19 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio21.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio21.d" -MT"exercicio21.o" -o "exercicio21.o" "../exercicio21.c"
+../exercicio21.c: In function ‘main’:
+../exercicio21.c:28:18: warning: passing argument 1 of ‘contador’ from incompatible pointer type [-Wincompatible-pointer-types]
+   28 |         contador(&v, &cont);
+      |                  ^~
+      |                  |
+      |                  int (*)[10]
+../exercicio21.c:5:19: note: expected ‘int *’ but argument is of type ‘int (*)[10]’
+    5 | int contador(int *v, int *cont){
+      |              ~~~~~^
+../exercicio21.c: In function ‘contador’:
+../exercicio21.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+   13 | }
+      | ^
+Finished building: ../exercicio21.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio21.o   -lm
+Finished building target: ProgramasC
+ 
+16:14:19 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio22.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio22.d" -MT"exercicio22.o" -o "exercicio22.o" "../exercicio22.c"
+../exercicio22.c: In function ‘somando_arrays’:
+../exercicio22.c:7:13: error: array size missing in ‘v3’
+    7 |         int v3[];
+      |             ^~
+../exercicio22.c:11:34: warning: comparison between pointer and integer
+   11 |                 for(int i = 0; i < tam1; i++){
+      |                                  ^
+../exercicio22.c:16:32: warning: passing argument 1 of ‘printf’ makes pointer from integer without a cast [-Wint-conversion]
+   16 |                 }return printf(1);
+      |                                ^
+      |                                |
+      |                                int
+In file included from ../exercicio22.c:1:
+/usr/include/stdio.h:356:43: note: expected ‘const char * restrict’ but argument is of type ‘int’
+  356 | extern int printf (const char *__restrict __format, ...);
+      |                    ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+../exercicio22.c:16:17: warning: format not a string literal and no format arguments [-Wformat-security]
+   16 |                 }return printf(1);
+      |                 ^
+../exercicio22.c:20:24: warning: argument 1 null where non-null expected [-Wnonnull]
+   20 |                 return printf(0);
+      |                        ^~~~~~
+In file included from ../exercicio22.c:1:
+/usr/include/stdio.h:356:12: note: in a call to function ‘printf’ declared ‘nonnull’
+  356 | extern int printf (const char *__restrict __format, ...);
+      |            ^~~~~~
+../exercicio22.c: In function ‘main’:
+../exercicio22.c:30:13: error: array size missing in ‘v1’
+   30 |         int v1[], v2[], tam1, tam2;
+      |             ^~
+../exercicio22.c:30:19: error: array size missing in ‘v2’
+   30 |         int v1[], v2[], tam1, tam2;
+      |                   ^~
+../exercicio22.c:49:24: warning: passing argument 1 of ‘somando_arrays’ from incompatible pointer type [-Wincompatible-pointer-types]
+   49 |         somando_arrays(&v1, &v2, &tam1, &tam2);
+      |                        ^~~
+      |                        |
+      |                        int (*)[1]
+../exercicio22.c:5:25: note: expected ‘int *’ but argument is of type ‘int (*)[1]’
+    5 | int somando_arrays(int *v1, int *v2, int *tam1, int *tam2){
+      |                    ~~~~~^~
+../exercicio22.c:49:29: warning: passing argument 2 of ‘somando_arrays’ from incompatible pointer type [-Wincompatible-pointer-types]
+   49 |         somando_arrays(&v1, &v2, &tam1, &tam2);
+      |                             ^~~
+      |                             |
+      |                             int (*)[1]
+../exercicio22.c:5:34: note: expected ‘int *’ but argument is of type ‘int (*)[1]’
+    5 | int somando_arrays(int *v1, int *v2, int *tam1, int *tam2){
+      |                             ~~~~~^~
+../exercicio22.c: In function ‘somando_arrays’:
+../exercicio22.c:20:24: warning: null format string [-Wformat-overflow=]
+   20 |                 return printf(0);
+      |                        ^~~~~~~~~
+make: *** [subdir.mk:20: exercicio22.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:14:42 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio22.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio22.d" -MT"exercicio22.o" -o "exercicio22.o" "../exercicio22.c"
+../exercicio22.c: In function ‘somando_arrays’:
+../exercicio22.c:11:34: warning: comparison between pointer and integer
+   11 |                 for(int i = 0; i < tam1; i++){
+      |                                  ^
+../exercicio22.c:16:32: warning: passing argument 1 of ‘printf’ makes pointer from integer without a cast [-Wint-conversion]
+   16 |                 }return printf(1);
+      |                                ^
+      |                                |
+      |                                int
+In file included from ../exercicio22.c:1:
+/usr/include/stdio.h:356:43: note: expected ‘const char * restrict’ but argument is of type ‘int’
+  356 | extern int printf (const char *__restrict __format, ...);
+      |                    ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+../exercicio22.c:16:17: warning: format not a string literal and no format arguments [-Wformat-security]
+   16 |                 }return printf(1);
+      |                 ^
+../exercicio22.c:20:24: warning: argument 1 null where non-null expected [-Wnonnull]
+   20 |                 return printf(0);
+      |                        ^~~~~~
+In file included from ../exercicio22.c:1:
+/usr/include/stdio.h:356:12: note: in a call to function ‘printf’ declared ‘nonnull’
+  356 | extern int printf (const char *__restrict __format, ...);
+      |            ^~~~~~
+../exercicio22.c: In function ‘main’:
+../exercicio22.c:30:13: error: array size missing in ‘v1’
+   30 |         int v1[], v2[], tam1, tam2;
+      |             ^~
+../exercicio22.c:30:19: error: array size missing in ‘v2’
+   30 |         int v1[], v2[], tam1, tam2;
+      |                   ^~
+../exercicio22.c:49:24: warning: passing argument 1 of ‘somando_arrays’ from incompatible pointer type [-Wincompatible-pointer-types]
+   49 |         somando_arrays(&v1, &v2, &tam1, &tam2);
+      |                        ^~~
+      |                        |
+      |                        int (*)[1]
+../exercicio22.c:5:25: note: expected ‘int *’ but argument is of type ‘int (*)[1]’
+    5 | int somando_arrays(int *v1, int *v2, int *tam1, int *tam2){
+      |                    ~~~~~^~
+../exercicio22.c:49:29: warning: passing argument 2 of ‘somando_arrays’ from incompatible pointer type [-Wincompatible-pointer-types]
+   49 |         somando_arrays(&v1, &v2, &tam1, &tam2);
+      |                             ^~~
+      |                             |
+      |                             int (*)[1]
+../exercicio22.c:5:34: note: expected ‘int *’ but argument is of type ‘int (*)[1]’
+    5 | int somando_arrays(int *v1, int *v2, int *tam1, int *tam2){
+      |                             ~~~~~^~
+../exercicio22.c: In function ‘somando_arrays’:
+../exercicio22.c:20:24: warning: null format string [-Wformat-overflow=]
+   20 |                 return printf(0);
+      |                        ^~~~~~~~~
+make: *** [subdir.mk:20: exercicio22.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:15:53 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio22.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio22.d" -MT"exercicio22.o" -o "exercicio22.o" "../exercicio22.c"
+../exercicio22.c: In function ‘somando_arrays’:
+../exercicio22.c:11:34: warning: comparison between pointer and integer
+   11 |                 for(int i = 0; i < tam1; i++){
+      |                                  ^
+../exercicio22.c:16:32: warning: passing argument 1 of ‘printf’ makes pointer from integer without a cast [-Wint-conversion]
+   16 |                 }return printf(1);
+      |                                ^
+      |                                |
+      |                                int
+In file included from ../exercicio22.c:1:
+/usr/include/stdio.h:356:43: note: expected ‘const char * restrict’ but argument is of type ‘int’
+  356 | extern int printf (const char *__restrict __format, ...);
+      |                    ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+../exercicio22.c:16:17: warning: format not a string literal and no format arguments [-Wformat-security]
+   16 |                 }return printf(1);
+      |                 ^
+../exercicio22.c:20:24: warning: argument 1 null where non-null expected [-Wnonnull]
+   20 |                 return printf(0);
+      |                        ^~~~~~
+In file included from ../exercicio22.c:1:
+/usr/include/stdio.h:356:12: note: in a call to function ‘printf’ declared ‘nonnull’
+  356 | extern int printf (const char *__restrict __format, ...);
+      |            ^~~~~~
+../exercicio22.c: In function ‘main’:
+../exercicio22.c:49:24: warning: passing argument 1 of ‘somando_arrays’ from incompatible pointer type [-Wincompatible-pointer-types]
+   49 |         somando_arrays(&v1, &v2, &tam1, &tam2);
+      |                        ^~~
+      |                        |
+      |                        int (*)[10]
+../exercicio22.c:5:25: note: expected ‘int *’ but argument is of type ‘int (*)[10]’
+    5 | int somando_arrays(int *v1, int *v2, int *tam1, int *tam2){
+      |                    ~~~~~^~
+../exercicio22.c:49:29: warning: passing argument 2 of ‘somando_arrays’ from incompatible pointer type [-Wincompatible-pointer-types]
+   49 |         somando_arrays(&v1, &v2, &tam1, &tam2);
+      |                             ^~~
+      |                             |
+      |                             int (*)[10]
+../exercicio22.c:5:34: note: expected ‘int *’ but argument is of type ‘int (*)[10]’
+    5 | int somando_arrays(int *v1, int *v2, int *tam1, int *tam2){
+      |                             ~~~~~^~
+../exercicio22.c: In function ‘somando_arrays’:
+../exercicio22.c:20:24: warning: null format string [-Wformat-overflow=]
+   20 |                 return printf(0);
+      |                        ^~~~~~~~~
+Finished building: ../exercicio22.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio22.o   -lm
+Finished building target: ProgramasC
+ 
+16:18:38 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio22.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio22.d" -MT"exercicio22.o" -o "exercicio22.o" "../exercicio22.c"
+../exercicio22.c: In function ‘somando_arrays’:
+../exercicio22.c:11:34: warning: comparison between pointer and integer
+   11 |                 for(int i = 0; i < tam1; i++){
+      |                                  ^
+../exercicio22.c:16:32: warning: passing argument 1 of ‘printf’ makes pointer from integer without a cast [-Wint-conversion]
+   16 |                 }return printf(1);
+      |                                ^
+      |                                |
+      |                                int
+In file included from ../exercicio22.c:1:
+/usr/include/stdio.h:356:43: note: expected ‘const char * restrict’ but argument is of type ‘int’
+  356 | extern int printf (const char *__restrict __format, ...);
+      |                    ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+../exercicio22.c:16:17: warning: format not a string literal and no format arguments [-Wformat-security]
+   16 |                 }return printf(1);
+      |                 ^
+../exercicio22.c:20:24: warning: argument 1 null where non-null expected [-Wnonnull]
+   20 |                 return printf(0);
+      |                        ^~~~~~
+In file included from ../exercicio22.c:1:
+/usr/include/stdio.h:356:12: note: in a call to function ‘printf’ declared ‘nonnull’
+  356 | extern int printf (const char *__restrict __format, ...);
+      |            ^~~~~~
+../exercicio22.c: In function ‘main’:
+../exercicio22.c:55:9: warning: implicit declaration of function ‘pritnf’; did you mean ‘printf’? [-Wimplicit-function-declaration]
+   55 |         pritnf("%d\n", tam1);
+      |         ^~~~~~
+      |         printf
+../exercicio22.c:59:24: warning: passing argument 1 of ‘somando_arrays’ from incompatible pointer type [-Wincompatible-pointer-types]
+   59 |         somando_arrays(&v1, &v2, &tam1, &tam2);
+      |                        ^~~
+      |                        |
+      |                        int (*)[10]
+../exercicio22.c:5:25: note: expected ‘int *’ but argument is of type ‘int (*)[10]’
+    5 | int somando_arrays(int *v1, int *v2, int *tam1, int *tam2){
+      |                    ~~~~~^~
+../exercicio22.c:59:29: warning: passing argument 2 of ‘somando_arrays’ from incompatible pointer type [-Wincompatible-pointer-types]
+   59 |         somando_arrays(&v1, &v2, &tam1, &tam2);
+      |                             ^~~
+      |                             |
+      |                             int (*)[10]
+../exercicio22.c:5:34: note: expected ‘int *’ but argument is of type ‘int (*)[10]’
+    5 | int somando_arrays(int *v1, int *v2, int *tam1, int *tam2){
+      |                             ~~~~~^~
+../exercicio22.c: In function ‘somando_arrays’:
+../exercicio22.c:20:24: warning: null format string [-Wformat-overflow=]
+   20 |                 return printf(0);
+      |                        ^~~~~~~~~
+Finished building: ../exercicio22.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio22.o   -lm
+/usr/bin/ld: ./exercicio22.o: na função "main":
+/home/marcos/Computacao/C/ProgramasC/Debug/../exercicio22.c:55: referência não definida para "pritnf"
+/usr/bin/ld: /home/marcos/Computacao/C/ProgramasC/Debug/../exercicio22.c:57: referência não definida para "pritnf"
+collect2: error: ld returned 1 exit status
+make: *** [makefile:31: ProgramasC] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:19:05 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio22.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio22.d" -MT"exercicio22.o" -o "exercicio22.o" "../exercicio22.c"
+../exercicio22.c: In function ‘somando_arrays’:
+../exercicio22.c:11:34: warning: comparison between pointer and integer
+   11 |                 for(int i = 0; i < tam1; i++){
+      |                                  ^
+../exercicio22.c:16:32: warning: passing argument 1 of ‘printf’ makes pointer from integer without a cast [-Wint-conversion]
+   16 |                 }return printf(1);
+      |                                ^
+      |                                |
+      |                                int
+In file included from ../exercicio22.c:1:
+/usr/include/stdio.h:356:43: note: expected ‘const char * restrict’ but argument is of type ‘int’
+  356 | extern int printf (const char *__restrict __format, ...);
+      |                    ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+../exercicio22.c:16:17: warning: format not a string literal and no format arguments [-Wformat-security]
+   16 |                 }return printf(1);
+      |                 ^
+../exercicio22.c:20:24: warning: argument 1 null where non-null expected [-Wnonnull]
+   20 |                 return printf(0);
+      |                        ^~~~~~
+In file included from ../exercicio22.c:1:
+/usr/include/stdio.h:356:12: note: in a call to function ‘printf’ declared ‘nonnull’
+  356 | extern int printf (const char *__restrict __format, ...);
+      |            ^~~~~~
+../exercicio22.c: In function ‘main’:
+../exercicio22.c:59:24: warning: passing argument 1 of ‘somando_arrays’ from incompatible pointer type [-Wincompatible-pointer-types]
+   59 |         somando_arrays(&v1, &v2, &tam1, &tam2);
+      |                        ^~~
+      |                        |
+      |                        int (*)[10]
+../exercicio22.c:5:25: note: expected ‘int *’ but argument is of type ‘int (*)[10]’
+    5 | int somando_arrays(int *v1, int *v2, int *tam1, int *tam2){
+      |                    ~~~~~^~
+../exercicio22.c:59:29: warning: passing argument 2 of ‘somando_arrays’ from incompatible pointer type [-Wincompatible-pointer-types]
+   59 |         somando_arrays(&v1, &v2, &tam1, &tam2);
+      |                             ^~~
+      |                             |
+      |                             int (*)[10]
+../exercicio22.c:5:34: note: expected ‘int *’ but argument is of type ‘int (*)[10]’
+    5 | int somando_arrays(int *v1, int *v2, int *tam1, int *tam2){
+      |                             ~~~~~^~
+../exercicio22.c: In function ‘somando_arrays’:
+../exercicio22.c:20:24: warning: null format string [-Wformat-overflow=]
+   20 |                 return printf(0);
+      |                        ^~~~~~~~~
+Finished building: ../exercicio22.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio22.o   -lm
+Finished building target: ProgramasC
+ 
+16:20:27 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio22.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio22.d" -MT"exercicio22.o" -o "exercicio22.o" "../exercicio22.c"
+../exercicio22.c: In function ‘somando_arrays’:
+../exercicio22.c:11:34: warning: comparison between pointer and integer
+   11 |                 for(int i = 0; i < tam1; i++){
+      |                                  ^
+../exercicio22.c:16:32: warning: passing argument 1 of ‘printf’ makes pointer from integer without a cast [-Wint-conversion]
+   16 |                 }return printf(1);
+      |                                ^
+      |                                |
+      |                                int
+In file included from ../exercicio22.c:1:
+/usr/include/stdio.h:356:43: note: expected ‘const char * restrict’ but argument is of type ‘int’
+  356 | extern int printf (const char *__restrict __format, ...);
+      |                    ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+../exercicio22.c:16:17: warning: format not a string literal and no format arguments [-Wformat-security]
+   16 |                 }return printf(1);
+      |                 ^
+../exercicio22.c:20:24: warning: argument 1 null where non-null expected [-Wnonnull]
+   20 |                 return printf(0);
+      |                        ^~~~~~
+In file included from ../exercicio22.c:1:
+/usr/include/stdio.h:356:12: note: in a call to function ‘printf’ declared ‘nonnull’
+  356 | extern int printf (const char *__restrict __format, ...);
+      |            ^~~~~~
+../exercicio22.c: In function ‘main’:
+../exercicio22.c:61:24: warning: passing argument 1 of ‘somando_arrays’ from incompatible pointer type [-Wincompatible-pointer-types]
+   61 |         somando_arrays(&v1, &v2, &tam1, &tam2);
+      |                        ^~~
+      |                        |
+      |                        int (*)[10]
+../exercicio22.c:5:25: note: expected ‘int *’ but argument is of type ‘int (*)[10]’
+    5 | int somando_arrays(int *v1, int *v2, int *tam1, int *tam2){
+      |                    ~~~~~^~
+../exercicio22.c:61:29: warning: passing argument 2 of ‘somando_arrays’ from incompatible pointer type [-Wincompatible-pointer-types]
+   61 |         somando_arrays(&v1, &v2, &tam1, &tam2);
+      |                             ^~~
+      |                             |
+      |                             int (*)[10]
+../exercicio22.c:5:34: note: expected ‘int *’ but argument is of type ‘int (*)[10]’
+    5 | int somando_arrays(int *v1, int *v2, int *tam1, int *tam2){
+      |                             ~~~~~^~
+../exercicio22.c: In function ‘somando_arrays’:
+../exercicio22.c:20:24: warning: null format string [-Wformat-overflow=]
+   20 |                 return printf(0);
+      |                        ^~~~~~~~~
+Finished building: ../exercicio22.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio22.o   -lm
+Finished building target: ProgramasC
+ 
+16:21:23 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio22.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio22.d" -MT"exercicio22.o" -o "exercicio22.o" "../exercicio22.c"
+../exercicio22.c: In function ‘somando_arrays’:
+../exercicio22.c:11:34: warning: comparison between pointer and integer
+   11 |                 for(int i = 0; i < tam1; i++){
+      |                                  ^
+../exercicio22.c:16:32: warning: passing argument 1 of ‘printf’ makes pointer from integer without a cast [-Wint-conversion]
+   16 |                 }return printf(1);
+      |                                ^
+      |                                |
+      |                                int
+In file included from ../exercicio22.c:1:
+/usr/include/stdio.h:356:43: note: expected ‘const char * restrict’ but argument is of type ‘int’
+  356 | extern int printf (const char *__restrict __format, ...);
+      |                    ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+../exercicio22.c:16:17: warning: format not a string literal and no format arguments [-Wformat-security]
+   16 |                 }return printf(1);
+      |                 ^
+../exercicio22.c:20:24: warning: argument 1 null where non-null expected [-Wnonnull]
+   20 |                 return printf(0);
+      |                        ^~~~~~
+In file included from ../exercicio22.c:1:
+/usr/include/stdio.h:356:12: note: in a call to function ‘printf’ declared ‘nonnull’
+  356 | extern int printf (const char *__restrict __format, ...);
+      |            ^~~~~~
+../exercicio22.c: In function ‘main’:
+../exercicio22.c:61:24: warning: passing argument 1 of ‘somando_arrays’ from incompatible pointer type [-Wincompatible-pointer-types]
+   61 |         somando_arrays(&v1, &v2, &tam1, &tam2);
+      |                        ^~~
+      |                        |
+      |                        int (*)[10]
+../exercicio22.c:5:25: note: expected ‘int *’ but argument is of type ‘int (*)[10]’
+    5 | int somando_arrays(int *v1, int *v2, int *tam1, int *tam2){
+      |                    ~~~~~^~
+../exercicio22.c:61:29: warning: passing argument 2 of ‘somando_arrays’ from incompatible pointer type [-Wincompatible-pointer-types]
+   61 |         somando_arrays(&v1, &v2, &tam1, &tam2);
+      |                             ^~~
+      |                             |
+      |                             int (*)[10]
+../exercicio22.c:5:34: note: expected ‘int *’ but argument is of type ‘int (*)[10]’
+    5 | int somando_arrays(int *v1, int *v2, int *tam1, int *tam2){
+      |                             ~~~~~^~
+../exercicio22.c: In function ‘somando_arrays’:
+../exercicio22.c:20:24: warning: null format string [-Wformat-overflow=]
+   20 |                 return printf(0);
+      |                        ^~~~~~~~~
+Finished building: ../exercicio22.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio22.o   -lm
+Finished building target: ProgramasC
+ 
+16:28:55 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio22.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio22.d" -MT"exercicio22.o" -o "exercicio22.o" "../exercicio22.c"
+../exercicio22.c: In function ‘somando_arrays’:
+../exercicio22.c:11:34: warning: comparison between pointer and integer
+   11 |                 for(int i = 0; i < tam1; i++){
+      |                                  ^
+../exercicio22.c:16:32: warning: passing argument 1 of ‘printf’ makes pointer from integer without a cast [-Wint-conversion]
+   16 |                 }return printf(1);
+      |                                ^
+      |                                |
+      |                                int
+In file included from ../exercicio22.c:1:
+/usr/include/stdio.h:356:43: note: expected ‘const char * restrict’ but argument is of type ‘int’
+  356 | extern int printf (const char *__restrict __format, ...);
+      |                    ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+../exercicio22.c:16:17: warning: format not a string literal and no format arguments [-Wformat-security]
+   16 |                 }return printf(1);
+      |                 ^
+../exercicio22.c:20:24: warning: argument 1 null where non-null expected [-Wnonnull]
+   20 |                 return printf(0);
+      |                        ^~~~~~
+In file included from ../exercicio22.c:1:
+/usr/include/stdio.h:356:12: note: in a call to function ‘printf’ declared ‘nonnull’
+  356 | extern int printf (const char *__restrict __format, ...);
+      |            ^~~~~~
+../exercicio22.c: In function ‘main’:
+../exercicio22.c:57:24: warning: passing argument 1 of ‘somando_arrays’ from incompatible pointer type [-Wincompatible-pointer-types]
+   57 |         somando_arrays(&v1, &v2, &tam1, &tam2);
+      |                        ^~~
+      |                        |
+      |                        int (*)[10]
+../exercicio22.c:5:25: note: expected ‘int *’ but argument is of type ‘int (*)[10]’
+    5 | int somando_arrays(int *v1, int *v2, int *tam1, int *tam2){
+      |                    ~~~~~^~
+../exercicio22.c:57:29: warning: passing argument 2 of ‘somando_arrays’ from incompatible pointer type [-Wincompatible-pointer-types]
+   57 |         somando_arrays(&v1, &v2, &tam1, &tam2);
+      |                             ^~~
+      |                             |
+      |                             int (*)[10]
+../exercicio22.c:5:34: note: expected ‘int *’ but argument is of type ‘int (*)[10]’
+    5 | int somando_arrays(int *v1, int *v2, int *tam1, int *tam2){
+      |                             ~~~~~^~
+../exercicio22.c: In function ‘somando_arrays’:
+../exercicio22.c:20:24: warning: null format string [-Wformat-overflow=]
+   20 |                 return printf(0);
+      |                        ^~~~~~~~~
+Finished building: ../exercicio22.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio22.o   -lm
+Finished building target: ProgramasC
+ 
+16:31:09 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio22.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio22.d" -MT"exercicio22.o" -o "exercicio22.o" "../exercicio22.c"
+../exercicio22.c: In function ‘somando_arrays’:
+../exercicio22.c:11:34: warning: comparison between pointer and integer
+   11 |                 for(int i = 0; i < tam1; i++){
+      |                                  ^
+../exercicio22.c:16:32: warning: passing argument 1 of ‘printf’ makes pointer from integer without a cast [-Wint-conversion]
+   16 |                 }return printf(1);
+      |                                ^
+      |                                |
+      |                                int
+In file included from ../exercicio22.c:1:
+/usr/include/stdio.h:356:43: note: expected ‘const char * restrict’ but argument is of type ‘int’
+  356 | extern int printf (const char *__restrict __format, ...);
+      |                    ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+../exercicio22.c:16:17: warning: format not a string literal and no format arguments [-Wformat-security]
+   16 |                 }return printf(1);
+      |                 ^
+../exercicio22.c:20:24: warning: argument 1 null where non-null expected [-Wnonnull]
+   20 |                 return printf(0);
+      |                        ^~~~~~
+In file included from ../exercicio22.c:1:
+/usr/include/stdio.h:356:12: note: in a call to function ‘printf’ declared ‘nonnull’
+  356 | extern int printf (const char *__restrict __format, ...);
+      |            ^~~~~~
+../exercicio22.c: In function ‘main’:
+../exercicio22.c:30:13: error: array size missing in ‘v1’
+   30 |         int v1[], v2[], tam1, tam2;
+      |             ^~
+../exercicio22.c:30:19: error: array size missing in ‘v2’
+   30 |         int v1[], v2[], tam1, tam2;
+      |                   ^~
+../exercicio22.c:57:24: warning: passing argument 1 of ‘somando_arrays’ from incompatible pointer type [-Wincompatible-pointer-types]
+   57 |         somando_arrays(&v1, &v2, &tam1, &tam2);
+      |                        ^~~
+      |                        |
+      |                        int (*)[1]
+../exercicio22.c:5:25: note: expected ‘int *’ but argument is of type ‘int (*)[1]’
+    5 | int somando_arrays(int *v1, int *v2, int *tam1, int *tam2){
+      |                    ~~~~~^~
+../exercicio22.c:57:29: warning: passing argument 2 of ‘somando_arrays’ from incompatible pointer type [-Wincompatible-pointer-types]
+   57 |         somando_arrays(&v1, &v2, &tam1, &tam2);
+      |                             ^~~
+      |                             |
+      |                             int (*)[1]
+../exercicio22.c:5:34: note: expected ‘int *’ but argument is of type ‘int (*)[1]’
+    5 | int somando_arrays(int *v1, int *v2, int *tam1, int *tam2){
+      |                             ~~~~~^~
+../exercicio22.c: In function ‘somando_arrays’:
+../exercicio22.c:20:24: warning: null format string [-Wformat-overflow=]
+   20 |                 return printf(0);
+      |                        ^~~~~~~~~
+make: *** [subdir.mk:20: exercicio22.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:32:23 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio22.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio22.d" -MT"exercicio22.o" -o "exercicio22.o" "../exercicio22.c"
+../exercicio22.c: In function ‘somando_arrays’:
+../exercicio22.c:16:32: warning: passing argument 1 of ‘printf’ makes pointer from integer without a cast [-Wint-conversion]
+   16 |                 }return printf(1);
+      |                                ^
+      |                                |
+      |                                int
+In file included from ../exercicio22.c:1:
+/usr/include/stdio.h:356:43: note: expected ‘const char * restrict’ but argument is of type ‘int’
+  356 | extern int printf (const char *__restrict __format, ...);
+      |                    ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+../exercicio22.c:16:17: warning: format not a string literal and no format arguments [-Wformat-security]
+   16 |                 }return printf(1);
+      |                 ^
+../exercicio22.c:20:24: warning: argument 1 null where non-null expected [-Wnonnull]
+   20 |                 return printf(0);
+      |                        ^~~~~~
+In file included from ../exercicio22.c:1:
+/usr/include/stdio.h:356:12: note: in a call to function ‘printf’ declared ‘nonnull’
+  356 | extern int printf (const char *__restrict __format, ...);
+      |            ^~~~~~
+../exercicio22.c: In function ‘main’:
+../exercicio22.c:57:24: warning: passing argument 1 of ‘somando_arrays’ from incompatible pointer type [-Wincompatible-pointer-types]
+   57 |         somando_arrays(&v1, &v2, &tam1, &tam2);
+      |                        ^~~
+      |                        |
+      |                        int (*)[10]
+../exercicio22.c:5:25: note: expected ‘int *’ but argument is of type ‘int (*)[10]’
+    5 | int somando_arrays(int *v1, int *v2, int *tam1, int *tam2){
+      |                    ~~~~~^~
+../exercicio22.c:57:29: warning: passing argument 2 of ‘somando_arrays’ from incompatible pointer type [-Wincompatible-pointer-types]
+   57 |         somando_arrays(&v1, &v2, &tam1, &tam2);
+      |                             ^~~
+      |                             |
+      |                             int (*)[10]
+../exercicio22.c:5:34: note: expected ‘int *’ but argument is of type ‘int (*)[10]’
+    5 | int somando_arrays(int *v1, int *v2, int *tam1, int *tam2){
+      |                             ~~~~~^~
+../exercicio22.c: In function ‘somando_arrays’:
+../exercicio22.c:20:24: warning: null format string [-Wformat-overflow=]
+   20 |                 return printf(0);
+      |                        ^~~~~~~~~
+Finished building: ../exercicio22.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio22.o   -lm
+Finished building target: ProgramasC
+ 
+16:34:00 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio22.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio22.d" -MT"exercicio22.o" -o "exercicio22.o" "../exercicio22.c"
+../exercicio22.c: In function ‘somando_arrays’:
+../exercicio22.c:16:32: warning: passing argument 1 of ‘printf’ makes pointer from integer without a cast [-Wint-conversion]
+   16 |                 }return printf(1);
+      |                                ^
+      |                                |
+      |                                int
+In file included from ../exercicio22.c:1:
+/usr/include/stdio.h:356:43: note: expected ‘const char * restrict’ but argument is of type ‘int’
+  356 | extern int printf (const char *__restrict __format, ...);
+      |                    ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+../exercicio22.c:16:17: warning: format not a string literal and no format arguments [-Wformat-security]
+   16 |                 }return printf(1);
+      |                 ^
+../exercicio22.c:20:24: warning: argument 1 null where non-null expected [-Wnonnull]
+   20 |                 return printf(0);
+      |                        ^~~~~~
+In file included from ../exercicio22.c:1:
+/usr/include/stdio.h:356:12: note: in a call to function ‘printf’ declared ‘nonnull’
+  356 | extern int printf (const char *__restrict __format, ...);
+      |            ^~~~~~
+../exercicio22.c: In function ‘main’:
+../exercicio22.c:55:24: warning: passing argument 1 of ‘somando_arrays’ from incompatible pointer type [-Wincompatible-pointer-types]
+   55 |         somando_arrays(&v1, &v2, &tam1, &tam2);
+      |                        ^~~
+      |                        |
+      |                        int (*)[10]
+../exercicio22.c:5:25: note: expected ‘int *’ but argument is of type ‘int (*)[10]’
+    5 | int somando_arrays(int *v1, int *v2, int *tam1, int *tam2){
+      |                    ~~~~~^~
+../exercicio22.c:55:29: warning: passing argument 2 of ‘somando_arrays’ from incompatible pointer type [-Wincompatible-pointer-types]
+   55 |         somando_arrays(&v1, &v2, &tam1, &tam2);
+      |                             ^~~
+      |                             |
+      |                             int (*)[10]
+../exercicio22.c:5:34: note: expected ‘int *’ but argument is of type ‘int (*)[10]’
+    5 | int somando_arrays(int *v1, int *v2, int *tam1, int *tam2){
+      |                             ~~~~~^~
+../exercicio22.c: In function ‘somando_arrays’:
+../exercicio22.c:20:24: warning: null format string [-Wformat-overflow=]
+   20 |                 return printf(0);
+      |                        ^~~~~~~~~
+Finished building: ../exercicio22.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio22.o   -lm
+Finished building target: ProgramasC
+ 
+16:35:04 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio22.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio22.d" -MT"exercicio22.o" -o "exercicio22.o" "../exercicio22.c"
+../exercicio22.c: In function ‘somando_arrays’:
+../exercicio22.c:16:32: warning: passing argument 1 of ‘printf’ makes pointer from integer without a cast [-Wint-conversion]
+   16 |                 }return printf(1);
+      |                                ^
+      |                                |
+      |                                int
+In file included from ../exercicio22.c:1:
+/usr/include/stdio.h:356:43: note: expected ‘const char * restrict’ but argument is of type ‘int’
+  356 | extern int printf (const char *__restrict __format, ...);
+      |                    ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+../exercicio22.c:16:17: warning: format not a string literal and no format arguments [-Wformat-security]
+   16 |                 }return printf(1);
+      |                 ^
+../exercicio22.c:20:24: warning: argument 1 null where non-null expected [-Wnonnull]
+   20 |                 return printf(0);
+      |                        ^~~~~~
+In file included from ../exercicio22.c:1:
+/usr/include/stdio.h:356:12: note: in a call to function ‘printf’ declared ‘nonnull’
+  356 | extern int printf (const char *__restrict __format, ...);
+      |            ^~~~~~
+../exercicio22.c: In function ‘main’:
+../exercicio22.c:55:24: warning: passing argument 1 of ‘somando_arrays’ from incompatible pointer type [-Wincompatible-pointer-types]
+   55 |         somando_arrays(&v1, &v2, &tam1, &tam2);
+      |                        ^~~
+      |                        |
+      |                        int (*)[10]
+../exercicio22.c:5:25: note: expected ‘int *’ but argument is of type ‘int (*)[10]’
+    5 | int somando_arrays(int *v1, int *v2, int *tam1, int *tam2){
+      |                    ~~~~~^~
+../exercicio22.c:55:29: warning: passing argument 2 of ‘somando_arrays’ from incompatible pointer type [-Wincompatible-pointer-types]
+   55 |         somando_arrays(&v1, &v2, &tam1, &tam2);
+      |                             ^~~
+      |                             |
+      |                             int (*)[10]
+../exercicio22.c:5:34: note: expected ‘int *’ but argument is of type ‘int (*)[10]’
+    5 | int somando_arrays(int *v1, int *v2, int *tam1, int *tam2){
+      |                             ~~~~~^~
+../exercicio22.c: In function ‘somando_arrays’:
+../exercicio22.c:20:24: warning: null format string [-Wformat-overflow=]
+   20 |                 return printf(0);
+      |                        ^~~~~~~~~
+Finished building: ../exercicio22.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio22.o   -lm
+Finished building target: ProgramasC
+ 
+16:36:35 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio22.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio22.d" -MT"exercicio22.o" -o "exercicio22.o" "../exercicio22.c"
+../exercicio22.c: In function ‘somando_arrays’:
+../exercicio22.c:16:32: warning: passing argument 1 of ‘printf’ makes pointer from integer without a cast [-Wint-conversion]
+   16 |                 }return printf(1);
+      |                                ^
+      |                                |
+      |                                int
+In file included from ../exercicio22.c:1:
+/usr/include/stdio.h:356:43: note: expected ‘const char * restrict’ but argument is of type ‘int’
+  356 | extern int printf (const char *__restrict __format, ...);
+      |                    ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+../exercicio22.c:16:17: warning: format not a string literal and no format arguments [-Wformat-security]
+   16 |                 }return printf(1);
+      |                 ^
+../exercicio22.c:20:24: warning: argument 1 null where non-null expected [-Wnonnull]
+   20 |                 return printf(0);
+      |                        ^~~~~~
+In file included from ../exercicio22.c:1:
+/usr/include/stdio.h:356:12: note: in a call to function ‘printf’ declared ‘nonnull’
+  356 | extern int printf (const char *__restrict __format, ...);
+      |            ^~~~~~
+../exercicio22.c: In function ‘main’:
+../exercicio22.c:55:24: warning: passing argument 1 of ‘somando_arrays’ from incompatible pointer type [-Wincompatible-pointer-types]
+   55 |         somando_arrays(&v1, &v2, &tam1, &tam2);
+      |                        ^~~
+      |                        |
+      |                        int (*)[10]
+../exercicio22.c:5:25: note: expected ‘int *’ but argument is of type ‘int (*)[10]’
+    5 | int somando_arrays(int *v1, int *v2, int *tam1, int *tam2){
+      |                    ~~~~~^~
+../exercicio22.c:55:29: warning: passing argument 2 of ‘somando_arrays’ from incompatible pointer type [-Wincompatible-pointer-types]
+   55 |         somando_arrays(&v1, &v2, &tam1, &tam2);
+      |                             ^~~
+      |                             |
+      |                             int (*)[10]
+../exercicio22.c:5:34: note: expected ‘int *’ but argument is of type ‘int (*)[10]’
+    5 | int somando_arrays(int *v1, int *v2, int *tam1, int *tam2){
+      |                             ~~~~~^~
+../exercicio22.c: In function ‘somando_arrays’:
+../exercicio22.c:20:24: warning: null format string [-Wformat-overflow=]
+   20 |                 return printf(0);
+      |                        ^~~~~~~~~
+Finished building: ../exercicio22.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio22.o   -lm
+Finished building target: ProgramasC
+ 
+16:38:19 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio22.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio22.d" -MT"exercicio22.o" -o "exercicio22.o" "../exercicio22.c"
+../exercicio22.c: In function ‘somando_arrays’:
+../exercicio22.c:14:24: warning: passing argument 1 of ‘printf’ makes pointer from integer without a cast [-Wint-conversion]
+   14 |         }return printf(1);
+      |                        ^
+      |                        |
+      |                        int
+In file included from ../exercicio22.c:1:
+/usr/include/stdio.h:356:43: note: expected ‘const char * restrict’ but argument is of type ‘int’
+  356 | extern int printf (const char *__restrict __format, ...);
+      |                    ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+../exercicio22.c:14:9: warning: format not a string literal and no format arguments [-Wformat-security]
+   14 |         }return printf(1);
+      |         ^
+../exercicio22.c: In function ‘main’:
+../exercicio22.c:48:24: warning: passing argument 1 of ‘somando_arrays’ from incompatible pointer type [-Wincompatible-pointer-types]
+   48 |         somando_arrays(&v1, &v2, &tam1, &tam2);
+      |                        ^~~
+      |                        |
+      |                        int (*)[10]
+../exercicio22.c:5:25: note: expected ‘int *’ but argument is of type ‘int (*)[10]’
+    5 | int somando_arrays(int *v1, int *v2, int *tam1, int *tam2){
+      |                    ~~~~~^~
+../exercicio22.c:48:29: warning: passing argument 2 of ‘somando_arrays’ from incompatible pointer type [-Wincompatible-pointer-types]
+   48 |         somando_arrays(&v1, &v2, &tam1, &tam2);
+      |                             ^~~
+      |                             |
+      |                             int (*)[10]
+../exercicio22.c:5:34: note: expected ‘int *’ but argument is of type ‘int (*)[10]’
+    5 | int somando_arrays(int *v1, int *v2, int *tam1, int *tam2){
+      |                             ~~~~~^~
+Finished building: ../exercicio22.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio22.o   -lm
+Finished building target: ProgramasC
+ 
+16:40:39 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio22.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio22.d" -MT"exercicio22.o" -o "exercicio22.o" "../exercicio22.c"
+../exercicio22.c: In function ‘main’:
+../exercicio22.c:46:24: warning: passing argument 1 of ‘somando_arrays’ from incompatible pointer type [-Wincompatible-pointer-types]
+   46 |         somando_arrays(&v1, &v2, &tam1, &tam2);
+      |                        ^~~
+      |                        |
+      |                        int (*)[10]
+../exercicio22.c:5:25: note: expected ‘int *’ but argument is of type ‘int (*)[10]’
+    5 | int somando_arrays(int *v1, int *v2, int *tam1, int *tam2){
+      |                    ~~~~~^~
+../exercicio22.c:46:29: warning: passing argument 2 of ‘somando_arrays’ from incompatible pointer type [-Wincompatible-pointer-types]
+   46 |         somando_arrays(&v1, &v2, &tam1, &tam2);
+      |                             ^~~
+      |                             |
+      |                             int (*)[10]
+../exercicio22.c:5:34: note: expected ‘int *’ but argument is of type ‘int (*)[10]’
+    5 | int somando_arrays(int *v1, int *v2, int *tam1, int *tam2){
+      |                             ~~~~~^~
+../exercicio22.c: In function ‘somando_arrays’:
+../exercicio22.c:16:1: warning: control reaches end of non-void function [-Wreturn-type]
+   16 | }
+      | ^
+Finished building: ../exercicio22.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio22.o   -lm
+Finished building target: ProgramasC
+ 
+16:42:11 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio22.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio22.d" -MT"exercicio22.o" -o "exercicio22.o" "../exercicio22.c"
+../exercicio22.c: In function ‘main’:
+../exercicio22.c:46:24: warning: passing argument 1 of ‘somando_arrays’ from incompatible pointer type [-Wincompatible-pointer-types]
+   46 |         somando_arrays(&v1, &v2, &tam1, &tam2);
+      |                        ^~~
+      |                        |
+      |                        int (*)[10]
+../exercicio22.c:5:25: note: expected ‘int *’ but argument is of type ‘int (*)[10]’
+    5 | int somando_arrays(int *v1, int *v2, int *tam1, int *tam2){
+      |                    ~~~~~^~
+../exercicio22.c:46:29: warning: passing argument 2 of ‘somando_arrays’ from incompatible pointer type [-Wincompatible-pointer-types]
+   46 |         somando_arrays(&v1, &v2, &tam1, &tam2);
+      |                             ^~~
+      |                             |
+      |                             int (*)[10]
+../exercicio22.c:5:34: note: expected ‘int *’ but argument is of type ‘int (*)[10]’
+    5 | int somando_arrays(int *v1, int *v2, int *tam1, int *tam2){
+      |                             ~~~~~^~
+../exercicio22.c: In function ‘somando_arrays’:
+../exercicio22.c:16:1: warning: control reaches end of non-void function [-Wreturn-type]
+   16 | }
+      | ^
+Finished building: ../exercicio22.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio22.o   -lm
+Finished building target: ProgramasC
+ 
+16:43:40 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio22.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio22.d" -MT"exercicio22.o" -o "exercicio22.o" "../exercicio22.c"
+../exercicio22.c: In function ‘main’:
+../exercicio22.c:46:24: warning: passing argument 1 of ‘somando_arrays’ from incompatible pointer type [-Wincompatible-pointer-types]
+   46 |         somando_arrays(&v1, &v2, &tam1, &tam2);
+      |                        ^~~
+      |                        |
+      |                        int (*)[10]
+../exercicio22.c:5:25: note: expected ‘int *’ but argument is of type ‘int (*)[10]’
+    5 | int somando_arrays(int *v1, int *v2, int *tam1, int *tam2){
+      |                    ~~~~~^~
+../exercicio22.c:46:29: warning: passing argument 2 of ‘somando_arrays’ from incompatible pointer type [-Wincompatible-pointer-types]
+   46 |         somando_arrays(&v1, &v2, &tam1, &tam2);
+      |                             ^~~
+      |                             |
+      |                             int (*)[10]
+../exercicio22.c:5:34: note: expected ‘int *’ but argument is of type ‘int (*)[10]’
+    5 | int somando_arrays(int *v1, int *v2, int *tam1, int *tam2){
+      |                             ~~~~~^~
+../exercicio22.c: In function ‘somando_arrays’:
+../exercicio22.c:16:1: warning: control reaches end of non-void function [-Wreturn-type]
+   16 | }
+      | ^
+Finished building: ../exercicio22.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio22.o   -lm
+Finished building target: ProgramasC
+ 
+16:44:40 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio22.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio22.d" -MT"exercicio22.o" -o "exercicio22.o" "../exercicio22.c"
+../exercicio22.c: In function ‘main’:
+../exercicio22.c:44:16: warning: passing argument 1 of ‘printf’ makes pointer from integer without a cast [-Wint-conversion]
+   44 |         printf(tam1);
+      |                ^~~~
+      |                |
+      |                int
+In file included from ../exercicio22.c:1:
+/usr/include/stdio.h:356:43: note: expected ‘const char * restrict’ but argument is of type ‘int’
+  356 | extern int printf (const char *__restrict __format, ...);
+      |                    ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+../exercicio22.c:44:9: warning: format not a string literal and no format arguments [-Wformat-security]
+   44 |         printf(tam1);
+      |         ^~~~~~
+../exercicio22.c:47:24: warning: passing argument 1 of ‘somando_arrays’ from incompatible pointer type [-Wincompatible-pointer-types]
+   47 |         somando_arrays(&v1, &v2, &tam1, &tam2);
+      |                        ^~~
+      |                        |
+      |                        int (*)[10]
+../exercicio22.c:5:25: note: expected ‘int *’ but argument is of type ‘int (*)[10]’
+    5 | int somando_arrays(int *v1, int *v2, int *tam1, int *tam2){
+      |                    ~~~~~^~
+../exercicio22.c:47:29: warning: passing argument 2 of ‘somando_arrays’ from incompatible pointer type [-Wincompatible-pointer-types]
+   47 |         somando_arrays(&v1, &v2, &tam1, &tam2);
+      |                             ^~~
+      |                             |
+      |                             int (*)[10]
+../exercicio22.c:5:34: note: expected ‘int *’ but argument is of type ‘int (*)[10]’
+    5 | int somando_arrays(int *v1, int *v2, int *tam1, int *tam2){
+      |                             ~~~~~^~
+../exercicio22.c: In function ‘somando_arrays’:
+../exercicio22.c:16:1: warning: control reaches end of non-void function [-Wreturn-type]
+   16 | }
+      | ^
+Finished building: ../exercicio22.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio22.o   -lm
+Finished building target: ProgramasC
+ 
+16:44:46 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+16:45:39 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio22.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio22.d" -MT"exercicio22.o" -o "exercicio22.o" "../exercicio22.c"
+../exercicio22.c: In function ‘main’:
+../exercicio22.c:47:24: warning: passing argument 1 of ‘somando_arrays’ from incompatible pointer type [-Wincompatible-pointer-types]
+   47 |         somando_arrays(&v1, &v2, &tam1, &tam2);
+      |                        ^~~
+      |                        |
+      |                        int (*)[10]
+../exercicio22.c:5:25: note: expected ‘int *’ but argument is of type ‘int (*)[10]’
+    5 | int somando_arrays(int *v1, int *v2, int *tam1, int *tam2){
+      |                    ~~~~~^~
+../exercicio22.c:47:29: warning: passing argument 2 of ‘somando_arrays’ from incompatible pointer type [-Wincompatible-pointer-types]
+   47 |         somando_arrays(&v1, &v2, &tam1, &tam2);
+      |                             ^~~
+      |                             |
+      |                             int (*)[10]
+../exercicio22.c:5:34: note: expected ‘int *’ but argument is of type ‘int (*)[10]’
+    5 | int somando_arrays(int *v1, int *v2, int *tam1, int *tam2){
+      |                             ~~~~~^~
+../exercicio22.c: In function ‘somando_arrays’:
+../exercicio22.c:16:1: warning: control reaches end of non-void function [-Wreturn-type]
+   16 | }
+      | ^
+Finished building: ../exercicio22.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio22.o   -lm
+Finished building target: ProgramasC
+ 
+16:46:33 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio22.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio22.d" -MT"exercicio22.o" -o "exercicio22.o" "../exercicio22.c"
+../exercicio22.c: In function ‘main’:
+../exercicio22.c:44:16: warning: passing argument 1 of ‘printf’ makes pointer from integer without a cast [-Wint-conversion]
+   44 |         printf(tam1);
+      |                ^~~~
+      |                |
+      |                int
+In file included from ../exercicio22.c:1:
+/usr/include/stdio.h:356:43: note: expected ‘const char * restrict’ but argument is of type ‘int’
+  356 | extern int printf (const char *__restrict __format, ...);
+      |                    ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+../exercicio22.c:44:9: warning: format not a string literal and no format arguments [-Wformat-security]
+   44 |         printf(tam1);
+      |         ^~~~~~
+../exercicio22.c:47:24: warning: passing argument 1 of ‘somando_arrays’ from incompatible pointer type [-Wincompatible-pointer-types]
+   47 |         somando_arrays(&v1, &v2, &tam1, &tam2);
+      |                        ^~~
+      |                        |
+      |                        int (*)[10]
+../exercicio22.c:5:25: note: expected ‘int *’ but argument is of type ‘int (*)[10]’
+    5 | int somando_arrays(int *v1, int *v2, int *tam1, int *tam2){
+      |                    ~~~~~^~
+../exercicio22.c:47:29: warning: passing argument 2 of ‘somando_arrays’ from incompatible pointer type [-Wincompatible-pointer-types]
+   47 |         somando_arrays(&v1, &v2, &tam1, &tam2);
+      |                             ^~~
+      |                             |
+      |                             int (*)[10]
+../exercicio22.c:5:34: note: expected ‘int *’ but argument is of type ‘int (*)[10]’
+    5 | int somando_arrays(int *v1, int *v2, int *tam1, int *tam2){
+      |                             ~~~~~^~
+../exercicio22.c: In function ‘somando_arrays’:
+../exercicio22.c:16:1: warning: control reaches end of non-void function [-Wreturn-type]
+   16 | }
+      | ^
+Finished building: ../exercicio22.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio22.o   -lm
+Finished building target: ProgramasC
+ 
+16:53:04 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio22.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio22.d" -MT"exercicio22.o" -o "exercicio22.o" "../exercicio22.c"
+../exercicio22.c: In function ‘main’:
+../exercicio22.c:23:33: warning: comparison of constant ‘5’ with boolean expression is always false [-Wbool-compare]
+   23 |         for(int i = 0; i < tam1 == 5; i++){
+      |                                 ^~
+../exercicio22.c:23:26: warning: suggest parentheses around comparison in operand of ‘==’ [-Wparentheses]
+   23 |         for(int i = 0; i < tam1 == 5; i++){
+      |                        ~~^~~~~~
+../exercicio22.c:44:24: warning: passing argument 1 of ‘somando_arrays’ from incompatible pointer type [-Wincompatible-pointer-types]
+   44 |         somando_arrays(&v1, &v2, &tam1, &tam2);
+      |                        ^~~
+      |                        |
+      |                        int (*)[tam1]
+../exercicio22.c:5:25: note: expected ‘int *’ but argument is of type ‘int (*)[tam1]’
+    5 | int somando_arrays(int *v1, int *v2, int *tam1, int *tam2){
+      |                    ~~~~~^~
+../exercicio22.c:44:29: warning: passing argument 2 of ‘somando_arrays’ from incompatible pointer type [-Wincompatible-pointer-types]
+   44 |         somando_arrays(&v1, &v2, &tam1, &tam2);
+      |                             ^~~
+      |                             |
+      |                             int (*)[tam2]
+../exercicio22.c:5:34: note: expected ‘int *’ but argument is of type ‘int (*)[tam2]’
+    5 | int somando_arrays(int *v1, int *v2, int *tam1, int *tam2){
+      |                             ~~~~~^~
+../exercicio22.c: In function ‘somando_arrays’:
+../exercicio22.c:16:1: warning: control reaches end of non-void function [-Wreturn-type]
+   16 | }
+      | ^
+Finished building: ../exercicio22.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio22.o   -lm
+Finished building target: ProgramasC
+ 
+16:53:42 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio22.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio22.d" -MT"exercicio22.o" -o "exercicio22.o" "../exercicio22.c"
+../exercicio22.c: In function ‘main’:
+../exercicio22.c:44:24: warning: passing argument 1 of ‘somando_arrays’ from incompatible pointer type [-Wincompatible-pointer-types]
+   44 |         somando_arrays(&v1, &v2, &tam1, &tam2);
+      |                        ^~~
+      |                        |
+      |                        int (*)[tam1]
+../exercicio22.c:5:25: note: expected ‘int *’ but argument is of type ‘int (*)[tam1]’
+    5 | int somando_arrays(int *v1, int *v2, int *tam1, int *tam2){
+      |                    ~~~~~^~
+../exercicio22.c:44:29: warning: passing argument 2 of ‘somando_arrays’ from incompatible pointer type [-Wincompatible-pointer-types]
+   44 |         somando_arrays(&v1, &v2, &tam1, &tam2);
+      |                             ^~~
+      |                             |
+      |                             int (*)[tam2]
+../exercicio22.c:5:34: note: expected ‘int *’ but argument is of type ‘int (*)[tam2]’
+    5 | int somando_arrays(int *v1, int *v2, int *tam1, int *tam2){
+      |                             ~~~~~^~
+../exercicio22.c: In function ‘somando_arrays’:
+../exercicio22.c:16:1: warning: control reaches end of non-void function [-Wreturn-type]
+   16 | }
+      | ^
+Finished building: ../exercicio22.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio22.o   -lm
+Finished building target: ProgramasC
+ 
+16:58:51 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio22.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio22.d" -MT"exercicio22.o" -o "exercicio22.o" "../exercicio22.c"
+../exercicio22.c: In function ‘somando_arrays’:
+../exercicio22.c:16:32: warning: passing argument 1 of ‘printf’ makes pointer from integer without a cast [-Wint-conversion]
+   16 |                 }return printf(1);
+      |                                ^
+      |                                |
+      |                                int
+In file included from ../exercicio22.c:1:
+/usr/include/stdio.h:356:43: note: expected ‘const char * restrict’ but argument is of type ‘int’
+  356 | extern int printf (const char *__restrict __format, ...);
+      |                    ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+../exercicio22.c:16:17: warning: format not a string literal and no format arguments [-Wformat-security]
+   16 |                 }return printf(1);
+      |                 ^
+../exercicio22.c:20:24: warning: argument 1 null where non-null expected [-Wnonnull]
+   20 |                 return printf(0);
+      |                        ^~~~~~
+In file included from ../exercicio22.c:1:
+/usr/include/stdio.h:356:12: note: in a call to function ‘printf’ declared ‘nonnull’
+  356 | extern int printf (const char *__restrict __format, ...);
+      |            ^~~~~~
+../exercicio22.c: In function ‘main’:
+../exercicio22.c:52:24: warning: passing argument 1 of ‘somando_arrays’ from incompatible pointer type [-Wincompatible-pointer-types]
+   52 |         somando_arrays(&v1, &v2, &tam1, &tam2);
+      |                        ^~~
+      |                        |
+      |                        int (*)[tam1]
+../exercicio22.c:5:25: note: expected ‘int *’ but argument is of type ‘int (*)[tam1]’
+    5 | int somando_arrays(int *v1, int *v2, int *tam1, int *tam2){
+      |                    ~~~~~^~
+../exercicio22.c:52:29: warning: passing argument 2 of ‘somando_arrays’ from incompatible pointer type [-Wincompatible-pointer-types]
+   52 |         somando_arrays(&v1, &v2, &tam1, &tam2);
+      |                             ^~~
+      |                             |
+      |                             int (*)[tam2]
+../exercicio22.c:5:34: note: expected ‘int *’ but argument is of type ‘int (*)[tam2]’
+    5 | int somando_arrays(int *v1, int *v2, int *tam1, int *tam2){
+      |                             ~~~~~^~
+../exercicio22.c: In function ‘somando_arrays’:
+../exercicio22.c:20:24: warning: null format string [-Wformat-overflow=]
+   20 |                 return printf(0);
+      |                        ^~~~~~~~~
+Finished building: ../exercicio22.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio22.o   -lm
+Finished building target: ProgramasC
+ 
+17:00:49 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio22.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio22.d" -MT"exercicio22.o" -o "exercicio22.o" "../exercicio22.c"
+../exercicio22.c: In function ‘main’:
+../exercicio22.c:52:24: warning: passing argument 1 of ‘somando_arrays’ from incompatible pointer type [-Wincompatible-pointer-types]
+   52 |         somando_arrays(&v1, &v2, &tam1, &tam2);
+      |                        ^~~
+      |                        |
+      |                        int (*)[tam1]
+../exercicio22.c:5:25: note: expected ‘int *’ but argument is of type ‘int (*)[tam1]’
+    5 | int somando_arrays(int *v1, int *v2, int *tam1, int *tam2){
+      |                    ~~~~~^~
+../exercicio22.c:52:29: warning: passing argument 2 of ‘somando_arrays’ from incompatible pointer type [-Wincompatible-pointer-types]
+   52 |         somando_arrays(&v1, &v2, &tam1, &tam2);
+      |                             ^~~
+      |                             |
+      |                             int (*)[tam2]
+../exercicio22.c:5:34: note: expected ‘int *’ but argument is of type ‘int (*)[tam2]’
+    5 | int somando_arrays(int *v1, int *v2, int *tam1, int *tam2){
+      |                             ~~~~~^~
+Finished building: ../exercicio22.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio22.o   -lm
+Finished building target: ProgramasC
+ 
+17:01:22 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+17:02:24 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio22.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio22.d" -MT"exercicio22.o" -o "exercicio22.o" "../exercicio22.c"
+../exercicio22.c: In function ‘main’:
+../exercicio22.c:53:24: warning: passing argument 1 of ‘somando_arrays’ from incompatible pointer type [-Wincompatible-pointer-types]
+   53 |         somando_arrays(&v1, &v2, &tam1, &tam2);
+      |                        ^~~
+      |                        |
+      |                        int (*)[tam1]
+../exercicio22.c:5:25: note: expected ‘int *’ but argument is of type ‘int (*)[tam1]’
+    5 | int somando_arrays(int *v1, int *v2, int *tam1, int *tam2){
+      |                    ~~~~~^~
+../exercicio22.c:53:29: warning: passing argument 2 of ‘somando_arrays’ from incompatible pointer type [-Wincompatible-pointer-types]
+   53 |         somando_arrays(&v1, &v2, &tam1, &tam2);
+      |                             ^~~
+      |                             |
+      |                             int (*)[tam2]
+../exercicio22.c:5:34: note: expected ‘int *’ but argument is of type ‘int (*)[tam2]’
+    5 | int somando_arrays(int *v1, int *v2, int *tam1, int *tam2){
+      |                             ~~~~~^~
+Finished building: ../exercicio22.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio22.o   -lm
+Finished building target: ProgramasC
+ 
+17:02:35 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+17:03:11 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.

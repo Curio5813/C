@@ -1,19 +1,6 @@
-12:51:03 **** Incremental Build of configuration Debug for project ProgramasC ****
+17:03:11 **** Incremental Build of configuration Debug for project ProgramasC ****
 make all 
-Building file: ../exercicio17.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio17.d" -MT"exercicio17.o" -o "exercicio17.o" "../exercicio17.c"
-../exercicio17.c: In function ‘frac’:
-../exercicio17.c:7:13: warning: unused variable ‘resto’ [-Wunused-variable]
-    7 |         int resto;
-      |             ^~~~~
-Finished building: ../exercicio17.c
- 
-Building target: ProgramasC
-Invoking: GCC C Linker
-gcc -lm  -o "ProgramasC" ./exercicio17.o   -lm
-Finished building target: ProgramasC
- 
+make: Nada a ser feito para 'all'.
 
-12:51:05 Build Finished. 0 errors, 1 warnings. (took 1s.183ms)
+17:03:12 Build Finished. 0 errors, 0 warnings. (took 1s.79ms)
 
