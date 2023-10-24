@@ -44173,3 +44173,1893 @@ make: Nada a ser feito para 'all'.
 17:03:11 **** Incremental Build of configuration Debug for project ProgramasC ****
 make all 
 make: Nada a ser feito para 'all'.
+13:36:42 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../excel_bug.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"excel_bug.d" -MT"excel_bug.o" -o "excel_bug.o" "../excel_bug.c"
+Finished building: ../excel_bug.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./excel_bug.o   -lm
+Finished building target: ProgramasC
+ 
+13:37:01 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../excel_bug.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"excel_bug.d" -MT"excel_bug.o" -o "excel_bug.o" "../excel_bug.c"
+Finished building: ../excel_bug.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./excel_bug.o   -lm
+Finished building target: ProgramasC
+ 
+13:37:21 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../excel_bug.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"excel_bug.d" -MT"excel_bug.o" -o "excel_bug.o" "../excel_bug.c"
+Finished building: ../excel_bug.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./excel_bug.o   -lm
+Finished building target: ProgramasC
+ 
+13:38:05 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../excel_bug.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"excel_bug.d" -MT"excel_bug.o" -o "excel_bug.o" "../excel_bug.c"
+../excel_bug.c: In function ‘main’:
+../excel_bug.c:11:24: warning: multi-character character constant [-Wmultichar]
+   11 |         char colunas = 'ABZ';
+      |                        ^~~~~
+../excel_bug.c:11:24: warning: overflow in conversion from ‘int’ to ‘char’ changes value from ‘4276826’ to ‘90’ [-Woverflow]
+../excel_bug.c:13:29: error: subscripted value is neither array nor pointer nor vector
+   13 |         printf("%d", colunas[2]);
+      |                             ^
+../excel_bug.c:11:14: warning: variable ‘colunas’ set but not used [-Wunused-but-set-variable]
+   11 |         char colunas = 'ABZ';
+      |              ^~~~~~~
+make: *** [subdir.mk:20: excel_bug.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+13:40:44 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../excel_bug.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"excel_bug.d" -MT"excel_bug.o" -o "excel_bug.o" "../excel_bug.c"
+../excel_bug.c: In function ‘main’:
+../excel_bug.c:11:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[26]’ [-Wformat=]
+   11 |         scanf("%s", &colunas);
+      |                ~^   ~~~~~~~~
+      |                 |   |
+      |                 |   char (*)[26]
+      |                 char *
+Finished building: ../excel_bug.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./excel_bug.o   -lm
+Finished building target: ProgramasC
+ 
+13:41:29 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../excel_bug.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"excel_bug.d" -MT"excel_bug.o" -o "excel_bug.o" "../excel_bug.c"
+../excel_bug.c: In function ‘main’:
+../excel_bug.c:11:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[26]’ [-Wformat=]
+   11 |         scanf("%s", &colunas);
+      |                ~^   ~~~~~~~~
+      |                 |   |
+      |                 |   char (*)[26]
+      |                 char *
+Finished building: ../excel_bug.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./excel_bug.o   -lm
+Finished building target: ProgramasC
+ 
+13:42:07 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../excel_bug.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"excel_bug.d" -MT"excel_bug.o" -o "excel_bug.o" "../excel_bug.c"
+../excel_bug.c: In function ‘main’:
+../excel_bug.c:11:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[26]’ [-Wformat=]
+   11 |         scanf("%s", &colunas);
+      |                ~^   ~~~~~~~~
+      |                 |   |
+      |                 |   char (*)[26]
+      |                 char *
+Finished building: ../excel_bug.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./excel_bug.o   -lm
+Finished building target: ProgramasC
+ 
+13:55:35 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../excel_bug.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"excel_bug.d" -MT"excel_bug.o" -o "excel_bug.o" "../excel_bug.c"
+../excel_bug.c: In function ‘main’:
+../excel_bug.c:12:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[26]’ [-Wformat=]
+   12 |         scanf("%s", &str_col);
+      |                ~^   ~~~~~~~~
+      |                 |   |
+      |                 |   char (*)[26]
+      |                 char *
+../excel_bug.c:15:25: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[26]’ [-Wformat=]
+   15 |                 scanf("%s", &str_col);
+      |                        ~^   ~~~~~~~~
+      |                         |   |
+      |                         |   char (*)[26]
+      |                         char *
+../excel_bug.c:24:48: error: expected ‘;’ before ‘}’ token
+   24 |                 printf("%d\n", str_col[2] - 64)
+      |                                                ^
+      |                                                ;
+   25 | 
+   26 |         }
+      |         ~                                       
+../excel_bug.c:10:13: warning: unused variable ‘idx’ [-Wunused-variable]
+   10 |         int idx;
+      |             ^~~
+make: *** [subdir.mk:20: excel_bug.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+13:55:45 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../excel_bug.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"excel_bug.d" -MT"excel_bug.o" -o "excel_bug.o" "../excel_bug.c"
+../excel_bug.c: In function ‘main’:
+../excel_bug.c:12:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[26]’ [-Wformat=]
+   12 |         scanf("%s", &str_col);
+      |                ~^   ~~~~~~~~
+      |                 |   |
+      |                 |   char (*)[26]
+      |                 char *
+../excel_bug.c:15:25: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[26]’ [-Wformat=]
+   15 |                 scanf("%s", &str_col);
+      |                        ~^   ~~~~~~~~
+      |                         |   |
+      |                         |   char (*)[26]
+      |                         char *
+../excel_bug.c:10:13: warning: unused variable ‘idx’ [-Wunused-variable]
+   10 |         int idx;
+      |             ^~~
+Finished building: ../excel_bug.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./excel_bug.o   -lm
+Finished building target: ProgramasC
+ 
+14:01:01 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../excel_bug.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"excel_bug.d" -MT"excel_bug.o" -o "excel_bug.o" "../excel_bug.c"
+../excel_bug.c: In function ‘main’:
+../excel_bug.c:12:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[26]’ [-Wformat=]
+   12 |         scanf("%s", &str_col);
+      |                ~^   ~~~~~~~~
+      |                 |   |
+      |                 |   char (*)[26]
+      |                 char *
+../excel_bug.c:15:25: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[26]’ [-Wformat=]
+   15 |                 scanf("%s", &str_col);
+      |                        ~^   ~~~~~~~~
+      |                         |   |
+      |                         |   char (*)[26]
+      |                         char *
+../excel_bug.c:10:13: warning: unused variable ‘idx’ [-Wunused-variable]
+   10 |         int idx;
+      |             ^~~
+Finished building: ../excel_bug.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./excel_bug.o   -lm
+Finished building target: ProgramasC
+ 
+14:02:06 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+14:05:28 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../excel_bug.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"excel_bug.d" -MT"excel_bug.o" -o "excel_bug.o" "../excel_bug.c"
+../excel_bug.c: In function ‘main’:
+../excel_bug.c:12:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[26]’ [-Wformat=]
+   12 |         scanf("%s", &str_col);
+      |                ~^   ~~~~~~~~
+      |                 |   |
+      |                 |   char (*)[26]
+      |                 char *
+../excel_bug.c:15:25: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[26]’ [-Wformat=]
+   15 |                 scanf("%s", &str_col);
+      |                        ~^   ~~~~~~~~
+      |                         |   |
+      |                         |   char (*)[26]
+      |                         char *
+../excel_bug.c:10:13: warning: unused variable ‘idx’ [-Wunused-variable]
+   10 |         int idx;
+      |             ^~~
+Finished building: ../excel_bug.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./excel_bug.o   -lm
+Finished building target: ProgramasC
+ 
+14:07:46 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../excel_bug.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"excel_bug.d" -MT"excel_bug.o" -o "excel_bug.o" "../excel_bug.c"
+../excel_bug.c: In function ‘main’:
+../excel_bug.c:12:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[26]’ [-Wformat=]
+   12 |         scanf("%s", &str_col);
+      |                ~^   ~~~~~~~~
+      |                 |   |
+      |                 |   char (*)[26]
+      |                 char *
+../excel_bug.c:15:25: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[26]’ [-Wformat=]
+   15 |                 scanf("%s", &str_col);
+      |                        ~^   ~~~~~~~~
+      |                         |   |
+      |                         |   char (*)[26]
+      |                         char *
+../excel_bug.c:24:30: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   24 |                 idx = ("%d\n", (str_col[0] - 64) * 26 * 26 + (str_col[1] - 64) * 26 + str_col[2] - 64);
+      |                              ^
+Finished building: ../excel_bug.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./excel_bug.o   -lm
+Finished building target: ProgramasC
+ 
+14:08:17 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+14:10:13 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../excel_bug.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"excel_bug.d" -MT"excel_bug.o" -o "excel_bug.o" "../excel_bug.c"
+../excel_bug.c: In function ‘main’:
+../excel_bug.c:12:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[26]’ [-Wformat=]
+   12 |         scanf("%s", &str_col);
+      |                ~^   ~~~~~~~~
+      |                 |   |
+      |                 |   char (*)[26]
+      |                 char *
+../excel_bug.c:15:25: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[26]’ [-Wformat=]
+   15 |                 scanf("%s", &str_col);
+      |                        ~^   ~~~~~~~~
+      |                         |   |
+      |                         |   char (*)[26]
+      |                         char *
+../excel_bug.c:24:30: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   24 |                 idx = ("%d\n", (str_col[0] - 64) * 26 * 26 + (str_col[1] - 64) * 26 + str_col[2] - 64);
+      |                              ^
+Finished building: ../excel_bug.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./excel_bug.o   -lm
+Finished building target: ProgramasC
+ 
+14:13:17 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../excel_bug.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"excel_bug.d" -MT"excel_bug.o" -o "excel_bug.o" "../excel_bug.c"
+../excel_bug.c: In function ‘main’:
+../excel_bug.c:12:23: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[26]’ [-Wformat=]
+   12 |         while(scanf("%s", &str_col) != EOF){
+      |                      ~^   ~~~~~~~~
+      |                       |   |
+      |                       |   char (*)[26]
+      |                       char *
+../excel_bug.c:16:33: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[26]’ [-Wformat=]
+   16 |                         scanf("%s", &str_col);
+      |                                ~^   ~~~~~~~~
+      |                                 |   |
+      |                                 |   char (*)[26]
+      |                                 char *
+../excel_bug.c:25:38: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   25 |                         idx = ("%d\n", (str_col[0] - 64) * 26 * 26 + (str_col[1] - 64) * 26 + str_col[2] - 64);
+      |                                      ^
+Finished building: ../excel_bug.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./excel_bug.o   -lm
+Finished building target: ProgramasC
+ 
+14:15:52 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../excel_bug.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"excel_bug.d" -MT"excel_bug.o" -o "excel_bug.o" "../excel_bug.c"
+../excel_bug.c: In function ‘main’:
+../excel_bug.c:16:33: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[26]’ [-Wformat=]
+   16 |                         scanf("%s", &str_col);
+      |                                ~^   ~~~~~~~~
+      |                                 |   |
+      |                                 |   char (*)[26]
+      |                                 char *
+../excel_bug.c:25:38: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   25 |                         idx = ("%d\n", (str_col[0] - 64) * 26 * 26 + (str_col[1] - 64) * 26 + str_col[2] - 64);
+      |                                      ^
+Finished building: ../excel_bug.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./excel_bug.o   -lm
+Finished building target: ProgramasC
+ 
+14:18:02 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../excel_bug.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"excel_bug.d" -MT"excel_bug.o" -o "excel_bug.o" "../excel_bug.c"
+../excel_bug.c: In function ‘main’:
+../excel_bug.c:14:25: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[26]’ [-Wformat=]
+   14 |                 scanf("%s", &str_col);
+      |                        ~^   ~~~~~~~~
+      |                         |   |
+      |                         |   char (*)[26]
+      |                         char *
+../excel_bug.c:17:33: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[26]’ [-Wformat=]
+   17 |                         scanf("%s", &str_col);
+      |                                ~^   ~~~~~~~~
+      |                                 |   |
+      |                                 |   char (*)[26]
+      |                                 char *
+../excel_bug.c:26:38: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   26 |                         idx = ("%d\n", (str_col[0] - 64) * 26 * 26 + (str_col[1] - 64) * 26 + str_col[2] - 64);
+      |                                      ^
+Finished building: ../excel_bug.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./excel_bug.o   -lm
+Finished building target: ProgramasC
+ 
+14:19:14 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../excel_bug.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"excel_bug.d" -MT"excel_bug.o" -o "excel_bug.o" "../excel_bug.c"
+../excel_bug.c: In function ‘main’:
+../excel_bug.c:12:23: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[26]’ [-Wformat=]
+   12 |         while(scanf("%s", &str_col) != EOF){
+      |                      ~^   ~~~~~~~~
+      |                       |   |
+      |                       |   char (*)[26]
+      |                       char *
+../excel_bug.c:16:33: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[26]’ [-Wformat=]
+   16 |                         scanf("%s", &str_col);
+      |                                ~^   ~~~~~~~~
+      |                                 |   |
+      |                                 |   char (*)[26]
+      |                                 char *
+../excel_bug.c:25:38: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   25 |                         idx = ("%d\n", (str_col[0] - 64) * 26 * 26 + (str_col[1] - 64) * 26 + str_col[2] - 64);
+      |                                      ^
+../excel_bug.c:10:18: warning: unused variable ‘entrada’ [-Wunused-variable]
+   10 |         int idx, entrada;
+      |                  ^~~~~~~
+Finished building: ../excel_bug.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./excel_bug.o   -lm
+Finished building target: ProgramasC
+ 
+14:20:55 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../excel_bug.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"excel_bug.d" -MT"excel_bug.o" -o "excel_bug.o" "../excel_bug.c"
+../excel_bug.c: In function ‘main’:
+../excel_bug.c:12:23: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[26]’ [-Wformat=]
+   12 |         while(scanf("%s", &str_col) != EOF){
+      |                      ~^   ~~~~~~~~
+      |                       |   |
+      |                       |   char (*)[26]
+      |                       char *
+../excel_bug.c:16:33: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[26]’ [-Wformat=]
+   16 |                         scanf("%s", &str_col);
+      |                                ~^   ~~~~~~~~
+      |                                 |   |
+      |                                 |   char (*)[26]
+      |                                 char *
+../excel_bug.c:25:38: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   25 |                         idx = ("%d\n", (str_col[0] - 64) * 26 * 26 + (str_col[1] - 64) * 26 + str_col[2] - 64);
+      |                                      ^
+../excel_bug.c:10:18: warning: unused variable ‘entrada’ [-Wunused-variable]
+   10 |         int idx, entrada;
+      |                  ^~~~~~~
+Finished building: ../excel_bug.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./excel_bug.o   -lm
+Finished building target: ProgramasC
+ 
+14:27:29 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../excel_bug.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"excel_bug.d" -MT"excel_bug.o" -o "excel_bug.o" "../excel_bug.c"
+../excel_bug.c: In function ‘main’:
+../excel_bug.c:14:25: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[26]’ [-Wformat=]
+   14 |                 scanf("%s", &str_col);
+      |                        ~^   ~~~~~~~~
+      |                         |   |
+      |                         |   char (*)[26]
+      |                         char *
+../excel_bug.c:17:33: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[26]’ [-Wformat=]
+   17 |                         scanf("%s", &str_col);
+      |                                ~^   ~~~~~~~~
+      |                                 |   |
+      |                                 |   char (*)[26]
+      |                                 char *
+../excel_bug.c:26:38: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   26 |                         idx = ("%d\n", (str_col[0] - 64) * 26 * 26 + (str_col[1] - 64) * 26 + str_col[2] - 64);
+      |                                      ^
+Finished building: ../excel_bug.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./excel_bug.o   -lm
+Finished building target: ProgramasC
+ 
+14:28:53 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../excel_bug.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"excel_bug.d" -MT"excel_bug.o" -o "excel_bug.o" "../excel_bug.c"
+../excel_bug.c: In function ‘main’:
+../excel_bug.c:14:25: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[26]’ [-Wformat=]
+   14 |                 scanf("%s", &str_col);
+      |                        ~^   ~~~~~~~~
+      |                         |   |
+      |                         |   char (*)[26]
+      |                         char *
+../excel_bug.c:18:33: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[26]’ [-Wformat=]
+   18 |                         scanf("%s", &str_col);
+      |                                ~^   ~~~~~~~~
+      |                                 |   |
+      |                                 |   char (*)[26]
+      |                                 char *
+../excel_bug.c:27:38: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   27 |                         idx = ("%d\n", (str_col[0] - 64) * 26 * 26 + (str_col[1] - 64) * 26 + str_col[2] - 64);
+      |                                      ^
+Finished building: ../excel_bug.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./excel_bug.o   -lm
+Finished building target: ProgramasC
+ 
+14:34:37 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../excel_bug.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"excel_bug.d" -MT"excel_bug.o" -o "excel_bug.o" "../excel_bug.c"
+../excel_bug.c: In function ‘main’:
+../excel_bug.c:14:25: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[26]’ [-Wformat=]
+   14 |                 scanf("%s", &str_col);
+      |                        ~^   ~~~~~~~~
+      |                         |   |
+      |                         |   char (*)[26]
+      |                         char *
+../excel_bug.c:18:33: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[26]’ [-Wformat=]
+   18 |                         scanf("%s", &str_col);
+      |                                ~^   ~~~~~~~~
+      |                                 |   |
+      |                                 |   char (*)[26]
+      |                                 char *
+../excel_bug.c:28:38: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   28 |                         idx = ("%d\n", (str_col[0] - 64) * 26 * 26 + (str_col[1] - 64) * 26 + str_col[2] - 64);
+      |                                      ^
+Finished building: ../excel_bug.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./excel_bug.o   -lm
+Finished building target: ProgramasC
+ 
+14:38:10 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../excel_bug.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"excel_bug.d" -MT"excel_bug.o" -o "excel_bug.o" "../excel_bug.c"
+../excel_bug.c: In function ‘main’:
+../excel_bug.c:12:23: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[26]’ [-Wformat=]
+   12 |         while(scanf("%s", &str_col) != EOF){
+      |                      ~^   ~~~~~~~~
+      |                       |   |
+      |                       |   char (*)[26]
+      |                       char *
+../excel_bug.c:16:33: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[26]’ [-Wformat=]
+   16 |                         scanf("%s", &str_col);
+      |                                ~^   ~~~~~~~~
+      |                                 |   |
+      |                                 |   char (*)[26]
+      |                                 char *
+../excel_bug.c:26:38: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   26 |                         idx = ("%d\n", (str_col[0] - 64) * 26 * 26 + (str_col[1] - 64) * 26 + str_col[2] - 64);
+      |                                      ^
+../excel_bug.c:10:18: warning: unused variable ‘entrada’ [-Wunused-variable]
+   10 |         int idx, entrada;
+      |                  ^~~~~~~
+Finished building: ../excel_bug.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./excel_bug.o   -lm
+Finished building target: ProgramasC
+ 
+14:58:42 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exericio23.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exericio23.d" -MT"exericio23.o" -o "exericio23.o" "../exericio23.c"
+../exericio23.c:5:41: error: expected declaration specifiers or ‘...’ before ‘*’ token
+    5 | void maior_elemento(int *vet, int *tam, *maior){
+      |                                         ^
+../exericio23.c: In function ‘main’:
+../exericio23.c:30:9: warning: implicit declaration of function ‘maior_elemento’ [-Wimplicit-function-declaration]
+   30 |         maior_elemento(&vet, &tam, &maior);
+      |         ^~~~~~~~~~~~~~
+make: *** [subdir.mk:20: exericio23.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:58:55 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exericio23.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exericio23.d" -MT"exericio23.o" -o "exericio23.o" "../exericio23.c"
+../exericio23.c: In function ‘maior_elemento’:
+../exericio23.c:10:25: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+   10 |                 scanf("%d", vet[i]);
+      |                        ~^   ~~~~~~
+      |                         |      |
+      |                         int *  int
+../exericio23.c: In function ‘main’:
+../exericio23.c:30:24: warning: passing argument 1 of ‘maior_elemento’ from incompatible pointer type [-Wincompatible-pointer-types]
+   30 |         maior_elemento(&vet, &tam, &maior);
+      |                        ^~~~
+      |                        |
+      |                        int (*)[tam]
+../exericio23.c:5:26: note: expected ‘int *’ but argument is of type ‘int (*)[tam]’
+    5 | void maior_elemento(int *vet, int *tam, int *maior){
+      |                     ~~~~~^~~
+../exericio23.c:24:9: warning: ‘tam’ is used uninitialized [-Wuninitialized]
+   24 |         int tam, vet[tam], maior = 0;
+      |         ^~~
+../exericio23.c:24:13: note: ‘tam’ declared here
+   24 |         int tam, vet[tam], maior = 0;
+      |             ^~~
+Finished building: ../exericio23.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exericio23.o   -lm
+Finished building target: ProgramasC
+ 
+14:59:19 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exericio23.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exericio23.d" -MT"exericio23.o" -o "exericio23.o" "../exericio23.c"
+../exericio23.c: In function ‘main’:
+../exericio23.c:30:24: warning: passing argument 1 of ‘maior_elemento’ from incompatible pointer type [-Wincompatible-pointer-types]
+   30 |         maior_elemento(&vet, &tam, &maior);
+      |                        ^~~~
+      |                        |
+      |                        int (*)[tam]
+../exericio23.c:5:26: note: expected ‘int *’ but argument is of type ‘int (*)[tam]’
+    5 | void maior_elemento(int *vet, int *tam, int *maior){
+      |                     ~~~~~^~~
+../exericio23.c:24:9: warning: ‘tam’ is used uninitialized [-Wuninitialized]
+   24 |         int tam, vet[tam], maior = 0;
+      |         ^~~
+../exericio23.c:24:13: note: ‘tam’ declared here
+   24 |         int tam, vet[tam], maior = 0;
+      |             ^~~
+Finished building: ../exericio23.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exericio23.o   -lm
+Finished building target: ProgramasC
+ 
+15:00:01 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exericio23.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exericio23.d" -MT"exericio23.o" -o "exericio23.o" "../exericio23.c"
+../exericio23.c: In function ‘main’:
+../exericio23.c:30:24: warning: passing argument 1 of ‘maior_elemento’ from incompatible pointer type [-Wincompatible-pointer-types]
+   30 |         maior_elemento(&vet, &tam, &maior);
+      |                        ^~~~
+      |                        |
+      |                        int (*)[tam]
+../exericio23.c:5:26: note: expected ‘int *’ but argument is of type ‘int (*)[tam]’
+    5 | void maior_elemento(int *vet, int *tam, int *maior){
+      |                     ~~~~~^~~
+../exericio23.c:24:9: warning: ‘tam’ is used uninitialized [-Wuninitialized]
+   24 |         int tam, vet[tam], maior = 0;
+      |         ^~~
+../exericio23.c:24:13: note: ‘tam’ declared here
+   24 |         int tam, vet[tam], maior = 0;
+      |             ^~~
+Finished building: ../exericio23.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exericio23.o   -lm
+Finished building target: ProgramasC
+ 
+15:00:15 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+15:00:18 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+15:09:25 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio24.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio24.d" -MT"exercicio24.o" -o "exercicio24.o" "../exercicio24.c"
+../exercicio24.c: In function ‘main’:
+../exercicio24.c:36:17: warning: passing argument 1 of ‘min_max’ from incompatible pointer type [-Wincompatible-pointer-types]
+   36 |         min_max(&vet, &min, &max, &tam);
+      |                 ^~~~
+      |                 |
+      |                 int (*)[tam]
+../exercicio24.c:5:18: note: expected ‘int *’ but argument is of type ‘int (*)[tam]’
+    5 | int min_max(int *vet, int *min, int *max, int *tam){
+      |             ~~~~~^~~
+../exercicio24.c:39:16: warning: too many arguments for format [-Wformat-extra-args]
+   39 |         printf("O maior elemento é %d e menor é o", max, min);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../exercicio24.c: In function ‘min_max’:
+../exercicio24.c:25:1: warning: control reaches end of non-void function [-Wreturn-type]
+   25 | }
+      | ^
+../exercicio24.c: In function ‘main’:
+../exercicio24.c:30:9: warning: ‘tam’ is used uninitialized [-Wuninitialized]
+   30 |         int tam, vet[tam], min = 99999999, max = 0;
+      |         ^~~
+../exercicio24.c:30:13: note: ‘tam’ declared here
+   30 |         int tam, vet[tam], min = 99999999, max = 0;
+      |             ^~~
+Finished building: ../exercicio24.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio24.o   -lm
+Finished building target: ProgramasC
+ 
+15:10:00 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio24.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio24.d" -MT"exercicio24.o" -o "exercicio24.o" "../exercicio24.c"
+../exercicio24.c: In function ‘main’:
+../exercicio24.c:36:17: warning: passing argument 1 of ‘min_max’ from incompatible pointer type [-Wincompatible-pointer-types]
+   36 |         min_max(&vet, &min, &max, &tam);
+      |                 ^~~~
+      |                 |
+      |                 int (*)[tam]
+../exercicio24.c:5:18: note: expected ‘int *’ but argument is of type ‘int (*)[tam]’
+    5 | int min_max(int *vet, int *min, int *max, int *tam){
+      |             ~~~~~^~~
+../exercicio24.c: In function ‘min_max’:
+../exercicio24.c:25:1: warning: control reaches end of non-void function [-Wreturn-type]
+   25 | }
+      | ^
+../exercicio24.c: In function ‘main’:
+../exercicio24.c:30:9: warning: ‘tam’ is used uninitialized [-Wuninitialized]
+   30 |         int tam, vet[tam], min = 99999999, max = 0;
+      |         ^~~
+../exercicio24.c:30:13: note: ‘tam’ declared here
+   30 |         int tam, vet[tam], min = 99999999, max = 0;
+      |             ^~~
+Finished building: ../exercicio24.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio24.o   -lm
+Finished building target: ProgramasC
+ 
+15:10:37 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio24.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio24.d" -MT"exercicio24.o" -o "exercicio24.o" "../exercicio24.c"
+../exercicio24.c: In function ‘main’:
+../exercicio24.c:36:17: warning: passing argument 1 of ‘min_max’ from incompatible pointer type [-Wincompatible-pointer-types]
+   36 |         min_max(&vet, &min, &max, &tam);
+      |                 ^~~~
+      |                 |
+      |                 int (*)[tam]
+../exercicio24.c:5:18: note: expected ‘int *’ but argument is of type ‘int (*)[tam]’
+    5 | int min_max(int *vet, int *min, int *max, int *tam){
+      |             ~~~~~^~~
+../exercicio24.c: In function ‘min_max’:
+../exercicio24.c:25:1: warning: control reaches end of non-void function [-Wreturn-type]
+   25 | }
+      | ^
+../exercicio24.c: In function ‘main’:
+../exercicio24.c:30:9: warning: ‘tam’ is used uninitialized [-Wuninitialized]
+   30 |         int tam, vet[tam], min = 99999999, max = 0;
+      |         ^~~
+../exercicio24.c:30:13: note: ‘tam’ declared here
+   30 |         int tam, vet[tam], min = 99999999, max = 0;
+      |             ^~~
+Finished building: ../exercicio24.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio24.o   -lm
+Finished building target: ProgramasC
+ 
+15:10:51 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+15:21:52 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio25.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio25.d" -MT"exercicio25.o" -o "exercicio25.o" "../exercicio25.c"
+../exercicio25.c: In function ‘notas’:
+../exercicio25.c:8:17: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘float **’ [-Wformat=]
+    8 |         scanf("%d", &nota1);
+      |                ~^   ~~~~~~
+      |                 |   |
+      |                 |   float **
+      |                 int *
+../exercicio25.c:10:17: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘float **’ [-Wformat=]
+   10 |         scanf("%d", &nota2);
+      |                ~^   ~~~~~~
+      |                 |   |
+      |                 |   float **
+      |                 int *
+../exercicio25.c:18:1: warning: control reaches end of non-void function [-Wreturn-type]
+   18 | }
+      | ^
+Finished building: ../exercicio25.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio25.o   -lm
+Finished building target: ProgramasC
+ 
+15:22:31 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio25.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio25.d" -MT"exercicio25.o" -o "exercicio25.o" "../exercicio25.c"
+../exercicio25.c: In function ‘notas’:
+../exercicio25.c:8:17: warning: format ‘%f’ expects argument of type ‘float *’, but argument 2 has type ‘float **’ [-Wformat=]
+    8 |         scanf("%f", &nota1);
+      |                ~^   ~~~~~~
+      |                 |   |
+      |                 |   float **
+      |                 float *
+../exercicio25.c:10:17: warning: format ‘%f’ expects argument of type ‘float *’, but argument 2 has type ‘float **’ [-Wformat=]
+   10 |         scanf("%f", &nota2);
+      |                ~^   ~~~~~~
+      |                 |   |
+      |                 |   float **
+      |                 float *
+../exercicio25.c:18:1: warning: control reaches end of non-void function [-Wreturn-type]
+   18 | }
+      | ^
+Finished building: ../exercicio25.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio25.o   -lm
+Finished building target: ProgramasC
+ 
+15:22:37 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+15:25:51 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio25.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio25.d" -MT"exercicio25.o" -o "exercicio25.o" "../exercicio25.c"
+../exercicio25.c: In function ‘notas’:
+../exercicio25.c:8:17: warning: format ‘%f’ expects argument of type ‘float *’, but argument 2 has type ‘double’ [-Wformat=]
+    8 |         scanf("%f", *(nota1));
+      |                ~^   ~~~~~~~~
+      |                 |   |
+      |                 |   double
+      |                 float *
+../exercicio25.c:10:17: warning: format ‘%f’ expects argument of type ‘float *’, but argument 2 has type ‘double’ [-Wformat=]
+   10 |         scanf("%f", *(nota2));
+      |                ~^   ~~~~~~~~
+      |                 |   |
+      |                 |   double
+      |                 float *
+../exercicio25.c:18:1: warning: control reaches end of non-void function [-Wreturn-type]
+   18 | }
+      | ^
+Finished building: ../exercicio25.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio25.o   -lm
+Finished building target: ProgramasC
+ 
+15:28:30 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio25.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio25.d" -MT"exercicio25.o" -o "exercicio25.o" "../exercicio25.c"
+../exercicio25.c: In function ‘notas’:
+../exercicio25.c:8:17: warning: format ‘%f’ expects argument of type ‘float *’, but argument 2 has type ‘float **’ [-Wformat=]
+    8 |         scanf("%f", &nota1);
+      |                ~^   ~~~~~~
+      |                 |   |
+      |                 |   float **
+      |                 float *
+../exercicio25.c:10:17: warning: format ‘%f’ expects argument of type ‘float *’, but argument 2 has type ‘float **’ [-Wformat=]
+   10 |         scanf("%f", &nota2);
+      |                ~^   ~~~~~~
+      |                 |   |
+      |                 |   float **
+      |                 float *
+../exercicio25.c:13:22: error: incompatible types when assigning to type ‘float *’ from type ‘double’
+   13 |         media_artm = (*(nota1) + *(nota2)) / 2.0;
+      |                      ^
+../exercicio25.c:15:22: error: incompatible types when assigning to type ‘float *’ from type ‘double’
+   15 |         media_pond = (*(nota1) + *(nota2) * 2) / 3.0;
+      |                      ^
+../exercicio25.c:18:1: warning: control reaches end of non-void function [-Wreturn-type]
+   18 | }
+      | ^
+make: *** [subdir.mk:20: exercicio25.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:28:40 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio25.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio25.d" -MT"exercicio25.o" -o "exercicio25.o" "../exercicio25.c"
+../exercicio25.c: In function ‘notas’:
+../exercicio25.c:8:17: warning: format ‘%f’ expects argument of type ‘float *’, but argument 2 has type ‘float **’ [-Wformat=]
+    8 |         scanf("%f", &nota1);
+      |                ~^   ~~~~~~
+      |                 |   |
+      |                 |   float **
+      |                 float *
+../exercicio25.c:10:17: warning: format ‘%f’ expects argument of type ‘float *’, but argument 2 has type ‘float **’ [-Wformat=]
+   10 |         scanf("%f", &nota2));
+      |                ~^   ~~~~~~
+      |                 |   |
+      |                 |   float **
+      |                 float *
+../exercicio25.c:10:28: error: expected ‘;’ before ‘)’ token
+   10 |         scanf("%f", &nota2));
+      |                            ^
+      |                            ;
+../exercicio25.c:10:28: error: expected statement before ‘)’ token
+../exercicio25.c:18:1: warning: control reaches end of non-void function [-Wreturn-type]
+   18 | }
+      | ^
+make: *** [subdir.mk:20: exercicio25.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:28:50 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio25.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio25.d" -MT"exercicio25.o" -o "exercicio25.o" "../exercicio25.c"
+../exercicio25.c: In function ‘notas’:
+../exercicio25.c:8:17: warning: format ‘%f’ expects argument of type ‘float *’, but argument 2 has type ‘float **’ [-Wformat=]
+    8 |         scanf("%f", &nota1);
+      |                ~^   ~~~~~~
+      |                 |   |
+      |                 |   float **
+      |                 float *
+../exercicio25.c:10:17: warning: format ‘%f’ expects argument of type ‘float *’, but argument 2 has type ‘float **’ [-Wformat=]
+   10 |         scanf("%f", &nota2);
+      |                ~^   ~~~~~~
+      |                 |   |
+      |                 |   float **
+      |                 float *
+../exercicio25.c:18:1: warning: control reaches end of non-void function [-Wreturn-type]
+   18 | }
+      | ^
+Finished building: ../exercicio25.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio25.o   -lm
+Finished building target: ProgramasC
+ 
+15:29:18 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio25.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio25.d" -MT"exercicio25.o" -o "exercicio25.o" "../exercicio25.c"
+../exercicio25.c: In function ‘notas’:
+../exercicio25.c:8:17: warning: format ‘%f’ expects argument of type ‘float *’, but argument 2 has type ‘float **’ [-Wformat=]
+    8 |         scanf("%f", &nota1);
+      |                ~^   ~~~~~~
+      |                 |   |
+      |                 |   float **
+      |                 float *
+../exercicio25.c:10:17: warning: format ‘%f’ expects argument of type ‘float *’, but argument 2 has type ‘float **’ [-Wformat=]
+   10 |         scanf("%f", &nota2);
+      |                ~^   ~~~~~~
+      |                 |   |
+      |                 |   float **
+      |                 float *
+Finished building: ../exercicio25.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio25.o   -lm
+Finished building target: ProgramasC
+ 
+15:29:50 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio25.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio25.d" -MT"exercicio25.o" -o "exercicio25.o" "../exercicio25.c"
+../exercicio25.c: In function ‘notas’:
+../exercicio25.c:8:17: warning: format ‘%f’ expects argument of type ‘float *’, but argument 2 has type ‘float **’ [-Wformat=]
+    8 |         scanf("%f", &nota1);
+      |                ~^   ~~~~~~
+      |                 |   |
+      |                 |   float **
+      |                 float *
+../exercicio25.c:10:17: warning: format ‘%f’ expects argument of type ‘float *’, but argument 2 has type ‘float **’ [-Wformat=]
+   10 |         scanf("%f", &nota2);
+      |                ~^   ~~~~~~
+      |                 |   |
+      |                 |   float **
+      |                 float *
+../exercicio25.c: In function ‘main’:
+../exercicio25.c:28:25: error: expected ‘;’ before ‘printf’
+   28 |         printf("Hello!")
+      |                         ^
+      |                         ;
+   29 | 
+   30 |         printf("A média aritmética do aluno foi %f\n", media_artm);
+      |         ~~~~~~           
+make: *** [subdir.mk:20: exercicio25.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:30:00 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio25.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio25.d" -MT"exercicio25.o" -o "exercicio25.o" "../exercicio25.c"
+../exercicio25.c: In function ‘notas’:
+../exercicio25.c:8:17: warning: format ‘%f’ expects argument of type ‘float *’, but argument 2 has type ‘float **’ [-Wformat=]
+    8 |         scanf("%f", &nota1);
+      |                ~^   ~~~~~~
+      |                 |   |
+      |                 |   float **
+      |                 float *
+../exercicio25.c:10:17: warning: format ‘%f’ expects argument of type ‘float *’, but argument 2 has type ‘float **’ [-Wformat=]
+   10 |         scanf("%f", &nota2);
+      |                ~^   ~~~~~~
+      |                 |   |
+      |                 |   float **
+      |                 float *
+Finished building: ../exercicio25.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio25.o   -lm
+Finished building target: ProgramasC
+ 
+15:31:35 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio25.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio25.d" -MT"exercicio25.o" -o "exercicio25.o" "../exercicio25.c"
+../exercicio25.c: In function ‘notas’:
+../exercicio25.c:8:17: warning: format ‘%f’ expects argument of type ‘float *’, but argument 2 has type ‘float **’ [-Wformat=]
+    8 |         scanf("%f", &nota1);
+      |                ~^   ~~~~~~
+      |                 |   |
+      |                 |   float **
+      |                 float *
+../exercicio25.c:10:17: warning: format ‘%f’ expects argument of type ‘float *’, but argument 2 has type ‘float **’ [-Wformat=]
+   10 |         scanf("%f", &nota2);
+      |                ~^   ~~~~~~
+      |                 |   |
+      |                 |   float **
+      |                 float *
+../exercicio25.c:17:50: warning: format ‘%f’ expects argument of type ‘double’, but argument 2 has type ‘float *’ [-Wformat=]
+   17 |         printf("A média aritmética do aluno foi %f\n", media_artm);
+      |                                                 ~^     ~~~~~~~~~~
+      |                                                  |     |
+      |                                                  |     float *
+      |                                                  double
+../exercicio25.c:18:49: warning: format ‘%f’ expects argument of type ‘double’, but argument 2 has type ‘float *’ [-Wformat=]
+   18 |         printf("A média ponderada do aluno foi %f\n", media_pond);
+      |                                                ~^     ~~~~~~~~~~
+      |                                                 |     |
+      |                                                 |     float *
+      |                                                 double
+Finished building: ../exercicio25.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio25.o   -lm
+Finished building target: ProgramasC
+ 
+15:32:14 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio25.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio25.d" -MT"exercicio25.o" -o "exercicio25.o" "../exercicio25.c"
+../exercicio25.c: In function ‘notas’:
+../exercicio25.c:8:17: warning: format ‘%f’ expects argument of type ‘float *’, but argument 2 has type ‘float **’ [-Wformat=]
+    8 |         scanf("%f", &nota1);
+      |                ~^   ~~~~~~
+      |                 |   |
+      |                 |   float **
+      |                 float *
+../exercicio25.c:10:17: warning: format ‘%f’ expects argument of type ‘float *’, but argument 2 has type ‘float **’ [-Wformat=]
+   10 |         scanf("%f", &nota2);
+      |                ~^   ~~~~~~
+      |                 |   |
+      |                 |   float **
+      |                 float *
+Finished building: ../exercicio25.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio25.o   -lm
+Finished building target: ProgramasC
+ 
+15:32:36 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio25.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio25.d" -MT"exercicio25.o" -o "exercicio25.o" "../exercicio25.c"
+Finished building: ../exercicio25.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio25.o   -lm
+Finished building target: ProgramasC
+ 
+15:33:32 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio25.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio25.d" -MT"exercicio25.o" -o "exercicio25.o" "../exercicio25.c"
+Finished building: ../exercicio25.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio25.o   -lm
+Finished building target: ProgramasC
+ 
+15:33:49 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio25.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio25.d" -MT"exercicio25.o" -o "exercicio25.o" "../exercicio25.c"
+Finished building: ../exercicio25.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio25.o   -lm
+Finished building target: ProgramasC
+ 
+15:49:32 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio26.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio26.d" -MT"exercicio26.o" -o "exercicio26.o" "../exercicio26.c"
+../exercicio26.c: In function ‘raizes’:
+../exercicio26.c:12:17: warning: implicit declaration of function ‘pow’ [-Wimplicit-function-declaration]
+   12 |         delta = pow(b, 2) - 4 * a * c;
+      |                 ^~~
+../exercicio26.c:3:1: note: include ‘<math.h>’ or provide a declaration of ‘pow’
+    2 | #include <stdlib.h>
+  +++ |+#include <math.h>
+    3 | 
+../exercicio26.c:12:17: warning: incompatible implicit declaration of built-in function ‘pow’ [-Wbuiltin-declaration-mismatch]
+   12 |         delta = pow(b, 2) - 4 * a * c;
+      |                 ^~~
+../exercicio26.c:12:17: note: include ‘<math.h>’ or provide a declaration of ‘pow’
+In file included from /usr/include/stdlib.h:32,
+                 from ../exercicio26.c:2:
+../exercicio26.c:18:25: error: incompatible types when assigning to type ‘float’ from type ‘void *’
+   18 |                 *(x1) = NULL;
+      |                         ^~~~
+../exercicio26.c:19:25: error: incompatible types when assigning to type ‘float’ from type ‘void *’
+   19 |                 *(x2) = NULL;
+      |                         ^~~~
+../exercicio26.c:27:25: error: incompatible types when assigning to type ‘float’ from type ‘void *’
+   27 |                 *(x2) = NULL;
+      |                         ^~~~
+../exercicio26.c:33:17: error: invalid operands to binary * (have ‘int’ and ‘float *’)
+   31 |                 printf("Existem duas raízes reais\n")
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                 |
+      |                 int
+   32 | 
+   33 |                 *(x1) = (-b + delta) / (2 * a);
+      |                 ^
+../exercicio26.c: In function ‘main’:
+../exercicio26.c:46:16: error: incompatible type for argument 1 of ‘raizes’
+   46 |         raizes(&x1, &x2);
+      |                ^~~
+      |                |
+      |                float *
+../exercicio26.c:5:18: note: expected ‘float’ but argument is of type ‘float *’
+    5 | int raizes(float a, float b, float c, float *x1, float *x2){
+      |            ~~~~~~^
+../exercicio26.c:46:21: error: incompatible type for argument 2 of ‘raizes’
+   46 |         raizes(&x1, &x2);
+      |                     ^~~
+      |                     |
+      |                     float *
+../exercicio26.c:5:27: note: expected ‘float’ but argument is of type ‘float *’
+    5 | int raizes(float a, float b, float c, float *x1, float *x2){
+      |                     ~~~~~~^
+../exercicio26.c:46:9: error: too few arguments to function ‘raizes’
+   46 |         raizes(&x1, &x2);
+      |         ^~~~~~
+../exercicio26.c:5:5: note: declared here
+    5 | int raizes(float a, float b, float c, float *x1, float *x2){
+      |     ^~~~~~
+../exercicio26.c: In function ‘raizes’:
+../exercicio26.c:38:1: warning: control reaches end of non-void function [-Wreturn-type]
+   38 | }
+      | ^
+make: *** [subdir.mk:20: exercicio26.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:50:52 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio26.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio26.d" -MT"exercicio26.o" -o "exercicio26.o" "../exercicio26.c"
+../exercicio26.c: In function ‘raizes’:
+../exercicio26.c:12:17: warning: implicit declaration of function ‘pow’ [-Wimplicit-function-declaration]
+   12 |         delta = pow(b, 2) - 4 * a * c;
+      |                 ^~~
+../exercicio26.c:3:1: note: include ‘<math.h>’ or provide a declaration of ‘pow’
+    2 | #include <stdlib.h>
+  +++ |+#include <math.h>
+    3 | 
+../exercicio26.c:12:17: warning: incompatible implicit declaration of built-in function ‘pow’ [-Wbuiltin-declaration-mismatch]
+   12 |         delta = pow(b, 2) - 4 * a * c;
+      |                 ^~~
+../exercicio26.c:12:17: note: include ‘<math.h>’ or provide a declaration of ‘pow’
+../exercicio26.c:18:18: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+   18 |                 *(char)(x1) = "NULL";
+      |                  ^
+../exercicio26.c:18:17: error: invalid type argument of unary ‘*’ (have ‘int’)
+   18 |                 *(char)(x1) = "NULL";
+      |                 ^~~~~~~~~~~
+../exercicio26.c:19:18: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+   19 |                 *(char)(x2) = "NULL";
+      |                  ^
+../exercicio26.c:19:17: error: invalid type argument of unary ‘*’ (have ‘int’)
+   19 |                 *(char)(x2) = "NULL";
+      |                 ^~~~~~~~~~~
+../exercicio26.c:27:18: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+   27 |                 *(char)(x2) = "NULL";
+      |                  ^
+../exercicio26.c:27:17: error: invalid type argument of unary ‘*’ (have ‘int’)
+   27 |                 *(char)(x2) = "NULL";
+      |                 ^~~~~~~~~~~
+../exercicio26.c:33:17: error: invalid operands to binary * (have ‘int’ and ‘float *’)
+   31 |                 printf("Existem duas raízes reais\n")
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                 |
+      |                 int
+   32 | 
+   33 |                 *(x1) = (-b + delta) / (2 * a);
+      |                 ^
+../exercicio26.c: In function ‘main’:
+../exercicio26.c:46:16: error: incompatible type for argument 1 of ‘raizes’
+   46 |         raizes(&x1, &x2);
+      |                ^~~
+      |                |
+      |                float *
+../exercicio26.c:5:18: note: expected ‘float’ but argument is of type ‘float *’
+    5 | int raizes(float a, float b, float c, float *x1, float *x2){
+      |            ~~~~~~^
+../exercicio26.c:46:21: error: incompatible type for argument 2 of ‘raizes’
+   46 |         raizes(&x1, &x2);
+      |                     ^~~
+      |                     |
+      |                     float *
+../exercicio26.c:5:27: note: expected ‘float’ but argument is of type ‘float *’
+    5 | int raizes(float a, float b, float c, float *x1, float *x2){
+      |                     ~~~~~~^
+../exercicio26.c:46:9: error: too few arguments to function ‘raizes’
+   46 |         raizes(&x1, &x2);
+      |         ^~~~~~
+../exercicio26.c:5:5: note: declared here
+    5 | int raizes(float a, float b, float c, float *x1, float *x2){
+      |     ^~~~~~
+../exercicio26.c: In function ‘raizes’:
+../exercicio26.c:38:1: warning: control reaches end of non-void function [-Wreturn-type]
+   38 | }
+      | ^
+make: *** [subdir.mk:20: exercicio26.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:51:26 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio26.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio26.d" -MT"exercicio26.o" -o "exercicio26.o" "../exercicio26.c"
+../exercicio26.c: In function ‘raizes’:
+../exercicio26.c:12:17: warning: implicit declaration of function ‘pow’ [-Wimplicit-function-declaration]
+   12 |         delta = pow(b, 2) - 4 * a * c;
+      |                 ^~~
+../exercicio26.c:3:1: note: include ‘<math.h>’ or provide a declaration of ‘pow’
+    2 | #include <stdlib.h>
+  +++ |+#include <math.h>
+    3 | 
+../exercicio26.c:12:17: warning: incompatible implicit declaration of built-in function ‘pow’ [-Wbuiltin-declaration-mismatch]
+   12 |         delta = pow(b, 2) - 4 * a * c;
+      |                 ^~~
+../exercicio26.c:12:17: note: include ‘<math.h>’ or provide a declaration of ‘pow’
+../exercicio26.c:18:29: error: lvalue required as left operand of assignment
+   18 |                 (char)*(x1) = "NULL";
+      |                             ^
+../exercicio26.c:19:29: error: lvalue required as left operand of assignment
+   19 |                 (char)*(x2) = "NULL";
+      |                             ^
+../exercicio26.c:27:29: error: lvalue required as left operand of assignment
+   27 |                 (char)*(x2) = "NULL";
+      |                             ^
+../exercicio26.c:33:17: error: invalid operands to binary * (have ‘int’ and ‘float *’)
+   31 |                 printf("Existem duas raízes reais\n")
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                 |
+      |                 int
+   32 | 
+   33 |                 *(x1) = (-b + delta) / (2 * a);
+      |                 ^
+../exercicio26.c: In function ‘main’:
+../exercicio26.c:46:16: error: incompatible type for argument 1 of ‘raizes’
+   46 |         raizes(&x1, &x2);
+      |                ^~~
+      |                |
+      |                float *
+../exercicio26.c:5:18: note: expected ‘float’ but argument is of type ‘float *’
+    5 | int raizes(float a, float b, float c, float *x1, float *x2){
+      |            ~~~~~~^
+../exercicio26.c:46:21: error: incompatible type for argument 2 of ‘raizes’
+   46 |         raizes(&x1, &x2);
+      |                     ^~~
+      |                     |
+      |                     float *
+../exercicio26.c:5:27: note: expected ‘float’ but argument is of type ‘float *’
+    5 | int raizes(float a, float b, float c, float *x1, float *x2){
+      |                     ~~~~~~^
+../exercicio26.c:46:9: error: too few arguments to function ‘raizes’
+   46 |         raizes(&x1, &x2);
+      |         ^~~~~~
+../exercicio26.c:5:5: note: declared here
+    5 | int raizes(float a, float b, float c, float *x1, float *x2){
+      |     ^~~~~~
+../exercicio26.c: In function ‘raizes’:
+../exercicio26.c:38:1: warning: control reaches end of non-void function [-Wreturn-type]
+   38 | }
+      | ^
+make: *** [subdir.mk:20: exercicio26.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:52:07 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio26.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio26.d" -MT"exercicio26.o" -o "exercicio26.o" "../exercicio26.c"
+../exercicio26.c: In function ‘raizes’:
+../exercicio26.c:12:17: warning: implicit declaration of function ‘pow’ [-Wimplicit-function-declaration]
+   12 |         delta = pow(b, 2) - 4 * a * c;
+      |                 ^~~
+../exercicio26.c:3:1: note: include ‘<math.h>’ or provide a declaration of ‘pow’
+    2 | #include <stdlib.h>
+  +++ |+#include <math.h>
+    3 | 
+../exercicio26.c:12:17: warning: incompatible implicit declaration of built-in function ‘pow’ [-Wbuiltin-declaration-mismatch]
+   12 |         delta = pow(b, 2) - 4 * a * c;
+      |                 ^~~
+../exercicio26.c:12:17: note: include ‘<math.h>’ or provide a declaration of ‘pow’
+../exercicio26.c:29:17: error: invalid operands to binary * (have ‘int’ and ‘float *’)
+   27 |                 printf("Existem duas raízes reais\n")
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                 |
+      |                 int
+   28 | 
+   29 |                 *(x1) = (-b + delta) / (2 * a);
+      |                 ^
+../exercicio26.c: In function ‘main’:
+../exercicio26.c:42:16: error: incompatible type for argument 1 of ‘raizes’
+   42 |         raizes(&x1, &x2);
+      |                ^~~
+      |                |
+      |                float *
+../exercicio26.c:5:18: note: expected ‘float’ but argument is of type ‘float *’
+    5 | int raizes(float a, float b, float c, float *x1, float *x2){
+      |            ~~~~~~^
+../exercicio26.c:42:21: error: incompatible type for argument 2 of ‘raizes’
+   42 |         raizes(&x1, &x2);
+      |                     ^~~
+      |                     |
+      |                     float *
+../exercicio26.c:5:27: note: expected ‘float’ but argument is of type ‘float *’
+    5 | int raizes(float a, float b, float c, float *x1, float *x2){
+      |                     ~~~~~~^
+../exercicio26.c:42:9: error: too few arguments to function ‘raizes’
+   42 |         raizes(&x1, &x2);
+      |         ^~~~~~
+../exercicio26.c:5:5: note: declared here
+    5 | int raizes(float a, float b, float c, float *x1, float *x2){
+      |     ^~~~~~
+../exercicio26.c: In function ‘raizes’:
+../exercicio26.c:34:1: warning: control reaches end of non-void function [-Wreturn-type]
+   34 | }
+      | ^
+make: *** [subdir.mk:20: exercicio26.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:53:46 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio26.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio26.d" -MT"exercicio26.o" -o "exercicio26.o" "../exercicio26.c"
+../exercicio26.c: In function ‘raizes’:
+../exercicio26.c:12:17: warning: implicit declaration of function ‘pow’ [-Wimplicit-function-declaration]
+   12 |         delta = pow(b, 2) - 4 * a * c;
+      |                 ^~~
+../exercicio26.c:3:1: note: include ‘<math.h>’ or provide a declaration of ‘pow’
+    2 | #include <stdlib.h>
+  +++ |+#include <math.h>
+    3 | 
+../exercicio26.c:12:17: warning: incompatible implicit declaration of built-in function ‘pow’ [-Wbuiltin-declaration-mismatch]
+   12 |         delta = pow(b, 2) - 4 * a * c;
+      |                 ^~~
+../exercicio26.c:12:17: note: include ‘<math.h>’ or provide a declaration of ‘pow’
+../exercicio26.c:29:17: error: invalid operands to binary * (have ‘int’ and ‘float *’)
+   27 |                 printf("Existem duas raízes reais\n")
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                 |
+      |                 int
+   28 | 
+   29 |                 *(x1) = (-b + delta) / (2 * a);
+      |                 ^
+../exercicio26.c:34:1: warning: control reaches end of non-void function [-Wreturn-type]
+   34 | }
+      | ^
+make: *** [subdir.mk:20: exercicio26.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:54:12 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio26.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio26.d" -MT"exercicio26.o" -o "exercicio26.o" "../exercicio26.c"
+../exercicio26.c: In function ‘raizes’:
+../exercicio26.c:12:17: warning: implicit declaration of function ‘pow’ [-Wimplicit-function-declaration]
+   12 |         delta = pow(b, 2) - 4 * a * c;
+      |                 ^~~
+../exercicio26.c:3:1: note: include ‘<math.h>’ or provide a declaration of ‘pow’
+    2 | #include <stdlib.h>
+  +++ |+#include <math.h>
+    3 | 
+../exercicio26.c:12:17: warning: incompatible implicit declaration of built-in function ‘pow’ [-Wbuiltin-declaration-mismatch]
+   12 |         delta = pow(b, 2) - 4 * a * c;
+      |                 ^~~
+../exercicio26.c:12:17: note: include ‘<math.h>’ or provide a declaration of ‘pow’
+../exercicio26.c:29:17: error: invalid operands to binary * (have ‘int’ and ‘float *’)
+   27 |                 printf("Existem duas raízes reais\n")
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                 |
+      |                 int
+   28 | 
+   29 |                 *(x1) = (-b + delta) / (2 * a);
+      |                 ^
+make: *** [subdir.mk:20: exercicio26.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:54:36 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio26.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio26.d" -MT"exercicio26.o" -o "exercicio26.o" "../exercicio26.c"
+../exercicio26.c: In function ‘raizes’:
+../exercicio26.c:12:17: warning: implicit declaration of function ‘pow’ [-Wimplicit-function-declaration]
+   12 |         delta = pow(b, 2) - 4 * a * c;
+      |                 ^~~
+../exercicio26.c:3:1: note: include ‘<math.h>’ or provide a declaration of ‘pow’
+    2 | #include <stdlib.h>
+  +++ |+#include <math.h>
+    3 | 
+../exercicio26.c:12:17: warning: incompatible implicit declaration of built-in function ‘pow’ [-Wbuiltin-declaration-mismatch]
+   12 |         delta = pow(b, 2) - 4 * a * c;
+      |                 ^~~
+../exercicio26.c:12:17: note: include ‘<math.h>’ or provide a declaration of ‘pow’
+../exercicio26.c:29:17: error: invalid operands to binary * (have ‘int’ and ‘float *’)
+   27 |                 printf("Existem duas raízes reais\n")
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                 |
+      |                 int
+   28 | 
+   29 |                 *(x1) = (-b + delta) / (2.0 * a);
+      |                 ^
+make: *** [subdir.mk:20: exercicio26.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:55:10 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio26.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio26.d" -MT"exercicio26.o" -o "exercicio26.o" "../exercicio26.c"
+../exercicio26.c: In function ‘raizes’:
+../exercicio26.c:29:17: error: invalid operands to binary * (have ‘int’ and ‘float *’)
+   27 |                 printf("Existem duas raízes reais\n")
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                 |
+      |                 int
+   28 | 
+   29 |                 *(x1) = (-b + delta) / (2.0 * a);
+      |                 ^
+make: *** [subdir.mk:20: exercicio26.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:55:59 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio26.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio26.d" -MT"exercicio26.o" -o "exercicio26.o" "../exercicio26.c"
+../exercicio26.c: In function ‘raizes’:
+../exercicio26.c:29:17: error: invalid operands to binary * (have ‘int’ and ‘float *’)
+   27 |                 printf("Existem duas raízes reais\n")
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                 |
+      |                 int
+   28 | 
+   29 |                 *(x1) = (-(b) + delta) / (2.0 * a);
+      |                 ^
+make: *** [subdir.mk:20: exercicio26.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:56:41 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio26.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio26.d" -MT"exercicio26.o" -o "exercicio26.o" "../exercicio26.c"
+../exercicio26.c: In function ‘raizes’:
+../exercicio26.c:29:17: error: invalid operands to binary * (have ‘int’ and ‘float *’)
+   27 |                 printf("Existem duas raízes reais\n")
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                 |
+      |                 int
+   28 | 
+   29 |                 *(x1) = ((-1) * b + delta) / (2.0 * a);
+      |                 ^
+make: *** [subdir.mk:20: exercicio26.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:58:06 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio26.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio26.d" -MT"exercicio26.o" -o "exercicio26.o" "../exercicio26.c"
+../exercicio26.c: In function ‘raizes’:
+../exercicio26.c:30:17: error: invalid operands to binary * (have ‘int’ and ‘float *’)
+   27 |                 printf("Existem duas raízes reais\n")
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                 |
+      |                 int
+......
+   30 |                 *(x2) = ((-1) * b - delta) / (2.0 * a);
+      |                 ^
+make: *** [subdir.mk:20: exercicio26.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:59:40 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio26.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio26.d" -MT"exercicio26.o" -o "exercicio26.o" "../exercicio26.c"
+../exercicio26.c: In function ‘raizes’:
+../exercicio26.c:29:17: error: invalid operands to binary * (have ‘int’ and ‘float *’)
+   27 |                 printf("Existem duas raízes reais\n")
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                 |
+      |                 int
+   28 | 
+   29 |                 *(x1) = (-b + sqrt(delta)) / (2.0 * a);
+      |                 ^
+../exercicio26.c:29:31: warning: implicit declaration of function ‘sqrt’ [-Wimplicit-function-declaration]
+   29 |                 *(x1) = (-b + sqrt(delta)) / (2.0 * a);
+      |                               ^~~~
+../exercicio26.c:3:1: note: include ‘<math.h>’ or provide a declaration of ‘sqrt’
+    2 | #include <stdlib.h>
+  +++ |+#include <math.h>
+    3 | 
+../exercicio26.c:29:31: warning: incompatible implicit declaration of built-in function ‘sqrt’ [-Wbuiltin-declaration-mismatch]
+   29 |                 *(x1) = (-b + sqrt(delta)) / (2.0 * a);
+      |                               ^~~~
+../exercicio26.c:29:31: note: include ‘<math.h>’ or provide a declaration of ‘sqrt’
+make: *** [subdir.mk:20: exercicio26.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:00:16 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio26.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio26.d" -MT"exercicio26.o" -o "exercicio26.o" "../exercicio26.c"
+../exercicio26.c: In function ‘raizes’:
+../exercicio26.c:29:17: error: invalid operands to binary * (have ‘int’ and ‘float *’)
+   27 |                 printf("Existem duas raízes reais\n")
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                 |
+      |                 int
+   28 | 
+   29 |                 *(x1) = (-b + sqrt(delta)) / (2 * a);
+      |                 ^
+../exercicio26.c:29:31: warning: implicit declaration of function ‘sqrt’ [-Wimplicit-function-declaration]
+   29 |                 *(x1) = (-b + sqrt(delta)) / (2 * a);
+      |                               ^~~~
+../exercicio26.c:3:1: note: include ‘<math.h>’ or provide a declaration of ‘sqrt’
+    2 | #include <stdlib.h>
+  +++ |+#include <math.h>
+    3 | 
+../exercicio26.c:29:31: warning: incompatible implicit declaration of built-in function ‘sqrt’ [-Wbuiltin-declaration-mismatch]
+   29 |                 *(x1) = (-b + sqrt(delta)) / (2 * a);
+      |                               ^~~~
+../exercicio26.c:29:31: note: include ‘<math.h>’ or provide a declaration of ‘sqrt’
+make: *** [subdir.mk:20: exercicio26.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:00:55 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio26.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio26.d" -MT"exercicio26.o" -o "exercicio26.o" "../exercicio26.c"
+../exercicio26.c: In function ‘raizes’:
+../exercicio26.c:27:54: error: expected ‘;’ before ‘}’ token
+   27 |                 printf("Existem duas raízes reais\n")
+      |                                                      ^
+      |                                                      ;
+......
+   32 |         }
+      |         ~                                             
+make: *** [subdir.mk:20: exercicio26.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:01:15 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio26.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio26.d" -MT"exercicio26.o" -o "exercicio26.o" "../exercicio26.c"
+../exercicio26.c: In function ‘raizes’:
+../exercicio26.c:29:31: warning: implicit declaration of function ‘sqrt’ [-Wimplicit-function-declaration]
+   29 |                 *(x1) = (-b + sqrt(delta)) / (2 * a);
+      |                               ^~~~
+../exercicio26.c:3:1: note: include ‘<math.h>’ or provide a declaration of ‘sqrt’
+    2 | #include <stdlib.h>
+  +++ |+#include <math.h>
+    3 | 
+../exercicio26.c:29:31: warning: incompatible implicit declaration of built-in function ‘sqrt’ [-Wbuiltin-declaration-mismatch]
+   29 |                 *(x1) = (-b + sqrt(delta)) / (2 * a);
+      |                               ^~~~
+../exercicio26.c:29:31: note: include ‘<math.h>’ or provide a declaration of ‘sqrt’
+Finished building: ../exercicio26.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio26.o   -lm
+Finished building target: ProgramasC
+ 
+16:01:31 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+16:02:07 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+16:02:59 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio26.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio26.d" -MT"exercicio26.o" -o "exercicio26.o" "../exercicio26.c"
+../exercicio26.c: In function ‘raizes’:
+../exercicio26.c:32:31: warning: implicit declaration of function ‘sqrt’ [-Wimplicit-function-declaration]
+   32 |                 *(x1) = (-b + sqrt(delta)) / (2 * a);
+      |                               ^~~~
+../exercicio26.c:3:1: note: include ‘<math.h>’ or provide a declaration of ‘sqrt’
+    2 | #include <stdlib.h>
+  +++ |+#include <math.h>
+    3 | 
+../exercicio26.c:32:31: warning: incompatible implicit declaration of built-in function ‘sqrt’ [-Wbuiltin-declaration-mismatch]
+   32 |                 *(x1) = (-b + sqrt(delta)) / (2 * a);
+      |                               ^~~~
+../exercicio26.c:32:31: note: include ‘<math.h>’ or provide a declaration of ‘sqrt’
+Finished building: ../exercicio26.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio26.o   -lm
+Finished building target: ProgramasC
+ 
+16:03:44 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio26.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio26.d" -MT"exercicio26.o" -o "exercicio26.o" "../exercicio26.c"
+../exercicio26.c: In function ‘raizes’:
+../exercicio26.c:32:31: warning: implicit declaration of function ‘sqrt’ [-Wimplicit-function-declaration]
+   32 |                 *(x1) = (-b + sqrt(delta)) / (2 * a);
+      |                               ^~~~
+../exercicio26.c:3:1: note: include ‘<math.h>’ or provide a declaration of ‘sqrt’
+    2 | #include <stdlib.h>
+  +++ |+#include <math.h>
+    3 | 
+../exercicio26.c:32:31: warning: incompatible implicit declaration of built-in function ‘sqrt’ [-Wbuiltin-declaration-mismatch]
+   32 |                 *(x1) = (-b + sqrt(delta)) / (2 * a);
+      |                               ^~~~
+../exercicio26.c:32:31: note: include ‘<math.h>’ or provide a declaration of ‘sqrt’
+Finished building: ../exercicio26.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio26.o   -lm
+Finished building target: ProgramasC
+ 
+16:04:01 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio26.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio26.d" -MT"exercicio26.o" -o "exercicio26.o" "../exercicio26.c"
+../exercicio26.c: In function ‘raizes’:
+../exercicio26.c:32:31: warning: implicit declaration of function ‘sqrt’ [-Wimplicit-function-declaration]
+   32 |                 *(x1) = (-b + sqrt(delta)) / (2 * a);
+      |                               ^~~~
+../exercicio26.c:3:1: note: include ‘<math.h>’ or provide a declaration of ‘sqrt’
+    2 | #include <stdlib.h>
+  +++ |+#include <math.h>
+    3 | 
+../exercicio26.c:32:31: warning: incompatible implicit declaration of built-in function ‘sqrt’ [-Wbuiltin-declaration-mismatch]
+   32 |                 *(x1) = (-b + sqrt(delta)) / (2 * a);
+      |                               ^~~~
+../exercicio26.c:32:31: note: include ‘<math.h>’ or provide a declaration of ‘sqrt’
+Finished building: ../exercicio26.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio26.o   -lm
+Finished building target: ProgramasC
+ 
+16:05:18 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio26.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio26.d" -MT"exercicio26.o" -o "exercicio26.o" "../exercicio26.c"
+../exercicio26.c: In function ‘raizes’:
+../exercicio26.c:30:31: warning: implicit declaration of function ‘sqrt’ [-Wimplicit-function-declaration]
+   30 |                 *(x1) = (-b + sqrt(delta)) / (2 * a);
+      |                               ^~~~
+../exercicio26.c:3:1: note: include ‘<math.h>’ or provide a declaration of ‘sqrt’
+    2 | #include <stdlib.h>
+  +++ |+#include <math.h>
+    3 | 
+../exercicio26.c:30:31: warning: incompatible implicit declaration of built-in function ‘sqrt’ [-Wbuiltin-declaration-mismatch]
+   30 |                 *(x1) = (-b + sqrt(delta)) / (2 * a);
+      |                               ^~~~
+../exercicio26.c:30:31: note: include ‘<math.h>’ or provide a declaration of ‘sqrt’
+Finished building: ../exercicio26.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio26.o   -lm
+Finished building target: ProgramasC
+ 
+16:05:39 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+16:06:27 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+16:07:02 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+16:08:01 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio26.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio26.d" -MT"exercicio26.o" -o "exercicio26.o" "../exercicio26.c"
+../exercicio26.c: In function ‘raizes’:
+../exercicio26.c:26:38: warning: format ‘%f’ expects argument of type ‘double’, but argument 2 has type ‘float *’ [-Wformat=]
+   26 |                 printf("A raiz é: %.1f", x1);
+      |                                   ~~~^   ~~
+      |                                      |   |
+      |                                      |   float *
+      |                                      double
+../exercicio26.c:32:31: warning: implicit declaration of function ‘sqrt’ [-Wimplicit-function-declaration]
+   32 |                 *(x1) = (-b + sqrt(delta)) / (2 * a);
+      |                               ^~~~
+../exercicio26.c:3:1: note: include ‘<math.h>’ or provide a declaration of ‘sqrt’
+    2 | #include <stdlib.h>
+  +++ |+#include <math.h>
+    3 | 
+../exercicio26.c:32:31: warning: incompatible implicit declaration of built-in function ‘sqrt’ [-Wbuiltin-declaration-mismatch]
+   32 |                 *(x1) = (-b + sqrt(delta)) / (2 * a);
+      |                               ^~~~
+../exercicio26.c:32:31: note: include ‘<math.h>’ or provide a declaration of ‘sqrt’
+../exercicio26.c:35:43: warning: format ‘%f’ expects argument of type ‘double’, but argument 2 has type ‘float *’ [-Wformat=]
+   35 |                 printf("As raizes são: %.1f e %.1f", x1, x2);
+      |                                        ~~~^          ~~
+      |                                           |          |
+      |                                           double     float *
+../exercicio26.c:35:50: warning: format ‘%f’ expects argument of type ‘double’, but argument 3 has type ‘float *’ [-Wformat=]
+   35 |                 printf("As raizes são: %.1f e %.1f", x1, x2);
+      |                                               ~~~^       ~~
+      |                                                  |       |
+      |                                                  double  float *
+Finished building: ../exercicio26.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio26.o   -lm
+Finished building target: ProgramasC
+ 
+16:08:24 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio26.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio26.d" -MT"exercicio26.o" -o "exercicio26.o" "../exercicio26.c"
+../exercicio26.c: In function ‘raizes’:
+../exercicio26.c:26:38: warning: format ‘%f’ expects argument of type ‘double’, but argument 2 has type ‘float *’ [-Wformat=]
+   26 |                 printf("A raiz é: %.1f", x1);
+      |                                   ~~~^   ~~
+      |                                      |   |
+      |                                      |   float *
+      |                                      double
+../exercicio26.c:32:31: warning: implicit declaration of function ‘sqrt’ [-Wimplicit-function-declaration]
+   32 |                 *(x1) = (-b + sqrt(delta)) / (2 * a);
+      |                               ^~~~
+../exercicio26.c:3:1: note: include ‘<math.h>’ or provide a declaration of ‘sqrt’
+    2 | #include <stdlib.h>
+  +++ |+#include <math.h>
+    3 | 
+../exercicio26.c:32:31: warning: incompatible implicit declaration of built-in function ‘sqrt’ [-Wbuiltin-declaration-mismatch]
+   32 |                 *(x1) = (-b + sqrt(delta)) / (2 * a);
+      |                               ^~~~
+../exercicio26.c:32:31: note: include ‘<math.h>’ or provide a declaration of ‘sqrt’
+../exercicio26.c:35:43: warning: format ‘%f’ expects argument of type ‘double’, but argument 2 has type ‘float *’ [-Wformat=]
+   35 |                 printf("As raizes são: %.1f e %.1f", x1, x2);
+      |                                        ~~~^          ~~
+      |                                           |          |
+      |                                           double     float *
+../exercicio26.c:35:50: warning: format ‘%f’ expects argument of type ‘double’, but argument 3 has type ‘float *’ [-Wformat=]
+   35 |                 printf("As raizes são: %.1f e %.1f", x1, x2);
+      |                                               ~~~^       ~~
+      |                                                  |       |
+      |                                                  double  float *
+Finished building: ../exercicio26.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio26.o   -lm
+Finished building target: ProgramasC
+ 
+16:08:31 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+16:08:40 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+16:09:21 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio26.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio26.d" -MT"exercicio26.o" -o "exercicio26.o" "../exercicio26.c"
+../exercicio26.c: In function ‘raizes’:
+../exercicio26.c:32:31: warning: implicit declaration of function ‘sqrt’ [-Wimplicit-function-declaration]
+   32 |                 *(x1) = (-b + sqrt(delta)) / (2 * a);
+      |                               ^~~~
+../exercicio26.c:3:1: note: include ‘<math.h>’ or provide a declaration of ‘sqrt’
+    2 | #include <stdlib.h>
+  +++ |+#include <math.h>
+    3 | 
+../exercicio26.c:32:31: warning: incompatible implicit declaration of built-in function ‘sqrt’ [-Wbuiltin-declaration-mismatch]
+   32 |                 *(x1) = (-b + sqrt(delta)) / (2 * a);
+      |                               ^~~~
+../exercicio26.c:32:31: note: include ‘<math.h>’ or provide a declaration of ‘sqrt’
+Finished building: ../exercicio26.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio26.o   -lm
+Finished building target: ProgramasC
+ 
+16:09:47 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+16:09:58 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+16:10:02 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+16:10:44 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+16:11:19 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+16:12:47 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+16:12:51 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+16:12:55 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+16:13:11 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+16:14:06 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio26.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio26.d" -MT"exercicio26.o" -o "exercicio26.o" "../exercicio26.c"
+../exercicio26.c: In function ‘raizes’:
+../exercicio26.c:32:32: warning: implicit declaration of function ‘sqrt’ [-Wimplicit-function-declaration]
+   32 |                 *(x1) = (- b + sqrt(delta)) / (2 * a);
+      |                                ^~~~
+../exercicio26.c:3:1: note: include ‘<math.h>’ or provide a declaration of ‘sqrt’
+    2 | #include <stdlib.h>
+  +++ |+#include <math.h>
+    3 | 
+../exercicio26.c:32:32: warning: incompatible implicit declaration of built-in function ‘sqrt’ [-Wbuiltin-declaration-mismatch]
+   32 |                 *(x1) = (- b + sqrt(delta)) / (2 * a);
+      |                                ^~~~
+../exercicio26.c:32:32: note: include ‘<math.h>’ or provide a declaration of ‘sqrt’
+Finished building: ../exercicio26.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio26.o   -lm
+Finished building target: ProgramasC
+ 
+16:14:15 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+16:14:24 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+16:14:37 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+16:14:48 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+16:16:08 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+16:16:21 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+16:16:25 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+16:16:28 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.

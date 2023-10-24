@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+
+int main(){
+
+	char colunas[26];
+
+	printf("Digite umas string: ");
+	scanf("%s", &colunas);
+
+	printf("%d", colunas[0]);
+
+
+	return 0;
+
+}
