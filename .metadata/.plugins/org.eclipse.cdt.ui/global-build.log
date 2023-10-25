@@ -46063,3 +46063,1069 @@ make: Nada a ser feito para 'all'.
 16:16:28 **** Incremental Build of configuration Debug for project ProgramasC ****
 make all 
 make: Nada a ser feito para 'all'.
+14:46:36 **** Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio03.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio03.d" -MT"exercicio03.o" -o "exercicio03.o" "../exercicio03.c"
+../exercicio03.c: In function ‘main’:
+../exercicio03.c:14:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[40]’ [-Wformat=]
+   14 |         scanf("%s", &str);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[40]
+      |                 char *
+../exercicio03.c:17:52: warning: initialization of ‘char *’ from incompatible pointer type ‘char (*)[40]’ [-Wincompatible-pointer-types]
+   17 |         int *pi = &i; float *pr = &r; char *pstr = &str;
+      |                                                    ^
+../exercicio03.c:21:16: warning: format ‘%d’ expects argument of type ‘int’, but argument 4 has type ‘int *’ [-Wformat=]
+   21 |         printf("O número inteiro vale %d, seu tamanho em bytes é %d, e seu "
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   22 |                         "endereço de memória é %d, %d", i, ti, &i, pi);
+      |                                                                ~~
+      |                                                                |
+      |                                                                int *
+../exercicio03.c:22:49: note: format string is defined here
+   22 |                         "endereço de memória é %d, %d", i, ti, &i, pi);
+      |                                                ~^
+      |                                                 |
+      |                                                 int
+      |                                                %ls
+../exercicio03.c:21:16: warning: format ‘%d’ expects argument of type ‘int’, but argument 5 has type ‘int *’ [-Wformat=]
+   21 |         printf("O número inteiro vale %d, seu tamanho em bytes é %d, e seu "
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   22 |                         "endereço de memória é %d, %d", i, ti, &i, pi);
+      |                                                                    ~~
+      |                                                                    |
+      |                                                                    int *
+../exercicio03.c:22:53: note: format string is defined here
+   22 |                         "endereço de memória é %d, %d", i, ti, &i, pi);
+      |                                                    ~^
+      |                                                     |
+      |                                                     int
+      |                                                    %ls
+../exercicio03.c:19:56: warning: unused variable ‘tstr’ [-Wunused-variable]
+   19 |         int ti = sizeof(i); float tr = sizeof(r); char tstr = sizeof(str);
+      |                                                        ^~~~
+../exercicio03.c:19:35: warning: unused variable ‘tr’ [-Wunused-variable]
+   19 |         int ti = sizeof(i); float tr = sizeof(r); char tstr = sizeof(str);
+      |                                   ^~
+../exercicio03.c:17:45: warning: unused variable ‘pstr’ [-Wunused-variable]
+   17 |         int *pi = &i; float *pr = &r; char *pstr = &str;
+      |                                             ^~~~
+../exercicio03.c:17:30: warning: unused variable ‘pr’ [-Wunused-variable]
+   17 |         int *pi = &i; float *pr = &r; char *pstr = &str;
+      |                              ^~
+Finished building: ../exercicio03.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio03.o   -lm
+Finished building target: ProgramasC
+ 
+14:49:40 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio03.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio03.d" -MT"exercicio03.o" -o "exercicio03.o" "../exercicio03.c"
+../exercicio03.c: In function ‘main’:
+../exercicio03.c:14:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[40]’ [-Wformat=]
+   14 |         scanf("%s", &str);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[40]
+      |                 char *
+../exercicio03.c:17:52: warning: initialization of ‘char *’ from incompatible pointer type ‘char (*)[40]’ [-Wincompatible-pointer-types]
+   17 |         int *pi = &i; float *pr = &r; char *pstr = &str;
+      |                                                    ^
+../exercicio03.c:21:16: warning: format ‘%d’ expects argument of type ‘int’, but argument 4 has type ‘int *’ [-Wformat=]
+   21 |         printf("O número inteiro vale %d, seu tamanho é de %d bytes seu "
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   22 |                         "endereço de memória em inteiros é %d, e em hexadecimal é %pi", i, ti, &i, pi);
+      |                                                                                                ~~
+      |                                                                                                |
+      |                                                                                                int *
+../exercicio03.c:22:61: note: format string is defined here
+   22 |                         "endereço de memória em inteiros é %d, e em hexadecimal é %pi", i, ti, &i, pi);
+      |                                                            ~^
+      |                                                             |
+      |                                                             int
+      |                                                            %ls
+../exercicio03.c:19:56: warning: unused variable ‘tstr’ [-Wunused-variable]
+   19 |         int ti = sizeof(i); float tr = sizeof(r); char tstr = sizeof(str);
+      |                                                        ^~~~
+../exercicio03.c:19:35: warning: unused variable ‘tr’ [-Wunused-variable]
+   19 |         int ti = sizeof(i); float tr = sizeof(r); char tstr = sizeof(str);
+      |                                   ^~
+../exercicio03.c:17:45: warning: unused variable ‘pstr’ [-Wunused-variable]
+   17 |         int *pi = &i; float *pr = &r; char *pstr = &str;
+      |                                             ^~~~
+../exercicio03.c:17:30: warning: unused variable ‘pr’ [-Wunused-variable]
+   17 |         int *pi = &i; float *pr = &r; char *pstr = &str;
+      |                              ^~
+Finished building: ../exercicio03.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio03.o   -lm
+Finished building target: ProgramasC
+ 
+14:50:40 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio03.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio03.d" -MT"exercicio03.o" -o "exercicio03.o" "../exercicio03.c"
+../exercicio03.c: In function ‘main’:
+../exercicio03.c:14:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[40]’ [-Wformat=]
+   14 |         scanf("%s", &str);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[40]
+      |                 char *
+../exercicio03.c:17:52: warning: initialization of ‘char *’ from incompatible pointer type ‘char (*)[40]’ [-Wincompatible-pointer-types]
+   17 |         int *pi = &i; float *pr = &r; char *pstr = &str;
+      |                                                    ^
+../exercicio03.c:21:16: warning: format ‘%d’ expects argument of type ‘int’, but argument 4 has type ‘int *’ [-Wformat=]
+   21 |         printf("O número inteiro vale %d, seu tamanho é de %d bytes seu\n"
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   22 |                         "endereço de memória em inteiros é %d, e em hexadecimal é %pi", i, ti, &i, pi);
+      |                                                                                                ~~
+      |                                                                                                |
+      |                                                                                                int *
+../exercicio03.c:22:61: note: format string is defined here
+   22 |                         "endereço de memória em inteiros é %d, e em hexadecimal é %pi", i, ti, &i, pi);
+      |                                                            ~^
+      |                                                             |
+      |                                                             int
+      |                                                            %ls
+../exercicio03.c:19:56: warning: unused variable ‘tstr’ [-Wunused-variable]
+   19 |         int ti = sizeof(i); float tr = sizeof(r); char tstr = sizeof(str);
+      |                                                        ^~~~
+../exercicio03.c:19:35: warning: unused variable ‘tr’ [-Wunused-variable]
+   19 |         int ti = sizeof(i); float tr = sizeof(r); char tstr = sizeof(str);
+      |                                   ^~
+../exercicio03.c:17:45: warning: unused variable ‘pstr’ [-Wunused-variable]
+   17 |         int *pi = &i; float *pr = &r; char *pstr = &str;
+      |                                             ^~~~
+../exercicio03.c:17:30: warning: unused variable ‘pr’ [-Wunused-variable]
+   17 |         int *pi = &i; float *pr = &r; char *pstr = &str;
+      |                              ^~
+Finished building: ../exercicio03.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio03.o   -lm
+Finished building target: ProgramasC
+ 
+14:52:01 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio03.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio03.d" -MT"exercicio03.o" -o "exercicio03.o" "../exercicio03.c"
+../exercicio03.c: In function ‘main’:
+../exercicio03.c:14:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[40]’ [-Wformat=]
+   14 |         scanf("%s", &str);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[40]
+      |                 char *
+../exercicio03.c:17:52: warning: initialization of ‘char *’ from incompatible pointer type ‘char (*)[40]’ [-Wincompatible-pointer-types]
+   17 |         int *pi = &i; float *pr = &r; char *pstr = &str;
+      |                                                    ^
+../exercicio03.c:21:16: warning: format ‘%d’ expects argument of type ‘int’, but argument 4 has type ‘int *’ [-Wformat=]
+   21 |         printf("O número inteiro vale %d, seu tamanho é de %d bytes seu endereço\n"
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   22 |                         "de memória em inteiros é %d, e em hexadecimal é %d", i, ti, &i, pi);
+      |                                                                                      ~~
+      |                                                                                      |
+      |                                                                                      int *
+../exercicio03.c:22:52: note: format string is defined here
+   22 |                         "de memória em inteiros é %d, e em hexadecimal é %d", i, ti, &i, pi);
+      |                                                   ~^
+      |                                                    |
+      |                                                    int
+      |                                                   %ls
+../exercicio03.c:21:16: warning: format ‘%d’ expects argument of type ‘int’, but argument 5 has type ‘int *’ [-Wformat=]
+   21 |         printf("O número inteiro vale %d, seu tamanho é de %d bytes seu endereço\n"
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   22 |                         "de memória em inteiros é %d, e em hexadecimal é %d", i, ti, &i, pi);
+      |                                                                                          ~~
+      |                                                                                          |
+      |                                                                                          int *
+../exercicio03.c:22:75: note: format string is defined here
+   22 |                         "de memória em inteiros é %d, e em hexadecimal é %d", i, ti, &i, pi);
+      |                                                                          ~^
+      |                                                                           |
+      |                                                                           int
+      |                                                                          %ls
+../exercicio03.c:19:56: warning: unused variable ‘tstr’ [-Wunused-variable]
+   19 |         int ti = sizeof(i); float tr = sizeof(r); char tstr = sizeof(str);
+      |                                                        ^~~~
+../exercicio03.c:19:35: warning: unused variable ‘tr’ [-Wunused-variable]
+   19 |         int ti = sizeof(i); float tr = sizeof(r); char tstr = sizeof(str);
+      |                                   ^~
+../exercicio03.c:17:45: warning: unused variable ‘pstr’ [-Wunused-variable]
+   17 |         int *pi = &i; float *pr = &r; char *pstr = &str;
+      |                                             ^~~~
+../exercicio03.c:17:30: warning: unused variable ‘pr’ [-Wunused-variable]
+   17 |         int *pi = &i; float *pr = &r; char *pstr = &str;
+      |                              ^~
+Finished building: ../exercicio03.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio03.o   -lm
+Finished building target: ProgramasC
+ 
+14:54:14 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio03.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio03.d" -MT"exercicio03.o" -o "exercicio03.o" "../exercicio03.c"
+../exercicio03.c: In function ‘main’:
+../exercicio03.c:14:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[40]’ [-Wformat=]
+   14 |         scanf("%s", &str);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[40]
+      |                 char *
+../exercicio03.c:17:52: warning: initialization of ‘char *’ from incompatible pointer type ‘char (*)[40]’ [-Wincompatible-pointer-types]
+   17 |         int *pi = &i; float *pr = &r; char *pstr = &str;
+      |                                                    ^
+../exercicio03.c:21:16: warning: format ‘%d’ expects argument of type ‘int’, but argument 4 has type ‘int *’ [-Wformat=]
+   21 |         printf("O número inteiro vale %d, seu tamanho é de %d bytes seu endereço\n"
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   22 |                         "de memória em inteiros é %d, e em hexadecimal é %pi\n", i, ti, &i, pi);
+      |                                                                                         ~~
+      |                                                                                         |
+      |                                                                                         int *
+../exercicio03.c:22:52: note: format string is defined here
+   22 |                         "de memória em inteiros é %d, e em hexadecimal é %pi\n", i, ti, &i, pi);
+      |                                                   ~^
+      |                                                    |
+      |                                                    int
+      |                                                   %ls
+../exercicio03.c:23:16: warning: format ‘%d’ expects argument of type ‘int’, but argument 4 has type ‘float *’ [-Wformat=]
+   23 |         printf("O número real vale %f, seu tamanho é de %d bytes seu endereço\n"
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   24 |                         "de memória em inteiros é %d, e em hexadecimal é %pr\n", r, tr, &r, pr);
+      |                                                                                         ~~
+      |                                                                                         |
+      |                                                                                         float *
+../exercicio03.c:24:52: note: format string is defined here
+   24 |                         "de memória em inteiros é %d, e em hexadecimal é %pr\n", r, tr, &r, pr);
+      |                                                   ~^
+      |                                                    |
+      |                                                    int
+../exercicio03.c:19:53: warning: unused variable ‘tstr’ [-Wunused-variable]
+   19 |         int ti = sizeof(i); int tr = sizeof(r); int tstr = sizeof(str);
+      |                                                     ^~~~
+../exercicio03.c:17:45: warning: unused variable ‘pstr’ [-Wunused-variable]
+   17 |         int *pi = &i; float *pr = &r; char *pstr = &str;
+      |                                             ^~~~
+Finished building: ../exercicio03.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio03.o   -lm
+Finished building target: ProgramasC
+ 
+14:56:51 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio03.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio03.d" -MT"exercicio03.o" -o "exercicio03.o" "../exercicio03.c"
+../exercicio03.c: In function ‘main’:
+../exercicio03.c:14:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[40]’ [-Wformat=]
+   14 |         scanf("%s", &str);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[40]
+      |                 char *
+../exercicio03.c:17:52: warning: initialization of ‘char *’ from incompatible pointer type ‘char (*)[40]’ [-Wincompatible-pointer-types]
+   17 |         int *pi = &i; float *pr = &r; char *pstr = &str;
+      |                                                    ^
+../exercicio03.c:21:16: warning: format ‘%d’ expects argument of type ‘int’, but argument 4 has type ‘int *’ [-Wformat=]
+   21 |         printf("O número inteiro vale %d, seu tamanho é de %d bytes seu endereço\n"
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   22 |                         "de memória em inteiros é %d, e em hexadecimal é %pi\n", i, ti, &i, pi);
+      |                                                                                         ~~
+      |                                                                                         |
+      |                                                                                         int *
+../exercicio03.c:22:52: note: format string is defined here
+   22 |                         "de memória em inteiros é %d, e em hexadecimal é %pi\n", i, ti, &i, pi);
+      |                                                   ~^
+      |                                                    |
+      |                                                    int
+      |                                                   %ls
+../exercicio03.c:24:16: warning: format ‘%d’ expects argument of type ‘int’, but argument 4 has type ‘float *’ [-Wformat=]
+   24 |         printf("O número real vale %f, seu tamanho é de %d bytes seu endereço\n"
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   25 |                         "de memória em inteiros é %d, e em hexadecimal é %pr\n", r, tr, &r, pr);
+      |                                                                                         ~~
+      |                                                                                         |
+      |                                                                                         float *
+../exercicio03.c:25:52: note: format string is defined here
+   25 |                         "de memória em inteiros é %d, e em hexadecimal é %pr\n", r, tr, &r, pr);
+      |                                                   ~^
+      |                                                    |
+      |                                                    int
+../exercicio03.c:27:29: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘double’ [-Wformat=]
+   27 |         printf("A string é %s, seu tamanho é de %d bytes seu endereço\n"
+      |                            ~^
+      |                             |
+      |                             char *
+      |                            %f
+   28 |                         "de memória em inteiros é %d, e em hexadecimal é %pstr\n", r, tr, &r, pr);
+      |                                                                                    ~
+      |                                                                                    |
+      |                                                                                    double
+../exercicio03.c:27:16: warning: format ‘%d’ expects argument of type ‘int’, but argument 4 has type ‘float *’ [-Wformat=]
+   27 |         printf("A string é %s, seu tamanho é de %d bytes seu endereço\n"
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   28 |                         "de memória em inteiros é %d, e em hexadecimal é %pstr\n", r, tr, &r, pr);
+      |                                                                                           ~~
+      |                                                                                           |
+      |                                                                                           float *
+../exercicio03.c:28:52: note: format string is defined here
+   28 |                         "de memória em inteiros é %d, e em hexadecimal é %pstr\n", r, tr, &r, pr);
+      |                                                   ~^
+      |                                                    |
+      |                                                    int
+../exercicio03.c:19:53: warning: unused variable ‘tstr’ [-Wunused-variable]
+   19 |         int ti = sizeof(i); int tr = sizeof(r); int tstr = sizeof(str);
+      |                                                     ^~~~
+../exercicio03.c:17:45: warning: unused variable ‘pstr’ [-Wunused-variable]
+   17 |         int *pi = &i; float *pr = &r; char *pstr = &str;
+      |                                             ^~~~
+Finished building: ../exercicio03.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio03.o   -lm
+Finished building target: ProgramasC
+ 
+14:57:35 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio03.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio03.d" -MT"exercicio03.o" -o "exercicio03.o" "../exercicio03.c"
+../exercicio03.c: In function ‘main’:
+../exercicio03.c:14:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[40]’ [-Wformat=]
+   14 |         scanf("%s", &str);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[40]
+      |                 char *
+../exercicio03.c:17:52: warning: initialization of ‘char *’ from incompatible pointer type ‘char (*)[40]’ [-Wincompatible-pointer-types]
+   17 |         int *pi = &i; float *pr = &r; char *pstr = &str;
+      |                                                    ^
+../exercicio03.c:21:16: warning: format ‘%d’ expects argument of type ‘int’, but argument 4 has type ‘int *’ [-Wformat=]
+   21 |         printf("O número inteiro vale %d, seu tamanho é de %d bytes seu endereço\n"
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   22 |                         "de memória em inteiros é %d, e em hexadecimal é %pi\n", i, ti, &i, pi);
+      |                                                                                         ~~
+      |                                                                                         |
+      |                                                                                         int *
+../exercicio03.c:22:52: note: format string is defined here
+   22 |                         "de memória em inteiros é %d, e em hexadecimal é %pi\n", i, ti, &i, pi);
+      |                                                   ~^
+      |                                                    |
+      |                                                    int
+      |                                                   %ls
+../exercicio03.c:24:16: warning: format ‘%d’ expects argument of type ‘int’, but argument 4 has type ‘float *’ [-Wformat=]
+   24 |         printf("O número real vale %f, seu tamanho é de %d bytes seu endereço\n"
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   25 |                         "de memória em inteiros é %d, e em hexadecimal é %pr\n", r, tr, &r, pr);
+      |                                                                                         ~~
+      |                                                                                         |
+      |                                                                                         float *
+../exercicio03.c:25:52: note: format string is defined here
+   25 |                         "de memória em inteiros é %d, e em hexadecimal é %pr\n", r, tr, &r, pr);
+      |                                                   ~^
+      |                                                    |
+      |                                                    int
+../exercicio03.c:27:16: warning: format ‘%d’ expects argument of type ‘int’, but argument 4 has type ‘char (*)[40]’ [-Wformat=]
+   27 |         printf("A string é %s, seu tamanho é de %d bytes seu endereço\n"
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   28 |                         "de memória em inteiros é %d, e em hexadecimal é %pstr\n", str, tstr, &str, pstr);
+      |                                                                                               ~~~~
+      |                                                                                               |
+      |                                                                                               char (*)[40]
+../exercicio03.c:28:52: note: format string is defined here
+   28 |                         "de memória em inteiros é %d, e em hexadecimal é %pstr\n", str, tstr, &str, pstr);
+      |                                                   ~^
+      |                                                    |
+      |                                                    int
+Finished building: ../exercicio03.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio03.o   -lm
+Finished building target: ProgramasC
+ 
+14:59:46 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio03.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio03.d" -MT"exercicio03.o" -o "exercicio03.o" "../exercicio03.c"
+../exercicio03.c: In function ‘main’:
+../exercicio03.c:14:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[40]’ [-Wformat=]
+   14 |         scanf("%s", &str);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[40]
+      |                 char *
+../exercicio03.c:17:47: warning: initialization of ‘char *’ from incompatible pointer type ‘char (*)[40]’ [-Wincompatible-pointer-types]
+   17 |         int *j = &i; float *k = &r; char *l = &str;
+      |                                               ^
+../exercicio03.c:21:16: warning: format ‘%d’ expects argument of type ‘int’, but argument 4 has type ‘int *’ [-Wformat=]
+   21 |         printf("O número inteiro vale %d, seu tamanho é de %d bytes seu endereço\n"
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   22 |                         "de memória em inteiros é %d, e em hexadecimal é %j\n", i, ti, &i, j);
+      |                                                                                        ~~
+      |                                                                                        |
+      |                                                                                        int *
+../exercicio03.c:22:52: note: format string is defined here
+   22 |                         "de memória em inteiros é %d, e em hexadecimal é %j\n", i, ti, &i, j);
+      |                                                   ~^
+      |                                                    |
+      |                                                    int
+      |                                                   %ls
+../exercicio03.c:21:16: warning: unknown conversion type character ‘\x0a’ in format [-Wformat=]
+   21 |         printf("O número inteiro vale %d, seu tamanho é de %d bytes seu endereço\n"
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../exercicio03.c:22:76: note: format string is defined here
+   22 |                         "de memória em inteiros é %d, e em hexadecimal é %j\n", i, ti, &i, j);
+      |                                                                            ^~
+../exercicio03.c:21:16: warning: too many arguments for format [-Wformat-extra-args]
+   21 |         printf("O número inteiro vale %d, seu tamanho é de %d bytes seu endereço\n"
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../exercicio03.c:24:16: warning: format ‘%d’ expects argument of type ‘int’, but argument 4 has type ‘float *’ [-Wformat=]
+   24 |         printf("O número real vale %f, seu tamanho é de %d bytes seu endereço\n"
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   25 |                         "de memória em inteiros é %d, e em hexadecimal é %k\n", r, tr, &r, k);
+      |                                                                                        ~~
+      |                                                                                        |
+      |                                                                                        float *
+../exercicio03.c:25:52: note: format string is defined here
+   25 |                         "de memória em inteiros é %d, e em hexadecimal é %k\n", r, tr, &r, k);
+      |                                                   ~^
+      |                                                    |
+      |                                                    int
+../exercicio03.c:24:16: warning: unknown conversion type character ‘k’ in format [-Wformat=]
+   24 |         printf("O número real vale %f, seu tamanho é de %d bytes seu endereço\n"
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../exercicio03.c:25:75: note: format string is defined here
+   25 |                         "de memória em inteiros é %d, e em hexadecimal é %k\n", r, tr, &r, k);
+      |                                                                           ^
+../exercicio03.c:24:16: warning: too many arguments for format [-Wformat-extra-args]
+   24 |         printf("O número real vale %f, seu tamanho é de %d bytes seu endereço\n"
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../exercicio03.c:27:16: warning: format ‘%d’ expects argument of type ‘int’, but argument 4 has type ‘char (*)[40]’ [-Wformat=]
+   27 |         printf("A string é %s, seu tamanho é de %d bytes seu endereço\n"
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   28 |                         "de memória em inteiros é %d, e em hexadecimal é %l\n", str, tstr, &str, l);
+      |                                                                                            ~~~~
+      |                                                                                            |
+      |                                                                                            char (*)[40]
+../exercicio03.c:28:52: note: format string is defined here
+   28 |                         "de memória em inteiros é %d, e em hexadecimal é %l\n", str, tstr, &str, l);
+      |                                                   ~^
+      |                                                    |
+      |                                                    int
+../exercicio03.c:27:16: warning: unknown conversion type character ‘\x0a’ in format [-Wformat=]
+   27 |         printf("A string é %s, seu tamanho é de %d bytes seu endereço\n"
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../exercicio03.c:28:76: note: format string is defined here
+   28 |                         "de memória em inteiros é %d, e em hexadecimal é %l\n", str, tstr, &str, l);
+      |                                                                            ^~
+../exercicio03.c:27:16: warning: too many arguments for format [-Wformat-extra-args]
+   27 |         printf("A string é %s, seu tamanho é de %d bytes seu endereço\n"
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../exercicio03.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio03.o   -lm
+Finished building target: ProgramasC
+ 
+15:01:09 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio03.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio03.d" -MT"exercicio03.o" -o "exercicio03.o" "../exercicio03.c"
+../exercicio03.c: In function ‘main’:
+../exercicio03.c:14:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[40]’ [-Wformat=]
+   14 |         scanf("%s", &str);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[40]
+      |                 char *
+../exercicio03.c:17:47: warning: initialization of ‘char *’ from incompatible pointer type ‘char (*)[40]’ [-Wincompatible-pointer-types]
+   17 |         int *j = &i; float *k = &r; char *l = &str;
+      |                                               ^
+../exercicio03.c:21:16: warning: format ‘%d’ expects argument of type ‘int’, but argument 4 has type ‘int *’ [-Wformat=]
+   21 |         printf("O número inteiro vale %d, seu tamanho é de %d bytes seu endereço\n"
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   22 |                         "de memória em inteiros é %d, e em hexadecimal é %j\n", i, ti, &i, *j);
+      |                                                                                        ~~
+      |                                                                                        |
+      |                                                                                        int *
+../exercicio03.c:22:52: note: format string is defined here
+   22 |                         "de memória em inteiros é %d, e em hexadecimal é %j\n", i, ti, &i, *j);
+      |                                                   ~^
+      |                                                    |
+      |                                                    int
+      |                                                   %ls
+../exercicio03.c:21:16: warning: unknown conversion type character ‘\x0a’ in format [-Wformat=]
+   21 |         printf("O número inteiro vale %d, seu tamanho é de %d bytes seu endereço\n"
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../exercicio03.c:22:76: note: format string is defined here
+   22 |                         "de memória em inteiros é %d, e em hexadecimal é %j\n", i, ti, &i, *j);
+      |                                                                            ^~
+../exercicio03.c:21:16: warning: too many arguments for format [-Wformat-extra-args]
+   21 |         printf("O número inteiro vale %d, seu tamanho é de %d bytes seu endereço\n"
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../exercicio03.c:24:16: warning: format ‘%d’ expects argument of type ‘int’, but argument 4 has type ‘float *’ [-Wformat=]
+   24 |         printf("O número real vale %f, seu tamanho é de %d bytes seu endereço\n"
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   25 |                         "de memória em inteiros é %d, e em hexadecimal é %k\n", r, tr, &r, *k);
+      |                                                                                        ~~
+      |                                                                                        |
+      |                                                                                        float *
+../exercicio03.c:25:52: note: format string is defined here
+   25 |                         "de memória em inteiros é %d, e em hexadecimal é %k\n", r, tr, &r, *k);
+      |                                                   ~^
+      |                                                    |
+      |                                                    int
+../exercicio03.c:24:16: warning: unknown conversion type character ‘k’ in format [-Wformat=]
+   24 |         printf("O número real vale %f, seu tamanho é de %d bytes seu endereço\n"
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../exercicio03.c:25:75: note: format string is defined here
+   25 |                         "de memória em inteiros é %d, e em hexadecimal é %k\n", r, tr, &r, *k);
+      |                                                                           ^
+../exercicio03.c:24:16: warning: too many arguments for format [-Wformat-extra-args]
+   24 |         printf("O número real vale %f, seu tamanho é de %d bytes seu endereço\n"
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../exercicio03.c:27:16: warning: format ‘%d’ expects argument of type ‘int’, but argument 4 has type ‘char (*)[40]’ [-Wformat=]
+   27 |         printf("A string é %s, seu tamanho é de %d bytes seu endereço\n"
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   28 |                         "de memória em inteiros é %d, e em hexadecimal é %l\n", str, tstr, &str, *l);
+      |                                                                                            ~~~~
+      |                                                                                            |
+      |                                                                                            char (*)[40]
+../exercicio03.c:28:52: note: format string is defined here
+   28 |                         "de memória em inteiros é %d, e em hexadecimal é %l\n", str, tstr, &str, *l);
+      |                                                   ~^
+      |                                                    |
+      |                                                    int
+../exercicio03.c:27:16: warning: unknown conversion type character ‘\x0a’ in format [-Wformat=]
+   27 |         printf("A string é %s, seu tamanho é de %d bytes seu endereço\n"
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../exercicio03.c:28:76: note: format string is defined here
+   28 |                         "de memória em inteiros é %d, e em hexadecimal é %l\n", str, tstr, &str, *l);
+      |                                                                            ^~
+../exercicio03.c:27:16: warning: too many arguments for format [-Wformat-extra-args]
+   27 |         printf("A string é %s, seu tamanho é de %d bytes seu endereço\n"
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../exercicio03.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio03.o   -lm
+Finished building target: ProgramasC
+ 
+15:01:53 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio03.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio03.d" -MT"exercicio03.o" -o "exercicio03.o" "../exercicio03.c"
+../exercicio03.c: In function ‘main’:
+../exercicio03.c:14:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[40]’ [-Wformat=]
+   14 |         scanf("%s", &str);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[40]
+      |                 char *
+../exercicio03.c:17:47: warning: initialization of ‘char *’ from incompatible pointer type ‘char (*)[40]’ [-Wincompatible-pointer-types]
+   17 |         int *j = &i; float *k = &r; char *l = &str;
+      |                                               ^
+../exercicio03.c:21:16: warning: format ‘%d’ expects argument of type ‘int’, but argument 4 has type ‘int *’ [-Wformat=]
+   21 |         printf("O número inteiro vale %d, seu tamanho é de %d bytes seu endereço\n"
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   22 |                         "de memória em inteiros é %d, e em hexadecimal é %d\n", i, ti, &i, j);
+      |                                                                                        ~~
+      |                                                                                        |
+      |                                                                                        int *
+../exercicio03.c:22:52: note: format string is defined here
+   22 |                         "de memória em inteiros é %d, e em hexadecimal é %d\n", i, ti, &i, j);
+      |                                                   ~^
+      |                                                    |
+      |                                                    int
+      |                                                   %ls
+../exercicio03.c:21:16: warning: format ‘%d’ expects argument of type ‘int’, but argument 5 has type ‘int *’ [-Wformat=]
+   21 |         printf("O número inteiro vale %d, seu tamanho é de %d bytes seu endereço\n"
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   22 |                         "de memória em inteiros é %d, e em hexadecimal é %d\n", i, ti, &i, j);
+      |                                                                                            ~
+      |                                                                                            |
+      |                                                                                            int *
+../exercicio03.c:22:75: note: format string is defined here
+   22 |                         "de memória em inteiros é %d, e em hexadecimal é %d\n", i, ti, &i, j);
+      |                                                                          ~^
+      |                                                                           |
+      |                                                                           int
+      |                                                                          %ls
+../exercicio03.c:24:16: warning: format ‘%d’ expects argument of type ‘int’, but argument 4 has type ‘float *’ [-Wformat=]
+   24 |         printf("O número real vale %f, seu tamanho é de %d bytes seu endereço\n"
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   25 |                         "de memória em inteiros é %d, e em hexadecimal é %d\n", r, tr, &r, k);
+      |                                                                                        ~~
+      |                                                                                        |
+      |                                                                                        float *
+../exercicio03.c:25:52: note: format string is defined here
+   25 |                         "de memória em inteiros é %d, e em hexadecimal é %d\n", r, tr, &r, k);
+      |                                                   ~^
+      |                                                    |
+      |                                                    int
+../exercicio03.c:24:16: warning: format ‘%d’ expects argument of type ‘int’, but argument 5 has type ‘float *’ [-Wformat=]
+   24 |         printf("O número real vale %f, seu tamanho é de %d bytes seu endereço\n"
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   25 |                         "de memória em inteiros é %d, e em hexadecimal é %d\n", r, tr, &r, k);
+      |                                                                                            ~
+      |                                                                                            |
+      |                                                                                            float *
+../exercicio03.c:25:75: note: format string is defined here
+   25 |                         "de memória em inteiros é %d, e em hexadecimal é %d\n", r, tr, &r, k);
+      |                                                                          ~^
+      |                                                                           |
+      |                                                                           int
+../exercicio03.c:27:16: warning: format ‘%d’ expects argument of type ‘int’, but argument 4 has type ‘char (*)[40]’ [-Wformat=]
+   27 |         printf("A string é %s, seu tamanho é de %d bytes seu endereço\n"
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   28 |                         "de memória em inteiros é %d, e em hexadecimal é %d\n", str, tstr, &str, l);
+      |                                                                                            ~~~~
+      |                                                                                            |
+      |                                                                                            char (*)[40]
+../exercicio03.c:28:52: note: format string is defined here
+   28 |                         "de memória em inteiros é %d, e em hexadecimal é %d\n", str, tstr, &str, l);
+      |                                                   ~^
+      |                                                    |
+      |                                                    int
+../exercicio03.c:27:16: warning: format ‘%d’ expects argument of type ‘int’, but argument 5 has type ‘char *’ [-Wformat=]
+   27 |         printf("A string é %s, seu tamanho é de %d bytes seu endereço\n"
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   28 |                         "de memória em inteiros é %d, e em hexadecimal é %d\n", str, tstr, &str, l);
+      |                                                                                                  ~
+      |                                                                                                  |
+      |                                                                                                  char *
+../exercicio03.c:28:75: note: format string is defined here
+   28 |                         "de memória em inteiros é %d, e em hexadecimal é %d\n", str, tstr, &str, l);
+      |                                                                          ~^
+      |                                                                           |
+      |                                                                           int
+      |                                                                          %s
+Finished building: ../exercicio03.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio03.o   -lm
+Finished building target: ProgramasC
+ 
+15:02:19 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio03.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio03.d" -MT"exercicio03.o" -o "exercicio03.o" "../exercicio03.c"
+../exercicio03.c: In function ‘main’:
+../exercicio03.c:14:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[40]’ [-Wformat=]
+   14 |         scanf("%s", &str);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[40]
+      |                 char *
+../exercicio03.c:17:47: warning: initialization of ‘char *’ from incompatible pointer type ‘char (*)[40]’ [-Wincompatible-pointer-types]
+   17 |         int *j = &i; float *k = &r; char *l = &str;
+      |                                               ^
+../exercicio03.c:21:16: warning: format ‘%d’ expects argument of type ‘int’, but argument 4 has type ‘int *’ [-Wformat=]
+   21 |         printf("O número inteiro vale %d, seu tamanho é de %d bytes seu endereço\n"
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   22 |                         "de memória em inteiros é %d, e em hexadecimal é %p\n", i, ti, &i, j);
+      |                                                                                        ~~
+      |                                                                                        |
+      |                                                                                        int *
+../exercicio03.c:22:52: note: format string is defined here
+   22 |                         "de memória em inteiros é %d, e em hexadecimal é %p\n", i, ti, &i, j);
+      |                                                   ~^
+      |                                                    |
+      |                                                    int
+      |                                                   %ls
+../exercicio03.c:24:16: warning: format ‘%d’ expects argument of type ‘int’, but argument 4 has type ‘float *’ [-Wformat=]
+   24 |         printf("O número real vale %f, seu tamanho é de %d bytes seu endereço\n"
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   25 |                         "de memória em inteiros é %d, e em hexadecimal é %p\n", r, tr, &r, k);
+      |                                                                                        ~~
+      |                                                                                        |
+      |                                                                                        float *
+../exercicio03.c:25:52: note: format string is defined here
+   25 |                         "de memória em inteiros é %d, e em hexadecimal é %p\n", r, tr, &r, k);
+      |                                                   ~^
+      |                                                    |
+      |                                                    int
+../exercicio03.c:27:16: warning: format ‘%d’ expects argument of type ‘int’, but argument 4 has type ‘char (*)[40]’ [-Wformat=]
+   27 |         printf("A string é %s, seu tamanho é de %d bytes seu endereço\n"
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   28 |                         "de memória em inteiros é %d, e em hexadecimal é %p\n", str, tstr, &str, l);
+      |                                                                                            ~~~~
+      |                                                                                            |
+      |                                                                                            char (*)[40]
+../exercicio03.c:28:52: note: format string is defined here
+   28 |                         "de memória em inteiros é %d, e em hexadecimal é %p\n", str, tstr, &str, l);
+      |                                                   ~^
+      |                                                    |
+      |                                                    int
+Finished building: ../exercicio03.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio03.o   -lm
+Finished building target: ProgramasC
+ 
+15:03:07 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio03.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio03.d" -MT"exercicio03.o" -o "exercicio03.o" "../exercicio03.c"
+../exercicio03.c: In function ‘main’:
+../exercicio03.c:14:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[40]’ [-Wformat=]
+   14 |         scanf("%s", &str);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[40]
+      |                 char *
+../exercicio03.c:17:47: warning: initialization of ‘char *’ from incompatible pointer type ‘char (*)[40]’ [-Wincompatible-pointer-types]
+   17 |         int *j = &i; float *k = &r; char *l = &str;
+      |                                               ^
+../exercicio03.c:21:16: warning: format ‘%d’ expects argument of type ‘int’, but argument 4 has type ‘int *’ [-Wformat=]
+   21 |         printf("O número inteiro vale %d, seu tamanho é de %d bytes, seu endereço\n"
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   22 |                         "de memória em inteiros é %d, e em hexadecimal é %p\n", i, ti, &i, j);
+      |                                                                                        ~~
+      |                                                                                        |
+      |                                                                                        int *
+../exercicio03.c:22:52: note: format string is defined here
+   22 |                         "de memória em inteiros é %d, e em hexadecimal é %p\n", i, ti, &i, j);
+      |                                                   ~^
+      |                                                    |
+      |                                                    int
+      |                                                   %ls
+../exercicio03.c:24:16: warning: format ‘%d’ expects argument of type ‘int’, but argument 4 has type ‘float *’ [-Wformat=]
+   24 |         printf("O número real vale %f, seu tamanho é de %d bytes, seu endereço\n"
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   25 |                         "de memória em inteiros é %d, e em hexadecimal é %p\n", r, tr, &r, k);
+      |                                                                                        ~~
+      |                                                                                        |
+      |                                                                                        float *
+../exercicio03.c:25:52: note: format string is defined here
+   25 |                         "de memória em inteiros é %d, e em hexadecimal é %p\n", r, tr, &r, k);
+      |                                                   ~^
+      |                                                    |
+      |                                                    int
+../exercicio03.c:27:16: warning: format ‘%d’ expects argument of type ‘int’, but argument 4 has type ‘char (*)[40]’ [-Wformat=]
+   27 |         printf("A string é %s, seu tamanho é de %d bytes, seu endereço\n"
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   28 |                         "de memória em inteiros é %d, e em hexadecimal é %p\n", str, tstr, &str, l);
+      |                                                                                            ~~~~
+      |                                                                                            |
+      |                                                                                            char (*)[40]
+../exercicio03.c:28:52: note: format string is defined here
+   28 |                         "de memória em inteiros é %d, e em hexadecimal é %p\n", str, tstr, &str, l);
+      |                                                   ~^
+      |                                                    |
+      |                                                    int
+Finished building: ../exercicio03.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio03.o   -lm
+Finished building target: ProgramasC
+ 
+15:03:31 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+15:05:43 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio03.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio03.d" -MT"exercicio03.o" -o "exercicio03.o" "../exercicio03.c"
+../exercicio03.c: In function ‘main’:
+../exercicio03.c:14:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[tam]’ [-Wformat=]
+   14 |         scanf("%s %d", &str, &tam);
+      |                ~^      ~~~~
+      |                 |      |
+      |                 char * char (*)[tam]
+../exercicio03.c:17:47: warning: initialization of ‘char *’ from incompatible pointer type ‘char (*)[tam]’ [-Wincompatible-pointer-types]
+   17 |         int *j = &i; float *k = &r; char *l = &str;
+      |                                               ^
+../exercicio03.c:21:16: warning: format ‘%d’ expects argument of type ‘int’, but argument 4 has type ‘int *’ [-Wformat=]
+   21 |         printf("O número inteiro vale %d, seu tamanho é de %d bytes, seu endereço\n"
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   22 |                         "de memória em inteiros é %d, e em hexadecimal é %p\n", i, ti, &i, j);
+      |                                                                                        ~~
+      |                                                                                        |
+      |                                                                                        int *
+../exercicio03.c:22:52: note: format string is defined here
+   22 |                         "de memória em inteiros é %d, e em hexadecimal é %p\n", i, ti, &i, j);
+      |                                                   ~^
+      |                                                    |
+      |                                                    int
+      |                                                   %ls
+../exercicio03.c:24:16: warning: format ‘%d’ expects argument of type ‘int’, but argument 4 has type ‘float *’ [-Wformat=]
+   24 |         printf("O número real vale %f, seu tamanho é de %d bytes, seu endereço\n"
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   25 |                         "de memória em inteiros é %d, e em hexadecimal é %p\n", r, tr, &r, k);
+      |                                                                                        ~~
+      |                                                                                        |
+      |                                                                                        float *
+../exercicio03.c:25:52: note: format string is defined here
+   25 |                         "de memória em inteiros é %d, e em hexadecimal é %p\n", r, tr, &r, k);
+      |                                                   ~^
+      |                                                    |
+      |                                                    int
+../exercicio03.c:27:16: warning: format ‘%d’ expects argument of type ‘int’, but argument 4 has type ‘char (*)[tam]’ [-Wformat=]
+   27 |         printf("A string é %s, seu tamanho é de %d bytes, seu endereço\n"
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   28 |                         "de memória em inteiros é %d, e em hexadecimal é %p\n", str, tstr, &str, l);
+      |                                                                                            ~~~~
+      |                                                                                            |
+      |                                                                                            char (*)[tam]
+../exercicio03.c:28:52: note: format string is defined here
+   28 |                         "de memória em inteiros é %d, e em hexadecimal é %p\n", str, tstr, &str, l);
+      |                                                   ~^
+      |                                                    |
+      |                                                    int
+../exercicio03.c:7:9: warning: ‘tam’ is used uninitialized [-Wuninitialized]
+    7 |         int tam, i; float r; char str[tam];
+      |         ^~~
+../exercicio03.c:7:13: note: ‘tam’ declared here
+    7 |         int tam, i; float r; char str[tam];
+      |             ^~~
+Finished building: ../exercicio03.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio03.o   -lm
+Finished building target: ProgramasC
+ 
+15:06:09 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio03.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio03.d" -MT"exercicio03.o" -o "exercicio03.o" "../exercicio03.c"
+../exercicio03.c: In function ‘main’:
+../exercicio03.c:14:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[10]’ [-Wformat=]
+   14 |         scanf("%s", &str);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   char (*)[10]
+      |                 char *
+../exercicio03.c:17:47: warning: initialization of ‘char *’ from incompatible pointer type ‘char (*)[10]’ [-Wincompatible-pointer-types]
+   17 |         int *j = &i; float *k = &r; char *l = &str;
+      |                                               ^
+../exercicio03.c:21:16: warning: format ‘%d’ expects argument of type ‘int’, but argument 4 has type ‘int *’ [-Wformat=]
+   21 |         printf("O número inteiro vale %d, seu tamanho é de %d bytes, seu endereço\n"
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   22 |                         "de memória em inteiros é %d, e em hexadecimal é %p\n", i, ti, &i, j);
+      |                                                                                        ~~
+      |                                                                                        |
+      |                                                                                        int *
+../exercicio03.c:22:52: note: format string is defined here
+   22 |                         "de memória em inteiros é %d, e em hexadecimal é %p\n", i, ti, &i, j);
+      |                                                   ~^
+      |                                                    |
+      |                                                    int
+      |                                                   %ls
+../exercicio03.c:24:16: warning: format ‘%d’ expects argument of type ‘int’, but argument 4 has type ‘float *’ [-Wformat=]
+   24 |         printf("O número real vale %f, seu tamanho é de %d bytes, seu endereço\n"
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   25 |                         "de memória em inteiros é %d, e em hexadecimal é %p\n", r, tr, &r, k);
+      |                                                                                        ~~
+      |                                                                                        |
+      |                                                                                        float *
+../exercicio03.c:25:52: note: format string is defined here
+   25 |                         "de memória em inteiros é %d, e em hexadecimal é %p\n", r, tr, &r, k);
+      |                                                   ~^
+      |                                                    |
+      |                                                    int
+../exercicio03.c:27:16: warning: format ‘%d’ expects argument of type ‘int’, but argument 4 has type ‘char (*)[10]’ [-Wformat=]
+   27 |         printf("A string é %s, seu tamanho é de %d bytes, seu endereço\n"
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   28 |                         "de memória em inteiros é %d, e em hexadecimal é %p\n", str, tstr, &str, l);
+      |                                                                                            ~~~~
+      |                                                                                            |
+      |                                                                                            char (*)[10]
+../exercicio03.c:28:52: note: format string is defined here
+   28 |                         "de memória em inteiros é %d, e em hexadecimal é %p\n", str, tstr, &str, l);
+      |                                                   ~^
+      |                                                    |
+      |                                                    int
+Finished building: ../exercicio03.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio03.o   -lm
+Finished building target: ProgramasC
+ 
+15:06:58 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+15:17:48 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio04.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio04.d" -MT"exercicio04.o" -o "exercicio04.o" "../exercicio04.c"
+../exercicio04.c: In function ‘main’:
+../exercicio04.c:15:29: warning: unused variable ‘k’ [-Wunused-variable]
+   15 |         int *j = &i; float *k = &r;
+      |                             ^
+Finished building: ../exercicio04.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio04.o   -lm
+Finished building target: ProgramasC
+ 
+15:22:24 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio04.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio04.d" -MT"exercicio04.o" -o "exercicio04.o" "../exercicio04.c"
+../exercicio04.c: In function ‘main’:
+../exercicio04.c:22:32: warning: format ‘%f’ expects argument of type ‘double’, but argument 2 has type ‘int’ [-Wformat=]
+   22 |         printf("O endereço de %f na memória é %p, o valor do ponteiro é %f o endereço do\n"
+      |                               ~^
+      |                                |
+      |                                double
+      |                               %d
+   23 |                         "ponteiro é %p e o valor apontado pelo ponteiro é %f.\n", i, j, *(j), &j, *j);
+      |                                                                                   ~
+      |                                                                                   |
+      |                                                                                   int
+../exercicio04.c:22:74: warning: format ‘%f’ expects argument of type ‘double’, but argument 4 has type ‘int’ [-Wformat=]
+   22 |         printf("O endereço de %f na memória é %p, o valor do ponteiro é %f o endereço do\n"
+      |                                                                         ~^
+      |                                                                          |
+      |                                                                          double
+      |                                                                         %d
+   23 |                         "ponteiro é %p e o valor apontado pelo ponteiro é %f.\n", i, j, *(j), &j, *j);
+      |                                                                                         ~~~~
+      |                                                                                         |
+      |                                                                                         int
+../exercicio04.c:22:16: warning: format ‘%f’ expects argument of type ‘double’, but argument 6 has type ‘int’ [-Wformat=]
+   22 |         printf("O endereço de %f na memória é %p, o valor do ponteiro é %f o endereço do\n"
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   23 |                         "ponteiro é %p e o valor apontado pelo ponteiro é %f.\n", i, j, *(j), &j, *j);
+      |                                                                                                   ~~
+      |                                                                                                   |
+      |                                                                                                   int
+../exercicio04.c:23:76: note: format string is defined here
+   23 |                         "ponteiro é %p e o valor apontado pelo ponteiro é %f.\n", i, j, *(j), &j, *j);
+      |                                                                           ~^
+      |                                                                            |
+      |                                                                            double
+      |                                                                           %d
+../exercicio04.c:15:29: warning: unused variable ‘k’ [-Wunused-variable]
+   15 |         int *j = &i; float *k = &r;
+      |                             ^
+Finished building: ../exercicio04.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio04.o   -lm
+Finished building target: ProgramasC
+ 
+15:23:01 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio04.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio04.d" -MT"exercicio04.o" -o "exercicio04.o" "../exercicio04.c"
+Finished building: ../exercicio04.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio04.o   -lm
+Finished building target: ProgramasC
+ 
+15:23:34 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio04.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio04.d" -MT"exercicio04.o" -o "exercicio04.o" "../exercicio04.c"
+Finished building: ../exercicio04.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio04.o   -lm
+Finished building target: ProgramasC
+ 
+15:28:46 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+Finished building: ../exercicio05.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio05.o   -lm
+Finished building target: ProgramasC
+ 
+15:33:17 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+../exercicio05.c: In function ‘main’:
+../exercicio05.c:7:36: warning: variable ‘px2’ set but not used [-Wunused-but-set-variable]
+    7 |         int x1 = 1, x2 = 2, *px1, *px2;
+      |                                    ^~~
+Finished building: ../exercicio05.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio05.o   -lm
+Finished building target: ProgramasC
+ 
+15:34:11 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+../exercicio05.c: In function ‘main’:
+../exercicio05.c:7:36: warning: variable ‘px2’ set but not used [-Wunused-but-set-variable]
+    7 |         int x1 = 1, x2 = 2, *px1, *px2;
+      |                                    ^~~
+Finished building: ../exercicio05.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio05.o   -lm
+Finished building target: ProgramasC
+ 
+15:34:48 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+../exercicio05.c: In function ‘main’:
+../exercicio05.c:7:36: warning: variable ‘px2’ set but not used [-Wunused-but-set-variable]
+    7 |         int x1 = 1, x2 = 2, *px1, *px2;
+      |                                    ^~~
+Finished building: ../exercicio05.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio05.o   -lm
+Finished building target: ProgramasC
+ 
