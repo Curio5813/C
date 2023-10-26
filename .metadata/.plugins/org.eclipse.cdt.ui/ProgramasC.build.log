@@ -1,19 +1,15 @@
-15:34:48 **** Incremental Build of configuration Debug for project ProgramasC ****
+16:14:07 **** Incremental Build of configuration Debug for project ProgramasC ****
 make all 
-Building file: ../exercicio05.c
+Building file: ../programa28.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
-../exercicio05.c: In function ‘main’:
-../exercicio05.c:7:36: warning: variable ‘px2’ set but not used [-Wunused-but-set-variable]
-    7 |         int x1 = 1, x2 = 2, *px1, *px2;
-      |                                    ^~~
-Finished building: ../exercicio05.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"programa28.d" -MT"programa28.o" -o "programa28.o" "../programa28.c"
+Finished building: ../programa28.c
  
 Building target: ProgramasC
 Invoking: GCC C Linker
-gcc -lm  -o "ProgramasC" ./exercicio05.o   -lm
+gcc -lm  -o "ProgramasC" ./programa28.o   -lm
 Finished building target: ProgramasC
  
 
-15:34:49 Build Finished. 0 errors, 1 warnings. (took 1s.181ms)
+16:14:08 Build Finished. 0 errors, 0 warnings. (took 1s.259ms)
 
