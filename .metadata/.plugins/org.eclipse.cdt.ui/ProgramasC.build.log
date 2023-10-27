@@ -1,15 +1,37 @@
-16:14:07 **** Incremental Build of configuration Debug for project ProgramasC ****
+21:15:32 **** Incremental Build of configuration Debug for project ProgramasC ****
 make all 
-Building file: ../programa28.c
+Building file: ../exercicio01.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"programa28.d" -MT"programa28.o" -o "programa28.o" "../programa28.c"
-Finished building: ../programa28.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio01.d" -MT"exercicio01.o" -o "exercicio01.o" "../exercicio01.c"
+../exercicio01.c: In function ‘main’:
+../exercicio01.c:12:23: warning: passing argument 1 of ‘fgetc’ makes pointer from integer without a cast [-Wint-conversion]
+   12 |                 fgetc(ch);
+      |                       ^~
+      |                       |
+      |                       char
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:25: note: expected ‘FILE *’ but argument is of type ‘char’
+  513 | extern int fgetc (FILE *__stream);
+      |                   ~~~~~~^~~~~~~~
+../exercicio01.c:15:31: warning: passing argument 1 of ‘fgetc’ makes pointer from integer without a cast [-Wint-conversion]
+   15 |                         fgetc(ch);
+      |                               ^~
+      |                               |
+      |                               char
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:25: note: expected ‘FILE *’ but argument is of type ‘char’
+  513 | extern int fgetc (FILE *__stream);
+      |                   ~~~~~~^~~~~~~~
+../exercicio01.c:12:17: warning: ‘ch’ may be used uninitialized [-Wmaybe-uninitialized]
+   12 |                 fgetc(ch);
+      |                 ^~~~~~~~~
+Finished building: ../exercicio01.c
  
 Building target: ProgramasC
 Invoking: GCC C Linker
-gcc -lm  -o "ProgramasC" ./programa28.o   -lm
+gcc -lm  -o "ProgramasC" ./exercicio01.o   -lm
 Finished building target: ProgramasC
  
 
-16:14:08 Build Finished. 0 errors, 0 warnings. (took 1s.259ms)
+21:15:33 Build Finished. 0 errors, 3 warnings. (took 1s.329ms)
 

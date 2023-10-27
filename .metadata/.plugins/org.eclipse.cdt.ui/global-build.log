@@ -47186,3 +47186,1553 @@ Invoking: GCC C Linker
 gcc -lm  -o "ProgramasC" ./programa28.o   -lm
 Finished building target: ProgramasC
  
+15:20:37 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio01.d" -MT"exercicio01.o" -o "exercicio01.o" "../exercicio01.c"
+../exercicio01.c: In function ‘main’:
+../exercicio01.c:13:32: warning: passing argument 1 of ‘fscanf’ from incompatible pointer type [-Wincompatible-pointer-types]
+   13 |                         fscanf("%c", &c);
+      |                                ^~~~
+      |                                |
+      |                                char *
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:415:37: note: expected ‘FILE * restrict’ but argument is of type ‘char *’
+  415 | extern int fscanf (FILE *__restrict __stream,
+      |                    ~~~~~~~~~~~~~~~~~^~~~~~~~
+../exercicio01.c:13:38: warning: format not a string literal and no format arguments [-Wformat-security]
+   13 |                         fscanf("%c", &c);
+      |                                      ^~
+Finished building: ../exercicio01.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio01.o   -lm
+Finished building target: ProgramasC
+ 
+15:22:09 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio01.d" -MT"exercicio01.o" -o "exercicio01.o" "../exercicio01.c"
+../exercicio01.c: In function ‘main’:
+../exercicio01.c:12:32: warning: passing argument 1 of ‘fscanf’ from incompatible pointer type [-Wincompatible-pointer-types]
+   12 |                         fscanf("%c", &c);
+      |                                ^~~~
+      |                                |
+      |                                char *
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:415:37: note: expected ‘FILE * restrict’ but argument is of type ‘char *’
+  415 | extern int fscanf (FILE *__restrict __stream,
+      |                    ~~~~~~~~~~~~~~~~~^~~~~~~~
+../exercicio01.c:12:38: warning: format not a string literal and no format arguments [-Wformat-security]
+   12 |                         fscanf("%c", &c);
+      |                                      ^~
+Finished building: ../exercicio01.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio01.o   -lm
+Finished building target: ProgramasC
+ 
+15:23:23 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio01.d" -MT"exercicio01.o" -o "exercicio01.o" "../exercicio01.c"
+../exercicio01.c: In function ‘main’:
+../exercicio01.c:11:39: warning: comparison between pointer and integer
+   11 |                 while((c = getc(arq)) != "0"){
+      |                                       ^~
+../exercicio01.c:11:39: warning: comparison with string literal results in unspecified behavior [-Waddress]
+../exercicio01.c:12:32: warning: passing argument 1 of ‘fscanf’ from incompatible pointer type [-Wincompatible-pointer-types]
+   12 |                         fscanf("%c", &c);
+      |                                ^~~~
+      |                                |
+      |                                char *
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:415:37: note: expected ‘FILE * restrict’ but argument is of type ‘char *’
+  415 | extern int fscanf (FILE *__restrict __stream,
+      |                    ~~~~~~~~~~~~~~~~~^~~~~~~~
+../exercicio01.c:12:38: warning: format not a string literal and no format arguments [-Wformat-security]
+   12 |                         fscanf("%c", &c);
+      |                                      ^~
+Finished building: ../exercicio01.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio01.o   -lm
+Finished building target: ProgramasC
+ 
+15:27:36 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio01.d" -MT"exercicio01.o" -o "exercicio01.o" "../exercicio01.c"
+../exercicio01.c: In function ‘main’:
+../exercicio01.c:12:32: warning: passing argument 1 of ‘fscanf’ from incompatible pointer type [-Wincompatible-pointer-types]
+   12 |                         fscanf("%c", &c);
+      |                                ^~~~
+      |                                |
+      |                                char *
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:415:37: note: expected ‘FILE * restrict’ but argument is of type ‘char *’
+  415 | extern int fscanf (FILE *__restrict __stream,
+      |                    ~~~~~~~~~~~~~~~~~^~~~~~~~
+../exercicio01.c:12:38: warning: format not a string literal and no format arguments [-Wformat-security]
+   12 |                         fscanf("%c", &c);
+      |                                      ^~
+Finished building: ../exercicio01.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio01.o   -lm
+Finished building target: ProgramasC
+ 
+15:28:28 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio01.d" -MT"exercicio01.o" -o "exercicio01.o" "../exercicio01.c"
+../exercicio01.c: In function ‘main’:
+../exercicio01.c:11:24: warning: passing argument 1 of ‘fscanf’ from incompatible pointer type [-Wincompatible-pointer-types]
+   11 |                 fscanf("%c", &c);
+      |                        ^~~~
+      |                        |
+      |                        char *
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:415:37: note: expected ‘FILE * restrict’ but argument is of type ‘char *’
+  415 | extern int fscanf (FILE *__restrict __stream,
+      |                    ~~~~~~~~~~~~~~~~~^~~~~~~~
+../exercicio01.c:11:30: warning: format not a string literal and no format arguments [-Wformat-security]
+   11 |                 fscanf("%c", &c);
+      |                              ^~
+../exercicio01.c:13:32: warning: passing argument 1 of ‘fscanf’ from incompatible pointer type [-Wincompatible-pointer-types]
+   13 |                         fscanf("%c", &c);
+      |                                ^~~~
+      |                                |
+      |                                char *
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:415:37: note: expected ‘FILE * restrict’ but argument is of type ‘char *’
+  415 | extern int fscanf (FILE *__restrict __stream,
+      |                    ~~~~~~~~~~~~~~~~~^~~~~~~~
+../exercicio01.c:13:38: warning: format not a string literal and no format arguments [-Wformat-security]
+   13 |                         fscanf("%c", &c);
+      |                                      ^~
+Finished building: ../exercicio01.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio01.o   -lm
+Finished building target: ProgramasC
+ 
+15:31:32 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio01.d" -MT"exercicio01.o" -o "exercicio01.o" "../exercicio01.c"
+../exercicio01.c: In function ‘main’:
+../exercicio01.c:11:23: warning: passing argument 1 of ‘fgetc’ from incompatible pointer type [-Wincompatible-pointer-types]
+   11 |                 fgetc("%c", c);
+      |                       ^~~~
+      |                       |
+      |                       char *
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:25: note: expected ‘FILE *’ but argument is of type ‘char *’
+  513 | extern int fgetc (FILE *__stream);
+      |                   ~~~~~~^~~~~~~~
+../exercicio01.c:11:17: error: too many arguments to function ‘fgetc’
+   11 |                 fgetc("%c", c);
+      |                 ^~~~~
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:12: note: declared here
+  513 | extern int fgetc (FILE *__stream);
+      |            ^~~~~
+../exercicio01.c:13:31: warning: passing argument 1 of ‘fgetc’ from incompatible pointer type [-Wincompatible-pointer-types]
+   13 |                         fgetc("%c", &c);
+      |                               ^~~~
+      |                               |
+      |                               char *
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:25: note: expected ‘FILE *’ but argument is of type ‘char *’
+  513 | extern int fgetc (FILE *__stream);
+      |                   ~~~~~~^~~~~~~~
+../exercicio01.c:13:25: error: too many arguments to function ‘fgetc’
+   13 |                         fgetc("%c", &c);
+      |                         ^~~~~
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:12: note: declared here
+  513 | extern int fgetc (FILE *__stream);
+      |            ^~~~~
+make: *** [subdir.mk:20: exercicio01.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:31:55 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio01.d" -MT"exercicio01.o" -o "exercicio01.o" "../exercicio01.c"
+../exercicio01.c: In function ‘main’:
+../exercicio01.c:11:17: error: too few arguments to function ‘fgets’
+   11 |                 fgets("%c", c);
+      |                 ^~~~~
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:592:14: note: declared here
+  592 | extern char *fgets (char *__restrict __s, int __n, FILE *__restrict __stream)
+      |              ^~~~~
+../exercicio01.c:13:37: warning: passing argument 2 of ‘fgets’ makes integer from pointer without a cast [-Wint-conversion]
+   13 |                         fgets("%c", &c);
+      |                                     ^~
+      |                                     |
+      |                                     char *
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:592:47: note: expected ‘int’ but argument is of type ‘char *’
+  592 | extern char *fgets (char *__restrict __s, int __n, FILE *__restrict __stream)
+      |                                           ~~~~^~~
+../exercicio01.c:13:25: error: too few arguments to function ‘fgets’
+   13 |                         fgets("%c", &c);
+      |                         ^~~~~
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:592:14: note: declared here
+  592 | extern char *fgets (char *__restrict __s, int __n, FILE *__restrict __stream)
+      |              ^~~~~
+make: *** [subdir.mk:20: exercicio01.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:33:39 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio01.d" -MT"exercicio01.o" -o "exercicio01.o" "../exercicio01.c"
+../exercicio01.c: In function ‘main’:
+../exercicio01.c:11:23: warning: passing argument 1 of ‘fgetc’ from incompatible pointer type [-Wincompatible-pointer-types]
+   11 |                 fgetc("%c", c);
+      |                       ^~~~
+      |                       |
+      |                       char *
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:25: note: expected ‘FILE *’ but argument is of type ‘char *’
+  513 | extern int fgetc (FILE *__stream);
+      |                   ~~~~~~^~~~~~~~
+../exercicio01.c:11:17: error: too many arguments to function ‘fgetc’
+   11 |                 fgetc("%c", c);
+      |                 ^~~~~
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:12: note: declared here
+  513 | extern int fgetc (FILE *__stream);
+      |            ^~~~~
+../exercicio01.c:13:31: warning: passing argument 1 of ‘fgetc’ from incompatible pointer type [-Wincompatible-pointer-types]
+   13 |                         fgetc("%c", &c);
+      |                               ^~~~
+      |                               |
+      |                               char *
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:25: note: expected ‘FILE *’ but argument is of type ‘char *’
+  513 | extern int fgetc (FILE *__stream);
+      |                   ~~~~~~^~~~~~~~
+../exercicio01.c:13:25: error: too many arguments to function ‘fgetc’
+   13 |                         fgetc("%c", &c);
+      |                         ^~~~~
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:12: note: declared here
+  513 | extern int fgetc (FILE *__stream);
+      |            ^~~~~
+make: *** [subdir.mk:20: exercicio01.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:34:26 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio01.d" -MT"exercicio01.o" -o "exercicio01.o" "../exercicio01.c"
+../exercicio01.c: In function ‘main’:
+../exercicio01.c:11:23: warning: passing argument 1 of ‘fgetc’ makes pointer from integer without a cast [-Wint-conversion]
+   11 |                 fgetc(c);
+      |                       ^
+      |                       |
+      |                       char
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:25: note: expected ‘FILE *’ but argument is of type ‘char’
+  513 | extern int fgetc (FILE *__stream);
+      |                   ~~~~~~^~~~~~~~
+../exercicio01.c:13:31: warning: passing argument 1 of ‘fgetc’ makes pointer from integer without a cast [-Wint-conversion]
+   13 |                         fgetc(c);
+      |                               ^
+      |                               |
+      |                               char
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:25: note: expected ‘FILE *’ but argument is of type ‘char’
+  513 | extern int fgetc (FILE *__stream);
+      |                   ~~~~~~^~~~~~~~
+../exercicio01.c:11:17: warning: ‘c’ may be used uninitialized [-Wmaybe-uninitialized]
+   11 |                 fgetc(c);
+      |                 ^~~~~~~~
+Finished building: ../exercicio01.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio01.o   -lm
+Finished building target: ProgramasC
+ 
+15:35:46 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio01.d" -MT"exercicio01.o" -o "exercicio01.o" "../exercicio01.c"
+../exercicio01.c: In function ‘main’:
+../exercicio01.c:11:23: warning: passing argument 1 of ‘fgetc’ from incompatible pointer type [-Wincompatible-pointer-types]
+   11 |                 fgetc("%c", &c);
+      |                       ^~~~
+      |                       |
+      |                       char *
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:25: note: expected ‘FILE *’ but argument is of type ‘char *’
+  513 | extern int fgetc (FILE *__stream);
+      |                   ~~~~~~^~~~~~~~
+../exercicio01.c:11:17: error: too many arguments to function ‘fgetc’
+   11 |                 fgetc("%c", &c);
+      |                 ^~~~~
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:12: note: declared here
+  513 | extern int fgetc (FILE *__stream);
+      |            ^~~~~
+../exercicio01.c:13:31: warning: passing argument 1 of ‘fgetc’ from incompatible pointer type [-Wincompatible-pointer-types]
+   13 |                         fgetc("%c", &c);
+      |                               ^~~~
+      |                               |
+      |                               char *
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:25: note: expected ‘FILE *’ but argument is of type ‘char *’
+  513 | extern int fgetc (FILE *__stream);
+      |                   ~~~~~~^~~~~~~~
+../exercicio01.c:13:25: error: too many arguments to function ‘fgetc’
+   13 |                         fgetc("%c", &c);
+      |                         ^~~~~
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:12: note: declared here
+  513 | extern int fgetc (FILE *__stream);
+      |            ^~~~~
+make: *** [subdir.mk:20: exercicio01.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:36:24 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio01.d" -MT"exercicio01.o" -o "exercicio01.o" "../exercicio01.c"
+../exercicio01.c: In function ‘main’:
+../exercicio01.c:11:23: warning: passing argument 1 of ‘fgetc’ from incompatible pointer type [-Wincompatible-pointer-types]
+   11 |                 fgetc("%c", c);
+      |                       ^~~~
+      |                       |
+      |                       char *
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:25: note: expected ‘FILE *’ but argument is of type ‘char *’
+  513 | extern int fgetc (FILE *__stream);
+      |                   ~~~~~~^~~~~~~~
+../exercicio01.c:11:17: error: too many arguments to function ‘fgetc’
+   11 |                 fgetc("%c", c);
+      |                 ^~~~~
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:12: note: declared here
+  513 | extern int fgetc (FILE *__stream);
+      |            ^~~~~
+../exercicio01.c:13:31: warning: passing argument 1 of ‘fgetc’ from incompatible pointer type [-Wincompatible-pointer-types]
+   13 |                         fgetc("%c", c);
+      |                               ^~~~
+      |                               |
+      |                               char *
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:25: note: expected ‘FILE *’ but argument is of type ‘char *’
+  513 | extern int fgetc (FILE *__stream);
+      |                   ~~~~~~^~~~~~~~
+../exercicio01.c:13:25: error: too many arguments to function ‘fgetc’
+   13 |                         fgetc("%c", c);
+      |                         ^~~~~
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:12: note: declared here
+  513 | extern int fgetc (FILE *__stream);
+      |            ^~~~~
+make: *** [subdir.mk:20: exercicio01.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:36:58 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio01.d" -MT"exercicio01.o" -o "exercicio01.o" "../exercicio01.c"
+../exercicio01.c: In function ‘main’:
+../exercicio01.c:11:23: warning: passing argument 1 of ‘fgetc’ makes pointer from integer without a cast [-Wint-conversion]
+   11 |                 fgetc(c, arq);
+      |                       ^
+      |                       |
+      |                       char
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:25: note: expected ‘FILE *’ but argument is of type ‘char’
+  513 | extern int fgetc (FILE *__stream);
+      |                   ~~~~~~^~~~~~~~
+../exercicio01.c:11:17: error: too many arguments to function ‘fgetc’
+   11 |                 fgetc(c, arq);
+      |                 ^~~~~
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:12: note: declared here
+  513 | extern int fgetc (FILE *__stream);
+      |            ^~~~~
+../exercicio01.c:13:31: warning: passing argument 1 of ‘fgetc’ makes pointer from integer without a cast [-Wint-conversion]
+   13 |                         fgetc(c, arq);
+      |                               ^
+      |                               |
+      |                               char
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:25: note: expected ‘FILE *’ but argument is of type ‘char’
+  513 | extern int fgetc (FILE *__stream);
+      |                   ~~~~~~^~~~~~~~
+../exercicio01.c:13:25: error: too many arguments to function ‘fgetc’
+   13 |                         fgetc(c, arq);
+      |                         ^~~~~
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:12: note: declared here
+  513 | extern int fgetc (FILE *__stream);
+      |            ^~~~~
+make: *** [subdir.mk:20: exercicio01.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:39:54 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio01.d" -MT"exercicio01.o" -o "exercicio01.o" "../exercicio01.c"
+../exercicio01.c: In function ‘main’:
+../exercicio01.c:11:22: warning: passing argument 1 of ‘getc’ from incompatible pointer type [-Wincompatible-pointer-types]
+   11 |                 getc("%c", &c, arq);
+      |                      ^~~~
+      |                      |
+      |                      char *
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:514:24: note: expected ‘FILE *’ but argument is of type ‘char *’
+  514 | extern int getc (FILE *__stream);
+      |                  ~~~~~~^~~~~~~~
+../exercicio01.c:11:17: error: too many arguments to function ‘getc’
+   11 |                 getc("%c", &c, arq);
+      |                 ^~~~
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:514:12: note: declared here
+  514 | extern int getc (FILE *__stream);
+      |            ^~~~
+../exercicio01.c:13:30: warning: passing argument 1 of ‘getc’ from incompatible pointer type [-Wincompatible-pointer-types]
+   13 |                         getc("%c", &c, arq);
+      |                              ^~~~
+      |                              |
+      |                              char *
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:514:24: note: expected ‘FILE *’ but argument is of type ‘char *’
+  514 | extern int getc (FILE *__stream);
+      |                  ~~~~~~^~~~~~~~
+../exercicio01.c:13:25: error: too many arguments to function ‘getc’
+   13 |                         getc("%c", &c, arq);
+      |                         ^~~~
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:514:12: note: declared here
+  514 | extern int getc (FILE *__stream);
+      |            ^~~~
+make: *** [subdir.mk:20: exercicio01.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:48:31 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio01.d" -MT"exercicio01.o" -o "exercicio01.o" "../exercicio01.c"
+Finished building: ../exercicio01.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio01.o   -lm
+Finished building target: ProgramasC
+ 
+15:50:39 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio01.d" -MT"exercicio01.o" -o "exercicio01.o" "../exercicio01.c"
+../exercicio01.c: In function ‘main’:
+../exercicio01.c:12:25: warning: implicit declaration of function ‘print’; did you mean ‘printf’? [-Wimplicit-function-declaration]
+   12 |                         print("Escreva algo: ");
+      |                         ^~~~~
+      |                         printf
+Finished building: ../exercicio01.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio01.o   -lm
+/usr/bin/ld: ./exercicio01.o: na função "main":
+/home/marcos/Computacao/C/ProgramasC/Debug/../exercicio01.c:12: referência não definida para "print"
+collect2: error: ld returned 1 exit status
+make: *** [makefile:31: ProgramasC] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:50:54 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio01.d" -MT"exercicio01.o" -o "exercicio01.o" "../exercicio01.c"
+Finished building: ../exercicio01.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio01.o   -lm
+Finished building target: ProgramasC
+ 
+15:51:50 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio01.d" -MT"exercicio01.o" -o "exercicio01.o" "../exercicio01.c"
+../exercicio01.c: In function ‘main’:
+../exercicio01.c:13:32: warning: passing argument 1 of ‘fscanf’ from incompatible pointer type [-Wincompatible-pointer-types]
+   13 |                         fscanf("%c", &ch);
+      |                                ^~~~
+      |                                |
+      |                                char *
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:415:37: note: expected ‘FILE * restrict’ but argument is of type ‘char *’
+  415 | extern int fscanf (FILE *__restrict __stream,
+      |                    ~~~~~~~~~~~~~~~~~^~~~~~~~
+../exercicio01.c:13:38: warning: format not a string literal and no format arguments [-Wformat-security]
+   13 |                         fscanf("%c", &ch);
+      |                                      ^~~
+Finished building: ../exercicio01.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio01.o   -lm
+Finished building target: ProgramasC
+ 
+15:52:24 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio01.d" -MT"exercicio01.o" -o "exercicio01.o" "../exercicio01.c"
+../exercicio01.c: In function ‘main’:
+../exercicio01.c:13:31: warning: passing argument 1 of ‘fputc’ makes integer from pointer without a cast [-Wint-conversion]
+   13 |                         fputc("%c", &ch);
+      |                               ^~~~
+      |                               |
+      |                               char *
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:549:23: note: expected ‘int’ but argument is of type ‘char *’
+  549 | extern int fputc (int __c, FILE *__stream);
+      |                   ~~~~^~~
+../exercicio01.c:13:37: warning: passing argument 2 of ‘fputc’ from incompatible pointer type [-Wincompatible-pointer-types]
+   13 |                         fputc("%c", &ch);
+      |                                     ^~~
+      |                                     |
+      |                                     char *
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:549:34: note: expected ‘FILE *’ but argument is of type ‘char *’
+  549 | extern int fputc (int __c, FILE *__stream);
+      |                            ~~~~~~^~~~~~~~
+Finished building: ../exercicio01.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio01.o   -lm
+Finished building target: ProgramasC
+ 
+15:54:27 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio01.d" -MT"exercicio01.o" -o "exercicio01.o" "../exercicio01.c"
+../exercicio01.c: In function ‘main’:
+../exercicio01.c:13:30: warning: passing argument 1 of ‘putc’ makes integer from pointer without a cast [-Wint-conversion]
+   13 |                         putc("%c", &ch);
+      |                              ^~~~
+      |                              |
+      |                              char *
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:550:22: note: expected ‘int’ but argument is of type ‘char *’
+  550 | extern int putc (int __c, FILE *__stream);
+      |                  ~~~~^~~
+../exercicio01.c:13:36: warning: passing argument 2 of ‘putc’ from incompatible pointer type [-Wincompatible-pointer-types]
+   13 |                         putc("%c", &ch);
+      |                                    ^~~
+      |                                    |
+      |                                    char *
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:550:33: note: expected ‘FILE *’ but argument is of type ‘char *’
+  550 | extern int putc (int __c, FILE *__stream);
+      |                           ~~~~~~^~~~~~~~
+Finished building: ../exercicio01.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio01.o   -lm
+Finished building target: ProgramasC
+ 
+15:54:41 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio01.d" -MT"exercicio01.o" -o "exercicio01.o" "../exercicio01.c"
+../exercicio01.c: In function ‘main’:
+../exercicio01.c:13:25: error: too few arguments to function ‘putc’
+   13 |                         putc(ch);
+      |                         ^~~~
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:550:12: note: declared here
+  550 | extern int putc (int __c, FILE *__stream);
+      |            ^~~~
+make: *** [subdir.mk:20: exercicio01.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:54:54 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio01.d" -MT"exercicio01.o" -o "exercicio01.o" "../exercicio01.c"
+../exercicio01.c: In function ‘main’:
+../exercicio01.c:13:25: error: too few arguments to function ‘fputc’
+   13 |                         fputc(ch);
+      |                         ^~~~~
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:549:12: note: declared here
+  549 | extern int fputc (int __c, FILE *__stream);
+      |            ^~~~~
+make: *** [subdir.mk:20: exercicio01.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:55:17 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio01.d" -MT"exercicio01.o" -o "exercicio01.o" "../exercicio01.c"
+Finished building: ../exercicio01.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio01.o   -lm
+Finished building target: ProgramasC
+ 
+15:55:45 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio01.d" -MT"exercicio01.o" -o "exercicio01.o" "../exercicio01.c"
+../exercicio01.c: In function ‘main’:
+../exercicio01.c:12:33: warning: passing argument 1 of ‘fprintf’ from incompatible pointer type [-Wincompatible-pointer-types]
+   12 |                         fprintf("Escreva algo: ");
+      |                                 ^~~~~~~~~~~~~~~~
+      |                                 |
+      |                                 char *
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:350:38: note: expected ‘FILE * restrict’ but argument is of type ‘char *’
+  350 | extern int fprintf (FILE *__restrict __stream,
+      |                     ~~~~~~~~~~~~~~~~~^~~~~~~~
+../exercicio01.c:12:25: error: too few arguments to function ‘fprintf’
+   12 |                         fprintf("Escreva algo: ");
+      |                         ^~~~~~~
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:350:12: note: declared here
+  350 | extern int fprintf (FILE *__restrict __stream,
+      |            ^~~~~~~
+make: *** [subdir.mk:20: exercicio01.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:56:06 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio01.d" -MT"exercicio01.o" -o "exercicio01.o" "../exercicio01.c"
+Finished building: ../exercicio01.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio01.o   -lm
+Finished building target: ProgramasC
+ 
+16:04:33 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio01.d" -MT"exercicio01.o" -o "exercicio01.o" "../exercicio01.c"
+../exercicio01.c: In function ‘main’:
+../exercicio01.c:12:22: warning: passing argument 1 of ‘getc’ makes pointer from integer without a cast [-Wint-conversion]
+   12 |                 getc(ch, stdin);
+      |                      ^~
+      |                      |
+      |                      char
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:514:24: note: expected ‘FILE *’ but argument is of type ‘char’
+  514 | extern int getc (FILE *__stream);
+      |                  ~~~~~~^~~~~~~~
+../exercicio01.c:12:17: error: too many arguments to function ‘getc’
+   12 |                 getc(ch, stdin);
+      |                 ^~~~
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:514:12: note: declared here
+  514 | extern int getc (FILE *__stream);
+      |            ^~~~
+../exercicio01.c:16:31: warning: passing argument 1 of ‘fgetc’ makes pointer from integer without a cast [-Wint-conversion]
+   16 |                         fgetc(ch, stdin);
+      |                               ^~
+      |                               |
+      |                               char
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:25: note: expected ‘FILE *’ but argument is of type ‘char’
+  513 | extern int fgetc (FILE *__stream);
+      |                   ~~~~~~^~~~~~~~
+../exercicio01.c:16:25: error: too many arguments to function ‘fgetc’
+   16 |                         fgetc(ch, stdin);
+      |                         ^~~~~
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:12: note: declared here
+  513 | extern int fgetc (FILE *__stream);
+      |            ^~~~~
+make: *** [subdir.mk:20: exercicio01.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:04:50 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio01.d" -MT"exercicio01.o" -o "exercicio01.o" "../exercicio01.c"
+../exercicio01.c: In function ‘main’:
+../exercicio01.c:12:23: warning: passing argument 1 of ‘fgetc’ makes pointer from integer without a cast [-Wint-conversion]
+   12 |                 fgetc(ch, stdin);
+      |                       ^~
+      |                       |
+      |                       char
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:25: note: expected ‘FILE *’ but argument is of type ‘char’
+  513 | extern int fgetc (FILE *__stream);
+      |                   ~~~~~~^~~~~~~~
+../exercicio01.c:12:17: error: too many arguments to function ‘fgetc’
+   12 |                 fgetc(ch, stdin);
+      |                 ^~~~~
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:12: note: declared here
+  513 | extern int fgetc (FILE *__stream);
+      |            ^~~~~
+../exercicio01.c:16:31: warning: passing argument 1 of ‘fgetc’ makes pointer from integer without a cast [-Wint-conversion]
+   16 |                         fgetc(ch, stdin);
+      |                               ^~
+      |                               |
+      |                               char
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:25: note: expected ‘FILE *’ but argument is of type ‘char’
+  513 | extern int fgetc (FILE *__stream);
+      |                   ~~~~~~^~~~~~~~
+../exercicio01.c:16:25: error: too many arguments to function ‘fgetc’
+   16 |                         fgetc(ch, stdin);
+      |                         ^~~~~
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:12: note: declared here
+  513 | extern int fgetc (FILE *__stream);
+      |            ^~~~~
+make: *** [subdir.mk:20: exercicio01.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:05:42 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio01.d" -MT"exercicio01.o" -o "exercicio01.o" "../exercicio01.c"
+../exercicio01.c: In function ‘main’:
+../exercicio01.c:12:23: warning: passing argument 1 of ‘fgetc’ makes pointer from integer without a cast [-Wint-conversion]
+   12 |                 fgetc(ch);
+      |                       ^~
+      |                       |
+      |                       char
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:25: note: expected ‘FILE *’ but argument is of type ‘char’
+  513 | extern int fgetc (FILE *__stream);
+      |                   ~~~~~~^~~~~~~~
+../exercicio01.c:16:31: warning: passing argument 1 of ‘fgetc’ makes pointer from integer without a cast [-Wint-conversion]
+   16 |                         fgetc(ch);
+      |                               ^~
+      |                               |
+      |                               char
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:25: note: expected ‘FILE *’ but argument is of type ‘char’
+  513 | extern int fgetc (FILE *__stream);
+      |                   ~~~~~~^~~~~~~~
+../exercicio01.c:12:17: warning: ‘ch’ may be used uninitialized [-Wmaybe-uninitialized]
+   12 |                 fgetc(ch);
+      |                 ^~~~~~~~~
+Finished building: ../exercicio01.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio01.o   -lm
+Finished building target: ProgramasC
+ 
+16:06:53 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio01.d" -MT"exercicio01.o" -o "exercicio01.o" "../exercicio01.c"
+../exercicio01.c: In function ‘main’:
+../exercicio01.c:12:23: warning: passing argument 1 of ‘fgetc’ makes pointer from integer without a cast [-Wint-conversion]
+   12 |                 fgetc(ch);
+      |                       ^~
+      |                       |
+      |                       char
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:25: note: expected ‘FILE *’ but argument is of type ‘char’
+  513 | extern int fgetc (FILE *__stream);
+      |                   ~~~~~~^~~~~~~~
+../exercicio01.c:16:31: warning: passing argument 1 of ‘fgetc’ makes pointer from integer without a cast [-Wint-conversion]
+   16 |                         fgetc(ch);
+      |                               ^~
+      |                               |
+      |                               char
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:25: note: expected ‘FILE *’ but argument is of type ‘char’
+  513 | extern int fgetc (FILE *__stream);
+      |                   ~~~~~~^~~~~~~~
+../exercicio01.c:12:17: warning: ‘ch’ may be used uninitialized [-Wmaybe-uninitialized]
+   12 |                 fgetc(ch);
+      |                 ^~~~~~~~~
+Finished building: ../exercicio01.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio01.o   -lm
+Finished building target: ProgramasC
+ 
+16:07:16 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio01.d" -MT"exercicio01.o" -o "exercicio01.o" "../exercicio01.c"
+../exercicio01.c: In function ‘main’:
+../exercicio01.c:12:23: warning: passing argument 1 of ‘fgetc’ makes pointer from integer without a cast [-Wint-conversion]
+   12 |                 fgetc(ch);
+      |                       ^~
+      |                       |
+      |                       char
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:25: note: expected ‘FILE *’ but argument is of type ‘char’
+  513 | extern int fgetc (FILE *__stream);
+      |                   ~~~~~~^~~~~~~~
+../exercicio01.c:16:31: warning: passing argument 1 of ‘fgetc’ makes pointer from integer without a cast [-Wint-conversion]
+   16 |                         fgetc(ch);
+      |                               ^~
+      |                               |
+      |                               char
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:25: note: expected ‘FILE *’ but argument is of type ‘char’
+  513 | extern int fgetc (FILE *__stream);
+      |                   ~~~~~~^~~~~~~~
+../exercicio01.c:12:17: warning: ‘ch’ may be used uninitialized [-Wmaybe-uninitialized]
+   12 |                 fgetc(ch);
+      |                 ^~~~~~~~~
+Finished building: ../exercicio01.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio01.o   -lm
+Finished building target: ProgramasC
+ 
+16:07:50 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio01.d" -MT"exercicio01.o" -o "exercicio01.o" "../exercicio01.c"
+../exercicio01.c: In function ‘main’:
+../exercicio01.c:12:23: warning: passing argument 1 of ‘fgetc’ makes pointer from integer without a cast [-Wint-conversion]
+   12 |                 fgetc(ch);
+      |                       ^~
+      |                       |
+      |                       char
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:25: note: expected ‘FILE *’ but argument is of type ‘char’
+  513 | extern int fgetc (FILE *__stream);
+      |                   ~~~~~~^~~~~~~~
+../exercicio01.c:16:31: warning: passing argument 1 of ‘fgetc’ makes pointer from integer without a cast [-Wint-conversion]
+   16 |                         fgetc(ch);
+      |                               ^~
+      |                               |
+      |                               char
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:25: note: expected ‘FILE *’ but argument is of type ‘char’
+  513 | extern int fgetc (FILE *__stream);
+      |                   ~~~~~~^~~~~~~~
+../exercicio01.c:12:17: warning: ‘ch’ may be used uninitialized [-Wmaybe-uninitialized]
+   12 |                 fgetc(ch);
+      |                 ^~~~~~~~~
+Finished building: ../exercicio01.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio01.o   -lm
+Finished building target: ProgramasC
+ 
+16:09:35 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio01.d" -MT"exercicio01.o" -o "exercicio01.o" "../exercicio01.c"
+../exercicio01.c: In function ‘main’:
+../exercicio01.c:12:23: warning: passing argument 1 of ‘fgetc’ from incompatible pointer type [-Wincompatible-pointer-types]
+   12 |                 fgetc(ch, 0, stdin);
+      |                       ^~
+      |                       |
+      |                       char *
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:25: note: expected ‘FILE *’ but argument is of type ‘char *’
+  513 | extern int fgetc (FILE *__stream);
+      |                   ~~~~~~^~~~~~~~
+../exercicio01.c:12:17: error: too many arguments to function ‘fgetc’
+   12 |                 fgetc(ch, 0, stdin);
+      |                 ^~~~~
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:12: note: declared here
+  513 | extern int fgetc (FILE *__stream);
+      |            ^~~~~
+../exercicio01.c:14:31: warning: passing argument 1 of ‘fputc’ makes integer from pointer without a cast [-Wint-conversion]
+   14 |                         fputc(ch, arq);
+      |                               ^~
+      |                               |
+      |                               char *
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:549:23: note: expected ‘int’ but argument is of type ‘char *’
+  549 | extern int fputc (int __c, FILE *__stream);
+      |                   ~~~~^~~
+../exercicio01.c:16:31: warning: passing argument 1 of ‘fgetc’ from incompatible pointer type [-Wincompatible-pointer-types]
+   16 |                         fgetc(ch, 0, stdin);
+      |                               ^~
+      |                               |
+      |                               char *
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:25: note: expected ‘FILE *’ but argument is of type ‘char *’
+  513 | extern int fgetc (FILE *__stream);
+      |                   ~~~~~~^~~~~~~~
+../exercicio01.c:16:25: error: too many arguments to function ‘fgetc’
+   16 |                         fgetc(ch, 0, stdin);
+      |                         ^~~~~
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:12: note: declared here
+  513 | extern int fgetc (FILE *__stream);
+      |            ^~~~~
+../exercicio01.c:28:27: error: assignment to expression with array type
+   28 |                 while((ch = fgetc(arq)) != EOF){
+      |                           ^
+../exercicio01.c:29:34: warning: format ‘%c’ expects argument of type ‘int’, but argument 2 has type ‘char *’ [-Wformat=]
+   29 |                         printf("%c", ch);
+      |                                 ~^   ~~
+      |                                  |   |
+      |                                  int char *
+      |                                 %s
+make: *** [subdir.mk:20: exercicio01.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:10:08 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio01.d" -MT"exercicio01.o" -o "exercicio01.o" "../exercicio01.c"
+../exercicio01.c: In function ‘main’:
+../exercicio01.c:12:25: warning: passing argument 1 of ‘fgetc’ makes pointer from integer without a cast [-Wint-conversion]
+   12 |                 fgetc(ch[0], stdin);
+      |                       ~~^~~
+      |                         |
+      |                         char
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:25: note: expected ‘FILE *’ but argument is of type ‘char’
+  513 | extern int fgetc (FILE *__stream);
+      |                   ~~~~~~^~~~~~~~
+../exercicio01.c:12:17: error: too many arguments to function ‘fgetc’
+   12 |                 fgetc(ch[0], stdin);
+      |                 ^~~~~
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:12: note: declared here
+  513 | extern int fgetc (FILE *__stream);
+      |            ^~~~~
+../exercicio01.c:14:31: warning: passing argument 1 of ‘fputc’ makes integer from pointer without a cast [-Wint-conversion]
+   14 |                         fputc(ch, arq);
+      |                               ^~
+      |                               |
+      |                               char *
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:549:23: note: expected ‘int’ but argument is of type ‘char *’
+  549 | extern int fputc (int __c, FILE *__stream);
+      |                   ~~~~^~~
+../exercicio01.c:16:33: warning: passing argument 1 of ‘fgetc’ makes pointer from integer without a cast [-Wint-conversion]
+   16 |                         fgetc(ch[0], stdin);
+      |                               ~~^~~
+      |                                 |
+      |                                 char
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:25: note: expected ‘FILE *’ but argument is of type ‘char’
+  513 | extern int fgetc (FILE *__stream);
+      |                   ~~~~~~^~~~~~~~
+../exercicio01.c:16:25: error: too many arguments to function ‘fgetc’
+   16 |                         fgetc(ch[0], stdin);
+      |                         ^~~~~
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:12: note: declared here
+  513 | extern int fgetc (FILE *__stream);
+      |            ^~~~~
+../exercicio01.c:28:27: error: assignment to expression with array type
+   28 |                 while((ch = fgetc(arq)) != EOF){
+      |                           ^
+../exercicio01.c:29:34: warning: format ‘%c’ expects argument of type ‘int’, but argument 2 has type ‘char *’ [-Wformat=]
+   29 |                         printf("%c", ch);
+      |                                 ~^   ~~
+      |                                  |   |
+      |                                  int char *
+      |                                 %s
+make: *** [subdir.mk:20: exercicio01.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:11:04 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio01.d" -MT"exercicio01.o" -o "exercicio01.o" "../exercicio01.c"
+../exercicio01.c: In function ‘main’:
+../exercicio01.c:12:23: warning: passing argument 1 of ‘fgetc’ makes pointer from integer without a cast [-Wint-conversion]
+   12 |                 fgetc(ch);
+      |                       ^~
+      |                       |
+      |                       char
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:25: note: expected ‘FILE *’ but argument is of type ‘char’
+  513 | extern int fgetc (FILE *__stream);
+      |                   ~~~~~~^~~~~~~~
+../exercicio01.c:16:31: warning: passing argument 1 of ‘fgetc’ makes pointer from integer without a cast [-Wint-conversion]
+   16 |                         fgetc(ch);
+      |                               ^~
+      |                               |
+      |                               char
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:25: note: expected ‘FILE *’ but argument is of type ‘char’
+  513 | extern int fgetc (FILE *__stream);
+      |                   ~~~~~~^~~~~~~~
+../exercicio01.c:12:17: warning: ‘ch’ may be used uninitialized [-Wmaybe-uninitialized]
+   12 |                 fgetc(ch);
+      |                 ^~~~~~~~~
+Finished building: ../exercicio01.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio01.o   -lm
+Finished building target: ProgramasC
+ 
+16:22:19 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio01.d" -MT"exercicio01.o" -o "exercicio01.o" "../exercicio01.c"
+../exercicio01.c: In function ‘main’:
+../exercicio01.c:12:23: warning: passing argument 1 of ‘fgetc’ makes pointer from integer without a cast [-Wint-conversion]
+   12 |                 fgetc(ch);
+      |                       ^~
+      |                       |
+      |                       char
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:25: note: expected ‘FILE *’ but argument is of type ‘char’
+  513 | extern int fgetc (FILE *__stream);
+      |                   ~~~~~~^~~~~~~~
+../exercicio01.c:16:31: warning: passing argument 1 of ‘fgetc’ makes pointer from integer without a cast [-Wint-conversion]
+   16 |                         fgetc(ch);
+      |                               ^~
+      |                               |
+      |                               char
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:25: note: expected ‘FILE *’ but argument is of type ‘char’
+  513 | extern int fgetc (FILE *__stream);
+      |                   ~~~~~~^~~~~~~~
+../exercicio01.c:12:17: warning: ‘ch’ may be used uninitialized [-Wmaybe-uninitialized]
+   12 |                 fgetc(ch);
+      |                 ^~~~~~~~~
+Finished building: ../exercicio01.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio01.o   -lm
+Finished building target: ProgramasC
+ 
+16:23:32 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio01.d" -MT"exercicio01.o" -o "exercicio01.o" "../exercicio01.c"
+../exercicio01.c: In function ‘main’:
+../exercicio01.c:12:23: warning: passing argument 1 of ‘fgetc’ makes pointer from integer without a cast [-Wint-conversion]
+   12 |                 fgetc(ch, stdin);
+      |                       ^~
+      |                       |
+      |                       char
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:25: note: expected ‘FILE *’ but argument is of type ‘char’
+  513 | extern int fgetc (FILE *__stream);
+      |                   ~~~~~~^~~~~~~~
+../exercicio01.c:12:17: error: too many arguments to function ‘fgetc’
+   12 |                 fgetc(ch, stdin);
+      |                 ^~~~~
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:12: note: declared here
+  513 | extern int fgetc (FILE *__stream);
+      |            ^~~~~
+../exercicio01.c:16:31: warning: passing argument 1 of ‘fgetc’ makes pointer from integer without a cast [-Wint-conversion]
+   16 |                         fgetc(ch, stdin);
+      |                               ^~
+      |                               |
+      |                               char
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:25: note: expected ‘FILE *’ but argument is of type ‘char’
+  513 | extern int fgetc (FILE *__stream);
+      |                   ~~~~~~^~~~~~~~
+../exercicio01.c:16:25: error: too many arguments to function ‘fgetc’
+   16 |                         fgetc(ch, stdin);
+      |                         ^~~~~
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:12: note: declared here
+  513 | extern int fgetc (FILE *__stream);
+      |            ^~~~~
+make: *** [subdir.mk:20: exercicio01.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:24:19 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio01.d" -MT"exercicio01.o" -o "exercicio01.o" "../exercicio01.c"
+../exercicio01.c: In function ‘main’:
+../exercicio01.c:12:23: warning: passing argument 1 of ‘fgetc’ from incompatible pointer type [-Wincompatible-pointer-types]
+   12 |                 fgetc(&ch);
+      |                       ^~~
+      |                       |
+      |                       char *
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:25: note: expected ‘FILE *’ but argument is of type ‘char *’
+  513 | extern int fgetc (FILE *__stream);
+      |                   ~~~~~~^~~~~~~~
+../exercicio01.c:16:31: warning: passing argument 1 of ‘fgetc’ from incompatible pointer type [-Wincompatible-pointer-types]
+   16 |                         fgetc(&ch, stdin);
+      |                               ^~~
+      |                               |
+      |                               char *
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:25: note: expected ‘FILE *’ but argument is of type ‘char *’
+  513 | extern int fgetc (FILE *__stream);
+      |                   ~~~~~~^~~~~~~~
+../exercicio01.c:16:25: error: too many arguments to function ‘fgetc’
+   16 |                         fgetc(&ch, stdin);
+      |                         ^~~~~
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:12: note: declared here
+  513 | extern int fgetc (FILE *__stream);
+      |            ^~~~~
+make: *** [subdir.mk:20: exercicio01.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:24:40 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio01.d" -MT"exercicio01.o" -o "exercicio01.o" "../exercicio01.c"
+../exercicio01.c: In function ‘main’:
+../exercicio01.c:12:23: warning: passing argument 1 of ‘fgetc’ from incompatible pointer type [-Wincompatible-pointer-types]
+   12 |                 fgetc(&ch);
+      |                       ^~~
+      |                       |
+      |                       char *
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:25: note: expected ‘FILE *’ but argument is of type ‘char *’
+  513 | extern int fgetc (FILE *__stream);
+      |                   ~~~~~~^~~~~~~~
+../exercicio01.c:16:31: warning: passing argument 1 of ‘fgetc’ from incompatible pointer type [-Wincompatible-pointer-types]
+   16 |                         fgetc(&ch);
+      |                               ^~~
+      |                               |
+      |                               char *
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:25: note: expected ‘FILE *’ but argument is of type ‘char *’
+  513 | extern int fgetc (FILE *__stream);
+      |                   ~~~~~~^~~~~~~~
+Finished building: ../exercicio01.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio01.o   -lm
+Finished building target: ProgramasC
+ 
+16:25:20 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio01.d" -MT"exercicio01.o" -o "exercicio01.o" "../exercicio01.c"
+../exercicio01.c: In function ‘main’:
+../exercicio01.c:12:24: warning: passing argument 1 of ‘fscanf’ from incompatible pointer type [-Wincompatible-pointer-types]
+   12 |                 fscanf("%c", &ch);
+      |                        ^~~~
+      |                        |
+      |                        char *
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:415:37: note: expected ‘FILE * restrict’ but argument is of type ‘char *’
+  415 | extern int fscanf (FILE *__restrict __stream,
+      |                    ~~~~~~~~~~~~~~~~~^~~~~~~~
+../exercicio01.c:12:30: warning: format not a string literal and no format arguments [-Wformat-security]
+   12 |                 fscanf("%c", &ch);
+      |                              ^~~
+../exercicio01.c:16:31: warning: passing argument 1 of ‘fgetc’ from incompatible pointer type [-Wincompatible-pointer-types]
+   16 |                         fgetc(&ch);
+      |                               ^~~
+      |                               |
+      |                               char *
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:25: note: expected ‘FILE *’ but argument is of type ‘char *’
+  513 | extern int fgetc (FILE *__stream);
+      |                   ~~~~~~^~~~~~~~
+Finished building: ../exercicio01.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio01.o   -lm
+Finished building target: ProgramasC
+ 
+16:26:09 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio01.d" -MT"exercicio01.o" -o "exercicio01.o" "../exercicio01.c"
+../exercicio01.c: In function ‘main’:
+../exercicio01.c:12:24: warning: passing argument 1 of ‘fscanf’ from incompatible pointer type [-Wincompatible-pointer-types]
+   12 |                 fscanf("%c", ch);
+      |                        ^~~~
+      |                        |
+      |                        char *
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:415:37: note: expected ‘FILE * restrict’ but argument is of type ‘char *’
+  415 | extern int fscanf (FILE *__restrict __stream,
+      |                    ~~~~~~~~~~~~~~~~~^~~~~~~~
+../exercicio01.c:12:30: warning: passing argument 2 of ‘fscanf’ makes pointer from integer without a cast [-Wint-conversion]
+   12 |                 fscanf("%c", ch);
+      |                              ^~
+      |                              |
+      |                              char
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:416:43: note: expected ‘const char * restrict’ but argument is of type ‘char’
+  416 |                    const char *__restrict __format, ...) __wur;
+      |                    ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+../exercicio01.c:12:17: warning: format not a string literal and no format arguments [-Wformat-security]
+   12 |                 fscanf("%c", ch);
+      |                 ^~~~~~
+../exercicio01.c:16:32: warning: passing argument 1 of ‘fscanf’ from incompatible pointer type [-Wincompatible-pointer-types]
+   16 |                         fscanf("%c", ch);
+      |                                ^~~~
+      |                                |
+      |                                char *
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:415:37: note: expected ‘FILE * restrict’ but argument is of type ‘char *’
+  415 | extern int fscanf (FILE *__restrict __stream,
+      |                    ~~~~~~~~~~~~~~~~~^~~~~~~~
+../exercicio01.c:16:38: warning: passing argument 2 of ‘fscanf’ makes pointer from integer without a cast [-Wint-conversion]
+   16 |                         fscanf("%c", ch);
+      |                                      ^~
+      |                                      |
+      |                                      char
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:416:43: note: expected ‘const char * restrict’ but argument is of type ‘char’
+  416 |                    const char *__restrict __format, ...) __wur;
+      |                    ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+../exercicio01.c:16:25: warning: format not a string literal and no format arguments [-Wformat-security]
+   16 |                         fscanf("%c", ch);
+      |                         ^~~~~~
+../exercicio01.c:12:17: warning: ‘ch’ may be used uninitialized [-Wmaybe-uninitialized]
+   12 |                 fscanf("%c", ch);
+      |                 ^~~~~~~~~~~~~~~~
+Finished building: ../exercicio01.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio01.o   -lm
+Finished building target: ProgramasC
+ 
+16:26:30 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio01.d" -MT"exercicio01.o" -o "exercicio01.o" "../exercicio01.c"
+../exercicio01.c: In function ‘main’:
+../exercicio01.c:12:24: warning: passing argument 1 of ‘fscanf’ from incompatible pointer type [-Wincompatible-pointer-types]
+   12 |                 fscanf("%c", &ch);
+      |                        ^~~~
+      |                        |
+      |                        char *
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:415:37: note: expected ‘FILE * restrict’ but argument is of type ‘char *’
+  415 | extern int fscanf (FILE *__restrict __stream,
+      |                    ~~~~~~~~~~~~~~~~~^~~~~~~~
+../exercicio01.c:12:30: warning: format not a string literal and no format arguments [-Wformat-security]
+   12 |                 fscanf("%c", &ch);
+      |                              ^~~
+../exercicio01.c:16:32: warning: passing argument 1 of ‘fscanf’ from incompatible pointer type [-Wincompatible-pointer-types]
+   16 |                         fscanf("%c", &ch);
+      |                                ^~~~
+      |                                |
+      |                                char *
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:415:37: note: expected ‘FILE * restrict’ but argument is of type ‘char *’
+  415 | extern int fscanf (FILE *__restrict __stream,
+      |                    ~~~~~~~~~~~~~~~~~^~~~~~~~
+../exercicio01.c:16:38: warning: format not a string literal and no format arguments [-Wformat-security]
+   16 |                         fscanf("%c", &ch);
+      |                                      ^~~
+Finished building: ../exercicio01.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio01.o   -lm
+Finished building target: ProgramasC
+ 
+16:30:31 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio01.d" -MT"exercicio01.o" -o "exercicio01.o" "../exercicio01.c"
+../exercicio01.c: In function ‘main’:
+../exercicio01.c:12:24: warning: passing argument 1 of ‘fscanf’ from incompatible pointer type [-Wincompatible-pointer-types]
+   12 |                 fscanf("%c", &ch);
+      |                        ^~~~
+      |                        |
+      |                        char *
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:415:37: note: expected ‘FILE * restrict’ but argument is of type ‘char *’
+  415 | extern int fscanf (FILE *__restrict __stream,
+      |                    ~~~~~~~~~~~~~~~~~^~~~~~~~
+../exercicio01.c:12:30: warning: format not a string literal and no format arguments [-Wformat-security]
+   12 |                 fscanf("%c", &ch);
+      |                              ^~~
+../exercicio01.c:16:32: warning: passing argument 1 of ‘fscanf’ from incompatible pointer type [-Wincompatible-pointer-types]
+   16 |                         fscanf("%c", &ch);
+      |                                ^~~~
+      |                                |
+      |                                char *
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:415:37: note: expected ‘FILE * restrict’ but argument is of type ‘char *’
+  415 | extern int fscanf (FILE *__restrict __stream,
+      |                    ~~~~~~~~~~~~~~~~~^~~~~~~~
+../exercicio01.c:16:38: warning: format not a string literal and no format arguments [-Wformat-security]
+   16 |                         fscanf("%c", &ch);
+      |                                      ^~~
+Finished building: ../exercicio01.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio01.o   -lm
+Finished building target: ProgramasC
+ 
+16:34:48 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio01.d" -MT"exercicio01.o" -o "exercicio01.o" "../exercicio01.c"
+../exercicio01.c: In function ‘main’:
+../exercicio01.c:12:28: warning: passing argument 1 of ‘fgetc’ makes pointer from integer without a cast [-Wint-conversion]
+   12 |                 ch = fgetc(ch);
+      |                            ^~
+      |                            |
+      |                            char
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:25: note: expected ‘FILE *’ but argument is of type ‘char’
+  513 | extern int fgetc (FILE *__stream);
+      |                   ~~~~~~^~~~~~~~
+../exercicio01.c:16:36: warning: passing argument 1 of ‘fgetc’ makes pointer from integer without a cast [-Wint-conversion]
+   16 |                         ch = fgetc(ch);
+      |                                    ^~
+      |                                    |
+      |                                    char
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:25: note: expected ‘FILE *’ but argument is of type ‘char’
+  513 | extern int fgetc (FILE *__stream);
+      |                   ~~~~~~^~~~~~~~
+../exercicio01.c:12:22: warning: ‘ch’ may be used uninitialized [-Wmaybe-uninitialized]
+   12 |                 ch = fgetc(ch);
+      |                      ^~~~~~~~~
+Finished building: ../exercicio01.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio01.o   -lm
+Finished building target: ProgramasC
+ 
+16:35:19 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio01.d" -MT"exercicio01.o" -o "exercicio01.o" "../exercicio01.c"
+../exercicio01.c: In function ‘main’:
+../exercicio01.c:12:28: warning: passing argument 1 of ‘fgetc’ makes pointer from integer without a cast [-Wint-conversion]
+   12 |                 ch = fgetc(ch);
+      |                            ^~
+      |                            |
+      |                            char
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:25: note: expected ‘FILE *’ but argument is of type ‘char’
+  513 | extern int fgetc (FILE *__stream);
+      |                   ~~~~~~^~~~~~~~
+../exercicio01.c:16:36: warning: passing argument 1 of ‘fgetc’ makes pointer from integer without a cast [-Wint-conversion]
+   16 |                         ch = fgetc(ch);
+      |                                    ^~
+      |                                    |
+      |                                    char
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:25: note: expected ‘FILE *’ but argument is of type ‘char’
+  513 | extern int fgetc (FILE *__stream);
+      |                   ~~~~~~^~~~~~~~
+../exercicio01.c:12:22: warning: ‘ch’ may be used uninitialized [-Wmaybe-uninitialized]
+   12 |                 ch = fgetc(ch);
+      |                      ^~~~~~~~~
+Finished building: ../exercicio01.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio01.o   -lm
+Finished building target: ProgramasC
+ 
+16:36:21 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio01.d" -MT"exercicio01.o" -o "exercicio01.o" "../exercicio01.c"
+../exercicio01.c: In function ‘main’:
+../exercicio01.c:12:23: warning: passing argument 1 of ‘fgetc’ makes pointer from integer without a cast [-Wint-conversion]
+   12 |                 fgetc(ch);
+      |                       ^~
+      |                       |
+      |                       char
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:25: note: expected ‘FILE *’ but argument is of type ‘char’
+  513 | extern int fgetc (FILE *__stream);
+      |                   ~~~~~~^~~~~~~~
+../exercicio01.c:16:31: warning: passing argument 1 of ‘fgetc’ makes pointer from integer without a cast [-Wint-conversion]
+   16 |                         fgetc(ch);
+      |                               ^~
+      |                               |
+      |                               char
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:25: note: expected ‘FILE *’ but argument is of type ‘char’
+  513 | extern int fgetc (FILE *__stream);
+      |                   ~~~~~~^~~~~~~~
+../exercicio01.c:12:17: warning: ‘ch’ may be used uninitialized [-Wmaybe-uninitialized]
+   12 |                 fgetc(ch);
+      |                 ^~~~~~~~~
+Finished building: ../exercicio01.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio01.o   -lm
+Finished building target: ProgramasC
+ 
+16:36:59 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio01.d" -MT"exercicio01.o" -o "exercicio01.o" "../exercicio01.c"
+../exercicio01.c: In function ‘main’:
+../exercicio01.c:12:23: warning: passing argument 1 of ‘fgetc’ makes pointer from integer without a cast [-Wint-conversion]
+   12 |                 fgetc(ch, stdin);
+      |                       ^~
+      |                       |
+      |                       char
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:25: note: expected ‘FILE *’ but argument is of type ‘char’
+  513 | extern int fgetc (FILE *__stream);
+      |                   ~~~~~~^~~~~~~~
+../exercicio01.c:12:17: error: too many arguments to function ‘fgetc’
+   12 |                 fgetc(ch, stdin);
+      |                 ^~~~~
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:12: note: declared here
+  513 | extern int fgetc (FILE *__stream);
+      |            ^~~~~
+../exercicio01.c:16:31: warning: passing argument 1 of ‘fgetc’ makes pointer from integer without a cast [-Wint-conversion]
+   16 |                         fgetc(ch);
+      |                               ^~
+      |                               |
+      |                               char
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:25: note: expected ‘FILE *’ but argument is of type ‘char’
+  513 | extern int fgetc (FILE *__stream);
+      |                   ~~~~~~^~~~~~~~
+make: *** [subdir.mk:20: exercicio01.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:39:31 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio01.d" -MT"exercicio01.o" -o "exercicio01.o" "../exercicio01.c"
+../exercicio01.c: In function ‘main’:
+../exercicio01.c:12:17: warning: ‘ch’ may be used uninitialized [-Wmaybe-uninitialized]
+   12 |                 fputc(ch, arq);
+      |                 ^~~~~~~~~~~~~~
+Finished building: ../exercicio01.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio01.o   -lm
+Finished building target: ProgramasC
+ 
+21:15:13 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio01.d" -MT"exercicio01.o" -o "exercicio01.o" "../exercicio01.c"
+../exercicio01.c: In function ‘main’:
+../exercicio01.c:12:23: warning: passing argument 1 of ‘fgetc’ makes pointer from integer without a cast [-Wint-conversion]
+   12 |                 fgetc(ch, arq);
+      |                       ^~
+      |                       |
+      |                       char
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:25: note: expected ‘FILE *’ but argument is of type ‘char’
+  513 | extern int fgetc (FILE *__stream);
+      |                   ~~~~~~^~~~~~~~
+../exercicio01.c:12:17: error: too many arguments to function ‘fgetc’
+   12 |                 fgetc(ch, arq);
+      |                 ^~~~~
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:12: note: declared here
+  513 | extern int fgetc (FILE *__stream);
+      |            ^~~~~
+../exercicio01.c:15:31: warning: passing argument 1 of ‘fgetc’ makes pointer from integer without a cast [-Wint-conversion]
+   15 |                         fgetc(ch, arq);
+      |                               ^~
+      |                               |
+      |                               char
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:25: note: expected ‘FILE *’ but argument is of type ‘char’
+  513 | extern int fgetc (FILE *__stream);
+      |                   ~~~~~~^~~~~~~~
+../exercicio01.c:15:25: error: too many arguments to function ‘fgetc’
+   15 |                         fgetc(ch, arq);
+      |                         ^~~~~
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:12: note: declared here
+  513 | extern int fgetc (FILE *__stream);
+      |            ^~~~~
+make: *** [subdir.mk:20: exercicio01.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:15:32 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio01.d" -MT"exercicio01.o" -o "exercicio01.o" "../exercicio01.c"
+../exercicio01.c: In function ‘main’:
+../exercicio01.c:12:23: warning: passing argument 1 of ‘fgetc’ makes pointer from integer without a cast [-Wint-conversion]
+   12 |                 fgetc(ch);
+      |                       ^~
+      |                       |
+      |                       char
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:25: note: expected ‘FILE *’ but argument is of type ‘char’
+  513 | extern int fgetc (FILE *__stream);
+      |                   ~~~~~~^~~~~~~~
+../exercicio01.c:15:31: warning: passing argument 1 of ‘fgetc’ makes pointer from integer without a cast [-Wint-conversion]
+   15 |                         fgetc(ch);
+      |                               ^~
+      |                               |
+      |                               char
+In file included from ../exercicio01.c:1:
+/usr/include/stdio.h:513:25: note: expected ‘FILE *’ but argument is of type ‘char’
+  513 | extern int fgetc (FILE *__stream);
+      |                   ~~~~~~^~~~~~~~
+../exercicio01.c:12:17: warning: ‘ch’ may be used uninitialized [-Wmaybe-uninitialized]
+   12 |                 fgetc(ch);
+      |                 ^~~~~~~~~
+Finished building: ../exercicio01.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio01.o   -lm
+Finished building target: ProgramasC
+ 
