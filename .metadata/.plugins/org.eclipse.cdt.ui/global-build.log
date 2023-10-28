@@ -48736,3 +48736,361 @@ Invoking: GCC C Linker
 gcc -lm  -o "ProgramasC" ./exercicio01.o   -lm
 Finished building target: ProgramasC
  
+19:16:20 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../zeno_paradox.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"zeno_paradox.d" -MT"zeno_paradox.o" -o "zeno_paradox.o" "../zeno_paradox.c"
+../zeno_paradox.c: In function ‘main’:
+../zeno_paradox.c:15:16: error: two or more data types in declaration specifiers
+   15 |         double double distance = 100, zeno = 0;
+      |                ^~~~~~
+../zeno_paradox.c:30:39: warning: use of ‘ll’ length modifier with ‘f’ type character has either no effect or undefined behavior [-Wformat=]
+   30 |                         return printf("Zeno will never reach the turtle. Altogether "
+      |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../zeno_paradox.c:31:54: note: format string is defined here
+   31 |                                         "Zeno ran %llf metres.", zeno);
+      |                                                      ^
+../zeno_paradox.c:35:17: warning: use of ‘ll’ length modifier with ‘f’ type character has either no effect or undefined behavior [-Wformat=]
+   35 |         }printf("Zeno needs %lld leaps to reach the turtle and will reach the "
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../zeno_paradox.c:36:52: note: format string is defined here
+   36 |                         "turtle at the distance %llf metres.", cont, zeno);
+      |                                                    ^
+../zeno_paradox.c: In function ‘zeno_paradox’:
+../zeno_paradox.c:10:1: warning: control reaches end of non-void function [-Wreturn-type]
+   10 | }
+      | ^
+make: *** [subdir.mk:20: zeno_paradox.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:16:57 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../zeno_paradox.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"zeno_paradox.d" -MT"zeno_paradox.o" -o "zeno_paradox.o" "../zeno_paradox.c"
+../zeno_paradox.c: In function ‘main’:
+../zeno_paradox.c:30:39: warning: use of ‘ll’ length modifier with ‘f’ type character has either no effect or undefined behavior [-Wformat=]
+   30 |                         return printf("Zeno will never reach the turtle. Altogether "
+      |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../zeno_paradox.c:31:54: note: format string is defined here
+   31 |                                         "Zeno ran %llf metres.", zeno);
+      |                                                      ^
+../zeno_paradox.c:35:17: warning: use of ‘ll’ length modifier with ‘f’ type character has either no effect or undefined behavior [-Wformat=]
+   35 |         }printf("Zeno needs %lld leaps to reach the turtle and will reach the "
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../zeno_paradox.c:36:52: note: format string is defined here
+   36 |                         "turtle at the distance %llf metres.", cont, zeno);
+      |                                                    ^
+../zeno_paradox.c: In function ‘zeno_paradox’:
+../zeno_paradox.c:10:1: warning: control reaches end of non-void function [-Wreturn-type]
+   10 | }
+      | ^
+Finished building: ../zeno_paradox.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./zeno_paradox.o   -lm
+Finished building target: ProgramasC
+ 
+19:17:56 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../zeno_paradox.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"zeno_paradox.d" -MT"zeno_paradox.o" -o "zeno_paradox.o" "../zeno_paradox.c"
+../zeno_paradox.c: In function ‘main’:
+../zeno_paradox.c:30:39: warning: use of ‘ll’ length modifier with ‘f’ type character has either no effect or undefined behavior [-Wformat=]
+   30 |                         return printf("Zeno will never reach the turtle. Altogether "
+      |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../zeno_paradox.c:31:54: note: format string is defined here
+   31 |                                         "Zeno ran %llf metres.", zeno);
+      |                                                      ^
+../zeno_paradox.c:35:17: warning: use of ‘ll’ length modifier with ‘f’ type character has either no effect or undefined behavior [-Wformat=]
+   35 |         }printf("Zeno needs %lld leaps to reach the turtle and will reach the "
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../zeno_paradox.c:36:52: note: format string is defined here
+   36 |                         "turtle at the distance %llf metres.", cont, zeno);
+      |                                                    ^
+../zeno_paradox.c: In function ‘zeno_paradox’:
+../zeno_paradox.c:10:1: warning: control reaches end of non-void function [-Wreturn-type]
+   10 | }
+      | ^
+Finished building: ../zeno_paradox.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./zeno_paradox.o   -lm
+Finished building target: ProgramasC
+ 
+19:18:08 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+19:18:30 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../zeno_paradox.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"zeno_paradox.d" -MT"zeno_paradox.o" -o "zeno_paradox.o" "../zeno_paradox.c"
+../zeno_paradox.c: In function ‘main’:
+../zeno_paradox.c:30:39: warning: use of ‘ll’ length modifier with ‘f’ type character has either no effect or undefined behavior [-Wformat=]
+   30 |                         return printf("Zeno will never reach the turtle. Altogether "
+      |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../zeno_paradox.c:31:54: note: format string is defined here
+   31 |                                         "Zeno ran %llf metres.", zeno);
+      |                                                      ^
+../zeno_paradox.c:35:17: warning: use of ‘ll’ length modifier with ‘f’ type character has either no effect or undefined behavior [-Wformat=]
+   35 |         }printf("Zeno needs %lld leaps to reach the turtle and will reach the "
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../zeno_paradox.c:36:52: note: format string is defined here
+   36 |                         "turtle at the distance %llf metres.", cont, zeno);
+      |                                                    ^
+../zeno_paradox.c: In function ‘zeno_paradox’:
+../zeno_paradox.c:10:1: warning: control reaches end of non-void function [-Wreturn-type]
+   10 | }
+      | ^
+Finished building: ../zeno_paradox.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./zeno_paradox.o   -lm
+Finished building target: ProgramasC
+ 
+19:18:54 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../zeno_paradox.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"zeno_paradox.d" -MT"zeno_paradox.o" -o "zeno_paradox.o" "../zeno_paradox.c"
+../zeno_paradox.c: In function ‘main’:
+../zeno_paradox.c:30:39: warning: use of ‘ll’ length modifier with ‘f’ type character has either no effect or undefined behavior [-Wformat=]
+   30 |                         return printf("Zeno will never reach the turtle. Altogether "
+      |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../zeno_paradox.c:31:54: note: format string is defined here
+   31 |                                         "Zeno ran %llf metres.", zeno);
+      |                                                      ^
+../zeno_paradox.c:35:17: warning: use of ‘ll’ length modifier with ‘f’ type character has either no effect or undefined behavior [-Wformat=]
+   35 |         }printf("Zeno needs %lld leaps to reach the turtle and will reach the "
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../zeno_paradox.c:36:52: note: format string is defined here
+   36 |                         "turtle at the distance %llf metres.", cont, zeno);
+      |                                                    ^
+../zeno_paradox.c: In function ‘zeno_paradox’:
+../zeno_paradox.c:10:1: warning: control reaches end of non-void function [-Wreturn-type]
+   10 | }
+      | ^
+Finished building: ../zeno_paradox.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./zeno_paradox.o   -lm
+Finished building target: ProgramasC
+ 
+19:19:23 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../zeno_paradox.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"zeno_paradox.d" -MT"zeno_paradox.o" -o "zeno_paradox.o" "../zeno_paradox.c"
+../zeno_paradox.c: In function ‘main’:
+../zeno_paradox.c:30:39: warning: use of ‘ll’ length modifier with ‘f’ type character has either no effect or undefined behavior [-Wformat=]
+   30 |                         return printf("Zeno will never reach the turtle. Altogether "
+      |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../zeno_paradox.c:31:54: note: format string is defined here
+   31 |                                         "Zeno ran %llf metres.", zeno);
+      |                                                      ^
+../zeno_paradox.c:35:17: warning: use of ‘ll’ length modifier with ‘f’ type character has either no effect or undefined behavior [-Wformat=]
+   35 |         }printf("Zeno needs %lld leaps to reach the turtle and will reach the "
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../zeno_paradox.c:36:52: note: format string is defined here
+   36 |                         "turtle at the distance %llf metres.", cont, zeno);
+      |                                                    ^
+../zeno_paradox.c: In function ‘zeno_paradox’:
+../zeno_paradox.c:10:1: warning: control reaches end of non-void function [-Wreturn-type]
+   10 | }
+      | ^
+Finished building: ../zeno_paradox.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./zeno_paradox.o   -lm
+Finished building target: ProgramasC
+ 
+19:19:42 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../zeno_paradox.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"zeno_paradox.d" -MT"zeno_paradox.o" -o "zeno_paradox.o" "../zeno_paradox.c"
+../zeno_paradox.c: In function ‘main’:
+../zeno_paradox.c:30:39: warning: use of ‘ll’ length modifier with ‘f’ type character has either no effect or undefined behavior [-Wformat=]
+   30 |                         return printf("Zeno will never reach the turtle. Altogether "
+      |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../zeno_paradox.c:31:54: note: format string is defined here
+   31 |                                         "Zeno ran %llf metres.", zeno);
+      |                                                      ^
+../zeno_paradox.c:35:17: warning: use of ‘ll’ length modifier with ‘f’ type character has either no effect or undefined behavior [-Wformat=]
+   35 |         }printf("Zeno needs %lld leaps to reach the turtle and will reach the "
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../zeno_paradox.c:36:52: note: format string is defined here
+   36 |                         "turtle at the distance %llf metres.", cont, zeno);
+      |                                                    ^
+../zeno_paradox.c: In function ‘zeno_paradox’:
+../zeno_paradox.c:10:1: warning: control reaches end of non-void function [-Wreturn-type]
+   10 | }
+      | ^
+Finished building: ../zeno_paradox.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./zeno_paradox.o   -lm
+Finished building target: ProgramasC
+ 
+19:19:53 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+19:20:02 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../zeno_paradox.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"zeno_paradox.d" -MT"zeno_paradox.o" -o "zeno_paradox.o" "../zeno_paradox.c"
+../zeno_paradox.c: In function ‘main’:
+../zeno_paradox.c:30:39: warning: use of ‘ll’ length modifier with ‘f’ type character has either no effect or undefined behavior [-Wformat=]
+   30 |                         return printf("Zeno will never reach the turtle. Altogether "
+      |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../zeno_paradox.c:31:54: note: format string is defined here
+   31 |                                         "Zeno ran %llf metres.", zeno);
+      |                                                      ^
+../zeno_paradox.c:35:17: warning: use of ‘ll’ length modifier with ‘f’ type character has either no effect or undefined behavior [-Wformat=]
+   35 |         }printf("Zeno needs %lld leaps to reach the turtle and will reach the "
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../zeno_paradox.c:36:52: note: format string is defined here
+   36 |                         "turtle at the distance %llf metres.", cont, zeno);
+      |                                                    ^
+../zeno_paradox.c: In function ‘zeno_paradox’:
+../zeno_paradox.c:10:1: warning: control reaches end of non-void function [-Wreturn-type]
+   10 | }
+      | ^
+Finished building: ../zeno_paradox.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./zeno_paradox.o   -lm
+Finished building target: ProgramasC
+ 
+19:20:09 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+19:20:22 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../zeno_paradox.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"zeno_paradox.d" -MT"zeno_paradox.o" -o "zeno_paradox.o" "../zeno_paradox.c"
+../zeno_paradox.c: In function ‘main’:
+../zeno_paradox.c:30:39: warning: use of ‘ll’ length modifier with ‘f’ type character has either no effect or undefined behavior [-Wformat=]
+   30 |                         return printf("Zeno will never reach the turtle. Altogether "
+      |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../zeno_paradox.c:31:54: note: format string is defined here
+   31 |                                         "Zeno ran %llf metres.", zeno);
+      |                                                      ^
+../zeno_paradox.c:35:17: warning: use of ‘ll’ length modifier with ‘f’ type character has either no effect or undefined behavior [-Wformat=]
+   35 |         }printf("Zeno needs %lld leaps to reach the turtle and will reach the "
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../zeno_paradox.c:36:52: note: format string is defined here
+   36 |                         "turtle at the distance %llf metres.", cont, zeno);
+      |                                                    ^
+../zeno_paradox.c: In function ‘zeno_paradox’:
+../zeno_paradox.c:10:1: warning: control reaches end of non-void function [-Wreturn-type]
+   10 | }
+      | ^
+Finished building: ../zeno_paradox.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./zeno_paradox.o   -lm
+Finished building target: ProgramasC
+ 
+19:20:36 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../zeno_paradox.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"zeno_paradox.d" -MT"zeno_paradox.o" -o "zeno_paradox.o" "../zeno_paradox.c"
+../zeno_paradox.c: In function ‘main’:
+../zeno_paradox.c:30:39: warning: use of ‘ll’ length modifier with ‘f’ type character has either no effect or undefined behavior [-Wformat=]
+   30 |                         return printf("Zeno will never reach the turtle. Altogether "
+      |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../zeno_paradox.c:31:54: note: format string is defined here
+   31 |                                         "Zeno ran %llf metres.", zeno);
+      |                                                      ^
+../zeno_paradox.c:35:17: warning: use of ‘ll’ length modifier with ‘f’ type character has either no effect or undefined behavior [-Wformat=]
+   35 |         }printf("Zeno needs %lld leaps to reach the turtle and will reach the "
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../zeno_paradox.c:36:52: note: format string is defined here
+   36 |                         "turtle at the distance %llf metres.", cont, zeno);
+      |                                                    ^
+../zeno_paradox.c: In function ‘zeno_paradox’:
+../zeno_paradox.c:10:1: warning: control reaches end of non-void function [-Wreturn-type]
+   10 | }
+      | ^
+Finished building: ../zeno_paradox.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./zeno_paradox.o   -lm
+Finished building target: ProgramasC
+ 
+19:21:53 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../zeno_paradox.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"zeno_paradox.d" -MT"zeno_paradox.o" -o "zeno_paradox.o" "../zeno_paradox.c"
+../zeno_paradox.c: In function ‘main’:
+../zeno_paradox.c:30:39: warning: use of ‘ll’ length modifier with ‘f’ type character has either no effect or undefined behavior [-Wformat=]
+   30 |                         return printf("Zeno will never reach the turtle. Altogether "
+      |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../zeno_paradox.c:31:54: note: format string is defined here
+   31 |                                         "Zeno ran %llf metres.", zeno);
+      |                                                      ^
+../zeno_paradox.c:35:17: warning: use of ‘ll’ length modifier with ‘f’ type character has either no effect or undefined behavior [-Wformat=]
+   35 |         }printf("Zeno needs %lld leaps to reach the turtle and will reach the "
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../zeno_paradox.c:36:52: note: format string is defined here
+   36 |                         "turtle at the distance %llf metres.", cont, zeno);
+      |                                                    ^
+../zeno_paradox.c: In function ‘zeno_paradox’:
+../zeno_paradox.c:10:1: warning: control reaches end of non-void function [-Wreturn-type]
+   10 | }
+      | ^
+Finished building: ../zeno_paradox.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./zeno_paradox.o   -lm
+Finished building target: ProgramasC
+ 
+19:22:03 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+19:22:26 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../zeno_paradox.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"zeno_paradox.d" -MT"zeno_paradox.o" -o "zeno_paradox.o" "../zeno_paradox.c"
+../zeno_paradox.c: In function ‘main’:
+../zeno_paradox.c:30:39: warning: use of ‘ll’ length modifier with ‘f’ type character has either no effect or undefined behavior [-Wformat=]
+   30 |                         return printf("Zeno will never reach the turtle. Altogether "
+      |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../zeno_paradox.c:31:54: note: format string is defined here
+   31 |                                         "Zeno ran %llf metres.", zeno);
+      |                                                      ^
+../zeno_paradox.c:35:17: warning: use of ‘ll’ length modifier with ‘f’ type character has either no effect or undefined behavior [-Wformat=]
+   35 |         }printf("Zeno needs %lld leaps to reach the turtle and will reach the "
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../zeno_paradox.c:36:52: note: format string is defined here
+   36 |                         "turtle at the distance %llf metres.", cont, zeno);
+      |                                                    ^
+../zeno_paradox.c: In function ‘zeno_paradox’:
+../zeno_paradox.c:10:1: warning: control reaches end of non-void function [-Wreturn-type]
+   10 | }
+      | ^
+Finished building: ../zeno_paradox.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./zeno_paradox.o   -lm
+Finished building target: ProgramasC
+ 
