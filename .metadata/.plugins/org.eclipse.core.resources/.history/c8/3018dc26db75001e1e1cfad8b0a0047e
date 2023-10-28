@@ -2,6 +2,14 @@
 #include <stdlib.h>
 
 
+int zeno_paradox(){
+
+
+
+
+}
+
+
 int main(){
 
 	long double distance = 50, zeno = 0;
@@ -10,7 +18,7 @@ int main(){
 
 	while(zeno < turtle){
 
-		turtle += 13;
+		turtle += 1;
 		zeno += distance;
 		distance /= 2;
 		cont += 1;
@@ -18,9 +26,9 @@ int main(){
 		if(cont == 1000000){
 
 			printf("This is a convergent geometric progression, and its "
-					"value converges to %.2llf\n\n", zeno);
+					"value converges to %.2llf\n\n", distance);
 			return printf("Zeno will never reach the turtle. Altogether "
-					"Zeno ran %llf metres in %lld leaps.", zeno, cont);
+					"Zeno ran %llf metres.", zeno);
 
 		}
 

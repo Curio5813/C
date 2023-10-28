@@ -1,14 +1,20 @@
-19:22:26 **** Incremental Build of configuration Debug for project ProgramasC ****
+22:49:24 **** Incremental Build of configuration Debug for project ProgramasC ****
 make all 
 Building file: ../zeno_paradox.c
 Invoking: GCC C Compiler
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"zeno_paradox.d" -MT"zeno_paradox.o" -o "zeno_paradox.o" "../zeno_paradox.c"
 ../zeno_paradox.c: In function ‘main’:
+../zeno_paradox.c:28:32: warning: use of ‘ll’ length modifier with ‘f’ type character has either no effect or undefined behavior [-Wformat=]
+   28 |                         printf("This is a convergent geometric progression, and its "
+      |                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../zeno_paradox.c:29:66: note: format string is defined here
+   29 |                                         "value converges to %.2llf\n\n", zeno);
+      |                                                                  ^
 ../zeno_paradox.c:30:39: warning: use of ‘ll’ length modifier with ‘f’ type character has either no effect or undefined behavior [-Wformat=]
    30 |                         return printf("Zeno will never reach the turtle. Altogether "
       |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ../zeno_paradox.c:31:54: note: format string is defined here
-   31 |                                         "Zeno ran %llf metres.", zeno);
+   31 |                                         "Zeno ran %llf metres in %lld leaps.", zeno, cont);
       |                                                      ^
 ../zeno_paradox.c:35:17: warning: use of ‘ll’ length modifier with ‘f’ type character has either no effect or undefined behavior [-Wformat=]
    35 |         }printf("Zeno needs %lld leaps to reach the turtle and will reach the "
@@ -28,5 +34,5 @@ gcc -lm  -o "ProgramasC" ./zeno_paradox.o   -lm
 Finished building target: ProgramasC
  
 
-19:22:28 Build Finished. 0 errors, 3 warnings. (took 1s.176ms)
+22:49:25 Build Finished. 0 errors, 4 warnings. (took 1s.175ms)
 

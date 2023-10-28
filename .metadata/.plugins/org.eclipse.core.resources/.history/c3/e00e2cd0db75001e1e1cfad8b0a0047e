@@ -2,6 +2,14 @@
 #include <stdlib.h>
 
 
+int zeno_paradox(){
+
+
+
+
+}
+
+
 int main(){
 
 	long double distance = 50, zeno = 0;
