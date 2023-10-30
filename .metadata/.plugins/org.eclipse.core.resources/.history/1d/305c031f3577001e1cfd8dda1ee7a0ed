@@ -1,0 +1,37 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main(){
+	FILE *arq; int c;
+
+	arq = fopen("arq.txt", "w");
+
+	if(arq){
+		printf("Escreva algo: ");
+		c = fgetchar();
+		fputchar(c);
+		while(c != 'z'){
+			c = fgetchar();
+			fputchar(c);
+		}
+
+	}else{
+
+		printf("Não achei o arquivo!");
+
+	}fclose(arq);
+
+	arq = fopen("arq.txt", "r");
+
+	if(arq){
+		while((c = fgetc(arq)) != EOF){
+			printf("%c", c);
+
+		}
+
+	}fclose(arq);
+
+	return 0;
+
+}

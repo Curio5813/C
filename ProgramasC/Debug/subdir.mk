@@ -4,13 +4,13 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../zeno_paradox.c 
+../exercicio01.c 
 
 OBJS += \
-./zeno_paradox.o 
+./exercicio01.o 
 
 C_DEPS += \
-./zeno_paradox.d 
+./exercicio01.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
