@@ -51083,3 +51083,1732 @@ Invoking: GCC C Linker
 gcc -lm  -o "ProgramasC" ./exercicio01.o   -lm
 Finished building target: ProgramasC
  
+14:50:01 **** Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio04.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio04.d" -MT"exercicio04.o" -o "exercicio04.o" "../exercicio04.c"
+../exercicio04.c: In function ‘main’:
+../exercicio04.c:9:14: error: conflicting types for ‘vogais’; have ‘char[10]’
+    9 |         char vogais[10] = "aeiouAEIOU";
+      |              ^~~~~~
+../exercicio04.c:7:43: note: previous definition of ‘vogais’ with type ‘int’
+    7 |         FILE *arq; int c, consoantes = 0, vogais = 0, bol = 0;
+      |                                           ^~~~~~
+../exercicio04.c:18:40: error: assignment to expression with array type
+   18 |                                 vogais += 1;
+      |                                        ^~
+../exercicio04.c:32:31: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘char *’ [-Wformat=]
+   32 |         }printf("O texto tem %d vogais e %d consoantes", vogais, consoantes);
+      |                              ~^                          ~~~~~~
+      |                               |                          |
+      |                               int                        char *
+      |                              %s
+make: *** [subdir.mk:20: exercicio04.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:50:33 **** Clean-only build of configuration Debug for project ProgramasC ****
+make clean 
+rm -rf ./exercicio04.o ./exercicio04.d  ProgramasC
+ 
+14:51:10 **** Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio04.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio04.d" -MT"exercicio04.o" -o "exercicio04.o" "../exercicio04.c"
+../exercicio04.c: In function ‘main’:
+../exercicio04.c:9:14: error: conflicting types for ‘vogais’; have ‘char[10]’
+    9 |         char vogais[10] = "aeiouAEIOU";
+      |              ^~~~~~
+../exercicio04.c:7:43: note: previous definition of ‘vogais’ with type ‘int’
+    7 |         FILE *arq; int c, consoantes = 0, vogais = 0, bol = 0;
+      |                                           ^~~~~~
+../exercicio04.c:18:40: error: assignment to expression with array type
+   18 |                                 vogais += 1;
+      |                                        ^~
+../exercicio04.c:32:31: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘char *’ [-Wformat=]
+   32 |         }printf("O texto tem %d vogais e %d consoantes", vogais, consoantes);
+      |                              ~^                          ~~~~~~
+      |                               |                          |
+      |                               int                        char *
+      |                              %s
+make: *** [subdir.mk:20: exercicio04.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:52:26 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio04.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio04.d" -MT"exercicio04.o" -o "exercicio04.o" "../exercicio04.c"
+Finished building: ../exercicio04.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio04.o   -lm
+Finished building target: ProgramasC
+ 
+14:52:43 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+14:53:12 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+14:57:08 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio04.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio04.d" -MT"exercicio04.o" -o "exercicio04.o" "../exercicio04.c"
+../exercicio04.c: In function ‘main’:
+../exercicio04.c:10:42: warning: initializer-string for array of ‘char’ is too long
+   10 |                         consoantes[16] = "bcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ";
+      |                                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../exercicio04.c:7:53: warning: unused variable ‘bol’ [-Wunused-variable]
+    7 |         FILE *arq; int c, consoante = 0, vogal = 0, bol = 0;
+      |                                                     ^~~
+Finished building: ../exercicio04.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio04.o   -lm
+Finished building target: ProgramasC
+ 
+14:58:31 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio04.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio04.d" -MT"exercicio04.o" -o "exercicio04.o" "../exercicio04.c"
+../exercicio04.c: In function ‘main’:
+../exercicio04.c:10:42: warning: initializer-string for array of ‘char’ is too long
+   10 |                         consoantes[16] = "bcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ";
+      |                                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../exercicio04.c:7:53: warning: unused variable ‘bol’ [-Wunused-variable]
+    7 |         FILE *arq; int c, consoante = 0, vogal = 0, bol = 0;
+      |                                                     ^~~
+Finished building: ../exercicio04.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio04.o   -lm
+Finished building target: ProgramasC
+ 
+14:59:10 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+14:59:20 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+15:00:36 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio04.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio04.d" -MT"exercicio04.o" -o "exercicio04.o" "../exercicio04.c"
+../exercicio04.c: In function ‘main’:
+../exercicio04.c:10:42: warning: initializer-string for array of ‘char’ is too long
+   10 |                         consoantes[16] = "bcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ";
+      |                                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../exercicio04.c:7:53: warning: unused variable ‘bol’ [-Wunused-variable]
+    7 |         FILE *arq; int c, consoante = 0, vogal = 0, bol = 0;
+      |                                                     ^~~
+Finished building: ../exercicio04.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio04.o   -lm
+Finished building target: ProgramasC
+ 
+15:01:40 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio04.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio04.d" -MT"exercicio04.o" -o "exercicio04.o" "../exercicio04.c"
+../exercicio04.c: In function ‘main’:
+../exercicio04.c:10:42: warning: initializer-string for array of ‘char’ is too long
+   10 |                         consoantes[16] = "bcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ";
+      |                                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../exercicio04.c:7:53: warning: unused variable ‘bol’ [-Wunused-variable]
+    7 |         FILE *arq; int c, consoante = 0, vogal = 0, bol = 0;
+      |                                                     ^~~
+Finished building: ../exercicio04.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio04.o   -lm
+Finished building target: ProgramasC
+ 
+15:03:12 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio04.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio04.d" -MT"exercicio04.o" -o "exercicio04.o" "../exercicio04.c"
+../exercicio04.c: In function ‘main’:
+../exercicio04.c:10:42: warning: initializer-string for array of ‘char’ is too long
+   10 |                         consoantes[32] = "bcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ";
+      |                                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../exercicio04.c:7:53: warning: unused variable ‘bol’ [-Wunused-variable]
+    7 |         FILE *arq; int c, consoante = 0, vogal = 0, bol = 0;
+      |                                                     ^~~
+Finished building: ../exercicio04.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio04.o   -lm
+Finished building target: ProgramasC
+ 
+15:04:09 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio04.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio04.d" -MT"exercicio04.o" -o "exercicio04.o" "../exercicio04.c"
+../exercicio04.c: In function ‘main’:
+../exercicio04.c:10:42: warning: initializer-string for array of ‘char’ is too long
+   10 |                         consoantes[32] = "bcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ";
+      |                                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../exercicio04.c:7:53: warning: unused variable ‘bol’ [-Wunused-variable]
+    7 |         FILE *arq; int c, consoante = 0, vogal = 0, bol = 0;
+      |                                                     ^~~
+Finished building: ../exercicio04.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio04.o   -lm
+Finished building target: ProgramasC
+ 
+15:04:36 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio04.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio04.d" -MT"exercicio04.o" -o "exercicio04.o" "../exercicio04.c"
+../exercicio04.c: In function ‘main’:
+../exercicio04.c:10:42: warning: initializer-string for array of ‘char’ is too long
+   10 |                         consoantes[32] = "bcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ";
+      |                                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../exercicio04.c:7:53: warning: unused variable ‘bol’ [-Wunused-variable]
+    7 |         FILE *arq; int c, consoante = 0, vogal = 0, bol = 0;
+      |                                                     ^~~
+Finished building: ../exercicio04.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio04.o   -lm
+Finished building target: ProgramasC
+ 
+15:15:14 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+../exercicio05.c: In function ‘main’:
+../exercicio05.c:11:39: error: expected ‘;’ before ‘getc’
+   11 |         printf("Digite um caracter: ")
+      |                                       ^
+      |                                       ;
+   12 |         getc("%c", &ch);
+      |         ~~~~                           
+make: *** [subdir.mk:20: exercicio05.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:16:22 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+../exercicio05.c: In function ‘main’:
+../exercicio05.c:12:14: warning: passing argument 1 of ‘getc’ from incompatible pointer type [-Wincompatible-pointer-types]
+   12 |         getc("%c", &ch);
+      |              ^~~~
+      |              |
+      |              char *
+In file included from ../exercicio05.c:1:
+/usr/include/stdio.h:514:24: note: expected ‘FILE *’ but argument is of type ‘char *’
+  514 | extern int getc (FILE *__stream);
+      |                  ~~~~~~^~~~~~~~
+../exercicio05.c:12:9: error: too many arguments to function ‘getc’
+   12 |         getc("%c", &ch);
+      |         ^~~~
+In file included from ../exercicio05.c:1:
+/usr/include/stdio.h:514:12: note: declared here
+  514 | extern int getc (FILE *__stream);
+      |            ^~~~
+../exercicio05.c:22:10: warning: implicit declaration of function ‘pritnf’; did you mean ‘printf’? [-Wimplicit-function-declaration]
+   22 |         }pritnf("O caracter %c apareceu %d vezes no texto", ch, cont);
+      |          ^~~~~~
+      |          printf
+make: *** [subdir.mk:20: exercicio05.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:17:03 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+../exercicio05.c: In function ‘main’:
+../exercicio05.c:12:14: error: too few arguments to function ‘getc’
+   12 |         ch = getc();
+      |              ^~~~
+In file included from ../exercicio05.c:1:
+/usr/include/stdio.h:514:12: note: declared here
+  514 | extern int getc (FILE *__stream);
+      |            ^~~~
+../exercicio05.c:22:10: warning: implicit declaration of function ‘pritnf’; did you mean ‘printf’? [-Wimplicit-function-declaration]
+   22 |         }pritnf("O caracter %c apareceu %d vezes no texto", ch, cont);
+      |          ^~~~~~
+      |          printf
+make: *** [subdir.mk:20: exercicio05.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:17:24 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+../exercicio05.c: In function ‘main’:
+../exercicio05.c:12:19: warning: passing argument 1 of ‘getc’ from incompatible pointer type [-Wincompatible-pointer-types]
+   12 |         ch = getc("%c");
+      |                   ^~~~
+      |                   |
+      |                   char *
+In file included from ../exercicio05.c:1:
+/usr/include/stdio.h:514:24: note: expected ‘FILE *’ but argument is of type ‘char *’
+  514 | extern int getc (FILE *__stream);
+      |                  ~~~~~~^~~~~~~~
+../exercicio05.c:22:10: warning: implicit declaration of function ‘pritnf’; did you mean ‘printf’? [-Wimplicit-function-declaration]
+   22 |         }pritnf("O caracter %c apareceu %d vezes no texto", ch, cont);
+      |          ^~~~~~
+      |          printf
+../exercicio05.c:15:13: warning: ‘arq’ is used uninitialized [-Wuninitialized]
+   15 |         c = fgetc(arq);
+      |             ^~~~~~~~~~
+Finished building: ../exercicio05.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio05.o   -lm
+/usr/bin/ld: ./exercicio05.o: na função "main":
+/home/marcos/Computacao/C/ProgramasC/Debug/../exercicio05.c:22: referência não definida para "pritnf"
+collect2: error: ld returned 1 exit status
+make: *** [makefile:31: ProgramasC] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:17:44 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+../exercicio05.c: In function ‘main’:
+../exercicio05.c:12:19: warning: passing argument 1 of ‘getc’ from incompatible pointer type [-Wincompatible-pointer-types]
+   12 |         ch = getc("%c");
+      |                   ^~~~
+      |                   |
+      |                   char *
+In file included from ../exercicio05.c:1:
+/usr/include/stdio.h:514:24: note: expected ‘FILE *’ but argument is of type ‘char *’
+  514 | extern int getc (FILE *__stream);
+      |                  ~~~~~~^~~~~~~~
+../exercicio05.c:15:13: warning: ‘arq’ is used uninitialized [-Wuninitialized]
+   15 |         c = fgetc(arq);
+      |             ^~~~~~~~~~
+Finished building: ../exercicio05.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio05.o   -lm
+Finished building target: ProgramasC
+ 
+15:22:19 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+../exercicio05.c: In function ‘main’:
+../exercicio05.c:12:14: warning: passing argument 1 of ‘getc’ makes pointer from integer without a cast [-Wint-conversion]
+   12 |         getc(ch);
+      |              ^~
+      |              |
+      |              char
+In file included from ../exercicio05.c:1:
+/usr/include/stdio.h:514:24: note: expected ‘FILE *’ but argument is of type ‘char’
+  514 | extern int getc (FILE *__stream);
+      |                  ~~~~~~^~~~~~~~
+../exercicio05.c:12:9: warning: ‘ch’ is used uninitialized [-Wuninitialized]
+   12 |         getc(ch);
+      |         ^~~~~~~~
+../exercicio05.c:15:13: warning: ‘arq’ is used uninitialized [-Wuninitialized]
+   15 |         c = fgetc(arq);
+      |             ^~~~~~~~~~
+Finished building: ../exercicio05.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio05.o   -lm
+Finished building target: ProgramasC
+ 
+15:23:03 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+../exercicio05.c: In function ‘main’:
+../exercicio05.c:15:13: warning: ‘arq’ is used uninitialized [-Wuninitialized]
+   15 |         c = fgetc(arq);
+      |             ^~~~~~~~~~
+Finished building: ../exercicio05.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio05.o   -lm
+Finished building target: ProgramasC
+ 
+15:23:59 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+../exercicio05.c: In function ‘main’:
+../exercicio05.c:16:13: warning: ‘arq’ is used uninitialized [-Wuninitialized]
+   16 |         c = fgetc(arq);
+      |             ^~~~~~~~~~
+Finished building: ../exercicio05.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio05.o   -lm
+Finished building target: ProgramasC
+ 
+15:26:43 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+../exercicio05.c: In function ‘main’:
+../exercicio05.c:19:30: warning: comparison between pointer and integer
+   19 |                         if(c == ch){
+      |                              ^~
+../exercicio05.c:24:38: warning: format ‘%c’ expects argument of type ‘int’, but argument 2 has type ‘char *’ [-Wformat=]
+   24 |                 }printf("O caracter %c apareceu %d vezes no texto", ch, cont);
+      |                                     ~^                              ~~
+      |                                      |                              |
+      |                                      int                            char *
+      |                                     %s
+../exercicio05.c:16:11: warning: ‘arq’ is used uninitialized [-Wuninitialized]
+   16 |         if(arq){
+      |           ^
+Finished building: ../exercicio05.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio05.o   -lm
+Finished building target: ProgramasC
+ 
+15:31:44 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+../exercicio05.c: In function ‘main’:
+../exercicio05.c:19:30: warning: comparison between pointer and integer
+   19 |                         if(c == ch){
+      |                              ^~
+../exercicio05.c:24:38: warning: format ‘%c’ expects argument of type ‘int’, but argument 2 has type ‘char *’ [-Wformat=]
+   24 |                 }printf("O caracter %c apareceu %d vezes no texto", ch, cont);
+      |                                     ~^                              ~~
+      |                                      |                              |
+      |                                      int                            char *
+      |                                     %s
+../exercicio05.c:16:11: warning: ‘arq’ is used uninitialized [-Wuninitialized]
+   16 |         if(arq){
+      |           ^
+Finished building: ../exercicio05.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio05.o   -lm
+Finished building target: ProgramasC
+ 
+15:34:54 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+../exercicio05.c: In function ‘main’:
+../exercicio05.c:13:17: warning: format ‘%c’ expects argument of type ‘char *’, but argument 2 has type ‘char **’ [-Wformat=]
+   13 |         scanf("%c", &ch[0]);
+      |                ~^   ~~~~~~
+      |                 |   |
+      |                 |   char **
+      |                 char *
+../exercicio05.c:19:30: warning: comparison between pointer and integer
+   19 |                         if(c == ch){
+      |                              ^~
+../exercicio05.c:24:38: warning: format ‘%c’ expects argument of type ‘int’, but argument 2 has type ‘char **’ [-Wformat=]
+   24 |                 }printf("O caracter %c apareceu %d vezes no texto", ch, cont);
+      |                                     ~^                              ~~
+      |                                      |                              |
+      |                                      int                            char **
+../exercicio05.c:16:11: warning: ‘arq’ is used uninitialized [-Wuninitialized]
+   16 |         if(arq){
+      |           ^
+Finished building: ../exercicio05.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio05.o   -lm
+Finished building target: ProgramasC
+ 
+15:35:18 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+../exercicio05.c: In function ‘main’:
+../exercicio05.c:19:30: warning: comparison between pointer and integer
+   19 |                         if(c == ch){
+      |                              ^~
+../exercicio05.c:24:38: warning: format ‘%c’ expects argument of type ‘int’, but argument 2 has type ‘char *’ [-Wformat=]
+   24 |                 }printf("O caracter %c apareceu %d vezes no texto", ch, cont);
+      |                                     ~^                              ~~
+      |                                      |                              |
+      |                                      int                            char *
+      |                                     %s
+../exercicio05.c:16:11: warning: ‘arq’ is used uninitialized [-Wuninitialized]
+   16 |         if(arq){
+      |           ^
+Finished building: ../exercicio05.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio05.o   -lm
+Finished building target: ProgramasC
+ 
+15:35:40 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+../exercicio05.c: In function ‘main’:
+../exercicio05.c:19:30: warning: comparison between pointer and integer
+   19 |                         if(c == ch){
+      |                              ^~
+../exercicio05.c:24:38: warning: format ‘%c’ expects argument of type ‘int’, but argument 2 has type ‘char **’ [-Wformat=]
+   24 |                 }printf("O caracter %c apareceu %d vezes no texto", ch, cont);
+      |                                     ~^                              ~~
+      |                                      |                              |
+      |                                      int                            char **
+../exercicio05.c:16:11: warning: ‘arq’ is used uninitialized [-Wuninitialized]
+   16 |         if(arq){
+      |           ^
+Finished building: ../exercicio05.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio05.o   -lm
+Finished building target: ProgramasC
+ 
+15:35:49 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+15:36:10 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+../exercicio05.c: In function ‘main’:
+../exercicio05.c:16:22: error: expected ‘;’ before ‘if’
+   16 |         printf("Ok!")
+      |                      ^
+      |                      ;
+   17 | 
+   18 |         if(arq){
+      |         ~~            
+../exercicio05.c:7:27: warning: unused variable ‘cont’ [-Wunused-variable]
+    7 |         FILE *arq; int c, cont = 0;
+      |                           ^~~~
+../exercicio05.c:7:24: warning: unused variable ‘c’ [-Wunused-variable]
+    7 |         FILE *arq; int c, cont = 0;
+      |                        ^
+../exercicio05.c:7:15: warning: unused variable ‘arq’ [-Wunused-variable]
+    7 |         FILE *arq; int c, cont = 0;
+      |               ^~~
+make: *** [subdir.mk:20: exercicio05.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:36:21 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+../exercicio05.c: In function ‘main’:
+../exercicio05.c:21:30: warning: comparison between pointer and integer
+   21 |                         if(c == ch){
+      |                              ^~
+../exercicio05.c:26:38: warning: format ‘%c’ expects argument of type ‘int’, but argument 2 has type ‘char **’ [-Wformat=]
+   26 |                 }printf("O caracter %c apareceu %d vezes no texto", ch, cont);
+      |                                     ~^                              ~~
+      |                                      |                              |
+      |                                      int                            char **
+../exercicio05.c:18:11: warning: ‘arq’ is used uninitialized [-Wuninitialized]
+   18 |         if(arq){
+      |           ^
+Finished building: ../exercicio05.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio05.o   -lm
+Finished building target: ProgramasC
+ 
+15:38:09 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+../exercicio05.c: In function ‘main’:
+../exercicio05.c:13:17: warning: format ‘%c’ expects argument of type ‘char *’, but argument 2 has type ‘int’ [-Wformat=]
+   13 |         scanf("%c", *(ch[0]));
+      |                ~^   ~~~~~~~~
+      |                 |   |
+      |                 |   int
+      |                 char *
+../exercicio05.c:21:30: warning: comparison between pointer and integer
+   21 |                         if(c == ch){
+      |                              ^~
+../exercicio05.c:26:38: warning: format ‘%c’ expects argument of type ‘int’, but argument 2 has type ‘char **’ [-Wformat=]
+   26 |                 }printf("O caracter %c apareceu %d vezes no texto", ch, cont);
+      |                                     ~^                              ~~
+      |                                      |                              |
+      |                                      int                            char **
+../exercicio05.c:18:11: warning: ‘arq’ is used uninitialized [-Wuninitialized]
+   18 |         if(arq){
+      |           ^
+Finished building: ../exercicio05.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio05.o   -lm
+Finished building target: ProgramasC
+ 
+15:40:54 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+../exercicio05.c: In function ‘main’:
+../exercicio05.c:21:30: warning: comparison between pointer and integer
+   21 |                         if(c == ch){
+      |                              ^~
+../exercicio05.c:26:38: warning: format ‘%c’ expects argument of type ‘int’, but argument 2 has type ‘char **’ [-Wformat=]
+   26 |                 }printf("O caracter %c apareceu %d vezes no texto", ch, cont);
+      |                                     ~^                              ~~
+      |                                      |                              |
+      |                                      int                            char **
+../exercicio05.c:18:11: warning: ‘arq’ is used uninitialized [-Wuninitialized]
+   18 |         if(arq){
+      |           ^
+Finished building: ../exercicio05.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio05.o   -lm
+Finished building target: ProgramasC
+ 
+15:41:43 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+../exercicio05.c: In function ‘main’:
+../exercicio05.c:20:30: warning: comparison between pointer and integer
+   20 |                         if(c == ch){
+      |                              ^~
+../exercicio05.c:25:38: warning: format ‘%c’ expects argument of type ‘int’, but argument 2 has type ‘char **’ [-Wformat=]
+   25 |                 }printf("O caracter %c apareceu %d vezes no texto", ch, cont);
+      |                                     ~^                              ~~
+      |                                      |                              |
+      |                                      int                            char **
+../exercicio05.c:14:11: warning: ‘arq’ is used uninitialized [-Wuninitialized]
+   14 |         if(arq){
+      |           ^
+Finished building: ../exercicio05.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio05.o   -lm
+Finished building target: ProgramasC
+ 
+15:47:29 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+../exercicio05.c: In function ‘main’:
+../exercicio05.c:13:22: error: too few arguments to function ‘getc’
+   13 |                 ch = getc();
+      |                      ^~~~
+In file included from ../exercicio05.c:1:
+/usr/include/stdio.h:514:12: note: declared here
+  514 | extern int getc (FILE *__stream);
+      |            ^~~~
+../exercicio05.c:17:30: warning: comparison between pointer and integer
+   17 |                         if(c == ch){
+      |                              ^~
+../exercicio05.c:22:38: warning: format ‘%c’ expects argument of type ‘int’, but argument 2 has type ‘char **’ [-Wformat=]
+   22 |                 }printf("O caracter %c apareceu %d vezes no texto", ch, cont);
+      |                                     ~^                              ~~
+      |                                      |                              |
+      |                                      int                            char **
+make: *** [subdir.mk:20: exercicio05.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:47:55 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+../exercicio05.c: In function ‘main’:
+../exercicio05.c:13:22: warning: passing argument 1 of ‘getc’ from incompatible pointer type [-Wincompatible-pointer-types]
+   13 |                 getc(&ch);
+      |                      ^~~
+      |                      |
+      |                      char * (*)[10]
+In file included from ../exercicio05.c:1:
+/usr/include/stdio.h:514:24: note: expected ‘FILE *’ but argument is of type ‘char * (*)[10]’
+  514 | extern int getc (FILE *__stream);
+      |                  ~~~~~~^~~~~~~~
+../exercicio05.c:17:30: warning: comparison between pointer and integer
+   17 |                         if(c == ch){
+      |                              ^~
+../exercicio05.c:22:38: warning: format ‘%c’ expects argument of type ‘int’, but argument 2 has type ‘char **’ [-Wformat=]
+   22 |                 }printf("O caracter %c apareceu %d vezes no texto", ch, cont);
+      |                                     ~^                              ~~
+      |                                      |                              |
+      |                                      int                            char **
+../exercicio05.c:11:11: warning: ‘arq’ is used uninitialized [-Wuninitialized]
+   11 |         if(arq){
+      |           ^
+Finished building: ../exercicio05.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio05.o   -lm
+Finished building target: ProgramasC
+ 
+15:48:11 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+15:48:55 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+../exercicio05.c: In function ‘main’:
+../exercicio05.c:13:26: warning: passing argument 1 of ‘getc’ from incompatible pointer type [-Wincompatible-pointer-types]
+   13 |                 x = getc(ch);
+      |                          ^~
+      |                          |
+      |                          char **
+In file included from ../exercicio05.c:1:
+/usr/include/stdio.h:514:24: note: expected ‘FILE *’ but argument is of type ‘char **’
+  514 | extern int getc (FILE *__stream);
+      |                  ~~~~~~^~~~~~~~
+../exercicio05.c:17:30: warning: comparison between pointer and integer
+   17 |                         if(c == ch){
+      |                              ^~
+../exercicio05.c:22:38: warning: format ‘%c’ expects argument of type ‘int’, but argument 2 has type ‘char **’ [-Wformat=]
+   22 |                 }printf("O caracter %c apareceu %d vezes no texto", ch, cont);
+      |                                     ~^                              ~~
+      |                                      |                              |
+      |                                      int                            char **
+../exercicio05.c:9:23: warning: variable ‘x’ set but not used [-Wunused-but-set-variable]
+    9 |         char *ch[10], x;
+      |                       ^
+../exercicio05.c:11:11: warning: ‘arq’ is used uninitialized [-Wuninitialized]
+   11 |         if(arq){
+      |           ^
+Finished building: ../exercicio05.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio05.o   -lm
+Finished building target: ProgramasC
+ 
+15:50:44 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+../exercicio05.c: In function ‘main’:
+../exercicio05.c:11:11: warning: ‘arq’ is used uninitialized [-Wuninitialized]
+   11 |         if(arq){
+      |           ^
+Finished building: ../exercicio05.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio05.o   -lm
+Finished building target: ProgramasC
+ 
+15:51:01 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+../exercicio05.c: In function ‘main’:
+../exercicio05.c:11:11: warning: ‘arq’ is used uninitialized [-Wuninitialized]
+   11 |         if(arq){
+      |           ^
+Finished building: ../exercicio05.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio05.o   -lm
+Finished building target: ProgramasC
+ 
+15:53:07 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+../exercicio05.c: In function ‘main’:
+../exercicio05.c:11:15: error: too few arguments to function ‘fopen’
+   11 |         arq = fopen("texto05.txt");
+      |               ^~~~~
+In file included from ../exercicio05.c:1:
+/usr/include/stdio.h:258:14: note: declared here
+  258 | extern FILE *fopen (const char *__restrict __filename,
+      |              ^~~~~
+../exercicio05.c:14:17: warning: format ‘%c’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[10]’ [-Wformat=]
+   14 |         scanf("%c", &ch);
+      |                ~^   ~~~
+      |                 |   |
+      |                 |   char (*)[10]
+      |                 char *
+../exercicio05.c:19:30: warning: comparison between pointer and integer
+   19 |                         if(c == ch){
+      |                              ^~
+../exercicio05.c:24:38: warning: format ‘%c’ expects argument of type ‘int’, but argument 2 has type ‘char *’ [-Wformat=]
+   24 |                 }printf("O caracter %c apareceu %d vezes no texto", ch, cont);
+      |                                     ~^                              ~~
+      |                                      |                              |
+      |                                      int                            char *
+      |                                     %s
+make: *** [subdir.mk:20: exercicio05.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:53:33 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+../exercicio05.c: In function ‘main’:
+../exercicio05.c:14:17: warning: format ‘%c’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[10]’ [-Wformat=]
+   14 |         scanf("%c", &ch);
+      |                ~^   ~~~
+      |                 |   |
+      |                 |   char (*)[10]
+      |                 char *
+../exercicio05.c:19:30: warning: comparison between pointer and integer
+   19 |                         if(c == ch){
+      |                              ^~
+../exercicio05.c:24:38: warning: format ‘%c’ expects argument of type ‘int’, but argument 2 has type ‘char *’ [-Wformat=]
+   24 |                 }printf("O caracter %c apareceu %d vezes no texto", ch, cont);
+      |                                     ~^                              ~~
+      |                                      |                              |
+      |                                      int                            char *
+      |                                     %s
+Finished building: ../exercicio05.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio05.o   -lm
+Finished building target: ProgramasC
+ 
+15:54:22 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+../exercicio05.c: In function ‘main’:
+../exercicio05.c:19:30: warning: comparison between pointer and integer
+   19 |                         if(c == ch){
+      |                              ^~
+../exercicio05.c:24:38: warning: format ‘%c’ expects argument of type ‘int’, but argument 2 has type ‘char *’ [-Wformat=]
+   24 |                 }printf("O caracter %c apareceu %d vezes no texto", ch, cont);
+      |                                     ~^                              ~~
+      |                                      |                              |
+      |                                      int                            char *
+      |                                     %s
+Finished building: ../exercicio05.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio05.o   -lm
+Finished building target: ProgramasC
+ 
+15:55:19 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+../exercicio05.c: In function ‘main’:
+../exercicio05.c:19:30: warning: comparison between pointer and integer
+   19 |                         if(c == ch){
+      |                              ^~
+../exercicio05.c:24:38: warning: format ‘%c’ expects argument of type ‘int’, but argument 2 has type ‘char **’ [-Wformat=]
+   24 |                 }printf("O caracter %c apareceu %d vezes no texto", ch, cont);
+      |                                     ~^                              ~~
+      |                                      |                              |
+      |                                      int                            char **
+Finished building: ../exercicio05.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio05.o   -lm
+Finished building target: ProgramasC
+ 
+15:55:43 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+../exercicio05.c: In function ‘main’:
+../exercicio05.c:14:17: warning: format ‘%c’ expects argument of type ‘char *’, but argument 2 has type ‘char **’ [-Wformat=]
+   14 |         scanf("%c", &ch[0]);
+      |                ~^   ~~~~~~
+      |                 |   |
+      |                 |   char **
+      |                 char *
+../exercicio05.c:19:30: warning: comparison between pointer and integer
+   19 |                         if(c == ch){
+      |                              ^~
+../exercicio05.c:24:38: warning: format ‘%c’ expects argument of type ‘int’, but argument 2 has type ‘char **’ [-Wformat=]
+   24 |                 }printf("O caracter %c apareceu %d vezes no texto", ch, cont);
+      |                                     ~^                              ~~
+      |                                      |                              |
+      |                                      int                            char **
+Finished building: ../exercicio05.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio05.o   -lm
+Finished building target: ProgramasC
+ 
+15:56:26 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+../exercicio05.c: In function ‘main’:
+../exercicio05.c:14:17: warning: format ‘%c’ expects argument of type ‘char *’, but argument 2 has type ‘char **’ [-Wformat=]
+   14 |         scanf("%c", &ch[0]);
+      |                ~^   ~~~~~~
+      |                 |   |
+      |                 |   char **
+      |                 char *
+../exercicio05.c:19:30: warning: comparison between pointer and integer
+   19 |                         if(c == *ch){
+      |                              ^~
+../exercicio05.c:24:38: warning: format ‘%c’ expects argument of type ‘int’, but argument 2 has type ‘char **’ [-Wformat=]
+   24 |                 }printf("O caracter %c apareceu %d vezes no texto", ch, cont);
+      |                                     ~^                              ~~
+      |                                      |                              |
+      |                                      int                            char **
+Finished building: ../exercicio05.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio05.o   -lm
+Finished building target: ProgramasC
+ 
+15:57:40 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+../exercicio05.c: In function ‘main’:
+../exercicio05.c:14:17: warning: format ‘%c’ expects argument of type ‘char *’, but argument 2 has type ‘char **’ [-Wformat=]
+   14 |         scanf("%c", &ch[0]);
+      |                ~^   ~~~~~~
+      |                 |   |
+      |                 |   char **
+      |                 char *
+../exercicio05.c:19:30: warning: comparison between pointer and integer
+   19 |                         if(c == *ch){
+      |                              ^~
+../exercicio05.c:24:38: warning: format ‘%c’ expects argument of type ‘int’, but argument 2 has type ‘char *’ [-Wformat=]
+   24 |                 }printf("O caracter %c apareceu %d vezes no texto", *ch, cont);
+      |                                     ~^                              ~~~
+      |                                      |                              |
+      |                                      int                            char *
+      |                                     %s
+Finished building: ../exercicio05.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio05.o   -lm
+Finished building target: ProgramasC
+ 
+15:59:19 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+../exercicio05.c: In function ‘main’:
+../exercicio05.c:14:17: warning: format ‘%c’ expects argument of type ‘char *’, but argument 2 has type ‘char **’ [-Wformat=]
+   14 |         scanf("%c", &ch[0]);
+      |                ~^   ~~~~~~
+      |                 |   |
+      |                 |   char **
+      |                 char *
+../exercicio05.c:24:38: warning: format ‘%c’ expects argument of type ‘int’, but argument 2 has type ‘char *’ [-Wformat=]
+   24 |                 }printf("O caracter %c apareceu %d vezes no texto", *ch, cont);
+      |                                     ~^                              ~~~
+      |                                      |                              |
+      |                                      int                            char *
+      |                                     %s
+Finished building: ../exercicio05.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio05.o   -lm
+Finished building target: ProgramasC
+ 
+15:59:45 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+../exercicio05.c: In function ‘main’:
+../exercicio05.c:14:17: warning: format ‘%c’ expects argument of type ‘char *’, but argument 2 has type ‘char **’ [-Wformat=]
+   14 |         scanf("%c", &ch[0]);
+      |                ~^   ~~~~~~
+      |                 |   |
+      |                 |   char **
+      |                 char *
+../exercicio05.c:19:30: warning: comparison between pointer and integer
+   19 |                         if(c == ch){
+      |                              ^~
+../exercicio05.c:24:38: warning: format ‘%c’ expects argument of type ‘int’, but argument 2 has type ‘char *’ [-Wformat=]
+   24 |                 }printf("O caracter %c apareceu %d vezes no texto", *ch, cont);
+      |                                     ~^                              ~~~
+      |                                      |                              |
+      |                                      int                            char *
+      |                                     %s
+Finished building: ../exercicio05.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio05.o   -lm
+Finished building target: ProgramasC
+ 
+16:00:08 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+../exercicio05.c: In function ‘main’:
+../exercicio05.c:14:17: warning: format ‘%c’ expects argument of type ‘char *’, but argument 2 has type ‘char **’ [-Wformat=]
+   14 |         scanf("%c", &ch[0]);
+      |                ~^   ~~~~~~
+      |                 |   |
+      |                 |   char **
+      |                 char *
+../exercicio05.c:19:30: warning: comparison between pointer and integer
+   19 |                         if(c == ch[0]){
+      |                              ^~
+../exercicio05.c:24:38: warning: format ‘%c’ expects argument of type ‘int’, but argument 2 has type ‘char *’ [-Wformat=]
+   24 |                 }printf("O caracter %c apareceu %d vezes no texto", *ch, cont);
+      |                                     ~^                              ~~~
+      |                                      |                              |
+      |                                      int                            char *
+      |                                     %s
+Finished building: ../exercicio05.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio05.o   -lm
+Finished building target: ProgramasC
+ 
+16:00:51 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+../exercicio05.c: In function ‘main’:
+../exercicio05.c:14:17: warning: format ‘%c’ expects argument of type ‘char *’, but argument 2 has type ‘char **’ [-Wformat=]
+   14 |         scanf("%c", &ch);
+      |                ~^   ~~~
+      |                 |   |
+      |                 |   char **
+      |                 char *
+Finished building: ../exercicio05.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio05.o   -lm
+Finished building target: ProgramasC
+ 
+16:01:18 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+../exercicio05.c: In function ‘main’:
+../exercicio05.c:14:17: warning: format ‘%c’ expects argument of type ‘char *’, but argument 2 has type ‘int’ [-Wformat=]
+   14 |         scanf("%c", *ch);
+      |                ~^   ~~~
+      |                 |   |
+      |                 |   int
+      |                 char *
+../exercicio05.c:14:21: warning: ‘ch’ is used uninitialized [-Wuninitialized]
+   14 |         scanf("%c", *ch);
+      |                     ^~~
+Finished building: ../exercicio05.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio05.o   -lm
+Finished building target: ProgramasC
+ 
+16:01:56 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+../exercicio05.c: In function ‘main’:
+../exercicio05.c:14:17: warning: format ‘%c’ expects argument of type ‘char *’, but argument 2 has type ‘int’ [-Wformat=]
+   14 |         scanf("%c", *ch[0]);
+      |                ~^   ~~~~~~
+      |                 |   |
+      |                 |   int
+      |                 char *
+../exercicio05.c:19:30: warning: comparison between pointer and integer
+   19 |                         if(c == *ch){
+      |                              ^~
+../exercicio05.c:24:38: warning: format ‘%c’ expects argument of type ‘int’, but argument 2 has type ‘char *’ [-Wformat=]
+   24 |                 }printf("O caracter %c apareceu %d vezes no texto", *ch, cont);
+      |                                     ~^                              ~~~
+      |                                      |                              |
+      |                                      int                            char *
+      |                                     %s
+Finished building: ../exercicio05.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio05.o   -lm
+Finished building target: ProgramasC
+ 
+16:02:56 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+../exercicio05.c: In function ‘main’:
+../exercicio05.c:14:17: warning: format ‘%c’ expects argument of type ‘char *’, but argument 2 has type ‘char **’ [-Wformat=]
+   14 |         scanf("%c", &ch[0]);
+      |                ~^   ~~~~~~
+      |                 |   |
+      |                 |   char **
+      |                 char *
+../exercicio05.c:19:30: warning: comparison between pointer and integer
+   19 |                         if(c == *ch){
+      |                              ^~
+../exercicio05.c:24:38: warning: format ‘%c’ expects argument of type ‘int’, but argument 2 has type ‘char *’ [-Wformat=]
+   24 |                 }printf("O caracter %c apareceu %d vezes no texto", *ch, *cont);
+      |                                     ~^                              ~~~
+      |                                      |                              |
+      |                                      int                            char *
+      |                                     %s
+Finished building: ../exercicio05.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio05.o   -lm
+Finished building target: ProgramasC
+ 
+16:03:30 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+../exercicio05.c: In function ‘main’:
+../exercicio05.c:14:17: warning: format ‘%c’ expects argument of type ‘char *’, but argument 2 has type ‘char **’ [-Wformat=]
+   14 |         scanf("%c", &ch[0]);
+      |                ~^   ~~~~~~
+      |                 |   |
+      |                 |   char **
+      |                 char *
+../exercicio05.c:19:30: warning: comparison between pointer and integer
+   19 |                         if(c == ch){
+      |                              ^~
+../exercicio05.c:24:38: warning: format ‘%c’ expects argument of type ‘int’, but argument 2 has type ‘char *’ [-Wformat=]
+   24 |                 }printf("O caracter %c apareceu %d vezes no texto", *ch, *cont);
+      |                                     ~^                              ~~~
+      |                                      |                              |
+      |                                      int                            char *
+      |                                     %s
+Finished building: ../exercicio05.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio05.o   -lm
+Finished building target: ProgramasC
+ 
+16:03:48 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+../exercicio05.c: In function ‘main’:
+../exercicio05.c:14:17: warning: format ‘%c’ expects argument of type ‘char *’, but argument 2 has type ‘char **’ [-Wformat=]
+   14 |         scanf("%c", &ch[0]);
+      |                ~^   ~~~~~~
+      |                 |   |
+      |                 |   char **
+      |                 char *
+../exercicio05.c:19:30: warning: comparison between pointer and integer
+   19 |                         if(c == ch){
+      |                              ^~
+../exercicio05.c:24:38: warning: format ‘%c’ expects argument of type ‘int’, but argument 2 has type ‘char *’ [-Wformat=]
+   24 |                 }printf("O caracter %c apareceu %d vezes no texto", *ch, cont);
+      |                                     ~^                              ~~~
+      |                                      |                              |
+      |                                      int                            char *
+      |                                     %s
+Finished building: ../exercicio05.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio05.o   -lm
+Finished building target: ProgramasC
+ 
+16:05:03 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+../exercicio05.c: In function ‘main’:
+../exercicio05.c:14:17: warning: format ‘%c’ expects argument of type ‘char *’, but argument 2 has type ‘char **’ [-Wformat=]
+   14 |         scanf("%c", &ch[0]);
+      |                ~^   ~~~~~~
+      |                 |   |
+      |                 |   char **
+      |                 char *
+../exercicio05.c:19:30: warning: comparison between pointer and integer
+   19 |                         if(c == ch){
+      |                              ^~
+../exercicio05.c:24:38: warning: format ‘%c’ expects argument of type ‘int’, but argument 2 has type ‘char *’ [-Wformat=]
+   24 |                 }printf("O caracter %c apareceu %d vezes no texto", *ch, cont);
+      |                                     ~^                              ~~~
+      |                                      |                              |
+      |                                      int                            char *
+      |                                     %s
+../exercicio05.c:24:50: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘int *’ [-Wformat=]
+   24 |                 }printf("O caracter %c apareceu %d vezes no texto", *ch, cont);
+      |                                                 ~^                       ~~~~
+      |                                                  |                       |
+      |                                                  int                     int *
+      |                                                 %ls
+Finished building: ../exercicio05.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio05.o   -lm
+Finished building target: ProgramasC
+ 
+16:05:24 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+../exercicio05.c: In function ‘main’:
+../exercicio05.c:14:17: warning: format ‘%c’ expects argument of type ‘char *’, but argument 2 has type ‘char **’ [-Wformat=]
+   14 |         scanf("%c", &ch[0]);
+      |                ~^   ~~~~~~
+      |                 |   |
+      |                 |   char **
+      |                 char *
+../exercicio05.c:19:30: warning: comparison between pointer and integer
+   19 |                         if(c == ch){
+      |                              ^~
+../exercicio05.c:24:38: warning: format ‘%c’ expects argument of type ‘int’, but argument 2 has type ‘char *’ [-Wformat=]
+   24 |                 }printf("O caracter %c apareceu %d vezes no texto", *ch, cont);
+      |                                     ~^                              ~~~
+      |                                      |                              |
+      |                                      int                            char *
+      |                                     %s
+../exercicio05.c:24:50: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘int *’ [-Wformat=]
+   24 |                 }printf("O caracter %c apareceu %d vezes no texto", *ch, cont);
+      |                                                 ~^                       ~~~~
+      |                                                  |                       |
+      |                                                  int                     int *
+      |                                                 %ls
+Finished building: ../exercicio05.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio05.o   -lm
+Finished building target: ProgramasC
+ 
+16:06:35 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+../exercicio05.c: In function ‘main’:
+../exercicio05.c:14:17: warning: format ‘%c’ expects argument of type ‘char *’, but argument 2 has type ‘char **’ [-Wformat=]
+   14 |         scanf("%c", &ch[0]);
+      |                ~^   ~~~~~~
+      |                 |   |
+      |                 |   char **
+      |                 char *
+../exercicio05.c:20:30: warning: comparison between pointer and integer
+   20 |                         if(c == ch){
+      |                              ^~
+../exercicio05.c:25:38: warning: format ‘%c’ expects argument of type ‘int’, but argument 2 has type ‘char *’ [-Wformat=]
+   25 |                 }printf("O caracter %c apareceu %d vezes no texto", *ch, cont);
+      |                                     ~^                              ~~~
+      |                                      |                              |
+      |                                      int                            char *
+      |                                     %s
+../exercicio05.c:25:50: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘int *’ [-Wformat=]
+   25 |                 }printf("O caracter %c apareceu %d vezes no texto", *ch, cont);
+      |                                                 ~^                       ~~~~
+      |                                                  |                       |
+      |                                                  int                     int *
+      |                                                 %ls
+Finished building: ../exercicio05.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio05.o   -lm
+Finished building target: ProgramasC
+ 
+16:07:55 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+../exercicio05.c: In function ‘main’:
+../exercicio05.c:14:17: warning: format ‘%c’ expects argument of type ‘char *’, but argument 2 has type ‘char **’ [-Wformat=]
+   14 |         scanf("%c", &ch[0]);
+      |                ~^   ~~~~~~
+      |                 |   |
+      |                 |   char **
+      |                 char *
+../exercicio05.c:19:30: warning: comparison between pointer and integer
+   19 |                         if(c == ch){
+      |                              ^~
+../exercicio05.c:24:38: warning: format ‘%c’ expects argument of type ‘int’, but argument 2 has type ‘char *’ [-Wformat=]
+   24 |                 }printf("O caracter %c apareceu %d vezes no texto", *ch, cont);
+      |                                     ~^                              ~~~
+      |                                      |                              |
+      |                                      int                            char *
+      |                                     %s
+../exercicio05.c:24:50: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘int *’ [-Wformat=]
+   24 |                 }printf("O caracter %c apareceu %d vezes no texto", *ch, cont);
+      |                                                 ~^                       ~~~~
+      |                                                  |                       |
+      |                                                  int                     int *
+      |                                                 %ls
+../exercicio05.c:20:41: warning: ‘cont’ may be used uninitialized [-Wmaybe-uninitialized]
+   20 |                                 *(cont) += 1;
+      |                                         ^~
+Finished building: ../exercicio05.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio05.o   -lm
+Finished building target: ProgramasC
+ 
+16:08:36 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+16:11:13 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+../exercicio05.c: In function ‘main’:
+../exercicio05.c:14:17: warning: format ‘%c’ expects argument of type ‘char *’, but argument 2 has type ‘char **’ [-Wformat=]
+   14 |         scanf("%c", &ch[0]);
+      |                ~^   ~~~~~~
+      |                 |   |
+      |                 |   char **
+      |                 char *
+../exercicio05.c:19:30: warning: comparison between pointer and integer
+   19 |                         if(c == ch[0]){
+      |                              ^~
+../exercicio05.c:24:38: warning: format ‘%c’ expects argument of type ‘int’, but argument 2 has type ‘char *’ [-Wformat=]
+   24 |                 }printf("O caracter %c apareceu %d vezes no texto", *ch, cont);
+      |                                     ~^                              ~~~
+      |                                      |                              |
+      |                                      int                            char *
+      |                                     %s
+../exercicio05.c:24:50: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘int *’ [-Wformat=]
+   24 |                 }printf("O caracter %c apareceu %d vezes no texto", *ch, cont);
+      |                                                 ~^                       ~~~~
+      |                                                  |                       |
+      |                                                  int                     int *
+      |                                                 %ls
+../exercicio05.c:20:41: warning: ‘cont’ may be used uninitialized [-Wmaybe-uninitialized]
+   20 |                                 *(cont) += 1;
+      |                                         ^~
+Finished building: ../exercicio05.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio05.o   -lm
+Finished building target: ProgramasC
+ 
+16:11:54 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+../exercicio05.c: In function ‘main’:
+../exercicio05.c:14:17: warning: format ‘%c’ expects argument of type ‘char *’, but argument 2 has type ‘char **’ [-Wformat=]
+   14 |         scanf("%c", &ch[0]);
+      |                ~^   ~~~~~~
+      |                 |   |
+      |                 |   char **
+      |                 char *
+../exercicio05.c:19:30: warning: comparison between pointer and integer
+   19 |                         if(c == "rapadura"){
+      |                              ^~
+../exercicio05.c:19:30: warning: comparison with string literal results in unspecified behavior [-Waddress]
+../exercicio05.c:24:38: warning: format ‘%c’ expects argument of type ‘int’, but argument 2 has type ‘char *’ [-Wformat=]
+   24 |                 }printf("O caracter %c apareceu %d vezes no texto", *ch, cont);
+      |                                     ~^                              ~~~
+      |                                      |                              |
+      |                                      int                            char *
+      |                                     %s
+../exercicio05.c:24:50: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘int *’ [-Wformat=]
+   24 |                 }printf("O caracter %c apareceu %d vezes no texto", *ch, cont);
+      |                                                 ~^                       ~~~~
+      |                                                  |                       |
+      |                                                  int                     int *
+      |                                                 %ls
+../exercicio05.c:20:41: warning: ‘cont’ may be used uninitialized [-Wmaybe-uninitialized]
+   20 |                                 *(cont) += 1;
+      |                                         ^~
+Finished building: ../exercicio05.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio05.o   -lm
+Finished building target: ProgramasC
+ 
+16:12:13 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+../exercicio05.c: In function ‘main’:
+../exercicio05.c:14:17: warning: format ‘%c’ expects argument of type ‘char *’, but argument 2 has type ‘char **’ [-Wformat=]
+   14 |         scanf("%c", &ch[0]);
+      |                ~^   ~~~~~~
+      |                 |   |
+      |                 |   char **
+      |                 char *
+../exercicio05.c:19:30: warning: comparison between pointer and integer
+   19 |                         if(c == "rapadura"){
+      |                              ^~
+../exercicio05.c:19:30: warning: comparison with string literal results in unspecified behavior [-Waddress]
+../exercicio05.c:24:38: warning: format ‘%c’ expects argument of type ‘int’, but argument 2 has type ‘char *’ [-Wformat=]
+   24 |                 }printf("O caracter %c apareceu %d vezes no texto", *ch, *cont);
+      |                                     ~^                              ~~~
+      |                                      |                              |
+      |                                      int                            char *
+      |                                     %s
+../exercicio05.c:20:41: warning: ‘cont’ may be used uninitialized [-Wmaybe-uninitialized]
+   20 |                                 *(cont) += 1;
+      |                                         ^~
+Finished building: ../exercicio05.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio05.o   -lm
+Finished building target: ProgramasC
+ 
+16:12:41 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+../exercicio05.c: In function ‘main’:
+../exercicio05.c:14:17: warning: format ‘%c’ expects argument of type ‘char *’, but argument 2 has type ‘char **’ [-Wformat=]
+   14 |         scanf("%c", &ch[0]);
+      |                ~^   ~~~~~~
+      |                 |   |
+      |                 |   char **
+      |                 char *
+../exercicio05.c:19:30: warning: comparison between pointer and integer
+   19 |                         if(c == "rapadura"){
+      |                              ^~
+../exercicio05.c:19:30: warning: comparison with string literal results in unspecified behavior [-Waddress]
+../exercicio05.c:24:38: warning: format ‘%c’ expects argument of type ‘int’, but argument 2 has type ‘char *’ [-Wformat=]
+   24 |                 }printf("O caracter %c apareceu %d vezes no texto", *ch, cont);
+      |                                     ~^                              ~~~
+      |                                      |                              |
+      |                                      int                            char *
+      |                                     %s
+../exercicio05.c:24:50: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘int *’ [-Wformat=]
+   24 |                 }printf("O caracter %c apareceu %d vezes no texto", *ch, cont);
+      |                                                 ~^                       ~~~~
+      |                                                  |                       |
+      |                                                  int                     int *
+      |                                                 %ls
+../exercicio05.c:20:41: warning: ‘cont’ may be used uninitialized [-Wmaybe-uninitialized]
+   20 |                                 *(cont) += 1;
+      |                                         ^~
+Finished building: ../exercicio05.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio05.o   -lm
+Finished building target: ProgramasC
+ 
+16:17:31 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+../exercicio05.c: In function ‘main’:
+../exercicio05.c:14:17: warning: format ‘%c’ expects argument of type ‘char *’, but argument 2 has type ‘char **’ [-Wformat=]
+   14 |         scanf("%c", &ch[0]);
+      |                ~^   ~~~~~~
+      |                 |   |
+      |                 |   char **
+      |                 char *
+../exercicio05.c:19:30: warning: comparison between pointer and integer
+   19 |                         if(c == ch){
+      |                              ^~
+../exercicio05.c:24:38: warning: format ‘%c’ expects argument of type ‘int’, but argument 2 has type ‘char *’ [-Wformat=]
+   24 |                 }printf("O caracter %c apareceu %d vezes no texto", *ch, cont);
+      |                                     ~^                              ~~~
+      |                                      |                              |
+      |                                      int                            char *
+      |                                     %s
+../exercicio05.c:24:50: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘int *’ [-Wformat=]
+   24 |                 }printf("O caracter %c apareceu %d vezes no texto", *ch, cont);
+      |                                                 ~^                       ~~~~
+      |                                                  |                       |
+      |                                                  int                     int *
+      |                                                 %ls
+../exercicio05.c:20:41: warning: ‘cont’ may be used uninitialized [-Wmaybe-uninitialized]
+   20 |                                 *(cont) += 10;
+      |                                         ^~
+Finished building: ../exercicio05.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio05.o   -lm
+Finished building target: ProgramasC
+ 
+16:19:25 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+../exercicio05.c: In function ‘main’:
+../exercicio05.c:14:17: warning: format ‘%c’ expects argument of type ‘char *’, but argument 2 has type ‘char **’ [-Wformat=]
+   14 |         scanf("%c", &ch[0]);
+      |                ~^   ~~~~~~
+      |                 |   |
+      |                 |   char **
+      |                 char *
+../exercicio05.c:19:30: warning: comparison between pointer and integer
+   19 |                         if(c == ch){
+      |                              ^~
+../exercicio05.c:24:38: warning: format ‘%c’ expects argument of type ‘int’, but argument 2 has type ‘char *’ [-Wformat=]
+   24 |                 }printf("O caracter %c apareceu %d vezes no texto", *ch, cont);
+      |                                     ~^                              ~~~
+      |                                      |                              |
+      |                                      int                            char *
+      |                                     %s
+Finished building: ../exercicio05.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio05.o   -lm
+Finished building target: ProgramasC
+ 
+16:20:12 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+../exercicio05.c: In function ‘main’:
+../exercicio05.c:21:69: error: invalid type argument of unary ‘*’ (have ‘int’)
+   21 |                 }printf("O caracter %c apareceu %d vezes no texto", *ch, cont);
+      |                                                                     ^~~
+make: *** [subdir.mk:20: exercicio05.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:20:27 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+Finished building: ../exercicio05.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio05.o   -lm
+Finished building target: ProgramasC
+ 
+16:21:08 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+16:21:22 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+Finished building: ../exercicio05.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio05.o   -lm
+Finished building target: ProgramasC
+ 
+16:22:04 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+../exercicio05.c: In function ‘main’:
+../exercicio05.c:16:30: warning: comparison between pointer and integer
+   16 |                         if(c == ch){
+      |                              ^~
+../exercicio05.c:21:38: warning: format ‘%c’ expects argument of type ‘int’, but argument 2 has type ‘char *’ [-Wformat=]
+   21 |                 }printf("O caracter %c apareceu %d vezes no texto", ch, cont);
+      |                                     ~^                              ~~
+      |                                      |                              |
+      |                                      int                            char *
+      |                                     %s
+../exercicio05.c:16:27: warning: ‘ch’ may be used uninitialized [-Wmaybe-uninitialized]
+   16 |                         if(c == ch){
+      |                           ^
+Finished building: ../exercicio05.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio05.o   -lm
+Finished building target: ProgramasC
+ 
+16:22:21 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+../exercicio05.c: In function ‘main’:
+../exercicio05.c:16:30: warning: comparison between pointer and integer
+   16 |                         if(c == ch){
+      |                              ^~
+../exercicio05.c:16:27: warning: ‘ch’ may be used uninitialized [-Wmaybe-uninitialized]
+   16 |                         if(c == ch){
+      |                           ^
+Finished building: ../exercicio05.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio05.o   -lm
+Finished building target: ProgramasC
+ 
+16:23:25 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+../exercicio05.c: In function ‘main’:
+../exercicio05.c:13:19: warning: passing argument 1 of ‘getc’ from incompatible pointer type [-Wincompatible-pointer-types]
+   13 |         ch = getc("%c");
+      |                   ^~~~
+      |                   |
+      |                   char *
+In file included from ../exercicio05.c:1:
+/usr/include/stdio.h:514:24: note: expected ‘FILE *’ but argument is of type ‘char *’
+  514 | extern int getc (FILE *__stream);
+      |                  ~~~~~~^~~~~~~~
+../exercicio05.c:13:12: warning: assignment to ‘char *’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+   13 |         ch = getc("%c");
+      |            ^
+../exercicio05.c:18:30: warning: comparison between pointer and integer
+   18 |                         if(c == ch){
+      |                              ^~
+Finished building: ../exercicio05.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio05.o   -lm
+Finished building target: ProgramasC
+ 
+16:25:59 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+../exercicio05.c: In function ‘main’:
+../exercicio05.c:22:69: error: invalid type argument of unary ‘*’ (have ‘int’)
+   22 |                 }printf("O caracter %c apareceu %d vezes no texto", *ch, cont);
+      |                                                                     ^~~
+make: *** [subdir.mk:20: exercicio05.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:26:15 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+Finished building: ../exercicio05.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio05.o   -lm
+Finished building target: ProgramasC
+ 
+16:26:46 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+16:26:54 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+16:27:57 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+Finished building: ../exercicio05.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio05.o   -lm
+Finished building target: ProgramasC
+ 
+16:28:17 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+Finished building: ../exercicio05.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio05.o   -lm
+Finished building target: ProgramasC
+ 
+16:28:38 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+16:29:56 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+Finished building: ../exercicio05.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio05.o   -lm
+Finished building target: ProgramasC
+ 
+17:13:29 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../exercicio05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+Finished building: ../exercicio05.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio05.o   -lm
+Finished building target: ProgramasC
+ 

@@ -1,15 +1,15 @@
-16:15:24 **** Incremental Build of configuration Debug for project ProgramasC ****
+17:13:29 **** Incremental Build of configuration Debug for project ProgramasC ****
 make all 
-Building file: ../exercicio01.c
+Building file: ../exercicio05.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio01.d" -MT"exercicio01.o" -o "exercicio01.o" "../exercicio01.c"
-Finished building: ../exercicio01.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio05.d" -MT"exercicio05.o" -o "exercicio05.o" "../exercicio05.c"
+Finished building: ../exercicio05.c
  
 Building target: ProgramasC
 Invoking: GCC C Linker
-gcc -lm  -o "ProgramasC" ./exercicio01.o   -lm
+gcc -lm  -o "ProgramasC" ./exercicio05.o   -lm
 Finished building target: ProgramasC
  
 
-16:15:25 Build Finished. 0 errors, 0 warnings. (took 1s.482ms)
+17:13:30 Build Finished. 0 errors, 0 warnings. (took 1s.182ms)
 
