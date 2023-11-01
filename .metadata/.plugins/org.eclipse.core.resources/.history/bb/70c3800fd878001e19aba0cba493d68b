@@ -1,0 +1,35 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main(){
+
+	FILE * arq; int c; char vogal[10] = "aeiouAEIOU";
+
+	for(int i = 0; i < 5; i++){
+		if(arq){
+			arq = fopen("texto07.txt", "r");
+			c = fgetc(arq);
+			while(c != EOF){
+				if(c == vogal[i] || c == vogal[i + 10]){
+					c = '*';
+				}
+
+			}
+
+
+
+		}else{
+
+			printf("Arquivo não encontrado!");
+
+			return 0;
+
+		}
+
+
+	}
+
+	return 0;
+
+}

@@ -5,7 +5,7 @@
 int main(){
 	FILE *arq; int c;
 
-	arq = fopen("arq.txt", "w");
+	arq = fopen("arq.txt", "w+");
 
 	if(arq){
 		printf("Escreva algo: ");

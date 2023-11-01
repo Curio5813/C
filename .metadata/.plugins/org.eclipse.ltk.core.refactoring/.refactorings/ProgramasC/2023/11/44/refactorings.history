@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;exercicio07.c&apos; to &apos;ProgramasC&apos;" description="Move &apos;exercicio07.c&apos; to &apos;ProgramasC&apos;" destination="/ProgramasC" element1="/ProgramasCFonte/GeekUniversity/secao11/exercicio07.c" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1698857057582" updateReferences="true"/>
+</session>
