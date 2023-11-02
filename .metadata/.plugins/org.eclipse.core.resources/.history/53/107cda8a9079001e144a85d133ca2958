@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+
+void maiusculas(arq1, arq2, int *c, char nome1, char nome2){
+
+
+}
+
+
+int main(){
+
+	FILE *arq1; FILE *arq2; int c; char *nome1[10], *nome2[10];
+
+	printf("Qual o nome do primeiro arquivo: ");
+	scanf("%s", &nome1);
+	printf("Qual o nome do segundo arquivo: ");
+	scanf("%s", &nome2);
+	printf("\n");
+
+	maiusculas(&arq1, &arq2, &c, &nome1, &nome2);
+
+	return 0;
+
+}
+

@@ -9,6 +9,7 @@ C_SRCS += \
 ../beecrowd/chuva_caindo.c \
 ../beecrowd/entrada_e_saida_de_numeros_reais.c \
 ../beecrowd/entrada_e_saida_de_varios_tipos.c \
+../beecrowd/excel_bug.c \
 ../beecrowd/fibonot.c \
 ../beecrowd/jogo_das_aranhas.c \
 ../beecrowd/o_criptografo_envergonhado.c \
@@ -22,6 +23,7 @@ OBJS += \
 ./beecrowd/chuva_caindo.o \
 ./beecrowd/entrada_e_saida_de_numeros_reais.o \
 ./beecrowd/entrada_e_saida_de_varios_tipos.o \
+./beecrowd/excel_bug.o \
 ./beecrowd/fibonot.o \
 ./beecrowd/jogo_das_aranhas.o \
 ./beecrowd/o_criptografo_envergonhado.o \
@@ -35,6 +37,7 @@ C_DEPS += \
 ./beecrowd/chuva_caindo.d \
 ./beecrowd/entrada_e_saida_de_numeros_reais.d \
 ./beecrowd/entrada_e_saida_de_varios_tipos.d \
+./beecrowd/excel_bug.d \
 ./beecrowd/fibonot.d \
 ./beecrowd/jogo_das_aranhas.d \
 ./beecrowd/o_criptografo_envergonhado.d \

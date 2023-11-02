@@ -1,0 +1,34 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+
+int main(){
+
+	FILE *arq1; FILE *arq2; int c; char nome1[20], nome2[20];
+
+	printf("Qual o nome do primeiro arquivo: ");
+	scanf("%s", &nome1);
+	printf("Qual o nome do segundo arquivo: ");
+	scanf("%s", &nome2);
+	printf("\n");
+
+	arq1 = fopen(nome1, "w");
+
+	if(arq1){
+		printf("Escreva no documento (ditige '0' pra sair): ");
+		c = fgetc(arq1);
+		while(c != '0'){
+			fputc(c, arq1);
+			c = fgetc(arq1);
+		}
+
+	}else{
+		printf("Arquivo não encontrado!");
+
+	}fclose(arq1);
+
+	return 0;
+
+}
+

@@ -23,7 +23,11 @@ GeekUniversity/secao07 \
 GeekUniversity/secao07/vetores \
 GeekUniversity/secao08 \
 GeekUniversity/secao09 \
+GeekUniversity/secao10/parte01 \
+GeekUniversity/secao10/parte02 \
 GeekUniversity/secao10 \
+GeekUniversity/secao11 \
+Personal \
 beecrowd \
 . \
 
