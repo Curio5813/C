@@ -1,6 +1,28 @@
-20:23:25 **** Incremental Build of configuration Debug for project ProgramasC ****
+19:41:25 **** Incremental Build of configuration Debug for project ProgramasC ****
 make all 
-make: Nada a ser feito para 'all'.
+Building file: ../exercicio10.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercicio10.d" -MT"exercicio10.o" -o "exercicio10.o" "../exercicio10.c"
+../exercicio10.c: In function ‘main’:
+../exercicio10.c:69:59: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘int’ [-Wformat=]
+   69 |         printf("A maior cidade portuguesa em população é %s, com %d habitantes.", cidades[100], maior);
+      |                                                          ~^                       ~~~~~~~~~~~~
+      |                                                           |                              |
+      |                                                           char *                         int
+      |                                                          %d
+../exercicio10.c:9:27: warning: unused variable ‘nome’ [-Wunused-variable]
+    9 |         char cidades[20], nome[20], doc;
+      |                           ^~~~
+../exercicio10.c:8:49: warning: variable ‘cidade’ set but not used [-Wunused-but-set-variable]
+    8 |         int c, maior = 0, aux, num, pos, n = 0, cidade;
+      |                                                 ^~~~~~
+Finished building: ../exercicio10.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./exercicio10.o   -lm
+Finished building target: ProgramasC
+ 
 
-20:23:26 Build Finished. 0 errors, 0 warnings. (took 1s.26ms)
+19:41:27 Build Finished. 0 errors, 3 warnings. (took 1s.462ms)
 

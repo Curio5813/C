@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main(){
+
+	FILE *arq1; FILE *arq2; FILE *arq3; char doc[10];
+
+
+	printf("Qual o nome do documento? ");
+	scanf("%s", &doc);
+	printf("\n");
+
+	arq1 = fopen("texto09_01.txt", "r");
+	arq2 = fopen("texto09_02.txt", "r");
+
+	arq3 = fopen("texto09_01.txt", "a");
+	arq3 = fopen("texto09_02.txt", "a");
+
+	fclose(arq1);
+	fclose(arq2);
+	fclose(arq3);
+
+	return 0;
+
+
+}
