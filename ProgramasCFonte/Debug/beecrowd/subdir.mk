@@ -4,6 +4,7 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
+../beecrowd/a_viagem.c \
 ../beecrowd/attack_on_gasparini.c \
 ../beecrowd/carrega_ou_nao_carrega.c \
 ../beecrowd/chuva_caindo.c \
@@ -18,6 +19,7 @@ C_SRCS += \
 ../beecrowd/tamanho_da_placa.c 
 
 OBJS += \
+./beecrowd/a_viagem.o \
 ./beecrowd/attack_on_gasparini.o \
 ./beecrowd/carrega_ou_nao_carrega.o \
 ./beecrowd/chuva_caindo.o \
@@ -32,6 +34,7 @@ OBJS += \
 ./beecrowd/tamanho_da_placa.o 
 
 C_DEPS += \
+./beecrowd/a_viagem.d \
 ./beecrowd/attack_on_gasparini.d \
 ./beecrowd/carrega_ou_nao_carrega.d \
 ./beecrowd/chuva_caindo.d \

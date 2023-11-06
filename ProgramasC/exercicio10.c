@@ -5,8 +5,8 @@
 int main(){
 
 	FILE *arq1; FILE *arq2; FILE *arq3; FILE *Maior;
-	int c, maior = 0, aux, num, pos, n = 0, cidade;
-	char cidades[20], nome[20], doc;
+	int c, maior = 0, aux, num, pos, n = 0, cont = 0, linha = 1;
+	char cidade[50], cidades[50], nome[50], doc, texto[1000][1000];
 
 	printf("Qual o nome do documento de saída: ");
 	scanf("%s", &doc);
@@ -42,6 +42,8 @@ int main(){
 	}else{
 		printf("Arquivo não encontrado!");
 
+		return 0;
+
 	}fclose(arq1);
 	fclose(arq2);
 	fclose(arq3);
@@ -54,19 +56,28 @@ int main(){
 		aux = fscanf(arq3, "%d", &num);
 		if(num > maior){
 			maior = num;
-			pos = aux;
+			pos = cont;
+
+		}else{
+			cont += 1;
 		}
 
-	}while(!feof(arq2)){
-		cidade = fscanf(arq2, "%s", &cidades[100]);
-		n += 1;
-		if(n == pos){
-			break;
-		}
-	}
+	}while(fscanf(arq2, "%s", texto[n]) != EOF && fscanf(arq2, "%c", &c)!= EOF){
+		if(c == EOF){
+			linha += 1;
+			printf("%d ", linha);
+			if(n == pos){
+				printf("%s\n", texto[linha]);
+				printf("Ok!");
+				break;
+			}
+
+		}n += 1;
+
+	}printf("\n");
 
 
-	printf("A maior cidade portuguesa em população é %s, com %d habitantes.", cidades[100], maior);
+	printf("A maior cidade portuguesa em população é '%s' com %d habitantes.", texto[1000][n], maior);
 
 	fclose(arq2);
 	fclose(arq3);

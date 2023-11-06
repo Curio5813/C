@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main(){
+
+	FILE *arq; char nome_arq[30], palavra[4], aux[4], nome[4]; int cont = 0;
+
+	printf("Qual o nome do arquivos: ");
+	scanf("%s", &nome_arq);
+	printf("Qual a palavra deseja saber a qunatidade: ");
+	scanf("%s", &palavra);
+	printf("\n");
+
+	arq = fopen(nome_arq, "r");
+
+	while(!feof(arq)){
+		aux[4] = fscanf(arq, "%s", &nome[4]);
+		if(nome == palavra){
+			cont += 1;
+		}
+
+	}printf("A palavra '%s' apareceu no texto %d vezes.", palavra, cont);
+
+
+	return 0;
+
+}

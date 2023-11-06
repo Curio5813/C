@@ -1,6 +1,6 @@
 sintra	388767
 gaia	307563
-porto	240592	
+porto	240592
 cascais	213928
 loures	203724
 braga	197594
