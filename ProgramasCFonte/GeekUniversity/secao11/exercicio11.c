@@ -25,14 +25,13 @@ int main(){
 				 cont += 1;
 			 }
 
-		 }
+		 }printf("A palavra '%s' foi encontrada %d vezes no texto .\n\n", palavra, qt);
 
 	}else{
+
 		printf("Arquivo não encontrado!");
 
-		return 0;
-
-	}printf("A palavra '%s' foi encontrada %d vezes no texto .\n\n", palavra, qt);
+	}
 
 	fclose(arq);
 

@@ -27,6 +27,14 @@ GeekUniversity/secao10/parte01 \
 GeekUniversity/secao10/parte02 \
 GeekUniversity/secao10 \
 GeekUniversity/secao11 \
+GeekUniversity/secao12 \
+GeekUniversity/secao13 \
+GeekUniversity/secao14 \
+GeekUniversity/secao15 \
+GeekUniversity/secao16 \
+GeekUniversity/secao17 \
+GeekUniversity/secao18 \
+GeekUniversity/secao19 \
 Personal \
 beecrowd \
 . \
