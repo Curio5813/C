@@ -1,6 +1,15 @@
-17:11:43 **** Incremental Build of configuration Debug for project ProgramasC ****
+20:40:22 **** Build of configuration Debug for project ProgramasC ****
 make all 
-make: Nada a ser feito para 'all'.
+Building file: ../02-implementando-a-busca-binaria.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"02-implementando-a-busca-binaria.d" -MT"02-implementando-a-busca-binaria.o" -o "02-implementando-a-busca-binaria.o" "../02-implementando-a-busca-binaria.c"
+Finished building: ../02-implementando-a-busca-binaria.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./02-implementando-a-busca-binaria.o   -lm
+Finished building target: ProgramasC
+ 
 
-17:11:44 Build Finished. 0 errors, 0 warnings. (took 1s.79ms)
+20:40:23 Build Finished. 0 errors, 0 warnings. (took 1s.232ms)
 

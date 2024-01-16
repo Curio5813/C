@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;02-implementando-a-busca-binaria.c&apos; to &apos;ProgramasC&apos;" description="Move &apos;02-implementando-a-busca-binaria.c&apos; to &apos;ProgramasC&apos;" destination="/ProgramasC" element1="/ProgramasCFonte/GeekUniversity/secao19/02-implementando-a-busca-binaria.c" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1705437558536" updateReferences="true"/>
+</session>

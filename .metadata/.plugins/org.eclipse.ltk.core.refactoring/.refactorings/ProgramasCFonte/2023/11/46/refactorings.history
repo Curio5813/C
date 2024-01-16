@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;exercicio10.c, texto10.txt&apos; to &apos;secao11&apos;" description="Move 2 resources to &apos;secao11&apos;" destination="GeekUniversity/secao11" element1="/ProgramasC/exercicio10.c" element2="/ProgramasC/texto10.txt" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="2" stamp="1699801066876" updateReferences="true"/>
+</session>
