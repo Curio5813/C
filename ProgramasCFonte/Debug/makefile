@@ -10,6 +10,8 @@ RM := rm -rf
 -include sources.mk
 -include beecrowd/subdir.mk
 -include Personal/subdir.mk
+-include GeekUniversity/secao20/GameC/Debug/subdir.mk
+-include GeekUniversity/secao20/GameC/subdir.mk
 -include GeekUniversity/secao19/subdir.mk
 -include GeekUniversity/secao18/subdir.mk
 -include GeekUniversity/secao17/subdir.mk

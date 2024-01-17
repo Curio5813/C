@@ -35,6 +35,8 @@ GeekUniversity/secao16 \
 GeekUniversity/secao17 \
 GeekUniversity/secao18 \
 GeekUniversity/secao19 \
+GeekUniversity/secao20/GameC/Debug \
+GeekUniversity/secao20/GameC \
 Personal \
 beecrowd \
 . \

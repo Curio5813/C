@@ -1,0 +1,45 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+
+void num_aleatorio(int num){
+
+
+	srand(time(NULL));
+
+	int numero = rand() % num + 1;
+
+	printf("%d", numero);
+
+
+}
+
+void level(){
+
+	int nivel, aleo;
+
+	printf("Escolha um nível de dificuldade [1, 2, 3, ou 4]: ", nivel);
+	scanf("%d", &nivel);
+
+	if(nivel == 1){
+
+		aleo = 1000;
+
+		num_aleatorio(aleo);
+
+	}
+
+}
+
+
+int main(){
+
+	int resposta, score = 0, continuar;
+
+	level();
+
+
+    return 0;
+}
+

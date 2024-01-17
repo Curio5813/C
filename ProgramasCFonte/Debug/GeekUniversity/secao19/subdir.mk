@@ -4,12 +4,15 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
+../GeekUniversity/secao19/02-implementando-a-busca-binaria.c \
 ../GeekUniversity/secao19/04-implementando-a-busca-linear.c 
 
 OBJS += \
+./GeekUniversity/secao19/02-implementando-a-busca-binaria.o \
 ./GeekUniversity/secao19/04-implementando-a-busca-linear.o 
 
 C_DEPS += \
+./GeekUniversity/secao19/02-implementando-a-busca-binaria.d \
 ./GeekUniversity/secao19/04-implementando-a-busca-linear.d 
 
 

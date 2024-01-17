@@ -1,15 +1,57 @@
-20:40:22 **** Build of configuration Debug for project ProgramasC ****
+21:22:31 **** Incremental Build of configuration Debug for project ProgramasC ****
 make all 
-Building file: ../02-implementando-a-busca-binaria.c
+Building file: ../projecto_game.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"02-implementando-a-busca-binaria.d" -MT"02-implementando-a-busca-binaria.o" -o "02-implementando-a-busca-binaria.o" "../02-implementando-a-busca-binaria.c"
-Finished building: ../02-implementando-a-busca-binaria.c
- 
-Building target: ProgramasC
-Invoking: GCC C Linker
-gcc -lm  -o "ProgramasC" ./02-implementando-a-busca-binaria.o   -lm
-Finished building target: ProgramasC
- 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"projecto_game.d" -MT"projecto_game.o" -o "projecto_game.o" "../projecto_game.c"
+../projecto_game.c: In function ‘level’:
+../projecto_game.c:25:16: warning: too many arguments for format [-Wformat-extra-args]
+   25 |         printf("Escolha um nível de dificuldade [1, 2, 3, ou 4]: ", nivel);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../projecto_game.c: In function ‘operacao’:
+../projecto_game.c:48:5: warning: type of ‘num’ defaults to ‘int’ [-Wimplicit-int]
+   48 | int operacao(num){
+      |     ^~~~~~~~
+../projecto_game.c:50:13: warning: unused variable ‘opera’ [-Wunused-variable]
+   50 |         int opera;
+      |             ^~~~~
+../projecto_game.c: In function ‘main’:
+../projecto_game.c:78:49: error: expected expression before ‘int’
+   78 |                 printf("%d + %d", num_aleatorio(int num), num_aleatorio(int num));
+      |                                                 ^~~
+../projecto_game.c:78:73: error: expected expression before ‘int’
+   78 |                 printf("%d + %d", num_aleatorio(int num), num_aleatorio(int num));
+      |                                                                         ^~~
+../projecto_game.c:63:65: warning: unused variable ‘num3’ [-Wunused-variable]
+   63 |         int resposta, score = 0, continuar, numero, num1, num2, num3;
+      |                                                                 ^~~~
+../projecto_game.c:63:59: warning: unused variable ‘num2’ [-Wunused-variable]
+   63 |         int resposta, score = 0, continuar, numero, num1, num2, num3;
+      |                                                           ^~~~
+../projecto_game.c:63:53: warning: unused variable ‘num1’ [-Wunused-variable]
+   63 |         int resposta, score = 0, continuar, numero, num1, num2, num3;
+      |                                                     ^~~~
+../projecto_game.c:63:45: warning: unused variable ‘numero’ [-Wunused-variable]
+   63 |         int resposta, score = 0, continuar, numero, num1, num2, num3;
+      |                                             ^~~~~~
+../projecto_game.c:63:34: warning: unused variable ‘continuar’ [-Wunused-variable]
+   63 |         int resposta, score = 0, continuar, numero, num1, num2, num3;
+      |                                  ^~~~~~~~~
+../projecto_game.c:63:23: warning: unused variable ‘score’ [-Wunused-variable]
+   63 |         int resposta, score = 0, continuar, numero, num1, num2, num3;
+      |                       ^~~~~
+../projecto_game.c:63:13: warning: unused variable ‘resposta’ [-Wunused-variable]
+   63 |         int resposta, score = 0, continuar, numero, num1, num2, num3;
+      |             ^~~~~~~~
+../projecto_game.c: In function ‘num_aleatorio’:
+../projecto_game.c:19:1: warning: control reaches end of non-void function [-Wreturn-type]
+   19 | }
+      | ^
+../projecto_game.c: In function ‘level’:
+../projecto_game.c:46:1: warning: control reaches end of non-void function [-Wreturn-type]
+   46 | }
+      | ^
+make: *** [subdir.mk:20: projecto_game.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
 
-20:40:23 Build Finished. 0 errors, 0 warnings. (took 1s.232ms)
+21:22:32 Build Failed. 3 errors, 12 warnings. (took 1s.126ms)
 

@@ -4,13 +4,13 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../02-implementando-a-busca-binaria.c 
+../projecto_game.c 
 
 OBJS += \
-./02-implementando-a-busca-binaria.o 
+./projecto_game.o 
 
 C_DEPS += \
-./02-implementando-a-busca-binaria.d 
+./projecto_game.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
