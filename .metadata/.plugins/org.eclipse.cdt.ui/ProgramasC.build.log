@@ -1,15 +1,33 @@
-15:09:37 **** Incremental Build of configuration Debug for project ProgramasC ****
+15:44:35 **** Incremental Build of configuration Debug for project ProgramasC ****
 make all 
-Building file: ../coral_perfeito.c
+Building file: ../projecto_game.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"coral_perfeito.d" -MT"coral_perfeito.o" -o "coral_perfeito.o" "../coral_perfeito.c"
-Finished building: ../coral_perfeito.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"projecto_game.d" -MT"projecto_game.o" -o "projecto_game.o" "../projecto_game.c"
+../projecto_game.c: In function ‘level’:
+../projecto_game.c:13:16: warning: too many arguments for format [-Wformat-extra-args]
+   13 |         printf("Escolha um nível de dificuldade [1, 2, 3, ou 4]: ", nivel);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../projecto_game.c: In function ‘operacao’:
+../projecto_game.c:63:13: warning: unused variable ‘opera’ [-Wunused-variable]
+   63 |         int opera;
+      |             ^~~~~
+../projecto_game.c: In function ‘level’:
+../projecto_game.c:59:1: warning: control reaches end of non-void function [-Wreturn-type]
+   59 | }
+      | ^
+../projecto_game.c:13:9: warning: ‘nivel’ is used uninitialized [-Wuninitialized]
+   13 |         printf("Escolha um nível de dificuldade [1, 2, 3, ou 4]: ", nivel);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../projecto_game.c:9:13: note: ‘nivel’ declared here
+    9 |         int nivel;
+      |             ^~~~~
+Finished building: ../projecto_game.c
  
 Building target: ProgramasC
 Invoking: GCC C Linker
-gcc -lm  -o "ProgramasC" ./coral_perfeito.o   -lm
+gcc -lm  -o "ProgramasC" ./projecto_game.o   -lm
 Finished building target: ProgramasC
  
 
-15:09:41 Build Finished. 0 errors, 0 warnings. (took 3s.859ms)
+15:44:36 Build Finished. 0 errors, 4 warnings. (took 1s.233ms)
 

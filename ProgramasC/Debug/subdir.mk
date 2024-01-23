@@ -4,13 +4,13 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../coral_perfeito.c 
+../projecto_game.c 
 
 OBJS += \
-./coral_perfeito.o 
+./projecto_game.o 
 
 C_DEPS += \
-./coral_perfeito.d 
+./projecto_game.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
