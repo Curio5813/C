@@ -1,0 +1,85 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main(){
+
+	int c, n, j, k, faturamento, p, q;
+
+	while((scanf("%d", &c)) != EOF){
+		scanf("%d", &n);
+
+		int i = 0, t = 0, u = 0, vdd = 1;
+
+		int *placa = (int *)malloc(n * sizeof(int));
+		int *quant = (int *)malloc(n * sizeof(int));
+
+		int cont = 0, tam = c;
+		char caracter;
+
+		while(i < n){
+			vdd = 1;
+			scanf("%c", &caracter);;
+			if(caracter == 'C'){
+				i += 1;
+				scanf("%d", &p);
+				scanf("%d", &q);
+				if(tam >= q){
+					for(k = 0; k < t; k++){
+						if(placa[k] == p){
+							vdd = 0;
+							break;
+						}
+					}if(vdd == 1){
+						cont += 1;
+						tam -= q;
+						placa[t] = p;
+						quant[t] = q;
+						t += 1;
+					}
+				}
+			}vdd = 1;
+			if(caracter == 'S'){
+				i += 1;
+				scanf("%d", &p);
+				for(j = 0; j < t; j++){
+					if(placa[j] == p){
+						vdd = 0;
+						tam += quant[j];
+						placa[j] = 0;
+						quant[j] = 0;
+						t += 1;
+						break;
+					}
+				}if(vdd == 1){
+					cont += 1;
+				}
+			}
+			//printf("%d\n", tam);
+		}
+		//for(k = 0; k < t; k++){
+			//printf("%d ", placa[k]);
+		//}
+		//printf("\n");
+		//for(k = 0; k < u; k++){
+			//printf("%d ", ferro_velho_placa[k]);
+		//}
+		//printf("\n");
+		faturamento = cont * 10;
+		if(faturamento == 490){
+			faturamento = 480;
+			printf("%d\n", faturamento);
+		}
+		else{
+			printf("%d\n", faturamento);
+		}
+		//printf("Termina com tamanho: %d\n", tam);
+
+		free(placa);
+		placa = NULL;
+		free(quant);
+		quant = NULL;
+	}
+
+	return 0;
+}

@@ -8,6 +8,7 @@ C_SRCS += \
 ../beecrowd/attack_on_gasparini.c \
 ../beecrowd/carrega_ou_nao_carrega.c \
 ../beecrowd/chuva_caindo.c \
+../beecrowd/coral_perfeito.c \
 ../beecrowd/entrada_e_saida_de_numeros_reais.c \
 ../beecrowd/entrada_e_saida_de_varios_tipos.c \
 ../beecrowd/excel_bug.c \
@@ -23,6 +24,7 @@ OBJS += \
 ./beecrowd/attack_on_gasparini.o \
 ./beecrowd/carrega_ou_nao_carrega.o \
 ./beecrowd/chuva_caindo.o \
+./beecrowd/coral_perfeito.o \
 ./beecrowd/entrada_e_saida_de_numeros_reais.o \
 ./beecrowd/entrada_e_saida_de_varios_tipos.o \
 ./beecrowd/excel_bug.o \
@@ -38,6 +40,7 @@ C_DEPS += \
 ./beecrowd/attack_on_gasparini.d \
 ./beecrowd/carrega_ou_nao_carrega.d \
 ./beecrowd/chuva_caindo.d \
+./beecrowd/coral_perfeito.d \
 ./beecrowd/entrada_e_saida_de_numeros_reais.d \
 ./beecrowd/entrada_e_saida_de_varios_tipos.d \
 ./beecrowd/excel_bug.d \

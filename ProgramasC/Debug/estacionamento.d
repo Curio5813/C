@@ -1,0 +1,1 @@
+estacionamento.o: ../estacionamento.c
