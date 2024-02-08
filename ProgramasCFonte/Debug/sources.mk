@@ -40,6 +40,8 @@ GeekUniversity/secao20/GameC \
 GeekUniversity/secao20 \
 GeekUniversity/secao21/MercadoC/Debug \
 GeekUniversity/secao21 \
+GeekUniversity/secao22/BancoC/Debug \
+GeekUniversity/secao22 \
 Personal \
 beecrowd \
 . \

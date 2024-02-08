@@ -1,6 +1,19 @@
-15:42:56 **** Incremental Build of configuration Debug for project ProgramasC ****
+17:16:56 **** Build of configuration Debug for project ProgramasC ****
 make all 
-make: Nada a ser feito para 'all'.
+Building file: ../onde_estao_meus_genes.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"onde_estao_meus_genes.d" -MT"onde_estao_meus_genes.o" -o "onde_estao_meus_genes.o" "../onde_estao_meus_genes.c"
+../onde_estao_meus_genes.c: In function ‘main’:
+../onde_estao_meus_genes.c:7:39: warning: unused variable ‘m’ [-Wunused-variable]
+    7 |         int cont = 1, k = 0, i, j, t, m = 0, temp, buscas, busca, qtd_genes, inversoes;
+      |                                       ^
+Finished building: ../onde_estao_meus_genes.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./onde_estao_meus_genes.o   -lm
+Finished building target: ProgramasC
+ 
 
-15:42:57 Build Finished. 0 errors, 0 warnings. (took 1s.82ms)
+17:16:57 Build Finished. 0 errors, 1 warnings. (took 1s.230ms)
 

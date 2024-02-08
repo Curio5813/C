@@ -1,0 +1,67 @@
+#include <stdio.h>
+
+
+void genes_reverse(int vetor[], int inicio, int fim) {
+    while (inicio < fim) {
+        int temp = vetor[inicio];
+        vetor[inicio] = vetor[fim];
+        vetor[fim] = temp;
+
+        inicio++;
+        fim--;
+    }
+}
+
+int main(){
+
+	int cont = 1, k = 0, i, j, t, m = 0, temp, buscas, busca, qtd_genes, inversoes,
+			genes[50000];
+
+
+	scanf("%d", &qtd_genes);
+	while(qtd_genes != 0){
+		for(k = 0; k < qtd_genes; k++){
+			genes[k] = k + 1;
+
+		}
+		k = 0;
+		scanf("%d", &inversoes);
+		for(t = 0; t < inversoes; t++){
+			scanf("%d %d", &i, &j);
+			i -= 1;
+			temp = 0;
+			while(k < qtd_genes){
+				if(k < i){
+					while(k < i){
+						temp += 1;
+						genes[k] = temp;
+						k += 1;
+					}
+				}
+				if(k >= i){
+					int inicio = i;
+					int fim = j;
+					if (inicio >= 0 && fim < qtd_genes && inicio < fim){
+						genes_reverse(genes, inicio, fim);
+					}
+				}
+				if(k >= j){
+					while(k < qtd_genes){
+						j += 1;
+						genes[k] = j;
+						k += 1;
+					}
+				}
+			}
+			k = 0;
+		}
+		printf("Genome %d\n", cont);
+		for(k = 0; k < qtd_genes; k++){
+			printf("%d\n", genes[k]);
+		}
+		cont += 1;
+		scanf("%d", &qtd_genes);
+	}
+
+	return 0;
+}
