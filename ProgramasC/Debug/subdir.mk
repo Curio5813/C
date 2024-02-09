@@ -4,13 +4,13 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../onde_estao_meus_genes.c 
+../bingo.c 
 
 OBJS += \
-./onde_estao_meus_genes.o 
+./bingo.o 
 
 C_DEPS += \
-./onde_estao_meus_genes.d 
+./bingo.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
