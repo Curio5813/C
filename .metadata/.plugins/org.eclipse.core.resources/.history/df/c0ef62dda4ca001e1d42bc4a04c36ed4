@@ -4,7 +4,7 @@
 
 int main(){
 
-	int n, b, *bolas, *numeros, *dif_bolas, diff, pos = 0, cont = 0;
+	int n, b, *bolas, *numeros, *dif_bolas, diff, pos = 0, cont = 0, resposta = 1;
 
 	scanf("%d %d", &n, &b);
 	while((n != 0 && b != 0)){
@@ -26,24 +26,24 @@ int main(){
 				dif_bolas[pos] = diff;
 				pos += 1;
 			}
-		}printf("\n");
-		for(int i = 0; i < b * b; i++){
-			printf("%d ", dif_bolas[i]);
-		}printf("\n");
+		}
 		for(int i = 0; i < (n + 1); i++){
-			for(int k = 0; k < (n + 1); k++){
+			for(int k = 0; k < pos; k++){
 				if(numeros[i] == dif_bolas[k]){
 					cont = 1;
 				}
-			}if(cont == 1){
-				printf("Y\n");
+
+			}if(cont == 0){
+				printf("N\n");
+				resposta = 0;
 				break;
 			}
-			else{
-				printf("N\n");
-				break;
+			else if(cont == 1){
+				cont = 0;
 			}
 
+		}if(cont == 0 && resposta == 1){
+			printf("Y\n");
 		}
 
 		free(bolas);
@@ -54,6 +54,7 @@ int main(){
 		dif_bolas = NULL;
 		cont = 0;
 		pos = 0;
+		resposta = 1;
 
 		scanf("%d %d", &n, &b);
 	}

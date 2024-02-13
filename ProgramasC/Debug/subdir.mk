@@ -4,13 +4,13 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../bingo.c 
+../comparacao_de_substring.c 
 
 OBJS += \
-./bingo.o 
+./comparacao_de_substring.o 
 
 C_DEPS += \
-./bingo.d 
+./comparacao_de_substring.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
