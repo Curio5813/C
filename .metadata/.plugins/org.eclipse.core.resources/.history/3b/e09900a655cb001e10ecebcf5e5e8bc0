@@ -6,7 +6,7 @@
 int main(){
 
 
-	char string1[52], string2[52];
+	char string1[52], string2[52], c1, c2;
 
 	while((gets(string1), gets(string2) != EOF)){
 		int tam = 0, maior = 0, a, b;
