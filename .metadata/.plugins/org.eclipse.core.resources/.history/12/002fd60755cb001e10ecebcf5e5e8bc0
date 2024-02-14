@@ -64,17 +64,18 @@ int main(){
 							tam += 1;
 							a += 1;
 							b += 1;
+							}
+						}
+						if(tam > maior){
+							maior = tam;
+							tam = 0;
+						}
+						else{
+							tam = 0;
 						}
 					}
-					if(tam > maior){
-						maior = tam;
-						tam = 0;
-					}
-					else{
-						tam = 0;
-					}
 				}
-			}
+
 		}
 		printf("%d\n", maior);
 
