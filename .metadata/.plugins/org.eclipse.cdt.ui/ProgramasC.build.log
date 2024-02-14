@@ -1,36 +1,6 @@
-20:09:51 **** Incremental Build of configuration Debug for project ProgramasC ****
+16:08:22 **** Incremental Build of configuration Debug for project ProgramasC ****
 make all 
-Building file: ../comparacao_de_substring.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"comparacao_de_substring.d" -MT"comparacao_de_substring.o" -o "comparacao_de_substring.o" "../comparacao_de_substring.c"
-../comparacao_de_substring.c: In function ‘main’:
-../comparacao_de_substring.c:11:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[1000]’ [-Wformat=]
-   11 |         scanf("%s %s", &string1, &string2);
-      |                ~^      ~~~~~~~~
-      |                 |      |
-      |                 char * char (*)[1000]
-../comparacao_de_substring.c:11:20: warning: format ‘%s’ expects argument of type ‘char *’, but argument 3 has type ‘char (*)[1000]’ [-Wformat=]
-   11 |         scanf("%s %s", &string1, &string2);
-      |                   ~^             ~~~~~~~~
-      |                    |             |
-      |                    char *        char (*)[1000]
-../comparacao_de_substring.c:12:24: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[1000]’ [-Wformat=]
-   12 |         while((scanf("%s %s", &string1, &string2) != EOF)){
-      |                       ~^      ~~~~~~~~
-      |                        |      |
-      |                        char * char (*)[1000]
-../comparacao_de_substring.c:12:27: warning: format ‘%s’ expects argument of type ‘char *’, but argument 3 has type ‘char (*)[1000]’ [-Wformat=]
-   12 |         while((scanf("%s %s", &string1, &string2) != EOF)){
-      |                          ~^             ~~~~~~~~
-      |                           |             |
-      |                           char *        char (*)[1000]
-Finished building: ../comparacao_de_substring.c
- 
-Building target: ProgramasC
-Invoking: GCC C Linker
-gcc -lm  -o "ProgramasC" ./comparacao_de_substring.o   -lm
-Finished building target: ProgramasC
- 
+make: Nada a ser feito para 'all'.
 
-20:09:53 Build Finished. 0 errors, 4 warnings. (took 1s.224ms)
+16:08:23 Build Finished. 0 errors, 0 warnings. (took 1s.77ms)
 
