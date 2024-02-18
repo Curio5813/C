@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+
+int main(){
+
+	long long int num;
+
+	printf("Digite um número: ");
+	scanf("%d", &num);
+	for(long long int i = 2; i <= num; i++){
+		if(i < num && num % i == 0){
+			printf("O número %d não é primo.\n", num);
+			printf("O número é divisível por %d.", i);
+			break;
+		}
+		if(i == num){
+			printf("O número %d é primo.");
+		}
+	}
+
+
+
+	return 0;
+}

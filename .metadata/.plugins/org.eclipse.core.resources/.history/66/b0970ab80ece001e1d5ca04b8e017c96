@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+
+int main(){
+
+	int num;
+
+	float raiz;
+
+	printf("Digite um número: ");
+	scanf("%d", &num);
+	raiz = (int)sqrt(num);
+	for(int i = 2; i <= raiz; i++){
+		if(i < (int)raiz && (int)raiz % i == 0){
+			printf("O número %d não é primo.\n", num);
+			printf("O número %d é divisível por %d.", num, i);
+			break;
+		}
+		if(i == raiz){
+			printf("O número %d é primo.", num);
+			break;
+		}
+	}
+
+	return 0;
+}
