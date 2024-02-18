@@ -2494,3 +2494,127 @@ make: Nada a ser feito para 'all'.
 14:27:34 **** Incremental Build of configuration Debug for project ProgramasC ****
 make all 
 make: Nada a ser feito para 'all'.
+14:55:07 **** Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../primo_rapido.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"primo_rapido.d" -MT"primo_rapido.o" -o "primo_rapido.o" "../primo_rapido.c"
+../primo_rapido.c: In function ‘main’:
+../primo_rapido.c:8:23: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘long long int *’ [-Wformat=]
+    8 |         while(scanf("%d", &n)){
+      |                      ~^   ~~
+      |                       |   |
+      |                       |   long long int *
+      |                       int *
+      |                      %lld
+Finished building: ../primo_rapido.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./primo_rapido.o   -lm
+Finished building target: ProgramasC
+ 
+14:56:35 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../primo_rapido.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"primo_rapido.d" -MT"primo_rapido.o" -o "primo_rapido.o" "../primo_rapido.c"
+../primo_rapido.c: In function ‘main’:
+../primo_rapido.c:8:23: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘long long int *’ [-Wformat=]
+    8 |         while(scanf("%d", &n)){
+      |                      ~^   ~~
+      |                       |   |
+      |                       |   long long int *
+      |                       int *
+      |                      %lld
+Finished building: ../primo_rapido.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./primo_rapido.o   -lm
+Finished building target: ProgramasC
+ 
+14:57:16 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+15:03:07 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../primo_rapido.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"primo_rapido.d" -MT"primo_rapido.o" -o "primo_rapido.o" "../primo_rapido.c"
+../primo_rapido.c: In function ‘main’:
+../primo_rapido.c:8:17: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘long long int *’ [-Wformat=]
+    8 |         scanf("%d", &n);
+      |                ~^   ~~
+      |                 |   |
+      |                 |   long long int *
+      |                 int *
+      |                %lld
+Finished building: ../primo_rapido.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./primo_rapido.o   -lm
+Finished building target: ProgramasC
+ 
+15:04:42 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+15:06:01 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../primo_rapido.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"primo_rapido.d" -MT"primo_rapido.o" -o "primo_rapido.o" "../primo_rapido.c"
+../primo_rapido.c: In function ‘main’:
+../primo_rapido.c:8:17: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘long long int *’ [-Wformat=]
+    8 |         scanf("%d", &n);
+      |                ~^   ~~
+      |                 |   |
+      |                 |   long long int *
+      |                 int *
+      |                %lld
+Finished building: ../primo_rapido.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./primo_rapido.o   -lm
+Finished building target: ProgramasC
+ 
+15:06:45 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+15:09:30 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../primo_rapido.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"primo_rapido.d" -MT"primo_rapido.o" -o "primo_rapido.o" "../primo_rapido.c"
+../primo_rapido.c: In function ‘main’:
+../primo_rapido.c:8:17: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘long long int *’ [-Wformat=]
+    8 |         scanf("%d", &n);
+      |                ~^   ~~
+      |                 |   |
+      |                 |   long long int *
+      |                 int *
+      |                %lld
+Finished building: ../primo_rapido.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./primo_rapido.o   -lm
+Finished building target: ProgramasC
+ 
+15:11:53 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../primo_rapido.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"primo_rapido.d" -MT"primo_rapido.o" -o "primo_rapido.o" "../primo_rapido.c"
+Finished building: ../primo_rapido.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./primo_rapido.o   -lm
+Finished building target: ProgramasC
+ 
+15:12:17 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
