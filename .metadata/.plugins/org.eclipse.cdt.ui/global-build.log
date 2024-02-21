@@ -2618,3 +2618,527 @@ Finished building target: ProgramasC
 15:12:17 **** Incremental Build of configuration Debug for project ProgramasC ****
 make all 
 make: Nada a ser feito para 'all'.
+14:06:51 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../troca_de_cartas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"troca_de_cartas.d" -MT"troca_de_cartas.o" -o "troca_de_cartas.o" "../troca_de_cartas.c"
+../troca_de_cartas.c: In function ‘main’:
+../troca_de_cartas.c:8:44: warning: variable ‘cont2’ set but not used [-Wunused-but-set-variable]
+    8 |         int a, b, carta_a, carta_b, cont1, cont2, *cartas_a, *cartas_b;
+      |                                            ^~~~~
+../troca_de_cartas.c:8:37: warning: variable ‘cont1’ set but not used [-Wunused-but-set-variable]
+    8 |         int a, b, carta_a, carta_b, cont1, cont2, *cartas_a, *cartas_b;
+      |                                     ^~~~~
+Finished building: ../troca_de_cartas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./troca_de_cartas.o   -lm
+Finished building target: ProgramasC
+ 
+14:12:52 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../troca_de_cartas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"troca_de_cartas.d" -MT"troca_de_cartas.o" -o "troca_de_cartas.o" "../troca_de_cartas.c"
+../troca_de_cartas.c: In function ‘main’:
+../troca_de_cartas.c:8:58: warning: variable ‘bool2’ set but not used [-Wunused-but-set-variable]
+    8 |         int a, b, carta_a, carta_b, cont1, cont2, bool1, bool2, *cartas_a, *cartas_b;
+      |                                                          ^~~~~
+../troca_de_cartas.c:8:44: warning: variable ‘cont2’ set but not used [-Wunused-but-set-variable]
+    8 |         int a, b, carta_a, carta_b, cont1, cont2, bool1, bool2, *cartas_a, *cartas_b;
+      |                                            ^~~~~
+../troca_de_cartas.c:8:37: warning: variable ‘cont1’ set but not used [-Wunused-but-set-variable]
+    8 |         int a, b, carta_a, carta_b, cont1, cont2, bool1, bool2, *cartas_a, *cartas_b;
+      |                                     ^~~~~
+Finished building: ../troca_de_cartas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./troca_de_cartas.o   -lm
+Finished building target: ProgramasC
+ 
+14:13:46 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../troca_de_cartas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"troca_de_cartas.d" -MT"troca_de_cartas.o" -o "troca_de_cartas.o" "../troca_de_cartas.c"
+../troca_de_cartas.c: In function ‘main’:
+../troca_de_cartas.c:8:58: warning: variable ‘bool2’ set but not used [-Wunused-but-set-variable]
+    8 |         int a, b, carta_a, carta_b, cont1, cont2, bool1, bool2, *cartas_a, *cartas_b;
+      |                                                          ^~~~~
+../troca_de_cartas.c:8:44: warning: variable ‘cont2’ set but not used [-Wunused-but-set-variable]
+    8 |         int a, b, carta_a, carta_b, cont1, cont2, bool1, bool2, *cartas_a, *cartas_b;
+      |                                            ^~~~~
+../troca_de_cartas.c:8:37: warning: variable ‘cont1’ set but not used [-Wunused-but-set-variable]
+    8 |         int a, b, carta_a, carta_b, cont1, cont2, bool1, bool2, *cartas_a, *cartas_b;
+      |                                     ^~~~~
+Finished building: ../troca_de_cartas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./troca_de_cartas.o   -lm
+Finished building target: ProgramasC
+ 
+14:14:39 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../troca_de_cartas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"troca_de_cartas.d" -MT"troca_de_cartas.o" -o "troca_de_cartas.o" "../troca_de_cartas.c"
+../troca_de_cartas.c: In function ‘main’:
+../troca_de_cartas.c:8:58: warning: variable ‘bool2’ set but not used [-Wunused-but-set-variable]
+    8 |         int a, b, carta_a, carta_b, cont1, cont2, bool1, bool2, *cartas_a, *cartas_b;
+      |                                                          ^~~~~
+../troca_de_cartas.c:8:44: warning: variable ‘cont2’ set but not used [-Wunused-but-set-variable]
+    8 |         int a, b, carta_a, carta_b, cont1, cont2, bool1, bool2, *cartas_a, *cartas_b;
+      |                                            ^~~~~
+../troca_de_cartas.c:8:37: warning: variable ‘cont1’ set but not used [-Wunused-but-set-variable]
+    8 |         int a, b, carta_a, carta_b, cont1, cont2, bool1, bool2, *cartas_a, *cartas_b;
+      |                                     ^~~~~
+Finished building: ../troca_de_cartas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./troca_de_cartas.o   -lm
+Finished building target: ProgramasC
+ 
+14:16:17 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../troca_de_cartas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"troca_de_cartas.d" -MT"troca_de_cartas.o" -o "troca_de_cartas.o" "../troca_de_cartas.c"
+../troca_de_cartas.c: In function ‘main’:
+../troca_de_cartas.c:8:58: warning: variable ‘bool2’ set but not used [-Wunused-but-set-variable]
+    8 |         int a, b, carta_a, carta_b, cont1, cont2, bool1, bool2, *cartas_a, *cartas_b;
+      |                                                          ^~~~~
+../troca_de_cartas.c:8:44: warning: variable ‘cont2’ set but not used [-Wunused-but-set-variable]
+    8 |         int a, b, carta_a, carta_b, cont1, cont2, bool1, bool2, *cartas_a, *cartas_b;
+      |                                            ^~~~~
+../troca_de_cartas.c:8:37: warning: variable ‘cont1’ set but not used [-Wunused-but-set-variable]
+    8 |         int a, b, carta_a, carta_b, cont1, cont2, bool1, bool2, *cartas_a, *cartas_b;
+      |                                     ^~~~~
+Finished building: ../troca_de_cartas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./troca_de_cartas.o   -lm
+Finished building target: ProgramasC
+ 
+14:16:37 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../troca_de_cartas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"troca_de_cartas.d" -MT"troca_de_cartas.o" -o "troca_de_cartas.o" "../troca_de_cartas.c"
+../troca_de_cartas.c: In function ‘main’:
+../troca_de_cartas.c:8:58: warning: variable ‘bool2’ set but not used [-Wunused-but-set-variable]
+    8 |         int a, b, carta_a, carta_b, cont1, cont2, bool1, bool2, *cartas_a, *cartas_b;
+      |                                                          ^~~~~
+../troca_de_cartas.c:8:44: warning: variable ‘cont2’ set but not used [-Wunused-but-set-variable]
+    8 |         int a, b, carta_a, carta_b, cont1, cont2, bool1, bool2, *cartas_a, *cartas_b;
+      |                                            ^~~~~
+../troca_de_cartas.c:8:37: warning: variable ‘cont1’ set but not used [-Wunused-but-set-variable]
+    8 |         int a, b, carta_a, carta_b, cont1, cont2, bool1, bool2, *cartas_a, *cartas_b;
+      |                                     ^~~~~
+Finished building: ../troca_de_cartas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./troca_de_cartas.o   -lm
+Finished building target: ProgramasC
+ 
+14:16:50 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../troca_de_cartas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"troca_de_cartas.d" -MT"troca_de_cartas.o" -o "troca_de_cartas.o" "../troca_de_cartas.c"
+../troca_de_cartas.c: In function ‘main’:
+../troca_de_cartas.c:8:58: warning: variable ‘bool2’ set but not used [-Wunused-but-set-variable]
+    8 |         int a, b, carta_a, carta_b, cont1, cont2, bool1, bool2, *cartas_a, *cartas_b;
+      |                                                          ^~~~~
+../troca_de_cartas.c:8:44: warning: variable ‘cont2’ set but not used [-Wunused-but-set-variable]
+    8 |         int a, b, carta_a, carta_b, cont1, cont2, bool1, bool2, *cartas_a, *cartas_b;
+      |                                            ^~~~~
+../troca_de_cartas.c:8:37: warning: variable ‘cont1’ set but not used [-Wunused-but-set-variable]
+    8 |         int a, b, carta_a, carta_b, cont1, cont2, bool1, bool2, *cartas_a, *cartas_b;
+      |                                     ^~~~~
+Finished building: ../troca_de_cartas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./troca_de_cartas.o   -lm
+Finished building target: ProgramasC
+ 
+14:19:11 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../troca_de_cartas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"troca_de_cartas.d" -MT"troca_de_cartas.o" -o "troca_de_cartas.o" "../troca_de_cartas.c"
+../troca_de_cartas.c: In function ‘main’:
+../troca_de_cartas.c:8:44: warning: variable ‘cont2’ set but not used [-Wunused-but-set-variable]
+    8 |         int a, b, carta_a, carta_b, cont1, cont2, bool1, bool2, *cartas_a, *cartas_b;
+      |                                            ^~~~~
+../troca_de_cartas.c:8:37: warning: variable ‘cont1’ set but not used [-Wunused-but-set-variable]
+    8 |         int a, b, carta_a, carta_b, cont1, cont2, bool1, bool2, *cartas_a, *cartas_b;
+      |                                     ^~~~~
+Finished building: ../troca_de_cartas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./troca_de_cartas.o   -lm
+Finished building target: ProgramasC
+ 
+14:19:27 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+14:19:51 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../troca_de_cartas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"troca_de_cartas.d" -MT"troca_de_cartas.o" -o "troca_de_cartas.o" "../troca_de_cartas.c"
+../troca_de_cartas.c: In function ‘main’:
+../troca_de_cartas.c:47:26: warning: unknown conversion type character ‘\x0a’ in format [-Wformat=]
+   47 |                 printf("%\n");
+      |                          ^~
+../troca_de_cartas.c:8:44: warning: variable ‘cont2’ set but not used [-Wunused-but-set-variable]
+    8 |         int a, b, carta_a, carta_b, cont1, cont2, bool1, bool2, *cartas_a, *cartas_b;
+      |                                            ^~~~~
+../troca_de_cartas.c:8:37: warning: variable ‘cont1’ set but not used [-Wunused-but-set-variable]
+    8 |         int a, b, carta_a, carta_b, cont1, cont2, bool1, bool2, *cartas_a, *cartas_b;
+      |                                     ^~~~~
+Finished building: ../troca_de_cartas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./troca_de_cartas.o   -lm
+Finished building target: ProgramasC
+ 
+14:20:03 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../troca_de_cartas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"troca_de_cartas.d" -MT"troca_de_cartas.o" -o "troca_de_cartas.o" "../troca_de_cartas.c"
+../troca_de_cartas.c: In function ‘main’:
+../troca_de_cartas.c:8:44: warning: variable ‘cont2’ set but not used [-Wunused-but-set-variable]
+    8 |         int a, b, carta_a, carta_b, cont1, cont2, bool1, bool2, *cartas_a, *cartas_b;
+      |                                            ^~~~~
+../troca_de_cartas.c:8:37: warning: variable ‘cont1’ set but not used [-Wunused-but-set-variable]
+    8 |         int a, b, carta_a, carta_b, cont1, cont2, bool1, bool2, *cartas_a, *cartas_b;
+      |                                     ^~~~~
+Finished building: ../troca_de_cartas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./troca_de_cartas.o   -lm
+Finished building target: ProgramasC
+ 
+15:00:04 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../troca_de_cartas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"troca_de_cartas.d" -MT"troca_de_cartas.o" -o "troca_de_cartas.o" "../troca_de_cartas.c"
+Finished building: ../troca_de_cartas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./troca_de_cartas.o   -lm
+Finished building target: ProgramasC
+ 
+15:00:51 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../troca_de_cartas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"troca_de_cartas.d" -MT"troca_de_cartas.o" -o "troca_de_cartas.o" "../troca_de_cartas.c"
+Finished building: ../troca_de_cartas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./troca_de_cartas.o   -lm
+Finished building target: ProgramasC
+ 
+15:05:28 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+15:06:50 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+15:08:00 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+15:08:53 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+15:09:34 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+15:09:58 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+15:10:15 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+15:10:45 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+15:11:08 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+15:11:22 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+15:12:13 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+15:15:14 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../troca_de_cartas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"troca_de_cartas.d" -MT"troca_de_cartas.o" -o "troca_de_cartas.o" "../troca_de_cartas.c"
+Finished building: ../troca_de_cartas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./troca_de_cartas.o   -lm
+Finished building target: ProgramasC
+ 
+15:15:48 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../troca_de_cartas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"troca_de_cartas.d" -MT"troca_de_cartas.o" -o "troca_de_cartas.o" "../troca_de_cartas.c"
+../troca_de_cartas.c: In function ‘main’:
+../troca_de_cartas.c:24:53: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   24 |                                         cartas_a[k] = NULL;
+      |                                                     ^
+Finished building: ../troca_de_cartas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./troca_de_cartas.o   -lm
+Finished building target: ProgramasC
+ 
+15:17:00 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../troca_de_cartas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"troca_de_cartas.d" -MT"troca_de_cartas.o" -o "troca_de_cartas.o" "../troca_de_cartas.c"
+Finished building: ../troca_de_cartas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./troca_de_cartas.o   -lm
+Finished building target: ProgramasC
+ 
+16:02:51 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../troca_de_cartas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"troca_de_cartas.d" -MT"troca_de_cartas.o" -o "troca_de_cartas.o" "../troca_de_cartas.c"
+../troca_de_cartas.c: In function ‘main’:
+../troca_de_cartas.c:77:25: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘long long int *’ [-Wformat=]
+   77 |                 scanf("%d %d", &a, &b);
+      |                        ~^      ~~
+      |                         |      |
+      |                         int *  long long int *
+      |                        %lld
+../troca_de_cartas.c:77:28: warning: format ‘%d’ expects argument of type ‘int *’, but argument 3 has type ‘long long int *’ [-Wformat=]
+   77 |                 scanf("%d %d", &a, &b);
+      |                           ~^       ~~
+      |                            |       |
+      |                            int *   long long int *
+      |                           %lld
+Finished building: ../troca_de_cartas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./troca_de_cartas.o   -lm
+Finished building target: ProgramasC
+ 
+16:03:28 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../troca_de_cartas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"troca_de_cartas.d" -MT"troca_de_cartas.o" -o "troca_de_cartas.o" "../troca_de_cartas.c"
+../troca_de_cartas.c: In function ‘main’:
+../troca_de_cartas.c:76:25: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘long long int *’ [-Wformat=]
+   76 |                 scanf("%d %d", &a, &b);
+      |                        ~^      ~~
+      |                         |      |
+      |                         int *  long long int *
+      |                        %lld
+../troca_de_cartas.c:76:28: warning: format ‘%d’ expects argument of type ‘int *’, but argument 3 has type ‘long long int *’ [-Wformat=]
+   76 |                 scanf("%d %d", &a, &b);
+      |                           ~^       ~~
+      |                            |       |
+      |                            int *   long long int *
+      |                           %lld
+Finished building: ../troca_de_cartas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./troca_de_cartas.o   -lm
+Finished building target: ProgramasC
+ 
+16:03:43 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+16:05:47 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../troca_de_cartas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"troca_de_cartas.d" -MT"troca_de_cartas.o" -o "troca_de_cartas.o" "../troca_de_cartas.c"
+Finished building: ../troca_de_cartas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./troca_de_cartas.o   -lm
+Finished building target: ProgramasC
+ 
+16:05:58 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+16:07:14 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+16:07:18 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+16:09:34 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+16:12:05 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../troca_de_cartas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"troca_de_cartas.d" -MT"troca_de_cartas.o" -o "troca_de_cartas.o" "../troca_de_cartas.c"
+../troca_de_cartas.c: In function ‘main’:
+../troca_de_cartas.c:18:26: error: assignment to expression with array type
+   18 |                 cartas_a = (long long int*)malloc(10000 * sizeof(long long int));
+      |                          ^
+../troca_de_cartas.c:19:26: error: assignment to expression with array type
+   19 |                 cartas_b = (long long int*)malloc(10000 * sizeof(long long int));
+      |                          ^
+../troca_de_cartas.c:24:44: warning: comparison between pointer and integer
+   24 |                                 if(carta_a == cartas_a[k]){
+      |                                            ^~
+../troca_de_cartas.c:29:45: warning: assignment to ‘long long int *’ from ‘long long int’ makes pointer from integer without a cast [-Wint-conversion]
+   29 |                                 cartas_a[i] = carta_a;
+      |                                             ^
+../troca_de_cartas.c:36:44: warning: comparison between pointer and integer
+   36 |                                 if(carta_b == cartas_b[k]){
+      |                                            ^~
+../troca_de_cartas.c:41:45: warning: assignment to ‘long long int *’ from ‘long long int’ makes pointer from integer without a cast [-Wint-conversion]
+   41 |                                 cartas_b[i] = carta_b;
+      |                                             ^
+../troca_de_cartas.c:74:26: error: assignment to expression with array type
+   74 |                 cartas_a = NULL;
+      |                          ^
+../troca_de_cartas.c:76:26: error: assignment to expression with array type
+   76 |                 cartas_b = NULL;
+      |                          ^
+make: *** [subdir.mk:20: troca_de_cartas.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:12:26 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../troca_de_cartas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"troca_de_cartas.d" -MT"troca_de_cartas.o" -o "troca_de_cartas.o" "../troca_de_cartas.c"
+../troca_de_cartas.c: In function ‘main’:
+../troca_de_cartas.c:18:26: error: assignment to expression with array type
+   18 |                 cartas_a = (long long int*)malloc(max * sizeof(long long int));
+      |                          ^
+../troca_de_cartas.c:19:26: error: assignment to expression with array type
+   19 |                 cartas_b = (long long int*)malloc(max * sizeof(long long int));
+      |                          ^
+../troca_de_cartas.c:24:44: warning: comparison between pointer and integer
+   24 |                                 if(carta_a == cartas_a[k]){
+      |                                            ^~
+../troca_de_cartas.c:29:45: warning: assignment to ‘long long int *’ from ‘long long int’ makes pointer from integer without a cast [-Wint-conversion]
+   29 |                                 cartas_a[i] = carta_a;
+      |                                             ^
+../troca_de_cartas.c:36:44: warning: comparison between pointer and integer
+   36 |                                 if(carta_b == cartas_b[k]){
+      |                                            ^~
+../troca_de_cartas.c:41:45: warning: assignment to ‘long long int *’ from ‘long long int’ makes pointer from integer without a cast [-Wint-conversion]
+   41 |                                 cartas_b[i] = carta_b;
+      |                                             ^
+../troca_de_cartas.c:74:26: error: assignment to expression with array type
+   74 |                 cartas_a = NULL;
+      |                          ^
+../troca_de_cartas.c:76:26: error: assignment to expression with array type
+   76 |                 cartas_b = NULL;
+      |                          ^
+make: *** [subdir.mk:20: troca_de_cartas.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:13:00 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../troca_de_cartas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"troca_de_cartas.d" -MT"troca_de_cartas.o" -o "troca_de_cartas.o" "../troca_de_cartas.c"
+../troca_de_cartas.c: In function ‘main’:
+../troca_de_cartas.c:18:26: error: assignment to expression with array type
+   18 |                 cartas_a = (long long int*)malloc(a * sizeof(long long int));
+      |                          ^
+../troca_de_cartas.c:19:26: error: assignment to expression with array type
+   19 |                 cartas_b = (long long int*)malloc(b * sizeof(long long int));
+      |                          ^
+../troca_de_cartas.c:24:44: warning: comparison between pointer and integer
+   24 |                                 if(carta_a == cartas_a[k]){
+      |                                            ^~
+../troca_de_cartas.c:29:45: warning: assignment to ‘long long int *’ from ‘long long int’ makes pointer from integer without a cast [-Wint-conversion]
+   29 |                                 cartas_a[i] = carta_a;
+      |                                             ^
+../troca_de_cartas.c:36:44: warning: comparison between pointer and integer
+   36 |                                 if(carta_b == cartas_b[k]){
+      |                                            ^~
+../troca_de_cartas.c:41:45: warning: assignment to ‘long long int *’ from ‘long long int’ makes pointer from integer without a cast [-Wint-conversion]
+   41 |                                 cartas_b[i] = carta_b;
+      |                                             ^
+../troca_de_cartas.c:74:26: error: assignment to expression with array type
+   74 |                 cartas_a = NULL;
+      |                          ^
+../troca_de_cartas.c:76:26: error: assignment to expression with array type
+   76 |                 cartas_b = NULL;
+      |                          ^
+make: *** [subdir.mk:20: troca_de_cartas.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:13:44 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../troca_de_cartas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"troca_de_cartas.d" -MT"troca_de_cartas.o" -o "troca_de_cartas.o" "../troca_de_cartas.c"
+Finished building: ../troca_de_cartas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./troca_de_cartas.o   -lm
+Finished building target: ProgramasC
+ 
+16:14:36 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../troca_de_cartas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"troca_de_cartas.d" -MT"troca_de_cartas.o" -o "troca_de_cartas.o" "../troca_de_cartas.c"
+Finished building: ../troca_de_cartas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./troca_de_cartas.o   -lm
+Finished building target: ProgramasC
+ 
+16:14:57 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../troca_de_cartas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"troca_de_cartas.d" -MT"troca_de_cartas.o" -o "troca_de_cartas.o" "../troca_de_cartas.c"
+../troca_de_cartas.c: In function ‘main’:
+../troca_de_cartas.c:8:75: warning: unused variable ‘max’ [-Wunused-variable]
+    8 |         long long int a, b, carta_a, carta_b, cont1, cont2, bool1, bool2, max = 10000;
+      |                                                                           ^~~
+Finished building: ../troca_de_cartas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./troca_de_cartas.o   -lm
+Finished building target: ProgramasC
+ 

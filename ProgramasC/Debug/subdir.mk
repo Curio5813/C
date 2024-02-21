@@ -4,13 +4,13 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../primo_rapido.c 
+../troca_de_cartas.c 
 
 OBJS += \
-./primo_rapido.o 
+./troca_de_cartas.o 
 
 C_DEPS += \
-./primo_rapido.d 
+./troca_de_cartas.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

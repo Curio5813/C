@@ -1,6 +1,19 @@
-15:12:17 **** Incremental Build of configuration Debug for project ProgramasC ****
+16:14:57 **** Incremental Build of configuration Debug for project ProgramasC ****
 make all 
-make: Nada a ser feito para 'all'.
+Building file: ../troca_de_cartas.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"troca_de_cartas.d" -MT"troca_de_cartas.o" -o "troca_de_cartas.o" "../troca_de_cartas.c"
+../troca_de_cartas.c: In function ‘main’:
+../troca_de_cartas.c:8:75: warning: unused variable ‘max’ [-Wunused-variable]
+    8 |         long long int a, b, carta_a, carta_b, cont1, cont2, bool1, bool2, max = 10000;
+      |                                                                           ^~~
+Finished building: ../troca_de_cartas.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./troca_de_cartas.o   -lm
+Finished building target: ProgramasC
+ 
 
-15:12:18 Build Finished. 0 errors, 0 warnings. (took 1s.88ms)
+16:14:58 Build Finished. 0 errors, 1 warnings. (took 1s.176ms)
 

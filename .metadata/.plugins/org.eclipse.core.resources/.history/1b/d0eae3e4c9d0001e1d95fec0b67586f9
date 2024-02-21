@@ -1,0 +1,64 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+
+int main(){
+
+	int a, b, carta_a, carta_b, cont1, cont2, bool1, bool2, *cartas_a, *cartas_b;
+
+	scanf("%d %d", &a, &b);
+	while(a != 0 && b != 0){
+		cont1 = 0;
+		cont2 = 0;
+		bool1 = 1;
+		bool2 = 1;
+
+		cartas_a = (int*)malloc(a * sizeof(int));
+		cartas_b = (int*)malloc(b * sizeof(int));
+
+		for(int i = 0; i < a; i++){
+			scanf("%d", &carta_a);
+			for(int k = 0; k < i; k++){
+				if(carta_a == cartas_a[k]){
+					bool1 = 0;
+					break;
+				}
+			}if(bool1 == 1){
+				cartas_a[i] = carta_a;
+			}
+			bool1 = 1;
+		}
+		for(int i = 0; i < b; i++){
+			scanf("%d", &carta_b);
+			for(int k = 0; k < i; k++){
+				if(carta_b == cartas_b[k]){
+					bool2 = 0;
+					break;
+				}
+			}if(bool2 == 1){
+				cartas_b[i] = carta_b;
+			}
+			bool2 = 1;
+		}
+		for(int i = 0; i < a; i++){
+			printf("%d ", cartas_a[i]);
+		}
+		printf("\n");
+		for(int i = 0; i < b; i++){
+			printf("%d ", cartas_b[i]);
+		}
+
+		free(cartas_a);
+		cartas_a = NULL;
+		free(cartas_b);
+		cartas_b = NULL;
+
+		scanf("%d %d", &a, &b);
+	}
+
+
+
+
+	return 0;
+}
