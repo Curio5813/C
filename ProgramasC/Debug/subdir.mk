@@ -4,13 +4,13 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../o_salao_do_clube.c 
+../produto_simples.c 
 
 OBJS += \
-./o_salao_do_clube.o 
+./produto_simples.o 
 
 C_DEPS += \
-./o_salao_do_clube.d 
+./produto_simples.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

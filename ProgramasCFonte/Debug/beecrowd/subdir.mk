@@ -22,6 +22,7 @@ C_SRCS += \
 ../beecrowd/getline_one.c \
 ../beecrowd/jogo_das_aranhas.c \
 ../beecrowd/o_criptografo_envergonhado.c \
+../beecrowd/o_salao_do_clube.c \
 ../beecrowd/onde_estao_meus_genes.c \
 ../beecrowd/preparando_a_producao.c \
 ../beecrowd/primo_rapido.c \
@@ -48,6 +49,7 @@ OBJS += \
 ./beecrowd/getline_one.o \
 ./beecrowd/jogo_das_aranhas.o \
 ./beecrowd/o_criptografo_envergonhado.o \
+./beecrowd/o_salao_do_clube.o \
 ./beecrowd/onde_estao_meus_genes.o \
 ./beecrowd/preparando_a_producao.o \
 ./beecrowd/primo_rapido.o \
@@ -74,6 +76,7 @@ C_DEPS += \
 ./beecrowd/getline_one.d \
 ./beecrowd/jogo_das_aranhas.d \
 ./beecrowd/o_criptografo_envergonhado.d \
+./beecrowd/o_salao_do_clube.d \
 ./beecrowd/onde_estao_meus_genes.d \
 ./beecrowd/preparando_a_producao.d \
 ./beecrowd/primo_rapido.d \
