@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;produto_simples.c&apos; to &apos;beecrowd&apos;" description="Move &apos;produto_simples.c&apos; to &apos;beecrowd&apos;" destination="beecrowd" element1="/ProgramasC/produto_simples.c" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1713088483592" updateReferences="true"/>
+</session>
