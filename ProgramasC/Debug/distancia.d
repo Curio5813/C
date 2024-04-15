@@ -1,1 +1,0 @@
-distancia.o: ../distancia.c

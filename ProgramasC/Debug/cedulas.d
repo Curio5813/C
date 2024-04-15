@@ -1,0 +1,1 @@
+cedulas.o: ../cedulas.c
