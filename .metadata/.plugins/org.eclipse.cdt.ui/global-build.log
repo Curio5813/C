@@ -5031,3 +5031,186 @@ make: Nada a ser feito para 'all'.
 11:02:28 **** Incremental Build of configuration Debug for project ProgramasC ****
 make all 
 make: Nada a ser feito para 'all'.
+21:11:32 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../consumo.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"consumo.d" -MT"consumo.o" -o "consumo.o" "../consumo.c"
+../consumo.c: In function ‘main’:
+../consumo.c:10:17: warning: format ‘%f’ expects argument of type ‘float *’, but argument 2 has type ‘double *’ [-Wformat=]
+   10 |         scanf("%f", &y);
+      |                ~^   ~~
+      |                 |   |
+      |                 |   double *
+      |                 float *
+      |                %lf
+Finished building: ../consumo.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./consumo.o   -lm
+Finished building target: ProgramasC
+ 
+21:12:23 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../consumo.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"consumo.d" -MT"consumo.o" -o "consumo.o" "../consumo.c"
+Finished building: ../consumo.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./consumo.o   -lm
+Finished building target: ProgramasC
+ 
+21:13:00 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../consumo.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"consumo.d" -MT"consumo.o" -o "consumo.o" "../consumo.c"
+Finished building: ../consumo.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./consumo.o   -lm
+Finished building target: ProgramasC
+ 
+21:13:15 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+21:13:34 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+12:15:00 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../distancia_entre_dois_pontos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"distancia_entre_dois_pontos.d" -MT"distancia_entre_dois_pontos.o" -o "distancia_entre_dois_pontos.o" "../distancia_entre_dois_pontos.c"
+../distancia_entre_dois_pontos.c: In function ‘main’:
+../distancia_entre_dois_pontos.c:12:46: warning: implicit declaration of function ‘po2’; did you mean ‘pow’? [-Wimplicit-function-declaration]
+   12 |         distancia = sqrt(pow((x2 - x1), 2) + po2((y2 - y1), 2));
+      |                                              ^~~
+      |                                              pow
+Finished building: ../distancia_entre_dois_pontos.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./distancia_entre_dois_pontos.o   -lm
+/usr/bin/ld: ./distancia_entre_dois_pontos.o: na função "main":
+/home/marcos/Computacao/C/ProgramasC/Debug/../distancia_entre_dois_pontos.c:12: referência não definida para "po2"
+collect2: error: ld returned 1 exit status
+make: *** [makefile:31: ProgramasC] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+12:15:41 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../distancia_entre_dois_pontos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"distancia_entre_dois_pontos.d" -MT"distancia_entre_dois_pontos.o" -o "distancia_entre_dois_pontos.o" "../distancia_entre_dois_pontos.c"
+Finished building: ../distancia_entre_dois_pontos.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./distancia_entre_dois_pontos.o   -lm
+Finished building target: ProgramasC
+ 
+12:16:08 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+12:16:28 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+12:27:38 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../distancia.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"distancia.d" -MT"distancia.o" -o "distancia.o" "../distancia.c"
+Finished building: ../distancia.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./distancia.o   -lm
+Finished building target: ProgramasC
+ 
+12:27:47 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+12:28:02 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+12:28:57 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../distancia.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"distancia.d" -MT"distancia.o" -o "distancia.o" "../distancia.c"
+Finished building: ../distancia.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./distancia.o   -lm
+Finished building target: ProgramasC
+ 
+12:29:17 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../distancia.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"distancia.d" -MT"distancia.o" -o "distancia.o" "../distancia.c"
+Finished building: ../distancia.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./distancia.o   -lm
+Finished building target: ProgramasC
+ 
+12:29:52 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../distancia.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"distancia.d" -MT"distancia.o" -o "distancia.o" "../distancia.c"
+Finished building: ../distancia.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./distancia.o   -lm
+Finished building target: ProgramasC
+ 
+12:30:05 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+12:32:58 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../distancia.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"distancia.d" -MT"distancia.o" -o "distancia.o" "../distancia.c"
+../distancia.c: In function ‘main’:
+../distancia.c:8:17: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘double *’ [-Wformat=]
+    8 |         scanf("%d", &distancia);
+      |                ~^   ~~~~~~~~~~
+      |                 |   |
+      |                 |   double *
+      |                 int *
+      |                %le
+Finished building: ../distancia.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./distancia.o   -lm
+Finished building target: ProgramasC
+ 
+12:33:12 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../distancia.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"distancia.d" -MT"distancia.o" -o "distancia.o" "../distancia.c"
+Finished building: ../distancia.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./distancia.o   -lm
+Finished building target: ProgramasC
+ 
+12:33:20 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+12:33:26 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.

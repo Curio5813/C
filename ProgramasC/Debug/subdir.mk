@@ -4,13 +4,13 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../o_maior.c 
+../distancia.c 
 
 OBJS += \
-./o_maior.o 
+./distancia.o 
 
 C_DEPS += \
-./o_maior.d 
+./distancia.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
