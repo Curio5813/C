@@ -1,0 +1,1 @@
+intervalo.o: ../intervalo.c

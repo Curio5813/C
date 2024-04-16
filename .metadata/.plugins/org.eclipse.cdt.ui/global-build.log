@@ -5711,3 +5711,76 @@ Invoking: GCC C Linker
 gcc -lm  -o "ProgramasC" ./cedulas.o   -lm
 Finished building target: ProgramasC
  
+08:47:22 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../intervalo.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"intervalo.d" -MT"intervalo.o" -o "intervalo.o" "../intervalo.c"
+../intervalo.c: In function ‘main’:
+../intervalo.c:10:21: warning: comparison of constant ‘25’ with boolean expression is always true [-Wbool-compare]
+   10 |         if(0 <= num <= 25){
+      |                     ^~
+../intervalo.c:10:14: warning: comparisons like ‘X<=Y<=Z’ do not have their mathematical meaning [-Wparentheses]
+   10 |         if(0 <= num <= 25){
+      |            ~~^~~~~~
+../intervalo.c:13:21: warning: comparison of constant ‘50’ with boolean expression is always true [-Wbool-compare]
+   13 |         if(25 < num <= 50){
+      |                     ^~
+../intervalo.c:13:15: warning: comparisons like ‘X<=Y<=Z’ do not have their mathematical meaning [-Wparentheses]
+   13 |         if(25 < num <= 50){
+      |            ~~~^~~~~
+../intervalo.c:16:21: warning: comparison of constant ‘75’ with boolean expression is always true [-Wbool-compare]
+   16 |         if(50 < num <= 75){
+      |                     ^~
+../intervalo.c:16:15: warning: comparisons like ‘X<=Y<=Z’ do not have their mathematical meaning [-Wparentheses]
+   16 |         if(50 < num <= 75){
+      |            ~~~^~~~~
+../intervalo.c:19:21: warning: comparison of constant ‘100’ with boolean expression is always true [-Wbool-compare]
+   19 |         if(75 < num <= 100){
+      |                     ^~
+../intervalo.c:19:15: warning: comparisons like ‘X<=Y<=Z’ do not have their mathematical meaning [-Wparentheses]
+   19 |         if(75 < num <= 100){
+      |            ~~~^~~~~
+Finished building: ../intervalo.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./intervalo.o   -lm
+Finished building target: ProgramasC
+ 
+08:47:50 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+08:48:41 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../intervalo.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"intervalo.d" -MT"intervalo.o" -o "intervalo.o" "../intervalo.c"
+Finished building: ../intervalo.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./intervalo.o   -lm
+Finished building target: ProgramasC
+ 
+08:49:31 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../intervalo.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"intervalo.d" -MT"intervalo.o" -o "intervalo.o" "../intervalo.c"
+Finished building: ../intervalo.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./intervalo.o   -lm
+Finished building target: ProgramasC
+ 
+08:49:41 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+08:49:51 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+08:49:59 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.

@@ -1,61 +1,6 @@
-19:18:44 **** Incremental Build of configuration Debug for project ProgramasC ****
+08:49:59 **** Incremental Build of configuration Debug for project ProgramasC ****
 make all 
-Building file: ../cedulas.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"cedulas.d" -MT"cedulas.o" -o "cedulas.o" "../cedulas.c"
-../cedulas.c: In function ‘main’:
-../cedulas.c:40:18: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long int’ [-Wformat=]
-   40 |         printf("%d nota(s) de R$ 100,00\n", c);
-      |                 ~^                          ~
-      |                  |                          |
-      |                  int                        long int
-      |                 %ld
-../cedulas.c:41:18: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long int’ [-Wformat=]
-   41 |         printf("%d nota(s) de R$ 50,00\n", l);
-      |                 ~^                         ~
-      |                  |                         |
-      |                  int                       long int
-      |                 %ld
-../cedulas.c:42:18: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long int’ [-Wformat=]
-   42 |         printf("%d nota(s) de R$ 20,00\n", xx);
-      |                 ~^                         ~~
-      |                  |                         |
-      |                  int                       long int
-      |                 %ld
-../cedulas.c:43:18: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long int’ [-Wformat=]
-   43 |         printf("%d nota(s) de R$ 10,00\n", x);
-      |                 ~^                         ~
-      |                  |                         |
-      |                  int                       long int
-      |                 %ld
-../cedulas.c:44:18: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long int’ [-Wformat=]
-   44 |         printf("%d nota(s) de R$ 5,00\n", v);
-      |                 ~^                        ~
-      |                  |                        |
-      |                  int                      long int
-      |                 %ld
-../cedulas.c:45:18: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long int’ [-Wformat=]
-   45 |         printf("%d nota(s) de R$ 2,00\n", ii);
-      |                 ~^                        ~~
-      |                  |                        |
-      |                  int                      long int
-      |                 %ld
-../cedulas.c:46:18: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long int’ [-Wformat=]
-   46 |         printf("%d nota(s) de R$ 1,00\n", i);
-      |                 ~^                        ~
-      |                  |                        |
-      |                  int                      long int
-      |                 %ld
-../cedulas.c:6:72: warning: unused variable ‘cont’ [-Wunused-variable]
-    6 |         long int n, c = 0, l = 0, xx = 0, x = 0, v = 0, ii = 0, i = 0, cont = 0;
-      |                                                                        ^~~~
-Finished building: ../cedulas.c
- 
-Building target: ProgramasC
-Invoking: GCC C Linker
-gcc -lm  -o "ProgramasC" ./cedulas.o   -lm
-Finished building target: ProgramasC
- 
+make: Nada a ser feito para 'all'.
 
-19:18:45 Build Finished. 0 errors, 8 warnings. (took 1s.225ms)
+08:50:00 Build Finished. 0 errors, 0 warnings. (took 1s.22ms)
 
