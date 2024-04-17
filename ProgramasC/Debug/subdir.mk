@@ -4,13 +4,13 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../intervalo.c 
+../rodizio_veicular.c 
 
 OBJS += \
-./intervalo.o 
+./rodizio_veicular.o 
 
 C_DEPS += \
-./intervalo.d 
+./rodizio_veicular.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

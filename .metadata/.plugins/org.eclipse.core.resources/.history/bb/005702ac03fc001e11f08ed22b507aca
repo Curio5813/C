@@ -1,0 +1,93 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+
+
+int main(){
+
+	int n;
+	char *placa;
+	scanf("%d", &n);
+
+	for(int j = 0; j < n; j++){
+		int letra = 1;
+		int traco = 1;
+		int cont = 0;
+
+		placa = (char*) malloc(9 * sizeof(char));
+
+
+		for(int l = 0; l < 9; l++){
+			scanf("%c", &placa[l]);
+			if(islower(placa[l])){
+				letra = 0;
+			}
+			if(scanf("%c", &placa[l]) == '\n' && l <= 8){
+				break;
+			}
+		}
+		if(letra == 1){
+			for(int i = 0; i < 9; i++){
+				if(i <= 2){
+					if(placa[i] == 'A' || placa[i] == 'B' || placa[i] == 'C'
+						|| placa[i] == 'D' || placa[i] == 'E' || placa[i] == 'F'
+						|| placa[i] == 'G' || placa[i] == 'H' || placa[i] == 'I'
+						|| placa[i] == 'J' || placa[i] == 'K' || placa[i] == 'L'
+						|| placa[i] == 'M' || placa[i] == 'N' || placa[i] == 'O'
+						|| placa[i] == 'P' || placa[i] == 'Q' || placa[i] == 'R'
+						|| placa[i] == 'S' || placa[i] == 'T' || placa[i] == 'U'
+						|| placa[i] == 'V' || placa[i] == 'W' || placa[i] == 'X'
+						|| placa[i] == 'Y' || placa[i] == 'Z'){
+						cont = 1;
+					}
+				}
+				if(i == 3 && placa[i] != '-'){
+					traco = 0;
+				}
+				if(traco == 1){
+					if(i > 3){
+						if(placa[i] == '0' || placa[i] == '1' || placa[i] == '2'
+							|| placa[i] == '3' || placa[i] == '4' || placa[i] == '5'
+							|| placa[i] == '6' || placa[i] == '7' || placa[i] == '8'
+							|| placa[i] == '9'){
+							cont = 1;
+						}
+					}
+				}
+				if(cont == 1){
+					if(placa[8] == '1' || placa[8] == '2'){
+						printf("MONDAY\n");
+						break;
+					}
+					if(placa[8] == '3' || placa[8] == '4'){
+						printf("TUESDAY\n");
+						break;
+					}
+					if(placa[8] == '5' || placa[8] == '6'){
+						printf("WEDNESDAY\n");
+						break;
+					}
+					if(placa[8] == '7' || placa[8] == '8'){
+						printf("THURSDAY\n");
+						break;
+					}
+					if(placa[8] == '9' || placa[8] == '0'){
+						printf("FRIDAY\n");
+						break;
+					}
+				}
+			}
+
+		}
+		if(cont == 0){
+			printf("FAILURE\n");
+		}
+		free(placa);
+		placa = NULL;
+
+	}
+
+
+
+	return 0;
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;ProgramasC/rodizio_veicular.c&apos;" deleteContents="false" description="Delete resource &apos;ProgramasC/rodizio_veicular.c&apos;" element1="/ProgramasC/rodizio_veicular.c" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1713282991123"/>
+</session>
