@@ -4,13 +4,13 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../area_do_circulo.c 
+../sequencia_de_numeros_e_soma.c 
 
 OBJS += \
-./area_do_circulo.o 
+./sequencia_de_numeros_e_soma.o 
 
 C_DEPS += \
-./area_do_circulo.d 
+./sequencia_de_numeros_e_soma.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
