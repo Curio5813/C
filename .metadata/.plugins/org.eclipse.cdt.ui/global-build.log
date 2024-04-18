@@ -17247,3 +17247,73 @@ Finished building target: ProgramasC
 15:22:32 **** Incremental Build of configuration Debug for project ProgramasC ****
 make all 
 make: Nada a ser feito para 'all'.
+14:12:22 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../area_do_circulo.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"area_do_circulo.d" -MT"area_do_circulo.o" -o "area_do_circulo.o" "../area_do_circulo.c"
+../area_do_circulo.c: In function ‘main’:
+../area_do_circulo.c:8:18: warning: format ‘%ld’ expects argument of type ‘long int *’, but argument 2 has type ‘double *’ [-Wformat=]
+    8 |         scanf("%ld", &raio);
+      |                ~~^   ~~~~~
+      |                  |   |
+      |                  |   double *
+      |                  long int *
+      |                %le
+../area_do_circulo.c:12:22: warning: format ‘%f’ expects a matching ‘double’ argument [-Wformat=]
+   12 |         printf("A=%.4fd\n");
+      |                   ~~~^
+      |                      |
+      |                      double
+../area_do_circulo.c:6:36: warning: variable ‘area’ set but not used [-Wunused-but-set-variable]
+    6 |         double pi = 3.14159, raio, area;
+      |                                    ^~~~
+Finished building: ../area_do_circulo.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./area_do_circulo.o   -lm
+Finished building target: ProgramasC
+ 
+14:12:51 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../area_do_circulo.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"area_do_circulo.d" -MT"area_do_circulo.o" -o "area_do_circulo.o" "../area_do_circulo.c"
+../area_do_circulo.c: In function ‘main’:
+../area_do_circulo.c:12:23: warning: format ‘%lf’ expects a matching ‘double’ argument [-Wformat=]
+   12 |         printf("A=%.4lf\n");
+      |                   ~~~~^
+      |                       |
+      |                       double
+../area_do_circulo.c:6:36: warning: variable ‘area’ set but not used [-Wunused-but-set-variable]
+    6 |         double pi = 3.14159, raio, area;
+      |                                    ^~~~
+Finished building: ../area_do_circulo.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./area_do_circulo.o   -lm
+Finished building target: ProgramasC
+ 
+14:13:10 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../area_do_circulo.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"area_do_circulo.d" -MT"area_do_circulo.o" -o "area_do_circulo.o" "../area_do_circulo.c"
+Finished building: ../area_do_circulo.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./area_do_circulo.o   -lm
+Finished building target: ProgramasC
+ 
+14:13:18 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+14:13:32 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+14:13:54 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.

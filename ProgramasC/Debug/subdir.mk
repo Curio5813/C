@@ -4,13 +4,13 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../rodizio_veicular.c 
+../area_do_circulo.c 
 
 OBJS += \
-./rodizio_veicular.o 
+./area_do_circulo.o 
 
 C_DEPS += \
-./rodizio_veicular.d 
+./area_do_circulo.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
