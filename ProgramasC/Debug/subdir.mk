@@ -4,13 +4,13 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../sequencia_de_numeros_e_soma.c 
+../impeachment_do_lider.c 
 
 OBJS += \
-./sequencia_de_numeros_e_soma.o 
+./impeachment_do_lider.o 
 
 C_DEPS += \
-./sequencia_de_numeros_e_soma.d 
+./impeachment_do_lider.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
