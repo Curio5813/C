@@ -17547,3 +17547,623 @@ make: Nada a ser feito para 'all'.
 12:55:07 **** Incremental Build of configuration Debug for project ProgramasC ****
 make all 
 make: Nada a ser feito para 'all'.
+15:16:23 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../a_mudanca_continua.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a_mudanca_continua.d" -MT"a_mudanca_continua.o" -o "a_mudanca_continua.o" "../a_mudanca_continua.c"
+Finished building: ../a_mudanca_continua.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./a_mudanca_continua.o   -lm
+Finished building target: ProgramasC
+ 
+15:17:12 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../a_mudanca_continua.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a_mudanca_continua.d" -MT"a_mudanca_continua.o" -o "a_mudanca_continua.o" "../a_mudanca_continua.c"
+Finished building: ../a_mudanca_continua.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./a_mudanca_continua.o   -lm
+Finished building target: ProgramasC
+ 
+15:20:10 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../a_mudanca_continua.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a_mudanca_continua.d" -MT"a_mudanca_continua.o" -o "a_mudanca_continua.o" "../a_mudanca_continua.c"
+Finished building: ../a_mudanca_continua.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./a_mudanca_continua.o   -lm
+Finished building target: ProgramasC
+ 
+15:22:45 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../a_mudanca_continua.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a_mudanca_continua.d" -MT"a_mudanca_continua.o" -o "a_mudanca_continua.o" "../a_mudanca_continua.c"
+Finished building: ../a_mudanca_continua.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./a_mudanca_continua.o   -lm
+Finished building target: ProgramasC
+ 
+15:23:25 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../a_mudanca_continua.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a_mudanca_continua.d" -MT"a_mudanca_continua.o" -o "a_mudanca_continua.o" "../a_mudanca_continua.c"
+Finished building: ../a_mudanca_continua.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./a_mudanca_continua.o   -lm
+Finished building target: ProgramasC
+ 
+15:23:59 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../a_mudanca_continua.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a_mudanca_continua.d" -MT"a_mudanca_continua.o" -o "a_mudanca_continua.o" "../a_mudanca_continua.c"
+Finished building: ../a_mudanca_continua.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./a_mudanca_continua.o   -lm
+Finished building target: ProgramasC
+ 
+15:25:39 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../a_mudanca_continua.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a_mudanca_continua.d" -MT"a_mudanca_continua.o" -o "a_mudanca_continua.o" "../a_mudanca_continua.c"
+Finished building: ../a_mudanca_continua.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./a_mudanca_continua.o   -lm
+Finished building target: ProgramasC
+ 
+15:27:15 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../a_mudanca_continua.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a_mudanca_continua.d" -MT"a_mudanca_continua.o" -o "a_mudanca_continua.o" "../a_mudanca_continua.c"
+Finished building: ../a_mudanca_continua.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./a_mudanca_continua.o   -lm
+Finished building target: ProgramasC
+ 
+15:29:32 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../a_mudanca_continua.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a_mudanca_continua.d" -MT"a_mudanca_continua.o" -o "a_mudanca_continua.o" "../a_mudanca_continua.c"
+Finished building: ../a_mudanca_continua.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./a_mudanca_continua.o   -lm
+Finished building target: ProgramasC
+ 
+15:30:46 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../a_mudanca_continua.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a_mudanca_continua.d" -MT"a_mudanca_continua.o" -o "a_mudanca_continua.o" "../a_mudanca_continua.c"
+Finished building: ../a_mudanca_continua.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./a_mudanca_continua.o   -lm
+Finished building target: ProgramasC
+ 
+15:31:27 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../a_mudanca_continua.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a_mudanca_continua.d" -MT"a_mudanca_continua.o" -o "a_mudanca_continua.o" "../a_mudanca_continua.c"
+../a_mudanca_continua.c: In function ‘main’:
+../a_mudanca_continua.c:7:29: warning: unused variable ‘cont’ [-Wunused-variable]
+    7 |         int hora, min, seg, cont = 0;
+      |                             ^~~~
+Finished building: ../a_mudanca_continua.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./a_mudanca_continua.o   -lm
+Finished building target: ProgramasC
+ 
+15:31:34 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+15:31:56 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../a_mudanca_continua.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a_mudanca_continua.d" -MT"a_mudanca_continua.o" -o "a_mudanca_continua.o" "../a_mudanca_continua.c"
+../a_mudanca_continua.c: In function ‘main’:
+../a_mudanca_continua.c:7:29: warning: unused variable ‘cont’ [-Wunused-variable]
+    7 |         int hora, min, seg, cont = 0;
+      |                             ^~~~
+Finished building: ../a_mudanca_continua.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./a_mudanca_continua.o   -lm
+Finished building target: ProgramasC
+ 
+15:32:42 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../a_mudanca_continua.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a_mudanca_continua.d" -MT"a_mudanca_continua.o" -o "a_mudanca_continua.o" "../a_mudanca_continua.c"
+../a_mudanca_continua.c: In function ‘main’:
+../a_mudanca_continua.c:7:29: warning: unused variable ‘cont’ [-Wunused-variable]
+    7 |         int hora, min, seg, cont = 0;
+      |                             ^~~~
+Finished building: ../a_mudanca_continua.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./a_mudanca_continua.o   -lm
+Finished building target: ProgramasC
+ 
+15:33:50 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../a_mudanca_continua.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a_mudanca_continua.d" -MT"a_mudanca_continua.o" -o "a_mudanca_continua.o" "../a_mudanca_continua.c"
+../a_mudanca_continua.c: In function ‘main’:
+../a_mudanca_continua.c:7:29: warning: unused variable ‘cont’ [-Wunused-variable]
+    7 |         int hora, min, seg, cont = 0;
+      |                             ^~~~
+Finished building: ../a_mudanca_continua.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./a_mudanca_continua.o   -lm
+Finished building target: ProgramasC
+ 
+15:35:37 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../a_mudanca_continua.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a_mudanca_continua.d" -MT"a_mudanca_continua.o" -o "a_mudanca_continua.o" "../a_mudanca_continua.c"
+Finished building: ../a_mudanca_continua.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./a_mudanca_continua.o   -lm
+Finished building target: ProgramasC
+ 
+15:35:50 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../a_mudanca_continua.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a_mudanca_continua.d" -MT"a_mudanca_continua.o" -o "a_mudanca_continua.o" "../a_mudanca_continua.c"
+Finished building: ../a_mudanca_continua.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./a_mudanca_continua.o   -lm
+Finished building target: ProgramasC
+ 
+15:49:30 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../a_mudanca_continua.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a_mudanca_continua.d" -MT"a_mudanca_continua.o" -o "a_mudanca_continua.o" "../a_mudanca_continua.c"
+Finished building: ../a_mudanca_continua.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./a_mudanca_continua.o   -lm
+Finished building target: ProgramasC
+ 
+15:51:07 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../a_mudanca_continua.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a_mudanca_continua.d" -MT"a_mudanca_continua.o" -o "a_mudanca_continua.o" "../a_mudanca_continua.c"
+Finished building: ../a_mudanca_continua.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./a_mudanca_continua.o   -lm
+Finished building target: ProgramasC
+ 
+15:52:04 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../a_mudanca_continua.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a_mudanca_continua.d" -MT"a_mudanca_continua.o" -o "a_mudanca_continua.o" "../a_mudanca_continua.c"
+Finished building: ../a_mudanca_continua.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./a_mudanca_continua.o   -lm
+Finished building target: ProgramasC
+ 
+15:53:15 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../a_mudanca_continua.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a_mudanca_continua.d" -MT"a_mudanca_continua.o" -o "a_mudanca_continua.o" "../a_mudanca_continua.c"
+Finished building: ../a_mudanca_continua.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./a_mudanca_continua.o   -lm
+Finished building target: ProgramasC
+ 
+15:54:40 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+15:55:36 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+16:00:50 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../a_mudanca_continua.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a_mudanca_continua.d" -MT"a_mudanca_continua.o" -o "a_mudanca_continua.o" "../a_mudanca_continua.c"
+Finished building: ../a_mudanca_continua.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./a_mudanca_continua.o   -lm
+Finished building target: ProgramasC
+ 
+16:02:53 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../a_mudanca_continua.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a_mudanca_continua.d" -MT"a_mudanca_continua.o" -o "a_mudanca_continua.o" "../a_mudanca_continua.c"
+Finished building: ../a_mudanca_continua.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./a_mudanca_continua.o   -lm
+Finished building target: ProgramasC
+ 
+16:05:37 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../a_mudanca_continua.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a_mudanca_continua.d" -MT"a_mudanca_continua.o" -o "a_mudanca_continua.o" "../a_mudanca_continua.c"
+../a_mudanca_continua.c: In function ‘main’:
+../a_mudanca_continua.c:105:35: error: expected ‘;’ before ‘while’
+  105 |                         m -= 180.0
+      |                                   ^
+      |                                   ;
+  106 |                         while(m >= graus_hora){
+      |                         ~~~~~      
+make: *** [subdir.mk:20: a_mudanca_continua.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:06:02 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../a_mudanca_continua.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a_mudanca_continua.d" -MT"a_mudanca_continua.o" -o "a_mudanca_continua.o" "../a_mudanca_continua.c"
+Finished building: ../a_mudanca_continua.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./a_mudanca_continua.o   -lm
+Finished building target: ProgramasC
+ 
+16:07:05 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+16:10:12 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+16:12:38 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../a_mudanca_continua.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a_mudanca_continua.d" -MT"a_mudanca_continua.o" -o "a_mudanca_continua.o" "../a_mudanca_continua.c"
+Finished building: ../a_mudanca_continua.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./a_mudanca_continua.o   -lm
+Finished building target: ProgramasC
+ 
+16:12:53 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+16:13:55 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../a_mudanca_continua.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a_mudanca_continua.d" -MT"a_mudanca_continua.o" -o "a_mudanca_continua.o" "../a_mudanca_continua.c"
+../a_mudanca_continua.c: In function ‘main’:
+../a_mudanca_continua.c:192:1: error: expected declaration or statement at end of input
+  192 | }
+      | ^
+make: *** [subdir.mk:20: a_mudanca_continua.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:14:11 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../a_mudanca_continua.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a_mudanca_continua.d" -MT"a_mudanca_continua.o" -o "a_mudanca_continua.o" "../a_mudanca_continua.c"
+Finished building: ../a_mudanca_continua.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./a_mudanca_continua.o   -lm
+Finished building target: ProgramasC
+ 
+16:15:25 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../a_mudanca_continua.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a_mudanca_continua.d" -MT"a_mudanca_continua.o" -o "a_mudanca_continua.o" "../a_mudanca_continua.c"
+Finished building: ../a_mudanca_continua.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./a_mudanca_continua.o   -lm
+Finished building target: ProgramasC
+ 
+16:26:11 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../a_mudanca_continua.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a_mudanca_continua.d" -MT"a_mudanca_continua.o" -o "a_mudanca_continua.o" "../a_mudanca_continua.c"
+Finished building: ../a_mudanca_continua.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./a_mudanca_continua.o   -lm
+Finished building target: ProgramasC
+ 
+16:28:52 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../a_mudanca_continua.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a_mudanca_continua.d" -MT"a_mudanca_continua.o" -o "a_mudanca_continua.o" "../a_mudanca_continua.c"
+Finished building: ../a_mudanca_continua.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./a_mudanca_continua.o   -lm
+Finished building target: ProgramasC
+ 
+16:29:04 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+16:31:03 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../a_mudanca_continua.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a_mudanca_continua.d" -MT"a_mudanca_continua.o" -o "a_mudanca_continua.o" "../a_mudanca_continua.c"
+Finished building: ../a_mudanca_continua.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./a_mudanca_continua.o   -lm
+Finished building target: ProgramasC
+ 
+16:32:07 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+16:38:02 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../a_mudanca_continua.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a_mudanca_continua.d" -MT"a_mudanca_continua.o" -o "a_mudanca_continua.o" "../a_mudanca_continua.c"
+Finished building: ../a_mudanca_continua.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./a_mudanca_continua.o   -lm
+Finished building target: ProgramasC
+ 
+16:39:27 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../a_mudanca_continua.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a_mudanca_continua.d" -MT"a_mudanca_continua.o" -o "a_mudanca_continua.o" "../a_mudanca_continua.c"
+Finished building: ../a_mudanca_continua.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./a_mudanca_continua.o   -lm
+Finished building target: ProgramasC
+ 
+16:42:03 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../a_mudanca_continua.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a_mudanca_continua.d" -MT"a_mudanca_continua.o" -o "a_mudanca_continua.o" "../a_mudanca_continua.c"
+../a_mudanca_continua.c: In function ‘main’:
+../a_mudanca_continua.c:15:64: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   15 |                 graus_seg = round((360.0 / (24.0 * 60.0 * 60.0), 2));
+      |                                                                ^
+Finished building: ../a_mudanca_continua.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./a_mudanca_continua.o   -lm
+Finished building target: ProgramasC
+ 
+16:43:06 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../a_mudanca_continua.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a_mudanca_continua.d" -MT"a_mudanca_continua.o" -o "a_mudanca_continua.o" "../a_mudanca_continua.c"
+../a_mudanca_continua.c: In function ‘main’:
+../a_mudanca_continua.c:16:29: error: too many arguments to function ‘round’
+   16 |                 graus_seg = round(graus_seg, 2);
+      |                             ^~~~~
+In file included from /usr/include/features.h:486,
+                 from /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:33,
+                 from /usr/include/stdio.h:27,
+                 from ../a_mudanca_continua.c:1:
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:301:1: note: declared here
+  301 | __MATHCALLX (round,, (_Mdouble_ __x), (__const__));
+      | ^~~~~~~~~~~
+make: *** [subdir.mk:20: a_mudanca_continua.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:43:25 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../a_mudanca_continua.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a_mudanca_continua.d" -MT"a_mudanca_continua.o" -o "a_mudanca_continua.o" "../a_mudanca_continua.c"
+Finished building: ../a_mudanca_continua.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./a_mudanca_continua.o   -lm
+Finished building target: ProgramasC
+ 
+16:44:21 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../a_mudanca_continua.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a_mudanca_continua.d" -MT"a_mudanca_continua.o" -o "a_mudanca_continua.o" "../a_mudanca_continua.c"
+Finished building: ../a_mudanca_continua.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./a_mudanca_continua.o   -lm
+Finished building target: ProgramasC
+ 
+16:44:56 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../a_mudanca_continua.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a_mudanca_continua.d" -MT"a_mudanca_continua.o" -o "a_mudanca_continua.o" "../a_mudanca_continua.c"
+Finished building: ../a_mudanca_continua.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./a_mudanca_continua.o   -lm
+Finished building target: ProgramasC
+ 
+16:46:31 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../a_mudanca_continua.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a_mudanca_continua.d" -MT"a_mudanca_continua.o" -o "a_mudanca_continua.o" "../a_mudanca_continua.c"
+Finished building: ../a_mudanca_continua.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./a_mudanca_continua.o   -lm
+Finished building target: ProgramasC
+ 
+16:48:47 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../a_mudanca_continua.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a_mudanca_continua.d" -MT"a_mudanca_continua.o" -o "a_mudanca_continua.o" "../a_mudanca_continua.c"
+Finished building: ../a_mudanca_continua.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./a_mudanca_continua.o   -lm
+Finished building target: ProgramasC
+ 
+16:50:06 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../a_mudanca_continua.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a_mudanca_continua.d" -MT"a_mudanca_continua.o" -o "a_mudanca_continua.o" "../a_mudanca_continua.c"
+Finished building: ../a_mudanca_continua.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./a_mudanca_continua.o   -lm
+Finished building target: ProgramasC
+ 
+16:51:45 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../a_mudanca_continua.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a_mudanca_continua.d" -MT"a_mudanca_continua.o" -o "a_mudanca_continua.o" "../a_mudanca_continua.c"
+Finished building: ../a_mudanca_continua.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./a_mudanca_continua.o   -lm
+Finished building target: ProgramasC
+ 
+16:52:29 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../a_mudanca_continua.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a_mudanca_continua.d" -MT"a_mudanca_continua.o" -o "a_mudanca_continua.o" "../a_mudanca_continua.c"
+../a_mudanca_continua.c: In function ‘main’:
+../a_mudanca_continua.c:15:37: error: expected ‘;’ before ‘printf’
+   15 |                 graus_seg = 0.004167
+      |                                     ^
+      |                                     ;
+   16 |                 printf("%.8lf\n", graus_seg);
+      |                 ~~~~~~               
+make: *** [subdir.mk:20: a_mudanca_continua.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:52:51 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../a_mudanca_continua.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a_mudanca_continua.d" -MT"a_mudanca_continua.o" -o "a_mudanca_continua.o" "../a_mudanca_continua.c"
+Finished building: ../a_mudanca_continua.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./a_mudanca_continua.o   -lm
+Finished building target: ProgramasC
+ 
+16:53:30 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../a_mudanca_continua.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a_mudanca_continua.d" -MT"a_mudanca_continua.o" -o "a_mudanca_continua.o" "../a_mudanca_continua.c"
+Finished building: ../a_mudanca_continua.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./a_mudanca_continua.o   -lm
+Finished building target: ProgramasC
+ 
+16:56:49 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../a_mudanca_continua.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a_mudanca_continua.d" -MT"a_mudanca_continua.o" -o "a_mudanca_continua.o" "../a_mudanca_continua.c"
+Finished building: ../a_mudanca_continua.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./a_mudanca_continua.o   -lm
+Finished building target: ProgramasC
+ 
+16:58:30 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../a_mudanca_continua.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a_mudanca_continua.d" -MT"a_mudanca_continua.o" -o "a_mudanca_continua.o" "../a_mudanca_continua.c"
+Finished building: ../a_mudanca_continua.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./a_mudanca_continua.o   -lm
+Finished building target: ProgramasC
+ 
+16:59:37 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.

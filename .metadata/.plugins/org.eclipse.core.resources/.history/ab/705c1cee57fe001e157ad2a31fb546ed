@@ -1,0 +1,35 @@
+#include <stdio.h>
+
+
+
+int main(){
+
+	int hora, min, seg;
+	double m, graus_hora, graus_min, graus_seg;
+
+	graus_hora = 360.0 / 24.0;
+	graus_min = 360.0 / (24.0 * 60.0);
+	graus_seg = 360.0 / (24.0 * 60.0 * 60.0);
+
+	while(scanf("%lf", &m) != EOF){
+		if(0.0 <= m && m <= 90.0){
+			hora = 6;
+			while(m / graus_hora == 0){
+				hora += 1;
+				m -= graus_hora;
+			}
+			while(m / graus_min == 0){
+				min += 1;
+			}
+			while(m / graus_seg == 0){
+				seg += 1;
+				m -= graus_seg;
+			}
+			printf("Bom Dia!!\n");
+			printf("%d:%d:%d", hora, min, seg);
+		}
+	}
+
+
+	return 0;
+}

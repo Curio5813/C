@@ -4,13 +4,13 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../impeachment_do_lider.c 
+../a_mudanca_continua.c 
 
 OBJS += \
-./impeachment_do_lider.o 
+./a_mudanca_continua.o 
 
 C_DEPS += \
-./impeachment_do_lider.d 
+./a_mudanca_continua.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
