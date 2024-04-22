@@ -1,0 +1,37 @@
+#include <stdio.h>
+
+
+
+void bubbleSort(double lados[], int tam){
+    for (int step = 0; step < 3 - 1; ++step) {
+        for (int i = 0; i < 3 - step - 1; ++i) {
+            if(lados[i] > lados[i + 1]) {
+            	double temp = lados[i];
+                lados[i] = lados[i + 1];
+                lados[i + 1] = temp;
+            }
+        }
+    }
+}
+
+
+int main(){
+
+	double lados[3];
+	int tam = 3;
+
+	for(int i = 0; i < 3; i++){
+		scanf("%lf", lados[i]);
+	}
+
+	bubbleSort(lados[], tam);
+
+	printf("Vetor ordenado:\n");
+	for(int i = 0; i < 3; i++) {
+		printf("%lf ", lados[i]);
+	}
+	printf("\n");
+
+
+	return 0;
+}

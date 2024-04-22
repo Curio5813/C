@@ -18167,3 +18167,536 @@ Finished building target: ProgramasC
 16:59:37 **** Incremental Build of configuration Debug for project ProgramasC ****
 make all 
 make: Nada a ser feito para 'all'.
+14:16:36 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../tipos_de_triangulos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"tipos_de_triangulos.d" -MT"tipos_de_triangulos.o" -o "tipos_de_triangulos.o" "../tipos_de_triangulos.c"
+../tipos_de_triangulos.c: In function ‘main’:
+../tipos_de_triangulos.c:24:26: warning: format ‘%lf’ expects argument of type ‘double *’, but argument 2 has type ‘double’ [-Wformat=]
+   24 |                 scanf("%lf", lados[i]);
+      |                        ~~^   ~~~~~~~~
+      |                          |        |
+      |                          double * double
+../tipos_de_triangulos.c:27:25: error: incompatible type for argument 1 of ‘bubbleSort’
+   27 |         bubbleSort(lados[3]);
+      |                    ~~~~~^~~
+      |                         |
+      |                         double
+../tipos_de_triangulos.c:5:21: note: expected ‘int *’ but argument is of type ‘double’
+    5 | void bubbleSort(int lados[3]){
+      |                 ~~~~^~~~~~~~
+../tipos_de_triangulos.c:31:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]
+   31 |                 printf("%d ", lados[i]);
+      |                         ~^    ~~~~~~~~
+      |                          |         |
+      |                          int       double
+      |                         %f
+make: *** [subdir.mk:20: tipos_de_triangulos.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:18:13 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../tipos_de_triangulos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"tipos_de_triangulos.d" -MT"tipos_de_triangulos.o" -o "tipos_de_triangulos.o" "../tipos_de_triangulos.c"
+../tipos_de_triangulos.c: In function ‘main’:
+../tipos_de_triangulos.c:24:26: warning: format ‘%lf’ expects argument of type ‘double *’, but argument 2 has type ‘double’ [-Wformat=]
+   24 |                 scanf("%lf", lados[i]);
+      |                        ~~^   ~~~~~~~~
+      |                          |        |
+      |                          double * double
+../tipos_de_triangulos.c:27:25: error: incompatible type for argument 1 of ‘bubbleSort’
+   27 |         bubbleSort(lados[3]);
+      |                    ~~~~~^~~
+      |                         |
+      |                         double
+../tipos_de_triangulos.c:5:24: note: expected ‘double *’ but argument is of type ‘double’
+    5 | void bubbleSort(double lados[3]){
+      |                 ~~~~~~~^~~~~~~~
+../tipos_de_triangulos.c:31:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]
+   31 |                 printf("%d ", lados[i]);
+      |                         ~^    ~~~~~~~~
+      |                          |         |
+      |                          int       double
+      |                         %f
+make: *** [subdir.mk:20: tipos_de_triangulos.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:18:49 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../tipos_de_triangulos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"tipos_de_triangulos.d" -MT"tipos_de_triangulos.o" -o "tipos_de_triangulos.o" "../tipos_de_triangulos.c"
+../tipos_de_triangulos.c:5:34: error: expected declaration specifiers or ‘...’ before numeric constant
+    5 | void bubbleSort(double lados[3], 3){
+      |                                  ^
+../tipos_de_triangulos.c: In function ‘main’:
+../tipos_de_triangulos.c:24:26: warning: format ‘%lf’ expects argument of type ‘double *’, but argument 2 has type ‘double’ [-Wformat=]
+   24 |                 scanf("%lf", lados[i]);
+      |                        ~~^   ~~~~~~~~
+      |                          |        |
+      |                          double * double
+../tipos_de_triangulos.c:27:9: warning: implicit declaration of function ‘bubbleSort’ [-Wimplicit-function-declaration]
+   27 |         bubbleSort(lados[3], 3);
+      |         ^~~~~~~~~~
+../tipos_de_triangulos.c:31:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]
+   31 |                 printf("%d ", lados[i]);
+      |                         ~^    ~~~~~~~~
+      |                          |         |
+      |                          int       double
+      |                         %f
+make: *** [subdir.mk:20: tipos_de_triangulos.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:19:27 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../tipos_de_triangulos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"tipos_de_triangulos.d" -MT"tipos_de_triangulos.o" -o "tipos_de_triangulos.o" "../tipos_de_triangulos.c"
+../tipos_de_triangulos.c:5:34: error: expected declaration specifiers or ‘...’ before numeric constant
+    5 | void bubbleSort(double lados[3], 3){
+      |                                  ^
+../tipos_de_triangulos.c: In function ‘main’:
+../tipos_de_triangulos.c:24:26: warning: format ‘%lf’ expects argument of type ‘double *’, but argument 2 has type ‘double’ [-Wformat=]
+   24 |                 scanf("%lf", lados[i]);
+      |                        ~~^   ~~~~~~~~
+      |                          |        |
+      |                          double * double
+../tipos_de_triangulos.c:27:9: warning: implicit declaration of function ‘bubbleSort’ [-Wimplicit-function-declaration]
+   27 |         bubbleSort(lados[3], 3);
+      |         ^~~~~~~~~~
+../tipos_de_triangulos.c:31:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]
+   31 |                 printf("%d ", lados[i]);
+      |                         ~^    ~~~~~~~~
+      |                          |         |
+      |                          int       double
+      |                         %f
+make: *** [subdir.mk:20: tipos_de_triangulos.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:20:23 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../tipos_de_triangulos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"tipos_de_triangulos.d" -MT"tipos_de_triangulos.o" -o "tipos_de_triangulos.o" "../tipos_de_triangulos.c"
+../tipos_de_triangulos.c:5:34: error: expected declaration specifiers or ‘...’ before numeric constant
+    5 | void bubbleSort(double lados[3], 3){
+      |                                  ^
+../tipos_de_triangulos.c: In function ‘main’:
+../tipos_de_triangulos.c:24:26: warning: format ‘%lf’ expects argument of type ‘double *’, but argument 2 has type ‘double’ [-Wformat=]
+   24 |                 scanf("%lf", lados[i]);
+      |                        ~~^   ~~~~~~~~
+      |                          |        |
+      |                          double * double
+../tipos_de_triangulos.c:27:9: warning: implicit declaration of function ‘bubbleSort’ [-Wimplicit-function-declaration]
+   27 |         bubbleSort(lados[3], 3);
+      |         ^~~~~~~~~~
+../tipos_de_triangulos.c:31:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]
+   31 |                 printf("%d ", lados[i]);
+      |                         ~^    ~~~~~~~~
+      |                          |         |
+      |                          int       double
+      |                         %f
+make: *** [subdir.mk:20: tipos_de_triangulos.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:20:50 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../tipos_de_triangulos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"tipos_de_triangulos.d" -MT"tipos_de_triangulos.o" -o "tipos_de_triangulos.o" "../tipos_de_triangulos.c"
+../tipos_de_triangulos.c:5:34: error: expected declaration specifiers or ‘...’ before numeric constant
+    5 | void bubbleSort(double lados[3], 3){
+      |                                  ^
+../tipos_de_triangulos.c: In function ‘main’:
+../tipos_de_triangulos.c:24:26: warning: format ‘%lf’ expects argument of type ‘double *’, but argument 2 has type ‘double’ [-Wformat=]
+   24 |                 scanf("%lf", lados[i]);
+      |                        ~~^   ~~~~~~~~
+      |                          |        |
+      |                          double * double
+../tipos_de_triangulos.c:27:9: warning: implicit declaration of function ‘bubbleSort’ [-Wimplicit-function-declaration]
+   27 |         bubbleSort(lados[3], 3);
+      |         ^~~~~~~~~~
+make: *** [subdir.mk:20: tipos_de_triangulos.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:21:50 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../tipos_de_triangulos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"tipos_de_triangulos.d" -MT"tipos_de_triangulos.o" -o "tipos_de_triangulos.o" "../tipos_de_triangulos.c"
+../tipos_de_triangulos.c: In function ‘main’:
+../tipos_de_triangulos.c:25:26: warning: format ‘%lf’ expects argument of type ‘double *’, but argument 2 has type ‘double’ [-Wformat=]
+   25 |                 scanf("%lf", lados[i]);
+      |                        ~~^   ~~~~~~~~
+      |                          |        |
+      |                          double * double
+../tipos_de_triangulos.c:28:25: error: incompatible type for argument 1 of ‘bubbleSort’
+   28 |         bubbleSort(lados[3], tam);
+      |                    ~~~~~^~~
+      |                         |
+      |                         double
+../tipos_de_triangulos.c:5:24: note: expected ‘double *’ but argument is of type ‘double’
+    5 | void bubbleSort(double lados[3], int tam){
+      |                 ~~~~~~~^~~~~~~~
+make: *** [subdir.mk:20: tipos_de_triangulos.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:23:21 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../tipos_de_triangulos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"tipos_de_triangulos.d" -MT"tipos_de_triangulos.o" -o "tipos_de_triangulos.o" "../tipos_de_triangulos.c"
+../tipos_de_triangulos.c: In function ‘main’:
+../tipos_de_triangulos.c:24:26: warning: format ‘%lf’ expects argument of type ‘double *’, but argument 2 has type ‘double’ [-Wformat=]
+   24 |                 scanf("%lf", lados[i]);
+      |                        ~~^   ~~~~~~~~
+      |                          |        |
+      |                          double * double
+../tipos_de_triangulos.c:27:26: error: expected expression before ‘]’ token
+   27 |         bubbleSort(lados[], tam);
+      |                          ^
+make: *** [subdir.mk:20: tipos_de_triangulos.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:24:39 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../tipos_de_triangulos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"tipos_de_triangulos.d" -MT"tipos_de_triangulos.o" -o "tipos_de_triangulos.o" "../tipos_de_triangulos.c"
+../tipos_de_triangulos.c: In function ‘main’:
+../tipos_de_triangulos.c:24:26: warning: format ‘%lf’ expects argument of type ‘double *’, but argument 2 has type ‘double’ [-Wformat=]
+   24 |                 scanf("%lf", lados[i]);
+      |                        ~~^   ~~~~~~~~
+      |                          |        |
+      |                          double * double
+../tipos_de_triangulos.c:27:25: error: incompatible type for argument 1 of ‘bubbleSort’
+   27 |         bubbleSort(lados[3], tam);
+      |                    ~~~~~^~~
+      |                         |
+      |                         double
+../tipos_de_triangulos.c:5:24: note: expected ‘double *’ but argument is of type ‘double’
+    5 | void bubbleSort(double array[], int tam){
+      |                 ~~~~~~~^~~~~~~
+make: *** [subdir.mk:20: tipos_de_triangulos.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:25:02 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../tipos_de_triangulos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"tipos_de_triangulos.d" -MT"tipos_de_triangulos.o" -o "tipos_de_triangulos.o" "../tipos_de_triangulos.c"
+../tipos_de_triangulos.c: In function ‘bubbleSort’:
+../tipos_de_triangulos.c:9:31: error: incompatible types when initializing type ‘double’ using type ‘double *’
+    9 |                 double temp = array[i];
+      |                               ^~~~~
+../tipos_de_triangulos.c:11:32: error: incompatible types when assigning to type ‘double *’ from type ‘double’
+   11 |                 array[i + 1] = temp;
+      |                                ^~~~
+../tipos_de_triangulos.c: In function ‘main’:
+../tipos_de_triangulos.c:24:26: warning: format ‘%lf’ expects argument of type ‘double *’, but argument 2 has type ‘double’ [-Wformat=]
+   24 |                 scanf("%lf", lados[i]);
+      |                        ~~^   ~~~~~~~~
+      |                          |        |
+      |                          double * double
+../tipos_de_triangulos.c:27:25: error: incompatible type for argument 1 of ‘bubbleSort’
+   27 |         bubbleSort(lados[3], tam);
+      |                    ~~~~~^~~
+      |                         |
+      |                         double
+../tipos_de_triangulos.c:5:25: note: expected ‘double **’ but argument is of type ‘double’
+    5 | void bubbleSort(double *array[], int tam){
+      |                 ~~~~~~~~^~~~~~~
+make: *** [subdir.mk:20: tipos_de_triangulos.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:25:22 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../tipos_de_triangulos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"tipos_de_triangulos.d" -MT"tipos_de_triangulos.o" -o "tipos_de_triangulos.o" "../tipos_de_triangulos.c"
+../tipos_de_triangulos.c:5:17: error: unknown type name ‘array’
+    5 | void bubbleSort(array[], int tam){
+      |                 ^~~~~
+../tipos_de_triangulos.c: In function ‘main’:
+../tipos_de_triangulos.c:24:26: warning: format ‘%lf’ expects argument of type ‘double *’, but argument 2 has type ‘double’ [-Wformat=]
+   24 |                 scanf("%lf", lados[i]);
+      |                        ~~^   ~~~~~~~~
+      |                          |        |
+      |                          double * double
+../tipos_de_triangulos.c:27:9: warning: implicit declaration of function ‘bubbleSort’ [-Wimplicit-function-declaration]
+   27 |         bubbleSort(lados[3], tam);
+      |         ^~~~~~~~~~
+make: *** [subdir.mk:20: tipos_de_triangulos.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:25:48 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../tipos_de_triangulos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"tipos_de_triangulos.d" -MT"tipos_de_triangulos.o" -o "tipos_de_triangulos.o" "../tipos_de_triangulos.c"
+../tipos_de_triangulos.c: In function ‘bubbleSort’:
+../tipos_de_triangulos.c:9:31: error: incompatible types when initializing type ‘double’ using type ‘double *’
+    9 |                 double temp = array[i];
+      |                               ^~~~~
+../tipos_de_triangulos.c:11:32: error: incompatible types when assigning to type ‘double *’ from type ‘double’
+   11 |                 array[i + 1] = temp;
+      |                                ^~~~
+../tipos_de_triangulos.c: In function ‘main’:
+../tipos_de_triangulos.c:24:26: warning: format ‘%lf’ expects argument of type ‘double *’, but argument 2 has type ‘double’ [-Wformat=]
+   24 |                 scanf("%lf", lados[i]);
+      |                        ~~^   ~~~~~~~~
+      |                          |        |
+      |                          double * double
+../tipos_de_triangulos.c:27:25: error: incompatible type for argument 1 of ‘bubbleSort’
+   27 |         bubbleSort(lados[3], tam);
+      |                    ~~~~~^~~
+      |                         |
+      |                         double
+../tipos_de_triangulos.c:5:25: note: expected ‘double **’ but argument is of type ‘double’
+    5 | void bubbleSort(double* array[], int tam){
+      |                 ~~~~~~~~^~~~~~~
+make: *** [subdir.mk:20: tipos_de_triangulos.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:26:20 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../tipos_de_triangulos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"tipos_de_triangulos.d" -MT"tipos_de_triangulos.o" -o "tipos_de_triangulos.o" "../tipos_de_triangulos.c"
+../tipos_de_triangulos.c: In function ‘main’:
+../tipos_de_triangulos.c:31:27: warning: format ‘%lf’ expects argument of type ‘double’, but argument 2 has type ‘double *’ [-Wformat=]
+   31 |                 printf("%lf ", lados[i]);
+      |                         ~~^    ~~~~~~~~
+      |                           |         |
+      |                           double    double *
+Finished building: ../tipos_de_triangulos.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./tipos_de_triangulos.o   -lm
+Finished building target: ProgramasC
+ 
+14:27:13 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../tipos_de_triangulos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"tipos_de_triangulos.d" -MT"tipos_de_triangulos.o" -o "tipos_de_triangulos.o" "../tipos_de_triangulos.c"
+../tipos_de_triangulos.c: In function ‘main’:
+../tipos_de_triangulos.c:24:26: warning: format ‘%lf’ expects argument of type ‘double *’, but argument 2 has type ‘double’ [-Wformat=]
+   24 |                 scanf("%lf", *lados[i]);
+      |                        ~~^   ~~~~~~~~~
+      |                          |   |
+      |                          |   double
+      |                          double *
+../tipos_de_triangulos.c:31:27: warning: format ‘%lf’ expects argument of type ‘double’, but argument 2 has type ‘double *’ [-Wformat=]
+   31 |                 printf("%lf ", lados[i]);
+      |                         ~~^    ~~~~~~~~
+      |                           |         |
+      |                           double    double *
+Finished building: ../tipos_de_triangulos.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./tipos_de_triangulos.o   -lm
+Finished building target: ProgramasC
+ 
+14:27:37 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../tipos_de_triangulos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"tipos_de_triangulos.d" -MT"tipos_de_triangulos.o" -o "tipos_de_triangulos.o" "../tipos_de_triangulos.c"
+../tipos_de_triangulos.c: In function ‘main’:
+../tipos_de_triangulos.c:24:26: warning: format ‘%lf’ expects argument of type ‘double *’, but argument 2 has type ‘double **’ [-Wformat=]
+   24 |                 scanf("%lf", &lados[i]);
+      |                        ~~^   ~~~~~~~~~
+      |                          |   |
+      |                          |   double **
+      |                          double *
+../tipos_de_triangulos.c:31:27: warning: format ‘%lf’ expects argument of type ‘double’, but argument 2 has type ‘double *’ [-Wformat=]
+   31 |                 printf("%lf ", lados[i]);
+      |                         ~~^    ~~~~~~~~
+      |                           |         |
+      |                           double    double *
+Finished building: ../tipos_de_triangulos.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./tipos_de_triangulos.o   -lm
+Finished building target: ProgramasC
+ 
+14:27:57 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../tipos_de_triangulos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"tipos_de_triangulos.d" -MT"tipos_de_triangulos.o" -o "tipos_de_triangulos.o" "../tipos_de_triangulos.c"
+../tipos_de_triangulos.c: In function ‘main’:
+../tipos_de_triangulos.c:27:25: error: incompatible type for argument 1 of ‘bubbleSort’
+   27 |         bubbleSort(lados[3], tam);
+      |                    ~~~~~^~~
+      |                         |
+      |                         double
+../tipos_de_triangulos.c:5:24: note: expected ‘double *’ but argument is of type ‘double’
+    5 | void bubbleSort(double array[], int tam){
+      |                 ~~~~~~~^~~~~~~
+make: *** [subdir.mk:20: tipos_de_triangulos.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:28:46 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../tipos_de_triangulos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"tipos_de_triangulos.d" -MT"tipos_de_triangulos.o" -o "tipos_de_triangulos.o" "../tipos_de_triangulos.c"
+../tipos_de_triangulos.c: In function ‘main’:
+../tipos_de_triangulos.c:31:27: warning: format ‘%lf’ expects argument of type ‘double’, but argument 2 has type ‘double *’ [-Wformat=]
+   31 |                 printf("%lf ", lados[i]);
+      |                         ~~^    ~~~~~~~~
+      |                           |         |
+      |                           double    double *
+Finished building: ../tipos_de_triangulos.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./tipos_de_triangulos.o   -lm
+Finished building target: ProgramasC
+ 
+14:31:42 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../tipos_de_triangulos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"tipos_de_triangulos.d" -MT"tipos_de_triangulos.o" -o "tipos_de_triangulos.o" "../tipos_de_triangulos.c"
+../tipos_de_triangulos.c:8:9: error: expected identifier or ‘(’ before ‘}’ token
+    8 |         }
+      |         ^
+../tipos_de_triangulos.c:9:5: error: expected identifier or ‘(’ before ‘}’ token
+    9 |     }
+      |     ^
+../tipos_de_triangulos.c:10:1: error: expected identifier or ‘(’ before ‘}’ token
+   10 | }
+      | ^
+../tipos_de_triangulos.c: In function ‘main’:
+../tipos_de_triangulos.c:16:13: warning: unused variable ‘tam’ [-Wunused-variable]
+   16 |         int tam = 3;
+      |             ^~~
+make: *** [subdir.mk:20: tipos_de_triangulos.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:32:05 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../tipos_de_triangulos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"tipos_de_triangulos.d" -MT"tipos_de_triangulos.o" -o "tipos_de_triangulos.o" "../tipos_de_triangulos.c"
+../tipos_de_triangulos.c:8:9: error: expected identifier or ‘(’ before ‘}’ token
+    8 |         }
+      |         ^
+../tipos_de_triangulos.c:9:5: error: expected identifier or ‘(’ before ‘}’ token
+    9 |     }
+      |     ^
+../tipos_de_triangulos.c:10:1: error: expected identifier or ‘(’ before ‘}’ token
+   10 | }
+      | ^
+../tipos_de_triangulos.c: In function ‘main’:
+../tipos_de_triangulos.c:16:13: warning: unused variable ‘tam’ [-Wunused-variable]
+   16 |         int tam = 3;
+      |             ^~~
+make: *** [subdir.mk:20: tipos_de_triangulos.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:33:03 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../tipos_de_triangulos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"tipos_de_triangulos.d" -MT"tipos_de_triangulos.o" -o "tipos_de_triangulos.o" "../tipos_de_triangulos.c"
+../tipos_de_triangulos.c:8:9: error: expected identifier or ‘(’ before ‘}’ token
+    8 |         }
+      |         ^
+../tipos_de_triangulos.c:9:5: error: expected identifier or ‘(’ before ‘}’ token
+    9 |     }
+      |     ^
+../tipos_de_triangulos.c:10:1: error: expected identifier or ‘(’ before ‘}’ token
+   10 | }
+      | ^
+make: *** [subdir.mk:20: tipos_de_triangulos.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:34:38 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../tipos_de_triangulos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"tipos_de_triangulos.d" -MT"tipos_de_triangulos.o" -o "tipos_de_triangulos.o" "../tipos_de_triangulos.c"
+../tipos_de_triangulos.c:8:9: error: expected identifier or ‘(’ before ‘}’ token
+    8 |         }
+      |         ^
+../tipos_de_triangulos.c:9:5: error: expected identifier or ‘(’ before ‘}’ token
+    9 |     }
+      |     ^
+../tipos_de_triangulos.c:10:1: error: expected identifier or ‘(’ before ‘}’ token
+   10 | }
+      | ^
+make: *** [subdir.mk:20: tipos_de_triangulos.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:34:56 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../tipos_de_triangulos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"tipos_de_triangulos.d" -MT"tipos_de_triangulos.o" -o "tipos_de_triangulos.o" "../tipos_de_triangulos.c"
+Finished building: ../tipos_de_triangulos.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./tipos_de_triangulos.o   -lm
+Finished building target: ProgramasC
+ 
+14:40:40 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../tipos_de_triangulos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"tipos_de_triangulos.d" -MT"tipos_de_triangulos.o" -o "tipos_de_triangulos.o" "../tipos_de_triangulos.c"
+Finished building: ../tipos_de_triangulos.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./tipos_de_triangulos.o   -lm
+Finished building target: ProgramasC
+ 
+14:49:31 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../tipos_de_triangulos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"tipos_de_triangulos.d" -MT"tipos_de_triangulos.o" -o "tipos_de_triangulos.o" "../tipos_de_triangulos.c"
+../tipos_de_triangulos.c: In function ‘main’:
+../tipos_de_triangulos.c:29:40: error: lvalue required as left operand of assignment
+   29 |                 if(lados[2] * lados[2] = lados[1] * lados[1] + lados[0] * lados[0]){
+      |                                        ^
+../tipos_de_triangulos.c:34:40: error: lvalue required as left operand of assignment
+   34 |                 if(lados[2] * lados[2] = lados[1] * lados[1] + lados[0] * lados[0]){
+      |                                        ^
+make: *** [subdir.mk:20: tipos_de_triangulos.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:50:38 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../tipos_de_triangulos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"tipos_de_triangulos.d" -MT"tipos_de_triangulos.o" -o "tipos_de_triangulos.o" "../tipos_de_triangulos.c"
+Finished building: ../tipos_de_triangulos.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./tipos_de_triangulos.o   -lm
+Finished building target: ProgramasC
+ 
+14:51:39 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+14:52:40 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../tipos_de_triangulos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"tipos_de_triangulos.d" -MT"tipos_de_triangulos.o" -o "tipos_de_triangulos.o" "../tipos_de_triangulos.c"
+Finished building: ../tipos_de_triangulos.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./tipos_de_triangulos.o   -lm
+Finished building target: ProgramasC
+ 
+15:07:02 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../tipos_de_triangulos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"tipos_de_triangulos.d" -MT"tipos_de_triangulos.o" -o "tipos_de_triangulos.o" "../tipos_de_triangulos.c"
+Finished building: ../tipos_de_triangulos.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./tipos_de_triangulos.o   -lm
+Finished building target: ProgramasC
+ 
+15:07:28 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.

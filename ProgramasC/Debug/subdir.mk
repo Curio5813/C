@@ -4,13 +4,13 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../a_mudanca_continua.c 
+../tipos_de_triangulos.c 
 
 OBJS += \
-./a_mudanca_continua.o 
+./tipos_de_triangulos.o 
 
 C_DEPS += \
-./a_mudanca_continua.d 
+./tipos_de_triangulos.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
