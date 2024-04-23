@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+
+
+int main() {
+
+	int n;
+
+	unsigned int num;
+
+    scanf("%d", &n);
+
+    int count = 0;
+    while(num){
+    	count += num & 1;
+        num >>= 1;
+    }
+    printf("%d\n", count);
+
+    return 0;
+}

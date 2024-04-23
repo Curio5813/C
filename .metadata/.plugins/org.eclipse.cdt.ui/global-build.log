@@ -18929,3 +18929,245 @@ make: Nada a ser feito para 'all'.
 13:41:55 **** Incremental Build of configuration Debug for project ProgramasC ****
 make all 
 make: Nada a ser feito para 'all'.
+15:21:32 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../luzes_de_natal.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"luzes_de_natal.d" -MT"luzes_de_natal.o" -o "luzes_de_natal.o" "../luzes_de_natal.c"
+Finished building: ../luzes_de_natal.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./luzes_de_natal.o   -lm
+Finished building target: ProgramasC
+ 
+15:21:49 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+15:38:37 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../luzes_de_natal.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"luzes_de_natal.d" -MT"luzes_de_natal.o" -o "luzes_de_natal.o" "../luzes_de_natal.c"
+Finished building: ../luzes_de_natal.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./luzes_de_natal.o   -lm
+Finished building target: ProgramasC
+ 
+15:41:01 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../luzes_de_natal.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"luzes_de_natal.d" -MT"luzes_de_natal.o" -o "luzes_de_natal.o" "../luzes_de_natal.c"
+Finished building: ../luzes_de_natal.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./luzes_de_natal.o   -lm
+Finished building target: ProgramasC
+ 
+15:55:30 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../luzes_de_natal.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"luzes_de_natal.d" -MT"luzes_de_natal.o" -o "luzes_de_natal.o" "../luzes_de_natal.c"
+Finished building: ../luzes_de_natal.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./luzes_de_natal.o   -lm
+Finished building target: ProgramasC
+ 
+15:55:54 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+15:57:45 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../luzes_de_natal.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"luzes_de_natal.d" -MT"luzes_de_natal.o" -o "luzes_de_natal.o" "../luzes_de_natal.c"
+../luzes_de_natal.c: In function ‘main’:
+../luzes_de_natal.c:7:13: warning: unused variable ‘n’ [-Wunused-variable]
+    7 |         int n;
+      |             ^
+Finished building: ../luzes_de_natal.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./luzes_de_natal.o   -lm
+Finished building target: ProgramasC
+ 
+15:58:55 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../luzes_de_natal.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"luzes_de_natal.d" -MT"luzes_de_natal.o" -o "luzes_de_natal.o" "../luzes_de_natal.c"
+../luzes_de_natal.c: In function ‘main’:
+../luzes_de_natal.c:7:13: warning: unused variable ‘n’ [-Wunused-variable]
+    7 |         int n;
+      |             ^
+Finished building: ../luzes_de_natal.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./luzes_de_natal.o   -lm
+Finished building target: ProgramasC
+ 
+15:59:04 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+15:59:10 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+16:18:38 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../luzes_de_natal.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"luzes_de_natal.d" -MT"luzes_de_natal.o" -o "luzes_de_natal.o" "../luzes_de_natal.c"
+Finished building: ../luzes_de_natal.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./luzes_de_natal.o   -lm
+Finished building target: ProgramasC
+ 
+16:20:22 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../luzes_de_natal.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"luzes_de_natal.d" -MT"luzes_de_natal.o" -o "luzes_de_natal.o" "../luzes_de_natal.c"
+Finished building: ../luzes_de_natal.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./luzes_de_natal.o   -lm
+Finished building target: ProgramasC
+ 
+16:22:11 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../luzes_de_natal.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"luzes_de_natal.d" -MT"luzes_de_natal.o" -o "luzes_de_natal.o" "../luzes_de_natal.c"
+Finished building: ../luzes_de_natal.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./luzes_de_natal.o   -lm
+Finished building target: ProgramasC
+ 
+16:22:24 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+16:23:12 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../luzes_de_natal.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"luzes_de_natal.d" -MT"luzes_de_natal.o" -o "luzes_de_natal.o" "../luzes_de_natal.c"
+Finished building: ../luzes_de_natal.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./luzes_de_natal.o   -lm
+Finished building target: ProgramasC
+ 
+16:23:47 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../luzes_de_natal.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"luzes_de_natal.d" -MT"luzes_de_natal.o" -o "luzes_de_natal.o" "../luzes_de_natal.c"
+Finished building: ../luzes_de_natal.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./luzes_de_natal.o   -lm
+Finished building target: ProgramasC
+ 
+16:48:20 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../luzes_de_natal.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"luzes_de_natal.d" -MT"luzes_de_natal.o" -o "luzes_de_natal.o" "../luzes_de_natal.c"
+../luzes_de_natal.c: In function ‘main’:
+../luzes_de_natal.c:7:27: warning: unused variable ‘maior’ [-Wunused-variable]
+    7 |         int n, num, cont, maior;
+      |                           ^~~~~
+../luzes_de_natal.c:7:21: warning: unused variable ‘cont’ [-Wunused-variable]
+    7 |         int n, num, cont, maior;
+      |                     ^~~~
+../luzes_de_natal.c:14:32: warning: ‘num’ may be used uninitialized [-Wmaybe-uninitialized]
+   14 |                         if(num & 1){
+      |                            ~~~~^~~
+Finished building: ../luzes_de_natal.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./luzes_de_natal.o   -lm
+Finished building target: ProgramasC
+ 
+16:49:08 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../luzes_de_natal.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"luzes_de_natal.d" -MT"luzes_de_natal.o" -o "luzes_de_natal.o" "../luzes_de_natal.c"
+../luzes_de_natal.c: In function ‘main’:
+../luzes_de_natal.c:7:27: warning: unused variable ‘maior’ [-Wunused-variable]
+    7 |         int n, num, cont, maior;
+      |                           ^~~~~
+../luzes_de_natal.c:7:21: warning: unused variable ‘cont’ [-Wunused-variable]
+    7 |         int n, num, cont, maior;
+      |                     ^~~~
+Finished building: ../luzes_de_natal.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./luzes_de_natal.o   -lm
+Finished building target: ProgramasC
+ 
+16:49:41 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../luzes_de_natal.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"luzes_de_natal.d" -MT"luzes_de_natal.o" -o "luzes_de_natal.o" "../luzes_de_natal.c"
+../luzes_de_natal.c: In function ‘main’:
+../luzes_de_natal.c:7:27: warning: unused variable ‘maior’ [-Wunused-variable]
+    7 |         int n, num, cont, maior;
+      |                           ^~~~~
+../luzes_de_natal.c:7:21: warning: unused variable ‘cont’ [-Wunused-variable]
+    7 |         int n, num, cont, maior;
+      |                     ^~~~
+Finished building: ../luzes_de_natal.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./luzes_de_natal.o   -lm
+Finished building target: ProgramasC
+ 
+16:49:56 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+16:51:57 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../luzes_de_natal.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"luzes_de_natal.d" -MT"luzes_de_natal.o" -o "luzes_de_natal.o" "../luzes_de_natal.c"
+Finished building: ../luzes_de_natal.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./luzes_de_natal.o   -lm
+Finished building target: ProgramasC
+ 
+16:57:07 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../luzes_de_natal.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"luzes_de_natal.d" -MT"luzes_de_natal.o" -o "luzes_de_natal.o" "../luzes_de_natal.c"
+Finished building: ../luzes_de_natal.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./luzes_de_natal.o   -lm
+Finished building target: ProgramasC
+ 

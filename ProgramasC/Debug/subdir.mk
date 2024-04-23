@@ -4,13 +4,13 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../crescimento_populacional.c 
+../luzes_de_natal.c 
 
 OBJS += \
-./crescimento_populacional.o 
+./luzes_de_natal.o 
 
 C_DEPS += \
-./crescimento_populacional.d 
+./luzes_de_natal.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

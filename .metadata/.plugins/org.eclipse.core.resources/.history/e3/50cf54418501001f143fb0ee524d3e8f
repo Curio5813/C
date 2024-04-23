@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+
+
+int main() {
+
+	int n, num, cont, maior;
+
+	scanf("%d", &n);
+	for(int i = 0; i < n; i++){
+		scanf("%d", &num);
+		cont = 0;
+		maior = 0;
+		while(num){
+			cont += num & 1;
+			num >>= 1;
+			if(num >>= 0){
+				maior = cont;
+				cont = 0;
+			}
+		}
+		printf("%d\n", maior);
+	}
+
+    return 0;
+}

@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+
+
+int main() {
+
+	int n, num, cont, maior;
+
+	scanf("%d", &n);
+	for(int i = 0; i < n; i++){
+		int maxCount = 0;
+		int count = 0;
+		while(num != 0){
+			if(num & 1){
+				count++;
+			}
+			else{
+				if(count > maxCount) {
+					maxCount = count;
+				}
+				count = 0;
+			}
+			n >>= 1; //Deslocamos o número para a direita para verificar o próximo bit
+			if(count > maxCount){
+				maxCount = count;
+			}
+		}
+		printf("%d\n", maxCount);
+	}
+
+    return 0;
+}
