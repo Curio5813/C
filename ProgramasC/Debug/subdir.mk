@@ -4,13 +4,13 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../tipos_de_triangulos.c 
+../crescimento_populacional.c 
 
 OBJS += \
-./tipos_de_triangulos.o 
+./crescimento_populacional.o 
 
 C_DEPS += \
-./tipos_de_triangulos.d 
+./crescimento_populacional.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

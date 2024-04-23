@@ -1,6 +1,6 @@
-15:07:28 **** Incremental Build of configuration Debug for project ProgramasC ****
+13:41:55 **** Incremental Build of configuration Debug for project ProgramasC ****
 make all 
 make: Nada a ser feito para 'all'.
 
-15:07:29 Build Finished. 0 errors, 0 warnings. (took 1s.75ms)
+13:41:56 Build Finished. 0 errors, 0 warnings. (took 1s.36ms)
 

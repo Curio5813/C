@@ -18700,3 +18700,232 @@ Finished building target: ProgramasC
 15:07:28 **** Incremental Build of configuration Debug for project ProgramasC ****
 make all 
 make: Nada a ser feito para 'all'.
+13:16:50 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../crescimento_populacional.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"crescimento_populacional.d" -MT"crescimento_populacional.o" -o "crescimento_populacional.o" "../crescimento_populacional.c"
+Finished building: ../crescimento_populacional.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./crescimento_populacional.o   -lm
+Finished building target: ProgramasC
+ 
+13:17:35 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../crescimento_populacional.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"crescimento_populacional.d" -MT"crescimento_populacional.o" -o "crescimento_populacional.o" "../crescimento_populacional.c"
+Finished building: ../crescimento_populacional.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./crescimento_populacional.o   -lm
+Finished building target: ProgramasC
+ 
+13:18:42 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../crescimento_populacional.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"crescimento_populacional.d" -MT"crescimento_populacional.o" -o "crescimento_populacional.o" "../crescimento_populacional.c"
+Finished building: ../crescimento_populacional.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./crescimento_populacional.o   -lm
+Finished building target: ProgramasC
+ 
+13:20:20 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../crescimento_populacional.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"crescimento_populacional.d" -MT"crescimento_populacional.o" -o "crescimento_populacional.o" "../crescimento_populacional.c"
+Finished building: ../crescimento_populacional.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./crescimento_populacional.o   -lm
+Finished building target: ProgramasC
+ 
+13:21:16 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../crescimento_populacional.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"crescimento_populacional.d" -MT"crescimento_populacional.o" -o "crescimento_populacional.o" "../crescimento_populacional.c"
+Finished building: ../crescimento_populacional.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./crescimento_populacional.o   -lm
+Finished building target: ProgramasC
+ 
+13:21:23 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+13:21:36 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../crescimento_populacional.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"crescimento_populacional.d" -MT"crescimento_populacional.o" -o "crescimento_populacional.o" "../crescimento_populacional.c"
+Finished building: ../crescimento_populacional.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./crescimento_populacional.o   -lm
+Finished building target: ProgramasC
+ 
+13:22:49 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../crescimento_populacional.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"crescimento_populacional.d" -MT"crescimento_populacional.o" -o "crescimento_populacional.o" "../crescimento_populacional.c"
+Finished building: ../crescimento_populacional.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./crescimento_populacional.o   -lm
+Finished building target: ProgramasC
+ 
+13:25:32 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../crescimento_populacional.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"crescimento_populacional.d" -MT"crescimento_populacional.o" -o "crescimento_populacional.o" "../crescimento_populacional.c"
+Finished building: ../crescimento_populacional.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./crescimento_populacional.o   -lm
+Finished building target: ProgramasC
+ 
+13:27:07 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+13:29:31 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../crescimento_populacional.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"crescimento_populacional.d" -MT"crescimento_populacional.o" -o "crescimento_populacional.o" "../crescimento_populacional.c"
+Finished building: ../crescimento_populacional.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./crescimento_populacional.o   -lm
+Finished building target: ProgramasC
+ 
+13:33:57 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../crescimento_populacional.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"crescimento_populacional.d" -MT"crescimento_populacional.o" -o "crescimento_populacional.o" "../crescimento_populacional.c"
+../crescimento_populacional.c: In function ‘main’:
+../crescimento_populacional.c:7:38: warning: variable ‘pb_acrescimo’ set but not used [-Wunused-but-set-variable]
+    7 |         int t, pa, pb, pa_acrescimo, pb_acrescimo, ano = 0;
+      |                                      ^~~~~~~~~~~~
+../crescimento_populacional.c:7:24: warning: variable ‘pa_acrescimo’ set but not used [-Wunused-but-set-variable]
+    7 |         int t, pa, pb, pa_acrescimo, pb_acrescimo, ano = 0;
+      |                        ^~~~~~~~~~~~
+Finished building: ../crescimento_populacional.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./crescimento_populacional.o   -lm
+Finished building target: ProgramasC
+ 
+13:34:39 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../crescimento_populacional.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"crescimento_populacional.d" -MT"crescimento_populacional.o" -o "crescimento_populacional.o" "../crescimento_populacional.c"
+Finished building: ../crescimento_populacional.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./crescimento_populacional.o   -lm
+Finished building target: ProgramasC
+ 
+13:35:17 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../crescimento_populacional.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"crescimento_populacional.d" -MT"crescimento_populacional.o" -o "crescimento_populacional.o" "../crescimento_populacional.c"
+Finished building: ../crescimento_populacional.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./crescimento_populacional.o   -lm
+Finished building target: ProgramasC
+ 
+13:35:24 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+13:36:02 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../crescimento_populacional.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"crescimento_populacional.d" -MT"crescimento_populacional.o" -o "crescimento_populacional.o" "../crescimento_populacional.c"
+Finished building: ../crescimento_populacional.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./crescimento_populacional.o   -lm
+Finished building target: ProgramasC
+ 
+13:36:14 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+13:36:40 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../crescimento_populacional.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"crescimento_populacional.d" -MT"crescimento_populacional.o" -o "crescimento_populacional.o" "../crescimento_populacional.c"
+Finished building: ../crescimento_populacional.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./crescimento_populacional.o   -lm
+Finished building target: ProgramasC
+ 
+13:37:21 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../crescimento_populacional.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"crescimento_populacional.d" -MT"crescimento_populacional.o" -o "crescimento_populacional.o" "../crescimento_populacional.c"
+Finished building: ../crescimento_populacional.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./crescimento_populacional.o   -lm
+Finished building target: ProgramasC
+ 
+13:38:06 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+13:39:27 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../crescimento_populacional.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"crescimento_populacional.d" -MT"crescimento_populacional.o" -o "crescimento_populacional.o" "../crescimento_populacional.c"
+Finished building: ../crescimento_populacional.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./crescimento_populacional.o   -lm
+Finished building target: ProgramasC
+ 
+13:39:35 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+13:39:41 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+13:40:23 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+13:40:37 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+13:41:55 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
