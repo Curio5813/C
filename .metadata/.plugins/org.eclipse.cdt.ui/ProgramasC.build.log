@@ -1,15 +1,6 @@
-16:57:07 **** Incremental Build of configuration Debug for project ProgramasC ****
+09:50:50 **** Incremental Build of configuration Debug for project ProgramasC ****
 make all 
-Building file: ../luzes_de_natal.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"luzes_de_natal.d" -MT"luzes_de_natal.o" -o "luzes_de_natal.o" "../luzes_de_natal.c"
-Finished building: ../luzes_de_natal.c
- 
-Building target: ProgramasC
-Invoking: GCC C Linker
-gcc -lm  -o "ProgramasC" ./luzes_de_natal.o   -lm
-Finished building target: ProgramasC
- 
+make: Nada a ser feito para 'all'.
 
-16:57:08 Build Finished. 0 errors, 0 warnings. (took 1s.233ms)
+09:50:51 Build Finished. 0 errors, 0 warnings. (took 1s.73ms)
 

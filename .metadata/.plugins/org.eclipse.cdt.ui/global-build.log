@@ -19171,3 +19171,75 @@ Invoking: GCC C Linker
 gcc -lm  -o "ProgramasC" ./luzes_de_natal.o   -lm
 Finished building target: ProgramasC
  
+09:43:21 **** Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../tempo_de_jogo_com_minutos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"tempo_de_jogo_com_minutos.d" -MT"tempo_de_jogo_com_minutos.o" -o "tempo_de_jogo_com_minutos.o" "../tempo_de_jogo_com_minutos.c"
+Finished building: ../tempo_de_jogo_com_minutos.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./tempo_de_jogo_com_minutos.o   -lm
+Finished building target: ProgramasC
+ 
+09:44:07 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../tempo_de_jogo_com_minutos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"tempo_de_jogo_com_minutos.d" -MT"tempo_de_jogo_com_minutos.o" -o "tempo_de_jogo_com_minutos.o" "../tempo_de_jogo_com_minutos.c"
+Finished building: ../tempo_de_jogo_com_minutos.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./tempo_de_jogo_com_minutos.o   -lm
+Finished building target: ProgramasC
+ 
+09:44:18 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+09:44:30 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+09:46:05 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../tempo_de_jogo_com_minutos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"tempo_de_jogo_com_minutos.d" -MT"tempo_de_jogo_com_minutos.o" -o "tempo_de_jogo_com_minutos.o" "../tempo_de_jogo_com_minutos.c"
+Finished building: ../tempo_de_jogo_com_minutos.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./tempo_de_jogo_com_minutos.o   -lm
+Finished building target: ProgramasC
+ 
+09:46:52 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+09:47:16 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+09:47:36 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+09:48:02 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+09:49:41 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../tempo_de_jogo_com_minutos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"tempo_de_jogo_com_minutos.d" -MT"tempo_de_jogo_com_minutos.o" -o "tempo_de_jogo_com_minutos.o" "../tempo_de_jogo_com_minutos.c"
+Finished building: ../tempo_de_jogo_com_minutos.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./tempo_de_jogo_com_minutos.o   -lm
+Finished building target: ProgramasC
+ 
+09:50:21 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+09:50:50 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
