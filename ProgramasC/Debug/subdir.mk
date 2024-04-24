@@ -4,13 +4,13 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../tempo_de_jogo_com_minutos.c 
+../as_moedas_de_robbie.c 
 
 OBJS += \
-./tempo_de_jogo_com_minutos.o 
+./as_moedas_de_robbie.o 
 
 C_DEPS += \
-./tempo_de_jogo_com_minutos.d 
+./as_moedas_de_robbie.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

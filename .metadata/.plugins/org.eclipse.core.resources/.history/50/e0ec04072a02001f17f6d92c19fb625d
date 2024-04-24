@@ -1,0 +1,43 @@
+#include <stdio.h>
+
+
+int main(){
+
+	int m, salto, n;
+
+	while(scanf("%d", &m) != 0){
+		int v[m];
+		int soma = 0;
+		int moedas = 0;
+		for(int i = 0; i < m; i++){
+			scanf("%d", &v[i]);
+		    soma += v[i];
+		}
+		scanf("%d", &salto);
+		moedas += v[0];
+		n = salto;
+		while(n < m){
+			moedas += v[n];
+			n += salto;
+		}
+		if(moedas == 1){
+			printf("You’re a coastal aircraft, Robbie, a large silver aircraft.\n");
+		}
+		else{
+			for(int i = 2; i <= moedas; i++){
+				if(i == moedas){
+					printf("You’re a coastal aircraft, Robbie, a large silver aircraft.\n");
+					break;
+				}
+				if(moedas % i == 0 && i != moedas){
+					printf("Bad boy! I’ll hit you.\n");
+					break;
+				}
+
+			}
+		}
+
+	}
+
+	return 0;
+}

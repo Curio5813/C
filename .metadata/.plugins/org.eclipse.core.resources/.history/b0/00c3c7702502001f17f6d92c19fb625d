@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+
+int main(){
+
+	int m, salto, n;
+
+	while(scanf("%d", &m) != 0){
+		int v[m];
+		int soma = 0;
+		int moedas = 0;
+		for(int i = 0; i < m; i++){
+			scanf("%d", &v[i]);
+		    soma += v[i];
+		}
+		scanf("%d", &salto);
+		moedas += v[0];
+		while(n < m){
+			moedas += v[n];
+			n += salto;
+		}
+		if(soma - moedas < (double)soma / 2.0){
+			printf("You’re a coastal aircraft, Robbie, a large silver aircraft.\n");
+		}
+		if(soma - moedas >= (double)soma / 2.0){
+			printf("Bad boy! I’ll hit you.\n");
+		}
+
+	}
+
+	return 0;
+}
