@@ -1,11 +1,12 @@
 #include <stdio.h>
+#include <math.h>
 
 
 int main(){
 
 	int m, salto, n;
 
-	while(scanf("%d", &m) != EOF){
+	while(scanf("%d", &m) != 0){
 		int v[m];
 		int v_r[m];
 		int soma = 0;

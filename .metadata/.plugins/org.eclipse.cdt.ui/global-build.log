@@ -19802,3 +19802,182 @@ Invoking: GCC C Linker
 gcc -lm  -o "ProgramasC" ./as_moedas_de_robbie.o   -lm
 Finished building target: ProgramasC
  
+14:16:57 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../onde_estao_meus_genes.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"onde_estao_meus_genes.d" -MT"onde_estao_meus_genes.o" -o "onde_estao_meus_genes.o" "../onde_estao_meus_genes.c"
+../onde_estao_meus_genes.c: In function ‘main’:
+../onde_estao_meus_genes.c:7:39: warning: unused variable ‘m’ [-Wunused-variable]
+    7 |         int cont = 1, k = 0, i, j, t, m = 0, temp, buscas, busca, qtd_genes, inversoes;
+      |                                       ^
+Finished building: ../onde_estao_meus_genes.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./onde_estao_meus_genes.o   -lm
+Finished building target: ProgramasC
+ 
+14:18:55 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+14:30:36 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../as_moedas_de_robbie.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"as_moedas_de_robbie.d" -MT"as_moedas_de_robbie.o" -o "as_moedas_de_robbie.o" "../as_moedas_de_robbie.c"
+Finished building: ../as_moedas_de_robbie.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./as_moedas_de_robbie.o   -lm
+Finished building target: ProgramasC
+ 
+14:31:49 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../as_moedas_de_robbie.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"as_moedas_de_robbie.d" -MT"as_moedas_de_robbie.o" -o "as_moedas_de_robbie.o" "../as_moedas_de_robbie.c"
+Finished building: ../as_moedas_de_robbie.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./as_moedas_de_robbie.o   -lm
+Finished building target: ProgramasC
+ 
+14:32:29 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../as_moedas_de_robbie.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"as_moedas_de_robbie.d" -MT"as_moedas_de_robbie.o" -o "as_moedas_de_robbie.o" "../as_moedas_de_robbie.c"
+Finished building: ../as_moedas_de_robbie.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./as_moedas_de_robbie.o   -lm
+Finished building target: ProgramasC
+ 
+14:34:04 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../as_moedas_de_robbie.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"as_moedas_de_robbie.d" -MT"as_moedas_de_robbie.o" -o "as_moedas_de_robbie.o" "../as_moedas_de_robbie.c"
+Finished building: ../as_moedas_de_robbie.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./as_moedas_de_robbie.o   -lm
+Finished building target: ProgramasC
+ 
+14:36:54 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../as_moedas_de_robbie.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"as_moedas_de_robbie.d" -MT"as_moedas_de_robbie.o" -o "as_moedas_de_robbie.o" "../as_moedas_de_robbie.c"
+Finished building: ../as_moedas_de_robbie.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./as_moedas_de_robbie.o   -lm
+Finished building target: ProgramasC
+ 
+14:41:03 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../as_moedas_de_robbie.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"as_moedas_de_robbie.d" -MT"as_moedas_de_robbie.o" -o "as_moedas_de_robbie.o" "../as_moedas_de_robbie.c"
+../as_moedas_de_robbie.c: In function ‘main’:
+../as_moedas_de_robbie.c:35:32: warning: unused variable ‘div’ [-Wunused-variable]
+   35 |                         double div = sqrt(moedas);
+      |                                ^~~
+Finished building: ../as_moedas_de_robbie.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./as_moedas_de_robbie.o   -lm
+Finished building target: ProgramasC
+ 
+14:41:58 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+14:44:42 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../as_moedas_de_robbie.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"as_moedas_de_robbie.d" -MT"as_moedas_de_robbie.o" -o "as_moedas_de_robbie.o" "../as_moedas_de_robbie.c"
+Finished building: ../as_moedas_de_robbie.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./as_moedas_de_robbie.o   -lm
+Finished building target: ProgramasC
+ 
+15:03:59 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../as_moedas_de_robbie.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"as_moedas_de_robbie.d" -MT"as_moedas_de_robbie.o" -o "as_moedas_de_robbie.o" "../as_moedas_de_robbie.c"
+../as_moedas_de_robbie.c: In function ‘main’:
+../as_moedas_de_robbie.c:40:43: error: invalid operands to binary % (have ‘double’ and ‘int’)
+   40 |                                 if(limite % 2 == 0){
+      |                                           ^
+../as_moedas_de_robbie.c:48:43: error: invalid operands to binary % (have ‘double’ and ‘int’)
+   48 |                                 if(limite % i == 0 && i != limite){
+      |                                           ^
+../as_moedas_de_robbie.c:52:43: error: invalid operands to binary % (have ‘double’ and ‘int’)
+   52 |                                 if(limite % i == 0 && i == limite){
+      |                                           ^
+make: *** [subdir.mk:20: as_moedas_de_robbie.o] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:04:47 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../as_moedas_de_robbie.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"as_moedas_de_robbie.d" -MT"as_moedas_de_robbie.o" -o "as_moedas_de_robbie.o" "../as_moedas_de_robbie.c"
+../as_moedas_de_robbie.c: In function ‘main’:
+../as_moedas_de_robbie.c:35:32: warning: unused variable ‘div’ [-Wunused-variable]
+   35 |                         double div = sqrt(moedas);
+      |                                ^~~
+Finished building: ../as_moedas_de_robbie.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./as_moedas_de_robbie.o   -lm
+Finished building target: ProgramasC
+ 
+15:05:58 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../as_moedas_de_robbie.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"as_moedas_de_robbie.d" -MT"as_moedas_de_robbie.o" -o "as_moedas_de_robbie.o" "../as_moedas_de_robbie.c"
+Finished building: ../as_moedas_de_robbie.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./as_moedas_de_robbie.o   -lm
+Finished building target: ProgramasC
+ 
+16:19:32 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../as_moedas_de_robbie.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"as_moedas_de_robbie.d" -MT"as_moedas_de_robbie.o" -o "as_moedas_de_robbie.o" "../as_moedas_de_robbie.c"
+Finished building: ../as_moedas_de_robbie.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./as_moedas_de_robbie.o   -lm
+Finished building target: ProgramasC
+ 
+16:20:19 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../as_moedas_de_robbie.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"as_moedas_de_robbie.d" -MT"as_moedas_de_robbie.o" -o "as_moedas_de_robbie.o" "../as_moedas_de_robbie.c"
+Finished building: ../as_moedas_de_robbie.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc -lm  -o "ProgramasC" ./as_moedas_de_robbie.o   -lm
+Finished building target: ProgramasC
+ 

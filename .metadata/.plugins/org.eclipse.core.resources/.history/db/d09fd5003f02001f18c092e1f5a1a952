@@ -1,11 +1,12 @@
 #include <stdio.h>
+#include <math.h>
 
 
 int main(){
 
 	int m, salto, n;
 
-	while(scanf("%d", &m) != EOF){
+	while(scanf("%d", &m) != 0){
 		int v[m];
 		int v_r[m];
 		int soma = 0;
@@ -30,15 +31,34 @@ int main(){
 			printf("Bad boy! I’ll hit you.\n");
 		}
 		else{
-			for(int i = 2; i <= moedas; i++){
-				if(moedas % i == 0 && i != moedas){
-					printf("Bad boy! I’ll hit you.\n");
-					break;
-				}
-				if(moedas % i == 0 && i == moedas){
+			int limite = ceil(sqrt(moedas));
+			double div = sqrt(moedas);
+			for(int i = 2; i <= limite; i++){
+				if(i == 2){
 					printf("You’re a coastal aircraft, Robbie, a large silver aircraft.\n");
 					break;
 				}
+				if(i % 2 == 0){
+					printf("Bad boy! I’ll hit you.\n");
+					break;
+				}
+				if(i == 3){
+					printf("You’re a coastal aircraft, Robbie, a large silver aircraft.\n");
+					break;
+				}
+				if(moedas % i == 0 && i != limite){
+					printf("Bad boy! I’ll hit you.\n");
+					break;
+				}
+				if(i == limite && div == limite){
+					printf("Bad boy! I’ll hit you.\n");
+					break;
+				}
+				if(i == limite && div != limite){
+					printf("You’re a coastal aircraft, Robbie, a large silver aircraft.\n");
+					break;
+				}
+
 			}
 		}
 

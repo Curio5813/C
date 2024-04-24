@@ -1,4 +1,4 @@
-12:50:45 **** Incremental Build of configuration Debug for project ProgramasC ****
+16:20:19 **** Incremental Build of configuration Debug for project ProgramasC ****
 make all 
 Building file: ../as_moedas_de_robbie.c
 Invoking: GCC C Compiler
@@ -11,5 +11,5 @@ gcc -lm  -o "ProgramasC" ./as_moedas_de_robbie.o   -lm
 Finished building target: ProgramasC
  
 
-12:50:46 Build Finished. 0 errors, 0 warnings. (took 1s.180ms)
+16:20:20 Build Finished. 0 errors, 0 warnings. (took 1s.298ms)
 
