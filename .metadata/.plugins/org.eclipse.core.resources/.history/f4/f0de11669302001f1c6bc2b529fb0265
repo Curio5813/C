@@ -1,0 +1,46 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+
+int main(){
+
+	long long int n, *trabalhos, diff;
+	double media;
+
+	while(scanf("%lld", &n) != EOF){
+
+		long long int rangel = 0;
+		double soma = 0;
+		long long int gugu = 0;
+
+		trabalhos = (long long int*)malloc(n * sizeof(long long int));
+
+		for(int i = 0; i < n; i++){
+			scanf("%lld", &trabalhos[i]);
+			soma += trabalhos[i];
+		}
+		if(n == 1){
+			printf("%lld\n", trabalhos[0]);
+		}
+		else{
+			media = (soma / 2.0);
+			for(int i = 0; i < n; i++){
+				if(rangel < media){
+					rangel += trabalhos[i];
+				}
+				if(rangel >= media){
+					gugu += trabalhos[i + 1];
+				}
+			}
+			diff = abs(rangel - gugu);
+			printf("%lld\n", diff);
+
+
+		}
+		free(trabalhos);
+		trabalhos = NULL;
+	}
+
+	return 0;
+}

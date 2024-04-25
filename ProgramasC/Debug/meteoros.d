@@ -1,0 +1,1 @@
+meteoros.o: ../meteoros.c

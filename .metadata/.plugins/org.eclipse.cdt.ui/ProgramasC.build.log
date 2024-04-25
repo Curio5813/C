@@ -1,15 +1,6 @@
-16:20:19 **** Incremental Build of configuration Debug for project ProgramasC ****
+20:40:26 **** Incremental Build of configuration Debug for project ProgramasC ****
 make all 
-Building file: ../as_moedas_de_robbie.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"as_moedas_de_robbie.d" -MT"as_moedas_de_robbie.o" -o "as_moedas_de_robbie.o" "../as_moedas_de_robbie.c"
-Finished building: ../as_moedas_de_robbie.c
- 
-Building target: ProgramasC
-Invoking: GCC C Linker
-gcc -lm  -o "ProgramasC" ./as_moedas_de_robbie.o   -lm
-Finished building target: ProgramasC
- 
+make: Nada a ser feito para 'all'.
 
-16:20:20 Build Finished. 0 errors, 0 warnings. (took 1s.298ms)
+20:40:27 Build Finished. 0 errors, 0 warnings. (took 1s.128ms)
 

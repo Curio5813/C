@@ -4,13 +4,13 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../as_moedas_de_robbie.c 
+../meteoros.c 
 
 OBJS += \
-./as_moedas_de_robbie.o 
+./meteoros.o 
 
 C_DEPS += \
-./as_moedas_de_robbie.d 
+./meteoros.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
